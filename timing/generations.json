@@ -1,0 +1,959 @@
+{
+ "about": "Every paid picture job. run one with: python3 tools/runway.py run <name>. files lists local inputs sent inline. Prompts follow the four-part form: summary, timeline in whole seconds, consistency, and only two negatives.",
+ "jobs": {
+  "whale_t1": {
+   "endpoint": "/v1/text_to_video",
+   "what": "whale shot, draft, text only: look, 24 fps, can the child be generated and speak",
+   "out": "clips/drafts/whale_t1.mp4",
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "Summary: At blue hour on a lived-in rooftop garden, a nine-year-old girl in an adult's navy work jacket holds a glowing tube of cyan light up to a sperm whale gliding through a sky that is the underside of an ocean, in an ultramarine fisheye style with hard on-camera flash on the foreground, then spins and pushes the tube into the lens.\n\n0-1s: Whip tilt up from her raised fist, holding the glowing cyan tube, into deep blue.\n1-7s: 8mm fisheye, 25 cm above the edge of a planter. Foreground: white daisies and long grass, hit by hard on-camera flash. Middle: the girl, small in frame, back to camera, a striped top and jeans under the navy jacket with rolled sleeves, holding the tube above her head like a lantern, standing well inside the roof's parapet. Around her: a washing line with one navy jacket, a tripod carrying a hydrophone, a cable running to a laptop on a milk crate. Glass towers bend in at the frame edges. Above them the sky is a rippling water surface seen from below, slow caustic light moving over the towers. A sperm whale glides through that water from left to right. Each time the tube blinks, a ring spreads across the surface overhead. The camera rises very slightly.\n7-9s: 100mm macro. One eye of the same girl fills the frame, lit blue, one white point of light in it. The whale's shape crosses the reflection from left to right. She breathes in, and the breath becomes a laugh.\n9-12s: 8mm fisheye, 30 cm from her. The same gap-toothed girl in the navy jacket spins toward the camera and pushes the tube straight at the lens with both hands, laughing. Dialogue (the girl): \"Somebody starts it.\" Her fingers become huge and flash-lit, and the tube grows until it is one vertical band of cyan from the top of frame to the bottom, dead centre.\n\nConsistency: ultramarine, navy and cyan carry every frame, with white only on the flowers. The same girl, jacket and tube throughout. No subtitles. No music. Sound: wind, the distant city, and slow clicks under water.",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "ref_wall": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/wall.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A plain light-grey plaster wall filling the whole frame, photographed straight on. Soft, even, cool light from above. Subtle trowel texture and two or three small scuffs. Nothing stands in front of it. An architectural texture photograph of an empty interior wall, completely unoccupied."
+   }
+  },
+  "ref_jacket": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/jacket.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A navy blue cotton work jacket, a plain chore coat with three patch pockets and dark buttons, hanging on a single hook against a light-grey plaster wall, soft top light, straight-on product photograph. No logo, no label, no text, no people."
+   }
+  },
+  "ref_hall": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/hall.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A vast dim industrial hall at night. At the far end a slow fan the size of a wall is backlit by cyan light through haze. Long workbenches in silhouette, thin smoke streamlines drifting toward the camera. Low, wide-angle, locked-off view. Ultramarine and navy tones with one cyan source. No people, no text, no signage."
+   }
+  },
+  "ref_kitchen": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/kitchen.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A small lived-in kitchen at night, lit only by one warm desk lamp over a wooden table. On the table: an old open laptop seen from behind, a dismantled sewing machine on spread newspaper with unreadable print, a mug, a dusting of flour. Warm tungsten light, deep soft shadows, 40mm lens, eye level. No people, no readable text."
+   }
+  },
+  "ref_rooftop": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/rooftop.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A lived-in rooftop garden at blue hour, ringed by glass towers. In the foreground a planter of white daisies and long grass lit by hard on-camera flash. Behind it a washing line with one navy jacket, a tripod carrying a small hydrophone, a cable running to a laptop on a milk crate. Deep ultramarine sky. 8mm fisheye lens, low viewpoint. No people, no text."
+   }
+  },
+  "ref_tube": {
+   "endpoint": "/v1/text_to_image",
+   "what": "reference image",
+   "credits": 10,
+   "out": "refs/tube.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "A 30 centimetre glass tube glowing solid cyan, a small light baton, lying on dark navy cloth, its glow spilling softly onto the fabric. Clean product photograph, dark background. No hands, no people, no text."
+   }
+  },
+  "lineup_t1": {
+   "endpoint": "/v1/text_to_video",
+   "what": "line-up, draft: eight people in one generation, faces when they return, lip sync to the finished voices",
+   "out": "clips/drafts/lineup_t1.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/mara1.mp3",
+     "refs/audio/jun1.mp3",
+     "refs/audio/ray2.mp3",
+     "refs/audio/mara4.mp3",
+     "refs/audio/ray3.mp3",
+     "refs/audio/mara8.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing. @Image2 is the navy work jacket everyone wears. @Audio1 to @Audio6 are the finished voice lines and the only voices: generate no other voice.\n\nSummary: Eight people in identical navy work jackets take turns standing in one locked-off, waist-up frame against the light-grey plaster wall of @Image1, heads bowed, in a cool high-key portrait style with no camera movement, and three of them look up and speak.\n\nEvery shot: locked camera at eye level, 65mm, subject dead centre, shoulders square, the wall and soft top light of @Image1, the jacket of @Image2. Hard cuts between shots.\n\n0-1s: Ray, a man in his early fifties with heavy forearms and reading glasses in his breast pocket, arms crossed, head bowed.\n1-2s: Amara, a woman in her thirties in nurse's scrubs under the jacket, hair wrapped, head bowed.\n2-3s: Dev, a weathered man in his fifties with soil on his cuffs, head bowed.\n3-4s: Jun, a young man of nineteen, headphones round the neck, the jacket two sizes too big, head bowed.\n4-5s: Osei, a man in his mid-sixties with short grey hair and wire glasses pushed up on his head, head bowed.\n5-6s: Pip, a girl of nine, stands on the floor, so only the top of her hair enters the bottom of the frame.\n6-7s: Rosa, a woman in her late sixties with grey hair pinned up and flour on her sleeve, head bowed.\n7-9s: Mara, a woman in her mid-forties with dark hair tied back and a solder burn on her right knuckle, head bowed, then raises her eyes to the lens.\n9-11s: Close-up at 100mm of the same Mara, dark hair tied back, eyes on the lens. Dialogue (Mara): @Audio1, \"Everybody's got a prediction.\"\n11-14s: The same Jun, headphones round the neck, looks straight down the lens. Dialogue (Jun): @Audio2, \"So what does it actually do?\"\n14-17s: The same Ray, arms crossed, flat. Dialogue (Ray): @Audio3, \"It makes things up.\"\n17-19s: Close-up of the same Mara, unblinking. Dialogue (Mara): @Audio4, \"Constantly.\"\n19-23s: The same Ray uncrosses his arms and speaks quietly. Dialogue (Ray): @Audio5, \"So it is just autocomplete.\"\n23-26s: Close-up of the same Mara. She smiles for the first time. Dialogue (Mara): @Audio6, \"Yeah. It is.\"\n\nConsistency: the same frame, wall, light and jacket in every shot. Cool, slightly desaturated high key, the navy rich. Each face stays the same every time that person returns. No subtitles. No music, room tone only.",
+    "duration": 26,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "whale_t2": {
+   "endpoint": "/v1/text_to_video",
+   "what": "whale shot, draft 2: rooftop and tube references, a true sperm whale, one lens treatment, a cleaner last frame",
+   "out": "clips/drafts/whale_t2.mp4",
+   "files": {
+    "references": [
+     "refs/rooftop.jpg",
+     "refs/tube.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the rooftop. @Image2 is the tube of cyan light.\n\nSummary: At blue hour on the lived-in rooftop garden of @Image1, a nine-year-old girl in an adult's navy work jacket holds the glowing tube of @Image2 up to a sperm whale gliding through a sky that is the underside of an ocean, in an ultramarine fisheye style with hard on-camera flash on the foreground, then spins and pushes the tube into the lens.\n\n0-1s: Whip tilt up from her raised fist, holding the glowing cyan tube, into deep blue.\n1-7s: 8mm fisheye, 25 cm above the edge of a planter. Foreground: white daisies and long grass, hit by hard on-camera flash. Middle: the girl, small in frame, back to camera, a striped top and jeans under the navy jacket with rolled sleeves, holding the tube above her head like a lantern, standing well inside the roof's parapet. Around her: a washing line with one navy jacket, a tripod carrying a hydrophone, a cable running to a laptop on a milk crate. Glass towers bend in at the frame edges. Above them the sky is a rippling water surface seen from below, slow caustic light moving over the towers. A sperm whale glides through that water from left to right: an enormous blunt, square head a third of its length, a small narrow lower jaw, wrinkled dark grey skin, small paddle-shaped flippers, no long fins. Each time the tube blinks, a ring spreads across the surface overhead. The camera rises very slightly.\n7-9s: 100mm macro. One eye of the same girl fills the frame, lit blue, one white point of light in it. The whale's shape crosses the reflection from left to right. She breathes in, and the breath becomes a laugh.\n9-12s: 8mm fisheye, 30 cm from her. The same gap-toothed girl in the navy jacket spins toward the camera and pushes the tube straight at the lens with both hands, laughing. Dialogue (the girl): \"Somebody starts it.\" Her fingers become huge and flash-lit, and the tube grows until it is one straight, upright band of solid cyan from the top edge of the frame to the bottom edge, dead centre, with near-black either side.\n\nConsistency: every wide shot is full-frame fisheye with no black circular mask. ultramarine, navy and cyan carry every frame, with white only on the flowers. The same girl, jacket and tube throughout. No subtitles. No music. Sound: wind, the distant city, and slow clicks under water.",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "whale_t3": {
+   "endpoint": "/v1/text_to_video",
+   "what": "whale shot, draft 3: draft 2 with the girl tiny and the whale filling the sky",
+   "out": "clips/drafts/whale_t3.mp4",
+   "files": {
+    "references": [
+     "refs/rooftop.jpg",
+     "refs/tube.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the rooftop. @Image2 is the tube of cyan light.\n\nSummary: At blue hour on the lived-in rooftop garden of @Image1, a nine-year-old girl in an adult's navy work jacket holds the glowing tube of @Image2 up to a sperm whale gliding through a sky that is the underside of an ocean, in an ultramarine fisheye style with hard on-camera flash on the foreground, then spins and pushes the tube into the lens.\n\n0-1s: Whip tilt up from her raised fist, holding the glowing cyan tube, into deep blue.\n1-7s: 8mm fisheye, 25 cm above the edge of a planter. Foreground: white daisies and long grass, hit by hard on-camera flash. Far behind the flowers: the girl, tiny in frame, no taller than a tenth of the picture, back to camera, a striped top and jeans under the navy jacket with rolled sleeves, holding the tube above her head like a lantern, standing well inside the roof's parapet. Around her: a washing line with one navy jacket, a tripod carrying a hydrophone, a cable running to a laptop on a milk crate. Glass towers bend in at the frame edges. Above them the sky is a rippling water surface seen from below, slow caustic light moving over the towers. A sperm whale, huge, fills the upper half of the frame as it glides through that water from left to right, nothing in front of it: an enormous blunt, square head a third of its length, a small narrow lower jaw, wrinkled dark grey skin, small paddle-shaped flippers, no long fins. Each time the tube blinks, a ring spreads across the surface overhead. The camera rises very slightly.\n7-9s: 100mm macro. One eye of the same girl fills the frame, lit blue, one white point of light in it. The whale's shape crosses the reflection from left to right. She breathes in, and the breath becomes a laugh.\n9-12s: 8mm fisheye, 30 cm from her. The same gap-toothed girl in the navy jacket spins toward the camera and pushes the tube straight at the lens with both hands, laughing. Dialogue (the girl): \"Somebody starts it.\" Her fingers become huge and flash-lit, and the tube grows until it is one straight, upright band of solid cyan from the top edge of the frame to the bottom edge, dead centre, with near-black either side.\n\nConsistency: every wide shot is full-frame fisheye with no black circular mask. ultramarine, navy and cyan carry every frame, with white only on the flowers. The same girl, jacket and tube throughout. No subtitles. No music. Sound: wind, the distant city, and slow clicks under water.",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1904
+   }
+  },
+  "whale_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the approved whale take (draft 3) enhanced to 1080p",
+   "out": "clips/whale_1080.mp4",
+   "credits": 816,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "034db79c-050c-4d42-8749-acfa7676f8a8"
+   }
+  },
+  "lineup_fix": {
+   "endpoint": "/v1/text_to_video",
+   "what": "line-up repairs, draft 2: Osei as a Ghanaian man, Pip as only the top of her hair; no face reference",
+   "out": "clips/drafts/lineup_fix.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing. @Image2 is the navy work jacket everyone wears. Nobody speaks.\n\nSummary: Two people in identical navy work jackets take turns standing in one locked-off, waist-up frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement.\n\nEvery shot: locked camera at eye level, 65mm, subject dead centre, shoulders square, the wall and soft top light of @Image1, the jacket of @Image2. Hard cuts between shots.\n\n0-2s: Osei, a Black Ghanaian man in his mid-sixties with short grey hair and a short grey beard, wire-rimmed spectacles pushed up on his head, head bowed.\n2-4s: The same Osei raises his head and looks into the lens, calm, with a trace of amusement.\n4-6s: Pip, a girl of nine with shoulder-length brown hair, stands on the floor, far too short for the frame: only the top of her hair shows at the very bottom edge of the picture, and her face stays below the frame.\n\nConsistency: the same frame, wall, light and jacket in every shot. Cool, slightly desaturated high key, the navy rich. No subtitles. No music, room tone only.",
+    "duration": 6,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "kitchen_t1": {
+   "endpoint": "/v1/text_to_video",
+   "what": "kitchen, draft 2: Rosa and Pip, Pip whispers in her own voice; no face reference (the first try was blocked for carrying one)",
+   "out": "clips/drafts/kitchen_t1.mp4",
+   "files": {
+    "references": [
+     "refs/kitchen.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the kitchen.\n\nSummary: At night in the small lived-in kitchen of @Image1, a woman in her late sixties sits at an old laptop under one warm desk lamp while a nine-year-old girl beside her whispers two words, in a warm tungsten, shallow-focus style with a locked camera.\n\n0-4s: 40mm lens on a tripod at table height, 2.5 metres back, the back of a chair soft in the foreground. One warm desk lamp over the table is the only light, and everything beyond it falls to deep blue. Rosa, a Colombian woman in her late sixties with grey hair pinned up in a bun and reading glasses, an apron over a navy work jacket, flour on her hands, sits at the table in front of an old laptop, a dismantled sewing machine laid out on newspaper beside it. Pip, a girl of nine with shoulder-length brown hair and a fringe, gap-toothed, in a striped top under a navy work jacket, sits next to her, chin on her folded arms, watching the screen. Rosa raises one finger over the keyboard and hesitates.\n4-7s: Extreme close-up of the same girl, lit warm by the lamp, her eyes on the woman. She whispers, right on the microphone. Dialogue (Pip): \"So start.\"\n7-10s: Medium close-up of the same Rosa, lit by the lamp and the laptop screen. She reads the screen and bursts out laughing, her floury hand over her mouth.\n\nConsistency: the same kitchen, lamp, woman and girl in every shot. Warm tungsten on faces, deep blue shadows. No subtitles. No music. Sound: a refrigerator hum, a clock ticking, breathing.",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "ray_extend": {
+   "endpoint": "/v1/video_to_video",
+   "what": "test: extend three seconds of the line-up so Ray says his last line with his own face (identity carried by the clip, not by a face image) -- BLOCKED by the provider: a clip with a face is refused as input, like a still",
+   "out": "clips/drafts/ray_extend.mp4",
+   "credits": 140,
+   "files": {
+    "promptVideo": "refs/video/ray_says.mp4",
+    "referenceAudio": [
+     "refs/audio/ray3.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "mode": "extend",
+    "duration": 5,
+    "audio": true,
+    "seed": 1903,
+    "promptText": "@Audio1 is his finished voice line and the only voice: generate no other voice.\n\nContinue the shot: the same locked frame, the same man, the same wall and light. He uncrosses his arms, lets them drop to his sides, and speaks quietly, almost to himself. Dialogue (the man): @Audio1, \"So it is just autocomplete.\" He holds the look. No subtitles. No music, room tone only."
+   }
+  },
+  "mara_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Mara's reel, draft: every shot that shows her face, at the wall and in the hall, in one generation so the face holds",
+   "out": "clips/drafts/mara_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg",
+     "refs/hall.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/mara1.mp3",
+     "refs/audio/mara4.mp3",
+     "refs/audio/mara8.mp3",
+     "refs/audio/mara3.mp3",
+     "refs/audio/mara5.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket she wears. @Image3 is the hall. @Audio1 to @Audio5 are her finished voice lines and the only voice: generate no other voice.\n\nSummary: One woman, Mara, in two places: first standing in a locked-off portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then in the long dark workshop hall of @Image3, at her workbench and walking into the wind of a wall-sized fan, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\nMara, in every shot: a lean South Asian woman in her mid-forties with black hair tied back in a low ponytail, loose strands at both temples, heavy dark eyebrows and no make-up, a small solder burn on her right knuckle, wearing the navy work jacket of @Image2 buttoned to the collar.\n\n0-3s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Mara dead centre, shoulders square, soft top light. Her head is bowed. Then she raises her head and her eyes come up to the lens.\n3-6s: Same wall, close-up at 100mm. Mara's eyes on the lens. Dialogue (Mara): @Audio1, \"Everybody's got a prediction.\"\n6-8s: Same close-up. She does not blink. Dialogue (Mara): @Audio2, \"Constantly.\"\n8-11s: Same close-up. She smiles for the first time, slowly. Dialogue (Mara): @Audio3, \"Yeah. It is.\"\n11-15s: The hall of @Image3. 18mm lens resting on a scarred steel workbench. In the foreground a small relay on a breadboard and a coil of solder, grazed by hard cyan light. Mara plants both hands on the bench and leans down and in until her face fills the frame. Dialogue (Mara): @Audio4, \"It finishes things.\" She holds the look. Hard cyan backlight flares over her left shoulder.\n15-18s: Same bench, medium close-up. Mara pulls the cap off a red wax pencil with her teeth and spits the cap aside. Dialogue (Mara): @Audio5, \"So we check.\"\n18-22s: The hall, from the front, low, a wide lens tracking backward as Mara walks toward the camera into the wind of the fan, leaning into it, her hair and jacket whipping behind her. Long strips of blank white paper whip past both sides of the lens and past her.\n22-26s: Close on Mara in the wind. A strip of blank paper plasters itself across her cheek. She peels it off and looks at it.\n26-30s: She snorts, lets the wind take the strip, and keeps walking past the camera.\n\nConsistency: the same woman in every shot: the same face, hair and jacket at the wall and in the hall. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but her and the wall in the frame. In the hall: navy and cyan only, apart from the red pencil. The paper strips are blank, with no writing. No subtitles. No music. Sound at the wall: room tone only. Sound in the hall: wind, paper snapping, the hum of the fan.",
+    "duration": 30,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "ray_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Ray's reel, draft: the wall (his two lines, arms uncrossing on the second), the garage and the laugh, in one generation so the face holds",
+   "out": "clips/drafts/ray_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/ray2.mp3",
+     "refs/audio/ray3.mp3",
+     "refs/audio/ray4.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket he wears. @Audio1 to @Audio3 are his finished voice lines and the only voice: generate no other voice.\n\nSummary: One man, Ray, in two places: first standing in a locked-off, waist-up portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then alone in his garage at blue hour, in an ultramarine fisheye style with hard on-camera flash on the foreground.\n\nRay, in every shot: a heavyset white man in his early fifties, balding, with cropped grey-brown hair at the sides, clean-shaven, a ruddy face and heavy forearms, reading glasses hooked in the breast pocket of the navy work jacket of @Image2.\n\n0-2s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Ray dead centre, shoulders square, soft top light. Arms crossed, head bowed.\n2-6s: Same frame. Ray lifts his head and looks into the lens, arms still crossed, flat. Dialogue (Ray): @Audio1, \"It makes things up.\" He holds the look.\n6-11s: Same frame. Ray uncrosses his arms, lets them drop to his sides, and speaks quietly, almost to himself. Dialogue (Ray): @Audio2, \"So it is just autocomplete.\" He holds the look, arms at his sides.\n11-15s: His garage at blue hour, the door open on a darkening street. 10mm full-frame fisheye lens 25 cm from a laptop that stands on an oil drum in the foreground, hard on-camera flash on the laptop and his hands, the background two stops darker and ultramarine. Ray, in the same jacket, leans over the laptop, exhales and starts to type with two fingers. Dialogue (Ray): @Audio3, \"Okay, so...\"\n15-18s: Same shot. Ray reads his screen and laughs in spite of himself, shaking his head.\n\nConsistency: the same man in every shot: the same face, build and jacket at the wall and in the garage. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but him and the wall in the frame. In the garage: ultramarine, navy and cyan, with skin and flash-lit objects the only warm tones; the picture fills the whole frame edge to edge, with no black border and no circular mask. No readable writing on any screen. No subtitles. No music. Sound at the wall: room tone only. Sound in the garage: distant traffic, a keyboard.",
+    "duration": 18,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "jun_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Jun's reel, draft: the wall (his question) and the bedroom window, in one generation so the face holds",
+   "out": "clips/drafts/jun_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/jun1.mp3",
+     "refs/audio/jun3.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket he wears. @Audio1 and @Audio2 are his finished voice lines and the only voice: generate no other voice.\n\nSummary: One young man, Jun, in two places: first standing in a locked-off, waist-up portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then at his bedroom window at blue hour, in an ultramarine ultra-wide style with hard on-camera flash on the foreground.\n\nJun, in every shot: a slim young man of nineteen with light-brown skin and a thick mop of black curly hair, silver over-ear headphones round his neck, wearing the navy work jacket of @Image2 two sizes too big.\n\n0-2s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Jun dead centre, shoulders square, soft top light. Head bowed.\n2-6s: Same frame. Jun lifts his head and looks straight down the lens, curious and a little sceptical. Dialogue (Jun): @Audio1, \"So what does it actually do?\" He holds the look.\n6-12s: His bedroom at blue hour. Ultra-wide 12mm lens with strong barrel distortion, the horizon bowed, 25 cm from the soldering iron in his foreground hand, hard on-camera flash on the hand, the iron and a half-built synthesiser on the desk. Behind him a window stands open on glass towers, ultramarine and two stops darker. A thread of solder smoke curls into the lens. Jun, in the same jacket, looks up from the circuit board into the lens. Dialogue (Jun): @Audio2, \"Could I...\" He trails off, thinking.\n\nConsistency: the same young man in every shot: the same face, hair, headphones and jacket at the wall and in the bedroom. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but him and the wall in the frame. In the bedroom: ultramarine, navy and cyan, with skin and flash-lit objects the only warm tones; the picture fills the whole frame edge to edge, with no black border and no circular mask. No subtitles. No music. Sound at the wall: room tone only. Sound in the bedroom: the distant city, the hiss of solder.",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "osei_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Osei's reel, draft: the wall and his thesis beside the tube light in the hall, in one generation so the face holds",
+   "out": "clips/drafts/osei_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg",
+     "refs/hall.jpg",
+     "refs/tube.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/osei4.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket he wears. @Image3 is the hall. @Image4 is the tube of cyan light. @Audio1 is his finished voice line and the only voice: generate no other voice.\n\nSummary: One man, Osei, in two places: first standing in a locked-off, waist-up portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then in the long dark workshop hall of @Image3 beside a standing tube of cyan light, in a navy-and-cyan style with haze, crushed blacks and bloom.\n\nOsei, in every shot: a Black Ghanaian man in his mid-sixties with short grey hair and a short grey beard, wire-rimmed spectacles pushed up on his head, wearing the navy work jacket of @Image2.\n\n0-2s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Osei dead centre, shoulders square, soft top light. Head bowed.\n2-4s: Same frame. Osei raises his head and looks into the lens, calm, with a trace of amusement.\n4-10s: The hall of @Image3. Three-quarter portrait at 50mm. Osei stands beside a tube of cyan light like @Image4, as tall as he is and standing upright on the floor, which lights one side of his face; the hall behind him falls away into navy haze. Slow push in. Dialogue (Osei): @Audio1, \"It only finishes what somebody starts.\" The tube blinks out on his last word and leaves him in near darkness.\n\nConsistency: the same man in every shot: the same face, beard, spectacles and jacket at the wall and in the hall. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but him and the wall in the frame. In the hall: navy and cyan only. No subtitles. No music. Sound at the wall: room tone only. Sound in the hall: the low hum of a distant fan.",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "amara_dev_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Amara's and Dev's reel, draft: each at the wall, then each starting a question in the blue world, in one generation so each face holds",
+   "out": "clips/drafts/amara_dev_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/amara1.mp3",
+     "refs/audio/dev1.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket they both wear. @Audio1 is Amara's finished voice line and @Audio2 is Dev's: they are the only voices, generate no other voice.\n\nSummary: Two people, Amara and Dev, never in the same shot: first each stands alone in a locked-off, waist-up portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then each is alone at blue hour and starts to ask something, in an ultramarine ultra-wide style with hard on-camera flash on the foreground.\n\nAmara, in every shot of her: a Black woman in her thirties, a nurse, with her hair in neat cornrow braids gathered into a bun on top of her head, the white collar of her scrubs showing under the navy work jacket of @Image2.\nDev, in every shot of him: a weathered, sun-browned man in his fifties, a farmer, with short grey hair and grey stubble, dried soil on the cuffs and hem of the navy work jacket of @Image2.\n\n0-2s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Amara dead centre, shoulders square, soft top light. Head bowed.\n2-4s: Hard cut. The same wall and frame, Dev alone, dead centre. Head bowed.\n4-9s: A hospital roof at blue hour, the city behind. Ultra-wide 12mm lens with strong barrel distortion, the horizon bowed, 25 cm from the phone in Amara's foreground hand, hard on-camera flash on the phone and her hand, the background two stops darker and ultramarine. Amara, on her break, in the same jacket over her scrubs, looks at the phone and half laughs at herself. Dialogue (Amara): @Audio1, \"Dumb question...\"\n9-14s: A field before sunrise. Ultra-wide 12mm lens with strong barrel distortion, the horizon bowed, 25 cm from a blighted leaf that Dev holds up to the lens under the white torch of his phone, hard light on the leaf and his fingers, the field and sky behind two stops darker and ultramarine. Dev, in the same jacket, studies the leaf, then looks past it into the lens. Dialogue (Dev): @Audio2, \"What if...\"\n\nConsistency: Amara is the same woman in both of her shots and Dev the same man in both of his: the same faces, hair and jackets. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but one person and the wall in the frame. In the blue shots: ultramarine, navy and cyan, with skin and flash-lit objects the only warm tones; the picture fills the whole frame edge to edge, with no black border and no circular mask. No readable writing on any screen. No subtitles. No music. Sound at the wall: room tone only. Sound outside: wind, the distant city, birds before dawn.",
+    "duration": 14,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "rosa_pip_reel": {
+   "endpoint": "/v1/text_to_video",
+   "what": "Rosa's and Pip's reel, draft: the wall (Rosa bowed; only the top of Pip's hair), then the kitchen, Pip matched to the girl of the approved whale take and whispering in that girl's voice",
+   "out": "clips/drafts/rosa_pip_reel.mp4",
+   "files": {
+    "references": [
+     "refs/wall.jpg",
+     "refs/jacket.jpg",
+     "refs/kitchen.jpg"
+    ],
+    "referenceAudio": [
+     "refs/audio/pip_voice.mp3"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the wall and the framing of the portrait shots. @Image2 is the navy work jacket. @Image3 is the kitchen. @Audio1 is Pip's voice: when she whispers, it is in this girl's voice. Nobody else speaks.\n\nSummary: A grandmother, Rosa, and a girl, Pip: first each in turn in a locked-off, waist-up portrait frame against the light-grey plaster wall of @Image1, in a cool high-key portrait style with no camera movement, then together at night in the small lived-in kitchen of @Image3, under one warm desk lamp, in a warm tungsten, shallow-focus style with a locked camera.\n\nRosa, in every shot of her: a Colombian woman in her late sixties with grey hair pinned up in a bun on top of her head, reading glasses on a cord round her neck, flour on the sleeves of the navy work jacket of @Image2.\nPip, in every shot of her: a girl of nine with wavy shoulder-length brown hair, no fringe, and a gap in her front teeth, wearing a striped top and jeans under an adult's navy work jacket of @Image2 with the sleeves rolled up.\n\n0-2s: The wall of @Image1. Locked camera at eye level, 65mm, waist-up, Rosa dead centre, shoulders square, soft top light. Head bowed.\n2-4s: Hard cut. The same wall and the same frame, set for adults, and nobody tall enough to fill it: the frame is empty wall, except that the crown of Pip's wavy brown hair pokes up into the very bottom edge of the picture, dead centre. Her face stays below the frame. She goes up on tiptoe once, and still only her hair shows.\n4-8s: The kitchen of @Image3 at night. 40mm lens on a tripod at table height, 2.5 metres back, the back of a chair soft in the foreground. One warm desk lamp over the table is the only light, and everything beyond it falls to deep blue. Rosa, an apron over her jacket and flour on her hands, sits at the table in front of an old laptop, a dismantled sewing machine laid out on newspaper beside it. Pip sits next to her, chin on her folded arms, watching the screen. Rosa raises one finger over the keyboard and hesitates.\n8-11s: Extreme close-up of Pip, lit warm by the lamp, her eyes on her grandmother, nothing in front of her face. She whispers. Dialogue (Pip, a whisper, in the voice of @Audio1): \"So start.\" Then she grins.\n11-14s: Medium close-up of Rosa, lit by the lamp and the laptop screen. She reads the screen and bursts out laughing, her floury hand over her mouth.\n\nConsistency: Rosa is the same woman at the wall and in the kitchen, and Pip the same girl: the same faces, hair and jackets. At the wall: cool, slightly desaturated high key, the navy rich, and nothing but one person and the wall in the frame. In the kitchen: warm tungsten on faces, deep blue shadows. No subtitles. No music. Sound at the wall: room tone only. Sound in the kitchen: a refrigerator hum, a clock ticking, breathing; her whisper is very close and quiet.",
+    "duration": 14,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "hall_wide": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the hall without faces, draft: the fan fading up, a silhouette behind the glass partition, and Mara from behind walking into the wind",
+   "out": "clips/drafts/hall_wide.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg",
+     "refs/jacket.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the hall. @Image2 is the navy work jacket the woman wears.\n\nSummary: The long dark workshop hall of @Image1, where a wall-sized fan turns in front of hard cyan light, and a woman seen only in silhouette and from behind walks into its wind through streaming strips of blank paper, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\n0-3s: Black for the first instant, then the hall fades up. 18mm lens on a tripod 40 cm above a scuffed concrete floor. Benches and tool racks in silhouette on both sides, wet patches on the floor. At the far end a fan the size of the wall turns slowly, lit from behind by two hard cyan lights aimed at the lens, so each blade cuts the beam. Thick haze. Thin white smoke streamlines flow from the fan toward the camera. Locked camera.\n3-6s: A clean sheet of glass, a workshop partition, fills the foreground and catches the cyan beam as a soft glow, with nothing written on it. Behind the glass a woman in silhouette, hair in a low ponytail, in a work jacket, crosses the frame from left to right, out of focus. Locked camera.\n6-10s: From behind the same woman, low, tracking forward as she walks into the wind toward the fan. We never see her face: black hair tied back in a low ponytail, the navy jacket of @Image2 snapping. Long strips of blank white paper stream past the camera on both sides.\n\nConsistency: navy and cyan only. The woman is never seen from the front. The glass and the paper strips are blank, with no writing. No subtitles. No music. Sound: wind, paper snapping, the hum of the fan.",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "macro_hall": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro close-ups of the hall, draft: the fan blade, the relay snapping three times, the paper strip in her fingers, the red pencil tick",
+   "out": "clips/drafts/macro_hall.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the hall these close-ups belong to: use its navy darkness and its hard cyan backlight.\n\nSummary: Four extreme close-ups from a dark workshop, in a navy-and-cyan style with crushed blacks, haze and bloom, each a locked macro shot with very shallow focus.\n\n0-2s: Macro, 100mm. The worn steel edge of a huge, slow fan blade sweeps down through a hard cyan beam full of haze and slices it, the beam flaring along the blade's edge.\n2-6s: Macro on an old open-frame electromechanical relay mounted on a breadboard, lit hard cyan from behind. Its armature snaps shut and a pinpoint cyan spark jumps at the contacts. It opens. It snaps shut again with another spark. Three snaps in all, each one sudden, with stillness between them.\n6-8s: Macro on a woman's fingers, a small solder burn on one knuckle, holding a narrow strip of plain white paper that flutters in a strong wind, cyan light behind it. The strip is blank.\n8-12s: Macro, soft top light. On a scarred steel workbench lies a black-and-white photographic print of a broken fragment of an ancient bronze tablet. A woman's hand comes in holding a red wax pencil, makes one firm tick mark on the print beside the fragment, and lifts away.\n\nConsistency: navy and cyan only, apart from the red pencil and its mark. No faces. No readable writing anywhere. No subtitles. No music. Sound: a dry, loud relay click on each snap, the hum of the fan, wind, the squeak of the wax pencil.",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "macro_kitchen": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro close-ups of the kitchen, draft: the floury fingertip pecking keys, the empty laptop screen, the finger falling on Enter, a phone lighting up in a hand",
+   "out": "clips/drafts/macro_kitchen.mp4",
+   "files": {
+    "references": [
+     "refs/kitchen.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the kitchen these close-ups belong to: use its warm lamp light and its deep blue shadows.\n\nSummary: Four extreme close-ups at a kitchen table at night under one warm desk lamp, in a warm tungsten macro style with very shallow focus and a locked camera.\n\n0-3s: Macro along the worn keyboard of an old laptop. An old woman's fingertip, dusted with flour, hunts and pecks one key at a time, slowly, leaving a faint floury print on each key it touches.\n3-5s: Close on the old laptop's screen from a low angle: an empty, softly glowing pale screen, a little dust on the glass, the lamp reflected in one corner. Nothing is written on the screen.\n5-8s: Macro from the side, level with the keys. The same floury finger hovers high above the large Enter key, hesitates, then falls and presses the key firmly.\n8-10s: A dark room. A hand holds a phone face up, and the phone's screen lights up: its cold light spills over the fingers and palm. The screen is plain light, with nothing written on it.\n\nConsistency: warm tungsten and deep blue for the first three shots, darkness and cold screen light for the last. No faces. No readable writing on any key or screen. No subtitles. No music. Sound: single soft key taps, a clock ticking, a refrigerator hum, one firm key press.",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "handoff": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the relay of hands, draft: the tube of light passed left to right through five hands, without the previz clip",
+   "out": "clips/drafts/handoff.mp4",
+   "files": {
+    "references": [
+     "refs/tube.jpg",
+     "refs/jacket.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the tube of cyan light, the baton. @Image2 is the navy work jacket: every sleeve is made of this cloth.\n\nSummary: A relay: the glowing tube of @Image1 is passed from hand to hand, five hands in five close shots, always travelling from the left of the frame to the right, in an ultramarine blue-hour style with the tube the brightest thing in every shot.\n\nEvery shot: close on hands only, 50mm, a deep ultramarine background out of focus, the tube lighting the skin cyan. The tube always arrives from the left and leaves to the right. Hard cuts between shots, each cut made while the tube is moving.\n\n0-2s: A lean woman's hand with a small solder burn on one knuckle, in a navy sleeve, holds the tube upright, then thrusts it away to the right, out of the frame.\n2-4s: The hand of a Black man in his sixties, in a navy sleeve, takes the tube as it arrives from the left and passes it on to the right in one motion.\n4-6s: A young man's slim, light-brown hand, the navy sleeve far too long for it, takes the tube from the left and passes it on to the right.\n6-8s: An old woman's hand with flour on the knuckles, the navy sleeve pushed up her forearm, takes the tube from the left and passes it on to the right.\n8-10s: A child's small hand, in a navy sleeve rolled up many times, closes round the tube as it arrives from the left, grips it tight, and lifts it straight up.\n\nConsistency: the same tube in every shot, about 30 centimetres long, glowing solid cyan. Hands and sleeves only: no faces. No subtitles. No music. Sound: a soft rush of air on each pass, cloth, a low hum from the tube.",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "hall_walk": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the hall walk, draft 2: from behind with her ponytail and paper strips, and from the front with her forearm across her face, so no face is shown outside her own reel",
+   "out": "clips/drafts/hall_walk.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg",
+     "refs/jacket.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the hall. @Image2 is the navy work jacket the woman wears.\n\nSummary: In the long dark workshop hall of @Image1, a woman walks into the wind of a wall-sized fan through streaming strips of blank paper, first seen from behind and then from the front with her forearm raised across her face, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\n0-4s: From behind her, low, 24mm, tracking forward at her pace as she walks toward the fan at the far end of the hall. She fills a third of the frame, seen from the knees up: black hair in a low ponytail that whips straight back toward the camera, the short, boxy navy jacket of @Image2 ending at her hips with its hem snapping, arms swinging, dark trousers. The fan turns slowly ahead of her in front of two hard cyan lights. Dozens of long, narrow strips of plain white paper stream toward the camera and past it on both sides.\n4-8s: From the front, low, 24mm, tracking backward just ahead of her as she walks toward the camera, leaning hard into the wind. Her right forearm is raised across her face against the wind and the paper, so her face is hidden behind her sleeve the whole time. Her ponytail and her jacket whip out behind her. Strips of plain white paper whip past both sides of the lens from behind the camera and past her.\n\nConsistency: navy and cyan only. Her face is never seen. The paper strips are blank, with no writing. No subtitles. No music. Sound: wind, paper snapping, the hum of the fan.",
+    "duration": 8,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903
+   }
+  },
+  "spec_G21": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the blackboard (take 1: the chalk lines came out as readable nonsense sums, so it is not used)",
+   "credits": 10,
+   "out": "clips/stills/G21_t1.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph, dead centre on a seamless pure black background, soft even top light, shot straight on at 85mm, very sharp. A small old slate blackboard in a plain wooden frame, filling half the height of the picture. In its top left corner '#1196' is written in white chalk. Below, four lines of small handwritten mathematics in chalk; the third line is struck through with one firm chalk stroke. Chalk dust on the lower edge of the frame. Nothing else in the picture. No people, no hands."
+   }
+  },
+  "spec_G23": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the 3D-printed hand",
+   "credits": 10,
+   "out": "clips/stills/G23.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph, dead centre on a seamless pure white background, soft even top light with a faint shadow beneath, shot straight on at 85mm, very sharp. A 3D-printed prosthetic hand in matte light-grey plastic, standing upright on its wrist, the thin lattice of print supports still attached between the fingers and under the palm, visible layer lines. It fills half the height of the picture. Nothing else in the picture. No people, no text."
+   }
+  },
+  "spec_G27": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the cello",
+   "credits": 10,
+   "out": "clips/stills/G27.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph, dead centre on a seamless pure white background, soft even top light with a faint shadow beneath, shot straight on at 85mm, very sharp. A well-used cello standing upright, seen from the front. Two of its four strings are off: they hang loose and curl away from the pegs. Worn varnish, rosin dust under the bridge. It fills four fifths of the height of the picture. Nothing else in the picture. No people, no text."
+   }
+  },
+  "spec_G28": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the circuit board",
+   "credits": 10,
+   "out": "clips/stills/G28.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph, dead centre on a seamless pure black background, soft even top light, shot from directly above at 85mm, very sharp. A small green hand-soldered circuit board with a dozen components. One thin red bodge wire is soldered across the board from one pad to another, an obvious repair. It fills half the height of the picture. Nothing else in the picture. No people, no text."
+   }
+  },
+  "spec_G29": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the crayon drawing and its first print",
+   "credits": 10,
+   "out": "clips/stills/G29.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph on a seamless pure white background, soft even top light with faint shadows, shot from directly above at 85mm, very sharp. Two sheets of paper side by side, dead centre. On the left sheet, a young child's wax crayon drawing of a whale under a wavy blue line. On the right sheet, the same whale as a clumsy first block print in blue ink, patchy and a little crooked. Together they fill half the height of the picture. Nothing else in the picture. No people, no hands, no text."
+   }
+  },
+  "spec_G21_t2": {
+   "endpoint": "/v1/text_to_image",
+   "what": "specimen still: the blackboard, take 2, with nothing readable but the number",
+   "credits": 10,
+   "out": "clips/stills/G21.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Museum specimen photograph, dead centre on a seamless pure black background, soft even top light, shot straight on at 85mm, very sharp. A small old slate blackboard in a plain wooden frame, filling half the height of the picture. In its top left corner '#1196' is written clearly in white chalk. Below it the slate carries four rows of chalk writing that have been wiped with the side of a hand, so they are pale smears and no letter, number or symbol in them can be read. The third row has one firm, fresh chalk stroke drawn straight through it from end to end. Chalk dust lies on the lower edge of the frame. Nothing else in the picture. No people, no hands."
+   }
+  },
+  "macro_hands": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro close-ups with Mara's hand, draft 2: the paper strip in the wind and the red pencil tick (the first take gave an old, heavy hand)",
+   "out": "clips/drafts/macro_hands.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the hall these close-ups belong to: use its navy darkness and its hard cyan backlight.\n\nSummary: Two extreme close-ups of one woman's hand in a dark workshop, in a navy-and-cyan style with crushed blacks, haze and bloom, each a locked macro shot with very shallow focus.\n\nThe hand, in both shots: the slim brown hand of a South Asian woman in her forties, with short unpainted nails and a small pale burn scar on the knuckle of the index finger, the cuff of a navy work jacket at the wrist.\n\n0-4s: Macro. The thumb and forefinger of the hand pinch one end of a narrow strip of plain white paper, about two centimetres wide, which streams out sideways and flutters hard in a strong wind. Behind it, out of focus, the hard cyan light of the fan. The strip is blank.\n4-8s: Macro, soft top light. On a scarred steel workbench lies a black-and-white photographic print of a broken fragment of an ancient bronze tablet. The same hand comes in holding a red wax pencil, makes one firm tick mark on the print beside the fragment, and lifts away so the tick is clear to see.\n\nConsistency: the same young-looking, slim hand in both shots. Navy and cyan only, apart from the red pencil and its mark. No faces. No readable writing anywhere. No subtitles. No music. Sound: wind, paper fluttering, the squeak of the wax pencil.",
+    "duration": 8,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1905
+   }
+  },
+  "paper_pickups": {
+   "endpoint": "/v1/text_to_video",
+   "what": "two paper moments, draft: newsprint slapping flat on the lens, and a white sheet tearing across the frame",
+   "out": "clips/drafts/paper_pickups.mp4",
+   "files": {
+    "references": []
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "Summary: Two very short macro moments with paper, each a locked shot with very shallow focus and hard, clean light.\n\n0-4s: A dark workshop lit by one hard cyan light from behind the camera. A long strip of old newsprint, grey with tiny blurred print, comes flying straight at the lens in a strong wind, and slaps flat against the lens so that the whole frame is covered by pale paper lit from behind, its fibres glowing almost white. It stays pressed there.\n4-8s: A bright white tabletop under even white light. A sheet of thick white paper fills the whole frame. Two hands, just outside the frame, tear it slowly in two from the top of the frame to the bottom, straight down the middle: the torn edge is jagged and fibrous, and the two halves pull apart to show clean white paper underneath. White on white.\n\nConsistency: no faces, no readable writing. No subtitles. No music. Sound: a hard paper slap, then a slow tearing sound.",
+    "duration": 8,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1905
+   }
+  },
+  "ink_A11": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the drawn mouth",
+   "credits": 10,
+   "out": "clips/stills/A11.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. Extreme close-up of one shouting mouth drawn on a light-grey plaster wall: an open mouth with teeth, drawn large in a few quick brush strokes, filling the middle of the picture, the plaster's texture showing through the ink. No face around it, only the mouth. No writing."
+   }
+  },
+  "ink_D12": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the whiteboard",
+   "credits": 10,
+   "out": "clips/stills/D12.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. A laboratory whiteboard seen straight on, filling the picture, buried under years of marker: layer upon layer of diagrams of rod-shaped bacteria and virus particles with tails, arrows, circled clusters, crossed-out boxes and scribbled loops, all overlapping. The handwriting on it is loose scrawl that cannot be read. A marker tray along the bottom edge. The left third of the board is a little emptier than the rest. No people."
+   }
+  },
+  "ink_D13": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the laptop",
+   "credits": 10,
+   "out": "clips/stills/D13.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. An open laptop on a bare desk, seen straight on from slightly above, dead centre, the screen large and completely empty and white. A cable runs off to one side. Nothing is written on the screen or the keys. No people."
+   }
+  },
+  "ink_D14": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the email window",
+   "credits": 10,
+   "out": "clips/stills/D14.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. A single plain email window from a desktop computer, seen straight on and filling most of the picture: a title bar with three small round buttons, three empty ruled header lines at the top, a large completely empty white message area, and a small paper-plane send button at the bottom right. Nothing is written anywhere in the window. No people."
+   }
+  },
+  "ink_G01": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the notebook page with the branching tree",
+   "credits": 10,
+   "out": "clips/stills/G01.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. One small page of an old pocket notebook, seen straight on, filling most of the picture. Near the top left, the two handwritten words 'I think' and nothing else written near them. Below, a simple hand-sketched branching diagram: one stem rising from a point numbered 1 and forking again and again into about a dozen thin twigs, a few of the twigs ending in a short cross-stroke. Loose unreadable scrawl of notes down the right margin. No people, no hands."
+   }
+  },
+  "ink_G07": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the 1989 proposal",
+   "credits": 10,
+   "out": "clips/stills/G07.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. The cover page of a typed office memo from 1989, seen straight on, filling most of the picture. The typed lines of the heading are drawn as plain horizontal bars and cannot be read. Most of the page is taken up by a diagram: about fifteen rounded boxes and ovals joined by arrows into a loose web. The boxes are empty. A wide empty margin is left clear across the top of the page. No people, no hands."
+   }
+  },
+  "ink_G08": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the black cube computer",
+   "credits": 10,
+   "out": "clips/stills/G08.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. A cube-shaped black computer of the late 1980s, about a foot on each side, seen from the front and a little to one side, dead centre, its faces solid navy with a fine ribbed grille. On its front face is stuck a rectangular paper label, large, white and completely blank. Beside it a matching black monitor on a curved stand and a keyboard. No writing anywhere. No people."
+   }
+  },
+  "ink_wall": {
+   "endpoint": "/v1/text_to_image",
+   "what": "ink still: the mouths and the skull that cover the line-up wall",
+   "credits": 10,
+   "out": "clips/stills/ink_wall.png",
+   "body": {
+    "model": "seedream5_pro",
+    "ratio": "2720:1530",
+    "promptText": "Hand-drawn illustration in navy blue ink on bright white paper: confident brush-pen outlines, solid navy for the darkest areas, mid-tones made only of coarse halftone dots, no other colour, no grey wash, a lot of white paper left showing. It is a drawing, not a photograph and not a 3D render. A sheet of pure white paper covered with about twenty separate small drawings, evenly spaced with clear white gaps between them, like a sheet of stickers: shouting mouths of different sizes and shapes, some wide open with teeth, some sneering, some mid-word, and among them one small skull. Each drawing stands alone on the white. No faces, only mouths and the one skull. No writing, no letters."
+   }
+  },
+  "hall_tubes": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the hall, draft 3: tube lights switching on down the hall (the bar motif), then the walk from behind and from the front through a blizzard of paper strips",
+   "out": "clips/drafts/hall_tubes.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg",
+     "refs/jacket.jpg",
+     "refs/tube.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 12,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1906,
+    "promptText": "@Image1 is the hall. @Image2 is the navy work jacket the woman wears. @Image3 is the tube of cyan light: the hall's lights are tall versions of it.\n\nSummary: In the long dark workshop hall of @Image1, rows of tall cyan tube lights switch on one after another, and a woman, seen only from behind and then from the front with her forearm across her face, walks into the wind of a wall-sized fan through a blizzard of blank paper strips, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\n0-3s: Complete darkness for the first half second. Then, down both sides of the hall, tall vertical tubes of cyan light like @Image3, each standing on the floor and as tall as a person, switch on one after another from the nearest to the farthest, each with a hard click, until two rows of them lead the eye to the far end, where a fan the size of the wall turns slowly in front of two hard cyan lights. Benches and tool racks in silhouette. Haze. 18mm lens on a tripod 40 cm above a scuffed concrete floor. Locked camera.\n3-7.5s: From behind the woman, low, 24mm, tracking forward at her pace as she walks down the middle of the hall toward the fan, between the two rows of tube lights. She fills a third of the frame, seen from the knees up: black hair in a low ponytail that whips straight back toward the camera, the short, boxy navy jacket of @Image2 with its hem snapping, arms swinging. Hundreds of long, narrow strips of plain white paper fly toward the camera in the wind like a blizzard and whip past it on both sides.\n7.5-12s: From the front, low, 24mm, tracking backward just ahead of her as she walks toward the camera, leaning hard into the wind, the rows of tube lights receding behind her. Her right forearm is raised across her face against the wind and the paper, so her face is hidden behind her sleeve the whole time. Her ponytail and her jacket whip out behind her. Hundreds of strips of plain white paper whip past both sides of the lens from behind the camera and past her.\n\nConsistency: navy and cyan only. Her face is never seen. Every paper strip is blank, with no writing. No subtitles. No music. Sound: relay clicks as the lights come on, wind, paper snapping, the hum of the fan."
+   }
+  },
+  "hall_fan": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the hall, draft 4: tube lights switch on and reveal an end wall that is one enormous fan, with wind-tunnel smoke; then the walk from behind toward the fan and from the front, trousers on",
+   "out": "clips/drafts/hall_fan.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg",
+     "refs/jacket.jpg",
+     "refs/tube.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 15,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1903,
+    "promptText": "@Image1 is the hall. @Image2 is the navy work jacket the woman wears. @Image3 is the tube of cyan light: the hall's lights are tall versions of it.\n\nSummary: In the dark workshop hall of @Image1, whose whole end wall is one enormous slow fan, rows of tall cyan tube lights switch on one after another, and a woman, seen only from behind and then from the front with her forearm across her face, walks into the fan's wind through thin ribbons of smoke and a blizzard of blank paper strips, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\n0-4s: Complete darkness for the first half second. Then, down both sides of the hall, tall vertical tubes of cyan light like @Image3, each standing on the floor and as tall as a person, switch on one after another from the nearest to the farthest, each with a hard click. Their light reveals the end wall. The end wall is close, only twenty metres away, and it is filled from floor to roof by one enormous industrial fan, ten metres across, turning slowly in front of two hard cyan lights, so its blades chop the light into moving shafts through the haze. The fan fills the middle third of the frame. Thin, parallel ribbons of white smoke, as in a wind tunnel test, stream from the fan straight toward the camera at head height. Workbenches and tool racks stand in silhouette on both sides. 18mm lens on a tripod 40 cm above a scuffed concrete floor. Locked camera.\n4-9s: From behind the woman, low, 24mm, tracking forward at her pace as she walks down the middle of the hall, between the two rows of tube lights, straight toward the enormous fan, which fills the frame ahead of her and backlights her. She is seen from mid-calf up, in silhouette against the fan: black hair in a low ponytail that whips straight back toward the camera, the short, boxy navy jacket of @Image2 with its hem snapping, dark navy work trousers and black boots, arms swinging. The ribbons of smoke stream past her on both sides toward the camera. Long, narrow strips of plain white paper fly toward the camera in the wind and whip past it.\n9-15s: From the front, low, 24mm, tracking backward just ahead of her as she walks toward the camera, leaning hard into the wind, the two rows of tube lights receding behind her into the dark. Her right forearm is raised across her face against the wind and the paper, so her face is hidden behind her sleeve the whole time. She wears the navy jacket of @Image2 buttoned to the collar, dark navy work trousers and black boots. Her ponytail and her jacket whip out behind her. Ribbons of smoke and strips of plain white paper whip past both sides of the lens from behind the camera and past her.\n\nConsistency: navy and cyan only, no warm light anywhere. Her face is never seen. She always wears trousers. Every paper strip is blank, with no writing. No subtitles. No music. Sound: relay clicks as the lights come on, wind, paper snapping, the deep hum of the fan."
+   }
+  },
+  "macro_relay": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro, draft 2: the relay itself, three angles, the armature snapping shut with one pinpoint cyan spark; navy, steel and cyan only",
+   "out": "clips/drafts/macro_relay.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 9,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1837,
+    "promptText": "@Image1 is the dark hall this happens in; it is only ever seen far out of focus in the background.\n\nSummary: Three extreme macro shots of one small open-frame electromechanical relay on a matte black circuit board, lit only by hard cyan backlight through haze. In each shot the relay's hinged steel armature snaps shut onto its contact and one pinpoint cyan-white spark jumps at the contact. Navy, black, steel and cyan only.\n\n0-3s: Extreme macro, 100mm, side view, very shallow focus. The relay fills the frame: a coil wrapped in black tape on a black bobbin, a bright steel yoke, a hinged steel armature held open by a tiny spring, and two small silver contacts with a one-millimetre gap between them, at the right third of the frame. At one second the armature snaps shut with a hard click, and a single pinpoint spark, cyan-white and no bigger than a grain of rice, jumps between the contacts and is gone. The armature stays shut.\n3-6s: Extreme macro from directly above the same relay, the two silver contacts dead centre in the frame. At four seconds the armature snaps shut and one pinpoint cyan-white spark jumps at the contacts, dead centre, and is gone.\n6-9s: Extreme macro, low three-quarter view from the front, the contacts at the left third of the frame, a soft disc of cyan light out of focus behind them. At seven seconds the armature snaps shut and one pinpoint cyan-white spark jumps at the contacts and is gone.\n\nConsistency: the same relay in every shot. Black board, black coil, steel and silver. No orange, no copper, no red, no green, no yellow, no warm light. The background is out-of-focus darkness with soft discs of cyan light. The spark is tiny and cyan-white, never orange, and there is no shower of sparks. No hands. No text, numbers or labels on any part. Locked camera. No music. Sound: one loud dry relay click in each shot."
+   }
+  },
+  "macro_card": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro, draft: the slip of paper between her fingers, the same shape as the one that lands on her cheek in her reel, blank, to be lettered in code",
+   "out": "clips/drafts/macro_card.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 5,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 2000,
+    "promptText": "@Image1 is the dark hall this happens in; it is only ever seen far out of focus in the background.\n\nSummary: One extreme macro shot of a woman's hand holding a blank white card in the wind of a dark workshop hall, in hard cyan backlight and haze.\n\n0-5s: Extreme macro, 100mm, shallow focus. The right hand of a lean South Asian woman in her forties comes in from the right edge of the frame, the cuff of a navy work jacket at the wrist, a small pale solder burn on the first knuckle. Between her thumb and first two fingers she holds one blank white card. The card is stiff, matte white paper, seven centimetres by fourteen, the shape of a long bookmark. She holds it level with its long side horizontal, so it runs from her fingertips, right of centre, out across the middle of the frame to the left, flat to the camera, its whole face seen and sharp. The wind makes its free end tremble a little. Behind it, far out of focus, the dark hall and two soft discs of cyan light. Locked camera.\n\nConsistency: the card is completely blank: no print, no writing, no lines, no marks of any kind. Navy and cyan only, no warm light. No face. No subtitles. No music. Sound: wind, and paper fluttering close to the microphone."
+   }
+  },
+  "hall_fanwall": {
+   "endpoint": "/v1/text_to_video",
+   "what": "the hall, draft 5: close to the end wall, which is one fan from floor to roof; tubes switch on in front of it; then she walks at it from behind",
+   "out": "clips/drafts/hall_fanwall.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg",
+     "refs/jacket.jpg",
+     "refs/tube.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 10,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1905,
+    "promptText": "@Image1 is the hall. @Image2 is the navy work jacket the woman wears. @Image3 is the tube of cyan light: the hall's lights are tall versions of it.\n\nSummary: At the end of the dark workshop hall of @Image1 the whole end wall is one enormous fan, and the camera is close to it. Tall cyan tube lights switch on in front of it, and a woman seen only from behind walks straight at it through wind, ribbons of smoke and blank paper strips, in a navy-and-cyan backlit style with haze, crushed blacks and bloom.\n\n0-4s: Complete darkness for the first half second. Then four tall vertical tubes of cyan light like @Image3, each standing on the floor and as tall as a person, two at the left edge of the frame and two at the right, switch on one after another with hard clicks. They reveal that the camera stands only eight metres from the end wall, and the end wall is entirely a fan: one circular industrial fan ten metres across, its rim touching the concrete floor and the roof trusses, filling two thirds of the width of the frame. It turns slowly in front of two hard cyan lights, so its huge blades chop the light into shafts that sweep through the haze toward the camera. Thin, parallel ribbons of white smoke, as in a wind tunnel test, stream out of the fan straight toward the camera. Workbenches in silhouette at the bottom corners. 18mm lens on a tripod 40 cm above the scuffed concrete floor. Locked camera.\n4-10s: The same place, from behind a woman, low, 24mm, tracking forward at her pace as she walks straight toward the enormous fan, which towers over her and fills the frame from edge to edge. She is a silhouette against it, seen from mid-calf up: black hair in a low ponytail that whips straight back toward the camera, the short, boxy navy jacket of @Image2 with its hem snapping, dark navy work trousers and black boots, arms swinging. Two cyan tube lights pass at the edges of the frame. The ribbons of smoke stream past her on both sides, and long, narrow strips of plain white paper fly toward the camera in the wind and whip past it.\n\nConsistency: the fan is enormous in both shots, far taller than she is. Navy and cyan only, no warm light anywhere. Her face is never seen. She always wears trousers. Every paper strip is blank, with no writing. No subtitles. No music. Sound: relay clicks as the lights come on, the deep slow beat of the fan, wind, paper snapping."
+   }
+  },
+  "macro_card2": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro, draft 2: the card between her fingers, now the size and shape of the card her reel shows on her cheek and in her hand (a postcard, not a strip), blank, lettered in code; a young hand, no ring",
+   "out": "clips/drafts/macro_card2.mp4",
+   "files": {
+    "references": [
+     "refs/hall.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "duration": 5,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 2001,
+    "promptText": "@Image1 is the dark hall this happens in; it is only ever seen far out of focus in the background.\n\nSummary: One extreme macro shot of a young woman's hand holding a blank pale card, the size of a postcard, in the wind of a dark workshop hall, in hard cyan backlight and haze.\n\n0-5s: Extreme macro, 100mm, shallow focus. The slim brown right hand of a South Asian woman comes in from the right edge of the frame: smooth young skin, short unpainted nails, no rings, the cuff of a navy work jacket at the wrist. Between her thumb and fingers she holds one blank card by its right edge. The card is stiff, matte, very pale paper, ten centimetres by fifteen, the size and shape of a postcard. She holds it with its long side horizontal and flat to the camera, so it fills the middle of the frame from her fingertips, right of centre, out to the left, its whole face seen and sharp. The wind makes its free edge tremble a little. Behind it, far out of focus, the dark hall and two soft discs of cyan light. Locked camera.\n\nConsistency: the card is completely blank: no print, no writing, no lines, no marks of any kind. A young-looking, slim hand, no jewellery, no nail varnish. Navy and cyan only, no warm light. No face. No subtitles. No music. Sound: wind, and paper fluttering close to the microphone."
+   }
+  },
+  "macro_screen": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro, draft: the laptop's screen with the words on it. The user asked for 'dumb question:' to be written on the screen in the video itself, not laid over it. One try at having the model write it; if the letters are wrong, the words are set into the screen's own plane in code.",
+   "out": "clips/drafts/macro_screen.mp4",
+   "files": {
+    "references": [
+     "refs/kitchen.jpg"
+    ]
+   },
+   "body": {
+    "model": "seedance2_5",
+    "promptText": "@Image1 is the kitchen this close-up belongs to: use its warm lamp light and its deep blue shadows.\n\nSummary: One close-up of an old laptop's screen at a kitchen table at night under one warm desk lamp, in a warm tungsten macro style with a locked camera.\n\n0-5s: Close on the old laptop's screen from a low angle. The screen fills the left two thirds of the frame; the warm desk lamp glows out of focus behind it on the right. The screen shows a plain, empty, pale text document. On it, large, sharp and in focus, is one short line of dark typewriter-style text that reads exactly: \"dumb question:\" (two lower-case words and a colon). Right after the colon a solid block text cursor blinks slowly on and off. Nothing else is written anywhere on the screen. A little dust on the glass. Locked camera.\n\nConsistency: the words on the screen are exactly \"dumb question:\" and they do not change, move or distort. No other readable writing anywhere. No faces. No subtitles. No music. Sound: a refrigerator hum and a clock ticking.",
+    "duration": 5,
+    "ratio": "1280:720",
+    "draft": true,
+    "audio": true,
+    "seed": 1989
+   }
+  },
+  "amara_dev_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "amara_dev_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/amara_dev_reel.mp4",
+   "credits": 952,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "e642f5c7-36dd-4090-9f5d-db250226702d"
+   }
+  },
+  "hall_fan_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "hall_fan enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/hall_fan.mp4",
+   "credits": 1020,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "d8d17da5-f04b-42ef-91ea-a1f14f0f77dd"
+   }
+  },
+  "hall_wide_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "hall_wide enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/hall_wide.mp4",
+   "credits": 680,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "2d08f83b-bbaa-4a3a-b3aa-03bf4231b0a6"
+   }
+  },
+  "handoff_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "handoff enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/handoff.mp4",
+   "credits": 680,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "5131a229-c12c-41f1-b460-508c71a54ff9"
+   }
+  },
+  "jun_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "jun_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/jun_reel.mp4",
+   "credits": 816,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "9c54df7b-4627-4e90-b587-e7bae3c1afd9"
+   }
+  },
+  "macro_card2_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_card2 enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_card2.mp4",
+   "credits": 340,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "c8adc540-6b4e-45bb-b7ec-1a33b318be0d"
+   }
+  },
+  "macro_hall_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_hall enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_hall.mp4",
+   "credits": 816,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "09ac9e29-0b69-48be-bbec-74a285d2adc8"
+   }
+  },
+  "macro_hands_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_hands enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_hands.mp4",
+   "credits": 544,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "3da0d74c-563f-4ae6-a3fa-efa3972f4e95"
+   }
+  },
+  "macro_kitchen_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_kitchen enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_kitchen.mp4",
+   "credits": 680,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "b3146c17-fc19-4cce-806c-820076d289b1"
+   }
+  },
+  "macro_relay_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_relay enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_relay.mp4",
+   "credits": 612,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "2bf52a08-1f27-454f-a980-0d3308e05673"
+   }
+  },
+  "macro_screen_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "macro_screen enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/macro_screen.mp4",
+   "credits": 340,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "82f9a8b5-812d-4053-967e-a1cb3d9640ab"
+   }
+  },
+  "mara_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "mara_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/mara_reel.mp4",
+   "credits": 2040,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "6d698999-b484-4cd3-9e8f-ba38e5c62679"
+   }
+  },
+  "osei_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "osei_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/osei_reel.mp4",
+   "credits": 680,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "a3187f76-9b10-4459-8953-d536508e890a"
+   }
+  },
+  "paper_pickups_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "paper_pickups enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/paper_pickups.mp4",
+   "credits": 544,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "51090012-fdce-47ee-a083-1971e0ad782f"
+   }
+  },
+  "ray_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "ray_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/ray_reel.mp4",
+   "credits": 1224,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "d66fb062-901f-42a8-a0fa-24f7aa79e686"
+   }
+  },
+  "rosa_pip_reel_1080": {
+   "endpoint": "/v1/text_to_video",
+   "what": "rosa_pip_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "out": "clips/final/rosa_pip_reel.mp4",
+   "credits": 952,
+   "body": {
+    "model": "seedance2_5",
+    "draftTaskId": "81395014-db6d-48e8-aa41-bbe76331b23c"
+   }
+  }
+ }
+}

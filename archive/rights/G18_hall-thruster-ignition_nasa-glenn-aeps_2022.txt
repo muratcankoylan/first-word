@@ -1,0 +1,34 @@
+ITEM N05 - an electric (xenon) thruster igniting in a vacuum chamber at NASA Glenn, 2022 - real test-camera footage, 4K
+WHAT: A fixed test camera looking at the face of a thruster inside a vacuum chamber (gold thermal blanket and cabling around it). The cathode at the centre glows orange; then the annular channel lights and the whole face floods with blue-cyan glow, which holds to the end of the clip. Complete clip as NASA published it, 5.6 seconds, 3840x2160. A small burned-in clock ("13:54:47") sits in the top-left corner and there is a thin black band along the top edge.
+  IMPORTANT - what kind of engine: NASA's record tags it "aeps" / "advanced electric propulsion system" (the Gateway Power and Propulsion Element thruster). AEPS is a Hall-effect thruster. It is NOT one of the gridded ion engines the brief named (NSTAR, NEXT, Dawn, DS1). That AEPS is a Hall thruster running on xenon comes from NASA's other AEPS pages and papers, not from this record, which does not say "xenon" or "Hall".
+HOLDER: NASA Image and Video Library, nasa_id "ignition" (center: JSC; album "Gateway"; location "Cleveland, Ohio")
+ITEM PAGE: https://images.nasa.gov/details/ignition
+FILE URL DOWNLOADED: https://images-assets.nasa.gov/video/ignition/ignition~orig.mp4   (16,398,938 bytes; saved whole, byte-identical, not cut)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA video in NASA's own library; "not subject to copyright in the United States" per NASA's guidelines (QUOTED). No third-party credit or copyright mark on the record.
+
+RIGHTS STATEMENTS, QUOTED:
+NASA library record (https://images-api.nasa.gov/search?nasa_id=ignition and https://images-assets.nasa.gov/video/ignition/metadata.json, read 2026-11-10): title "ignition"; center "JSC"; date created "2022-03-01"; location "Cleveland, Ohio"; album "Gateway"; description "A thruster undergoes testing in 2022 as part of the development of the Gateway space station's Power and Propulsion Element (PPE) that will make Gateway the most powerful solar-electric spacecraft ever flown."; keywords "Gateway, PPE, Power and Propulsion Element, Maxar, Maxar Technologies, Aerojet, Aerojet Rocketdyne, thruster, aeps, advanced electric propulsion system, firing, ignition, GRC, Glenn Research Center, artemis".
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - WHO SHOT IT is not stated. The record names no photographer. The keywords name the contractors Maxar and Aerojet Rocketdyne (they build the element and the thruster). NASA says third-party copyrighted material on its site "will be marked"; this record carries no such mark. I take it as NASA footage on that basis; that last step is INFERRED.
+  - Hall thruster, not a gridded ion engine (see above). I found no usable moving footage of NSTAR/NEXT/Dawn/DS1 engines on a NASA host: see FOUND.md.
+  - Frame timing is irregular: the file lists 223 video samples in 5.63 s (average about 22 fps, nominal 233/12 = 19.4 fps) and ffmpeg decodes 135 frames. Check the speed by eye and conform it in the edit.
+  - Burned-in clock top-left; crop it.
+  - No people, no logos. No endorsement by NASA may be implied. Credit: NASA.
+
+CUT: none. Whole source file.
+
+SAVED FILE:
+  N05_xenon-hall-thruster-ignition_nasa-glenn-aeps_2022_ignition.mp4
+    16398938 bytes (16.40 MB); 3840x2160 px; 5.626 s; 19.417 fps; 135 frames decoded; video codec h264; audio: none; container mov
+    sha256 ce61588ad03e746fb1107135be370a9080e52cb28e99898e3676579e71deba00

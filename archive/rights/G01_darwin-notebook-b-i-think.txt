@@ -1,0 +1,16 @@
+ITEM 4  shots G01
+Charles Darwin, Notebook B, page 36: 'I think' and the branching tree (about 1837), MS.DAR.121
+Holder: Cambridge University Library (Cambridge Digital Library, MS-DAR-00121, image 38)
+Page: https://cudl.lib.cam.ac.uk/view/MS-DAR-00121/38
+File: NOT DOWNLOADED. Least risky copy: https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png (1390x2265, 4.22 MB), page https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png
+Read on: 2026-11-10
+Rights: unproven: the drawing is long out of copyright, but the holder does not release its scan
+
+--- what the holder's page says ---
+Cambridge Digital Library record (https://cudl.lib.cam.ac.uk/view/MS-DAR-00121.json), descriptiveMetadata:
+displayImageRights: 'Cambridge University Library'
+downloadImageRights: 'This image may be used in accord with fair use and fair dealing provisions, including teaching and research. If you wish to reproduce it within publications or on the public web, please make a reproduction request.'
+metadataRights: 'This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.'
+The item page shows a 'Request Rights' link to imagingservices.lib.cam.ac.uk. Page 36 is sequence 38 (4344x3447).
+
+Wikimedia Commons, File:Darwin Tree 1837.png (1,390 x 2,265 pixels, 4.22 MB): 'This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 70 years or fewer.' 'This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.' (Commons' own tags, not a statement by the holder.)

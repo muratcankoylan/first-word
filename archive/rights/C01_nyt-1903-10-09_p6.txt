@@ -1,0 +1,12 @@
+ITEM 1  shots C01, C02
+The New York Times, 9 October 1903, page 6 (editorial 'Flying Machines Which Do Not Fly')
+Holder: Internet Archive (Serials in Microfilm scan, item sim_new-york-times_1903-10-09_53_16774)
+Page: https://archive.org/details/sim_new-york-times_1903-10-09_53_16774/page/n5/mode/2up
+File: https://archive.org/download/sim_new-york-times_1903-10-09_53_16774/sim_new-york-times_1903-10-09_53_16774_jp2.zip/sim_new-york-times_1903-10-09_53_16774_jp2%2Fsim_new-york-times_1903-10-09_53_16774_0005.jp2
+Read on: 2026-11-10
+Rights: public domain by date (INFERRED: the holder gives no rights statement)
+
+--- what the holder's page says ---
+Item metadata read from https://archive.org/metadata/sim_new-york-times_1903-10-09_53_16774 : title 'The New York Times 1903-10-09: Vol 53 Iss 16774', date 1903-10-09, collection pub_new-york-times / sim_microfilm / periodicals, contributor Internet Archive, source microfilm, ppi 400. There is NO rights, licence or possible-copyright-status field.
+Public-domain basis (inferred, not a holder statement): first published in the United States on 9 October 1903; US works published before 1931 are out of copyright in 2026.
+Supporting, not from the holder: the Wikisource transcription of this editorial is filed under Category:PD-US (saved earlier in research/nyt-flying-machines-1903-fulltext.json).

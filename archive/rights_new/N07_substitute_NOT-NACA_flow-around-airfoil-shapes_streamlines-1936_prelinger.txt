@@ -1,0 +1,27 @@
+ITEM N07 (SUBSTITUTE - NOT what was asked for) - flow lines streaming past airfoil-shaped bodies, 1936, black and white
+READ THIS FIRST: the brief asked for NACA/NASA wind-tunnel SMOKE flow. This is neither. It is a 1936 Chevrolet (General Motors) film, and the flow is aluminium powder on a moving liquid, not smoke in a wind tunnel. It is here only because I could not get the NACA film from an allowed source (reasons in FOUND.md) and this reads on screen as streamlines over a wing section. Use it or drop it.
+WHAT: Two shots: a white streamlined (airfoil-like) body, blunt nose to the right, with flow streaks sweeping past right-to-left and a thin wake; then a longer, slimmer body with a longer wake. 32 seconds, silent as saved.
+HOLDER: Prelinger Archives (collection "prelinger" on the Internet Archive).
+ITEM PAGE: https://archive.org/details/Streamli1936
+FILE URL DOWNLOADED: https://archive.org/download/Streamli1936/Streamli1936.mpeg   (189,229,597 bytes; MPEG-2; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): the uploader/holder, Prelinger Archives, marks the item "Public Domain" (QUOTED). The holder's assertion; not a government film.
+
+RIGHTS STATEMENTS, QUOTED:
+Internet Archive item page https://archive.org/details/Streamli1936 (read 2026-11-10): "Streamlines - by Handy (Jam) Organization - Publication date 1936 - Usage Public Domain" (the Usage line links to http://creativecommons.org/licenses/publicdomain/).
+Item metadata https://archive.org/metadata/Streamli1936 (read 2026-11-10): title "Streamlines"; creator "Handy (Jam) Organization"; sponsor "Chevrolet Division, General Motors Corporation"; date "1936"; collection "prelinger"; licenseurl "http://creativecommons.org/licenses/publicdomain/"; shotlist: "Man lecturing how motion pictures are taken of liquid movement in an air stream to record air currents Aluminum dust added to liquid ... CUs of nonstreamlined and streamlined shapes ... Wing-shaped body with fewer eddies Streamlined body with blunt nose and tapering rear".
+
+CAVEATS:
+  - NOT NACA, NOT NASA, NOT SMOKE (see top).
+  - Sponsored film for General Motors. Title card: "Chevrolet Motor Company presents Streamlines ... Produced by The Jam Handy Organization"; end card: "The End - A Jam Handy Picture". I saw no copyright notice in the one frame of each that I looked at, but the bottom edge of the title card is cut off in the transfer, so that proves nothing. Public-domain status rests on Prelinger Archives' marking; I did not check registration or renewal records.
+  - LOW RESOLUTION: 352x480 stored pixels shown 4:3, interlaced.
+  - AUDIO DROPPED (narration; not needed).
+  - No people.
+
+CUT: source is 409.84 s. Kept 234.91 s to 267.08 s (stream copy from the keyframe at 234.911 s; not re-encoded; video only). The same sequence runs from 179 s (wedge), 195 s (disc), 217 s (ellipse), 228 s (teardrop) if blunter shapes are wanted.
+
+SAVED FILE:
+  N07_substitute_NOT-NACA_flow-around-airfoil-shapes_streamlines-1936_prelinger.mpg
+    14147584 bytes (14.15 MB); 352x480 px, stored pixel aspect 20:11 (display aspect 4:3); 32.166 s; 29.97 fps; 965 frames decoded; video codec mpeg2video; audio: none; container mpeg
+    sha256 67f1ab5330b855ea4e270874bb5da628e448ee169c2b2e2d1b852c72fbdc5f7f

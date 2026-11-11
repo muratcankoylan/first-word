@@ -1,0 +1,36 @@
+ITEM N09 - Hubble: a dense star field in Sagittarius (the "SWEEPS field" toward the galactic bulge), 4097 x 4097 px
+WHAT: Wall-to-wall stars, white, blue and orange, with diffraction spikes on the bright ones; no black gaps, no nebula. Hubble Advanced Camera for Surveys. Full square frame, 4097x4097, master TIFF.
+  NOTE: this is not the 1998 Hubble Heritage picture titled "Sagittarius Star Cloud" (the archive already has that at 1024 px; its existing rights record says the source TIFF is only 1024x1009, which I did not re-check). It is a different, much larger Hubble image of a crowded field in the same constellation.
+HOLDER: NASA (science.nasa.gov Hubble asset library); produced by the Space Telescope Science Institute (STScI release 2011-16).
+ITEM PAGE: https://science.nasa.gov/asset/hubble/hubble-acs-sweeps-field/   (STScI release: https://www.stsci.edu/contents/news-releases/2011/news-2011-16)
+FILE URL DOWNLOADED: https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2011/05/STScI-01EVT4NY5E5B9YX4XNKASEWPJK.tif   (NASA's own asset server; the page lists it as "4097 × 4097 tif (40.83 MB)")
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA/STScI Hubble release image from NASA's own page - STScI says its material "may be freely used as in the public domain" unless stated otherwise (QUOTED) and NASA says its imagery is "not subject to copyright in the United States" (QUOTED); no restriction is stated on the image page.
+
+RIGHTS STATEMENTS, QUOTED:
+NASA asset page (read 2026-11-10): "Hubble ACS SWEEPS Field"; Constellation "Sagittarius"; Instrument "HST>ACS/WFC"; Exposure Dates "February 22 - 29, 2004, Exposure Time: 49 hours"; Object Name "SWEEPS Field"; Object Description "Stellar Field Near the Galactic Bulge"; Release Date "May 25, 2011"; Science Release "NASA's Hubble Finds Rare Blue Straggler Stars in the Milky Way's Hub"; "Credit: NASA, ESA, W. Clarkson (Indiana University and UCLA), and K. Sahu (STScI)". The page shows no copyright notice and no licence line.
+STScI "Institute Content Use Policy", https://www.stsci.edu/copyright (read 2026-11-10):
+  "Unless otherwise stated, all material on the site was produced by NASA and STScI. Material on this site produced by STScI was created, authored, and/or prepared for NASA under Contracts NAS5-03127, NAS5-26555, and 80GSFC19C0054. Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work, NASA and STScI be given appropriate acknowledgement."
+  "This site also contains material generated, authored and/or prepared by individuals or institutions other than STScI, and those individuals or institutions may claim copyright."
+  "Additional Notice (Effective January 1, 2008): Individuals and institutions other than AURA/STScI and grantees of STScI whose work was funded by NASA are requested to state at the time they contribute materials for distribution on STScI websites whether they wish to claim any copyright restrictions. If they do not do so it will be assumed that no copyright restriction is claimed."
+  "The availability of STScI materials on this website does not imply the endorsement of STScI or by any STScI employee of any private use of such materials, including, in particular, any commercial use and any use intended to mislead."
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - CREDIT NAMES AN OUTSIDE SCIENTIST: W. Clarkson (Indiana University and UCLA). STScI's policy says outside contributors "may claim copyright"; none is claimed on NASA's page, and STScI's 2008 notice says that if none is stated "it will be assumed that no copyright restriction is claimed". So the public-domain reading holds, but it runs through that default. If you want the cleaner credit, use the N09 alternate.
+  - ESA is a co-credit. ESA's own copies of Hubble images are under CC BY 4.0. I did NOT use an ESA file; this is NASA's.
+  - Acknowledgement requested: NASA and STScI (credit line as quoted above). No endorsement may be implied.
+  - No people.
+
+SAVED FILE:
+  N09_hubble-sweeps-field-sagittarius_acs_STScI-2011-16.tif
+    42815126 bytes (42.82 MB); 4097x4097 px; TIFF RGB
+    sha256 e9d1f8e9d96a1ce028e266c4e46bd07a80f59e3148011ed5b7de003dfa81b7bb

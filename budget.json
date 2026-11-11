@@ -1,0 +1,9 @@
+{
+ "cap_usd": 600,
+ "approved_on": "2026-11-10",
+ "split_usd": {"runway": 500, "elevenlabs": 100},
+ "rule": "No paid call may take the ledger total over the cap. Every paid call is written to ledger.csv when it is submitted, with its cost, before its result is used.",
+ "prices_checked_on": "2026-11-10",
+ "runway_usd_per_second": {"seedance2_5_480p": 0.20, "seedance2_5_720p": 0.30, "seedance2_5_1080p": 0.68},
+ "notes": "Runway charges for a generation that fails input moderation. Minimum charge per generation is 0.80 USD."
+}

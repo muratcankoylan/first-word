@@ -1,0 +1,327 @@
+{
+ "about": "The spoken lines grouped into scenes. Each scene is generated as one conversation with the Text to Dialogue API on Eleven v4, so the voices answer each other, then cut into lines. Bracketed words are spoken directions; they are not said. voice is a role in audio/voices/library_cast.json.",
+ "model": "eleven_v4",
+ "scenes": [
+  {
+   "id": "s1_open",
+   "inputs": [
+    {
+     "line": "d1",
+     "voice": "d1",
+     "text": "[quietly, to herself] Not for people like me."
+    },
+    {
+     "line": "d2",
+     "voice": "d2",
+     "text": "[uneasy] Coming for my job."
+    },
+    {
+     "line": "d3",
+     "voice": "d3",
+     "text": "[bored] All hype."
+    },
+    {
+     "line": "d4",
+     "voice": "d4",
+     "text": "[flat] Already decided."
+    },
+    {
+     "line": "ray1",
+     "voice": "ray",
+     "text": "[dismissive] Just freaking autocomplete."
+    },
+    {
+     "line": "mara1",
+     "voice": "mara",
+     "text": "[jumping in, dry] Everybody's got a prediction."
+    }
+   ]
+  },
+  {
+   "id": "s2_1903",
+   "inputs": [
+    {
+     "line": "osei1",
+     "voice": "osei",
+     "text": "[reading it out] From one million to ten million years."
+    },
+    {
+     "line": "mara2",
+     "voice": "mara",
+     "text": "[dry, quick] Sixty-nine days."
+    }
+   ]
+  },
+  {
+   "id": "s2b_off",
+   "note": "Mara's line as rewritten on the seventh pass. It is performed on its own so that Osei's reading before it keeps its take; it comes after s2_1903 in this list so that it is the one left in audio/lines/.",
+   "inputs": [
+    {
+     "line": "osei1",
+     "voice": "osei",
+     "text": "[reading it out, grandly] From one million to ten million years.",
+     "context": true
+    },
+    {
+     "line": "mara2",
+     "voice": "mara",
+     "text": "[dry, flat, after a beat] Close."
+    }
+   ]
+  },
+  {
+   "id": "s3_question",
+   "inputs": [
+    {
+     "line": "jun1",
+     "voice": "jun",
+     "text": "[blunt] So what does it actually do?"
+    },
+    {
+     "line": "mara3",
+     "voice": "mara",
+     "text": "[matter-of-fact] It finishes things."
+    },
+    {
+     "line": "ray2",
+     "voice": "ray",
+     "text": "[flat] It makes things up."
+    },
+    {
+     "line": "mara4",
+     "voice": "mara",
+     "text": "[unbothered] Constantly."
+    },
+    {
+     "line": "mara5",
+     "voice": "mara",
+     "text": "So we check."
+    }
+   ]
+  },
+  {
+   "id": "s4_evidence",
+   "inputs": [
+    {
+     "line": "osei2",
+     "voice": "osei",
+     "text": "A Roman sentence, broken in bronze."
+    },
+    {
+     "line": "mara6",
+     "voice": "mara",
+     "text": "[quickly, dry] One lab's unpublished result."
+    },
+    {
+     "line": "jun2",
+     "voice": "jun",
+     "text": "[quick] Same idea — two days."
+    },
+    {
+     "line": "osei3",
+     "voice": "osei",
+     "text": "[deadpan] He asked if they'd been in his computer."
+    },
+    {
+     "line": "mara7",
+     "voice": "mara",
+     "text": "[softly] And a sentence a man could no longer say."
+    }
+   ]
+  },
+  {
+   "id": "s4b_lab",
+   "note": "Mara's line as rewritten on the seventh pass, performed on its own for the same reason.",
+   "inputs": [
+    {
+     "line": "osei2",
+     "voice": "osei",
+     "text": "A Roman sentence, broken in bronze.",
+     "context": true
+    },
+    {
+     "line": "mara6",
+     "voice": "mara",
+     "text": "[fast, dry, in one breath] One lab, ten years, unpublished."
+    }
+   ]
+  },
+  {
+   "id": "s5_turn",
+   "inputs": [
+    {
+     "line": "ray3",
+     "voice": "ray",
+     "text": "[quietly] So it is just autocomplete."
+    },
+    {
+     "line": "mara8",
+     "voice": "mara",
+     "text": "[smiling] Yeah. It is."
+    },
+    {
+     "line": "osei4",
+     "voice": "osei",
+     "text": "[warm] It only finishes what somebody starts."
+    }
+   ]
+  },
+  {
+   "id": "s6_first_words",
+   "inputs": [
+    {
+     "line": "v1",
+     "voice": "d3",
+     "text": "I think—"
+    },
+    {
+     "line": "v2",
+     "voice": "d1",
+     "text": "[quickly] Mr. Watson, come here—"
+    },
+    {
+     "line": "v4",
+     "voice": "d2",
+     "text": "[offhand] Just a hobby."
+    }
+   ]
+  },
+  {
+   "id": "s6b_note",
+   "inputs": [
+    {
+     "line": "v3",
+     "voice": "d4",
+     "text": "[quickly, offhand] Vague but exciting."
+    }
+   ]
+  },
+  {
+   "id": "s7_starts",
+   "inputs": [
+    {
+     "line": "amara1",
+     "voice": "amara",
+     "text": "[quick, self-mocking] Dumb question—"
+    },
+    {
+     "line": "dev1",
+     "voice": "dev",
+     "text": "What if—"
+    },
+    {
+     "line": "jun3",
+     "voice": "jun",
+     "text": "Could I—"
+    },
+    {
+     "line": "ray4",
+     "voice": "ray",
+     "text": "Okay, so—"
+    }
+   ]
+  },
+  {
+   "id": "s8_flood",
+   "inputs": [
+    {
+     "line": "amara2",
+     "voice": "amara",
+     "text": "Start the cure."
+    },
+    {
+     "line": "osei5",
+     "voice": "osei",
+     "text": "Start the proof."
+    },
+    {
+     "line": "jun4",
+     "voice": "jun",
+     "text": "Start the band."
+    },
+    {
+     "line": "rosa1",
+     "voice": "rosa",
+     "text": "[delighted] Start it wrong!"
+    },
+    {
+     "line": "all1",
+     "voice": "mara",
+     "vi": 0,
+     "text": "[calling out] We'll fix it!"
+    },
+    {
+     "line": "all1",
+     "voice": "osei",
+     "vi": 1,
+     "text": "We'll fix it."
+    },
+    {
+     "line": "all1",
+     "voice": "ray",
+     "vi": 2,
+     "text": "[gruff] We'll fix it."
+    },
+    {
+     "line": "all1",
+     "voice": "rosa",
+     "vi": 3,
+     "text": "We'll fix it!"
+    },
+    {
+     "line": "all1",
+     "voice": "jun",
+     "vi": 4,
+     "text": "We'll fix it!"
+    }
+   ]
+  },
+  {
+   "id": "s9_whale",
+   "inputs": [
+    {
+     "line": "osei6",
+     "voice": "osei",
+     "text": "[quietly] Nobody predicts the future."
+    }
+   ]
+  },
+  {
+   "id": "s10_pip_start",
+   "inputs": [
+    {
+     "line": "pip1",
+     "voice": "pip",
+     "text": "[whispers] So start."
+    }
+   ]
+  },
+  {
+   "id": "s11_pip_last",
+   "inputs": [
+    {
+     "line": "pip2",
+     "voice": "pip",
+     "text": "[close, delighted] Somebody starts it."
+    }
+   ]
+  },
+  {
+   "id": "s4c_brain",
+   "note": "Mara's sentence carried on over the decoding (eighth pass). Her line before it is performed as context so that this one continues it; that line keeps its own take.",
+   "inputs": [
+    {
+     "line": "mara7",
+     "voice": "mara",
+     "text": "[softly] And a sentence a man could no longer say,",
+     "context": true
+    },
+    {
+     "line": "mara7b",
+     "voice": "mara",
+     "text": "[softly, quieter still] read straight from his brain."
+    }
+   ]
+  }
+ ]
+}

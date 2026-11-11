@@ -1,0 +1,37 @@
+ITEM N08 (alternate) - a real NASA navigation-camera video of Ingenuity's shadow: FLIGHT 14, 24 October 2021 - NOT the first flight
+READ THIS FIRST: this is not 19 April 2021. It is a later flight. It is here because it is an actual NASA-made moving sequence of the shadow taking off, hovering and landing, which does not exist for flight one. Do not caption it as the first flight.
+WHAT: Black-and-white navigation-camera frames run as video: the shadow large on the ground, shrinking on the climb, small in the hover, growing on the descent, then the on-the-ground view. 4:3 picture pillarboxed in 1920x1080. 18.9 seconds.
+HOLDER: NASA Image and Video Library (JPL), nasa_id "JPL-20230406-TECHf-0001-Ingenuity Flight Update Media Reel 1080"
+ITEM PAGE: https://images.nasa.gov/details/JPL-20230406-TECHf-0001-Ingenuity%20Flight%20Update%20Media%20Reel%201080
+FILE URL DOWNLOADED: https://images-assets.nasa.gov/video/JPL-20230406-TECHf-0001-Ingenuity%20Flight%20Update%20Media%20Reel%201080/JPL-20230406-TECHf-0001-Ingenuity%20Flight%20Update%20Media%20Reel%201080~orig.mp4   (535,006,305 bytes; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): JPL B-roll released "for media and public use", credit NASA/JPL-Caltech (QUOTED); NASA guideline "not subject to copyright in the United States" (QUOTED).
+
+RIGHTS STATEMENTS, QUOTED:
+NASA library record (read 2026-11-10): title "Ingenuity Mars Helicopter Flight Update Media Reel"; center "JPL"; date "2023-04-06"; description "B-roll for media and public use. NASA's Ingenuity Mars helicopter made history when it achieved the first powered, controlled flight on another planet on April 19, 2021. As Ingenuity approaches its 50th successful flight, this reel highlights flights from the Perseverance rover's WATSON and Mastcam-Z cameras, as well as Ingenuity's color Return to Earth (RTE) camera and its black-and-white navigation camera. ... Credit for all segments, unless otherwise indicated on the slate, is NASA/JPL-Caltech."
+Slate inside the reel for this segment (read off the picture): "03:46 - 00:18 - Animated GIF showing Ingenuity's shadow on Mars as it takes off, flies and lands. Images acquired by the helicopter's down-facing navigation camera during its fourteenth flight. - October 24, 2021."
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+JPL Image Use Policy, https://www.jpl.nasa.gov/jpl-image-use-policy (read 2026-11-10):
+  "Unless otherwise noted, images and video on JPL public web sites (public sites ending with a jpl.nasa.gov address) may be used for any purpose without prior permission, subject to the special cases noted below."
+  By downloading "the user agrees: 1. that Caltech makes no representations or warranties with respect to ownership of copyrights in the images ... 2. to use a credit line in connection with images. Unless otherwise noted in the caption information for an image, the credit line should be "Courtesy NASA/JPL-Caltech." 3. that the endorsement of any product or service by Caltech, JPL or NASA must not be claimed or implied."
+  "If an image includes an identifiable person, using the image for commercial purposes may infringe that person's right of privacy or publicity, and permission should be obtained from the person."
+  "Some image and video materials on JPL public web sites are owned by organizations other than JPL or NASA." NOTE: this is a permission with conditions; the page does not use the words "public domain".
+
+CAVEATS:
+  - FLIGHT 14, not flight 1 (see top). The filename says so.
+  - No people, no logos in the cut. No endorsement may be implied. Credit: NASA/JPL-Caltech.
+
+CUT: source is 354.62 s. Kept 226.53 s to 245.38 s (stream copy from the keyframe at 226.526 s; no re-encode). Source audio here is digital silence (-91 dB) and was dropped.
+
+SAVED FILE:
+  N08_alt_ingenuity-navcam-shadow_FLIGHT-14-not-first-flight_2021-10-24_jpl-media-reel.mp4
+    32535944 bytes (32.54 MB); 1920x1080 px; 18.852 s; 29.97 fps; 565 frames decoded; video codec h264; audio: none; container mov
+    sha256 d11ab260ec0d15e865b5d9e59659dc7c6c0a29a0cda73f2104cdbb0ee3ed6744

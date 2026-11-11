@@ -1,0 +1,34 @@
+ITEM N09 (alternate) - Hubble: "Milky Way Bulge", a crowded star field at the galaxy's hub, 3336 x 2823 px
+WHAT: A very dense, strongly coloured field: white Sun-like stars, red giants, bright blue foreground stars. Hubble Wide Field Camera 3, visible plus near-infrared. Full frame 3336x2823, master TIFF.
+HOLDER: NASA (science.nasa.gov Hubble asset library); produced by STScI (release 2018-01).
+ITEM PAGE: https://science.nasa.gov/asset/hubble/milky-way-bulge   (STScI release: https://www.stsci.edu/contents/news-releases/2018/news-2018-01)
+FILE URL DOWNLOADED: https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2018/01/STScI-01EVT1289AJ180RWP7EEDN9HNQ.tif   (the page lists it as "Full Res, 3336 × 2823 tif (21.54 MB)")
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA/STScI Hubble release image from NASA's own page - "may be freely used as in the public domain" (STScI, QUOTED); "not subject to copyright in the United States" (NASA, QUOTED); no restriction stated on the image page.
+
+RIGHTS STATEMENTS, QUOTED:
+NASA asset page (read 2026-11-10): "Milky Way Bulge - Hubble Captures Glittering Crowded Hub of our Milky Way Galaxy - This Hubble Space Telescope image of a sparkling jewel box full of stars captures the heart of our Milky Way galaxy."; Constellation "Sagittarius"; Instrument "WFC3/UVIS/IR"; Object Description "Dense field of stars from the core of the Milky Way"; Release Date "January 11, 2018"; "Credit: NASA, ESA, Thomas Brown". No copyright notice and no licence line on the page.
+STScI "Institute Content Use Policy", https://www.stsci.edu/copyright (read 2026-11-10):
+  "Unless otherwise stated, all material on the site was produced by NASA and STScI. Material on this site produced by STScI was created, authored, and/or prepared for NASA under Contracts NAS5-03127, NAS5-26555, and 80GSFC19C0054. Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work, NASA and STScI be given appropriate acknowledgement."
+  "This site also contains material generated, authored and/or prepared by individuals or institutions other than STScI, and those individuals or institutions may claim copyright."
+  "Additional Notice (Effective January 1, 2008): Individuals and institutions other than AURA/STScI and grantees of STScI whose work was funded by NASA are requested to state at the time they contribute materials for distribution on STScI websites whether they wish to claim any copyright restrictions. If they do not do so it will be assumed that no copyright restriction is claimed."
+  "The availability of STScI materials on this website does not imply the endorsement of STScI or by any STScI employee of any private use of such materials, including, in particular, any commercial use and any use intended to mislead."
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - The page credits "NASA, ESA, Thomas Brown". The page's data notes list T. Brown as leader of one of the Hubble programmes; that he is on STScI's staff is my understanding and is NOT stated on this page.
+  - ESA co-credit; ESA's own copy would be CC BY 4.0 and was not used.
+  - Acknowledgement requested: NASA and STScI. No endorsement may be implied. No people.
+
+SAVED FILE:
+  N09_alt_hubble-milky-way-bulge_wfc3_STScI-2018-01.tif
+    22590818 bytes (22.59 MB); 3336x2823 px; TIFF RGB
+    sha256 8b7298ac3e65e52da968ec1150044b0dc344a3bb8ed55a3534adf6944efa952c

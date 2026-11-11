@@ -1,0 +1,13 @@
+ITEM 10  shots G20
+Hurricane Matthew over Haiti, 4 October 2016, MODIS on NASA's Terra satellite (primary); eye of Hurricane Hector from the space station, 7 August 2018 (alternate)
+Holder: NASA Image and Video Library (NASA Goddard: GSFC_20171208_Archive_e000205; NASA Johnson: iss056e129868)
+Page: https://images.nasa.gov/details/GSFC_20171208_Archive_e000205 ; https://images.nasa.gov/details/iss056e129868
+File: https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000205/GSFC_20171208_Archive_e000205~orig.jpg ; https://images-assets.nasa.gov/image/iss056e129868/iss056e129868~orig.jpg
+Read on: 2026-11-10
+Rights: not subject to US copyright per NASA guidelines
+
+--- what the holder's page says ---
+GSFC_20171208_Archive_e000205, 'Hurricane Matthew Hits Haiti': 'On October 4, 2016, Hurricane Matthew made landfall on southwestern Haiti as a category-4 storm ... the Moderate Resolution Imaging Spectroradiometer (MODIS) on NASA's Terra satellite acquired this natural-color image.' 'NASA Earth Observatory image by Joshua Stevens, using MODIS data from the Land Atmosphere Near real-time Capability for EOS (LANCE). Caption by Kathryn Hansen.'
+iss056e129868: 'iss056e129868 (Aug. 7, 2018) --- The fully-formed eye of Hurricane Hector is clearly visible from the International Space Station as the orbital complex flew 250 miles above the Pacific Ocean southeast of the Hawaiian island chain.' Center JSC.
+
+NASA media guidelines (https://www.nasa.gov/nasa-brand-center/images-and-media/), read 2026-11-10: "NASA content - images, audio, video ... generally are not subject to copyright in the United States." "NASA should be acknowledged as the source of the material." "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content." "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA's endorsement of commercial goods or services." "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain."

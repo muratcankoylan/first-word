@@ -1,0 +1,45 @@
+{
+ "about": "Sound that belongs to a generated shot. A cue replaces the stand-in line it names.",
+ "cues": [
+  {
+   "frame": 1336,
+   "file": "clips/whale_1080.mp4",
+   "in": 9.7,
+   "dur": 1.83,
+   "gain_db": 8.5,
+   "replaces": [
+    "pip2"
+   ],
+   "what": "Pip says her last line in the voice the video model gave her"
+  },
+  {
+   "frame": 930,
+   "file": "clips/drafts/rosa_pip_reel.mp4",
+   "in": 8.9,
+   "dur": 0.85,
+   "gain_db": 6.0,
+   "replaces": [
+    "pip1"
+   ],
+   "what": "Pip whispers 'So start.' in the kitchen reel, in the voice the video model gave her (bound to her last line as the voice reference)"
+  },
+  {
+   "frame": 225,
+   "file": "clips/drafts/mara_reel.mp4",
+   "in": 26.42,
+   "dur": 0.36,
+   "gain_db": 6.0,
+   "replaces": [],
+   "what": "Mara's snort as she lets the strip go: the short laugh her own reel has at this moment (heard by the transcriber as [laughs], 26.46 to 26.72 s), before her 'Yeah'"
+  },
+  {
+   "frame": 1319,
+   "file": "clips/whale_1080.mp4",
+   "in": 8.55,
+   "dur": 0.85,
+   "gain_db": 8.5,
+   "replaces": [],
+   "what": "Pip's breath that turns into a laugh, over her eye: the whale shot's own sound just before her line (heard by the transcriber as [laughs] from 8.6 s; the loud part is 9.0 to 9.3 s, which lands on frames 1330 to 1337)"
+  }
+ ]
+}

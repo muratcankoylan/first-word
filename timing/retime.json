@@ -1,0 +1,12 @@
+{
+ "about": "Pauses lengthened inside a finished voice line so it matches the mouth in a generated shot. after_word counts from 0. start_shift moves the line's start, in frames.",
+ "lines": {
+  "mara8": {
+   "after_word": 0,
+   "add_frames": 4,
+   "start_shift": -4,
+   "why": "In Mara's reel the pause between 'Yeah' and 'It is' is four frames longer than in the finished line. The line starts four frames sooner so 'It is' stays where it was.",
+   "applied_to": "367bed74f330eff6802a1aca3fcc1d3168c9aa0f"
+  }
+ }
+}

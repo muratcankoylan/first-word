@@ -1,0 +1,187 @@
+{
+ "about": "The twelve designed voices. description is the voice-design prompt. text is what each preview says: the character's own lines, so a preview is already an audition. f0 is the pitch range in hertz the voice should sit in and pace its target in syllables per second; both are used to choose between previews by measurement. These voices clone nobody. A voice marked skip is not made here.",
+ "design_model": "eleven_ttv_v3",
+ "speech_model": "eleven_v4",
+ "voices": {
+  "mara": {
+   "name": "Mara (designed)",
+   "f0": [
+    150,
+    215
+   ],
+   "pace": 5.2,
+   "description": "A woman in her mid-forties, Canadian. A low, dry alto with a little grain in it, like someone who has spent years in workshops. She speaks quickly and plainly, never sells and never raises her voice. The warmth is underneath, in a half-smile you can hear. Confident, unsentimental, wry. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Everybody's got a prediction. Sixty-nine days. It finishes things. Constantly. So we check. One lab's unpublished result. And a sentence a man could no longer say. Yeah. It is."
+  },
+  "osei": {
+   "name": "Osei (designed)",
+   "f0": [
+    85,
+    135
+   ],
+   "pace": 4.3,
+   "description": "A man in his mid-sixties, born in Ghana and long settled in Britain: a soft, educated British accent with a faint West African warmth. A calm, deep, slightly husky baritone. He is unhurried, amused and deadpan, a storyteller who notices the odd detail and lets it land. Gentle, never theatrical. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "From one million to ten million years. A Roman sentence, broken in bronze. He asked if they'd been in his computer. It only finishes what somebody starts. Start the proof. Nobody predicts the future."
+  },
+  "jun": {
+   "name": "Jun (designed)",
+   "f0": [
+    105,
+    170
+   ],
+   "pace": 5.8,
+   "description": "A nineteen-year-old man from Toronto with a Canadian accent. A light, quick, youthful tenor with a slight crack when he pushes. He talks fast, a little impatient and blunt, and he is honestly curious, not trying to sound cool. Natural delivery, not a cartoon. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "So what does it actually do? Same idea. Two days. Could I... Start the band. I mean, I just want to know what it does. Nobody ever says what it actually does."
+  },
+  "ray": {
+   "name": "Ray (designed)",
+   "f0": [
+    78,
+    128
+   ],
+   "pace": 4.6,
+   "description": "A man in his early fifties, working-class Canadian from the Great Lakes. A rough, gravelly, chest-heavy baritone, flat and sceptical, the voice of a man with his arms crossed. He speaks in short, blunt phrases with no performance in them. When he softens, it is quiet and almost embarrassed. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Just autocomplete. It makes things up. So it is just autocomplete. Okay, so... Look, I've heard all of this before, and I didn't believe it then either."
+  },
+  "rosa": {
+   "name": "Rosa (designed)",
+   "f0": [
+    145,
+    215
+   ],
+   "pace": 4.3,
+   "description": "A woman in her late sixties with a gentle Portuguese accent after forty years in Canada. A warm, slightly hoarse mezzo, kind and stubborn, with a laugh never far away. She speaks carefully, as someone choosing words in her second language, then lands them with mischief. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Start it wrong. We'll fix it. Dumb question, but I am going to ask it anyway. Nobody was born knowing how to do this, so I will learn it like everybody else."
+  },
+  "pip": {
+   "name": "Pip (designed)",
+   "f0": [
+    230,
+    340
+   ],
+   "pace": 4.5,
+   "description": "A nine-year-old Canadian girl. A small, clear, bright child's voice, unforced and matter-of-fact, the way a child states something obvious to the adults in the room. No baby talk and no cuteness, and not an adult imitating a child. She can whisper and she can laugh. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "So start. Somebody starts it. You keep saying you will do it later. It is not hard. You just press the button, and then you see what happens. So start.",
+   "skip": true,
+   "note": "ElevenLabs does not design children's voices (blocked 2026-11-10). Pip's two lines are spoken by the video model in her own shots. The animatic keeps a scratch voice for her."
+  },
+  "amara": {
+   "name": "Amara (designed)",
+   "f0": [
+    170,
+    245
+   ],
+   "pace": 5.2,
+   "description": "A woman in her early thirties, a nurse at the end of a long shift, Canadian with a faint Nigerian lilt. A clear, bright mezzo, tired but quick, with a self-mocking smile in it. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Dumb question... Start the cure. Okay, this is probably a dumb question, and I have about four minutes before my break is over, so here it is."
+  },
+  "dev": {
+   "name": "Dev (designed)",
+   "f0": [
+    90,
+    145
+   ],
+   "pace": 4.2,
+   "description": "A farmer in his mid-fifties with a rural Ontario accent. A weathered, quiet, low tenor, slow to start a sentence, thoughtful and dry-humoured. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "What if... What if the trouble is not the leaf at all? I have been looking at this field for thirty years, and I never once thought to ask that."
+  },
+  "d1": {
+   "name": "Doubt 1 (designed)",
+   "f0": [
+    150,
+    240
+   ],
+   "pace": 4.0,
+   "description": "A Scottish woman in her late seventies. A thin, soft, slightly trembling voice, resigned and matter-of-fact, with a gentle Edinburgh accent. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Not for people like me. No, dear, that sort of thing is not for people like me. Mr. Watson, come here. I am too old to start with all of that now."
+  },
+  "d2": {
+   "name": "Doubt 2 (designed)",
+   "f0": [
+    90,
+    150
+   ],
+   "pace": 5.5,
+   "description": "An Australian man in his mid-thirties, a tradesman. A tight, quick baritone, anxious underneath, half joking and not joking at all. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Coming for my job. Yeah, mate, it's coming for my job, isn't it? Just a hobby. Won't be big, they said. I have heard that one before."
+  },
+  "d3": {
+   "name": "Doubt 3 (designed)",
+   "f0": [
+    165,
+    250
+   ],
+   "pace": 5.0,
+   "description": "A woman in her mid-twenties from California. A bored, flat voice with a little vocal fry, dismissive, half looking at her phone while she talks. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "All hype. Honestly, it's all hype. I think... I mean, I think everyone is just pretending it works. Wake me up when it does something real."
+  },
+  "d4": {
+   "name": "Doubt 4 (designed)",
+   "f0": [
+    80,
+    130
+   ],
+   "pace": 4.2,
+   "description": "A man in his sixties from Mumbai with an Indian English accent. A deep, tired, measured voice, certain and resigned, like a retired civil servant. Close microphone, very dry studio recording, no room echo, perfect audio quality.",
+   "text": "Already decided. It is already decided, my friend, and not by us. Vague, but exciting. That is what they always write at the top of the page."
+  }
+ },
+ "cast": {
+  "MARA": "mara",
+  "OSEI": "osei",
+  "JUN": "jun",
+  "RAY": "ray",
+  "ROSA": "rosa",
+  "PIP": "pip",
+  "AMARA": "amara",
+  "DEV": "dev",
+  "DOUBT 1": "d1",
+  "DOUBT 2": "d2",
+  "DOUBT 3": "d3",
+  "DOUBT 4": "d4",
+  "VOICE 1": "d3",
+  "VOICE 2": "d1",
+  "VOICE 3": "d4",
+  "VOICE 4": "d2",
+  "ALL": [
+   "mara",
+   "osei",
+   "ray",
+   "rosa",
+   "jun"
+  ]
+ },
+ "direction": {
+  "ray1": {
+   "say": "Just fucking autocomplete.",
+   "note": "The second word is bleeped in the mix. It is spoken so the rhythm is real."
+  },
+  "mara1": {
+   "say": "Everybody's got a prediction."
+  },
+  "osei1": {
+   "say": "From one million to ten million years."
+  },
+  "mara7": {
+   "say": "And a sentence a man could no longer say.",
+   "tag": "[softly]"
+  },
+  "ray3": {
+   "say": "So it is just autocomplete.",
+   "tag": "[quietly]"
+  },
+  "mara8": {
+   "say": "Yeah. It is."
+  },
+  "pip1": {
+   "say": "So start.",
+   "tag": "[whispers]"
+  },
+  "v2": {
+   "say": "Mr. Watson, come here."
+  },
+  "osei3": {
+   "say": "He asked if they'd been in his computer."
+  }
+ }
+}

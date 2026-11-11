@@ -1,0 +1,39 @@
+ITEM N03 - Apollo 11: Mission Operations Control Room celebrating after splashdown, 24 July 1969 - motion picture film, HD transfer
+WHAT: A run of silent colour film shots (seven or eight) from inside the MOCR, Houston: controllers and officials on their feet; the big screen carrying the recovery television picture; rows of people waving small American flags; and the front wall showing the Kennedy quotation ("I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to earth - John F. Kennedy to Congress May, 1961"), the APOLLO 11 emblem and "Task Accomplished..... July, 1969". 4:3 film picture, pillarboxed inside a 1280x720 frame (picture area about 960x720).
+HOLDER: NASA (Johnson Space Center, Public Affairs video collection), published by NASA on the Internet Archive.
+ITEM PAGE: https://archive.org/details/MercuryGeminiApolloHdResourceReel
+FILE URL DOWNLOADED: https://archive.org/download/MercuryGeminiApolloHdResourceReel/Mercury-Gemini-Apollo_HD-ResourceReel_09of12.mov   (the 1280x720 "original" QuickTime, 1,443,748,351 bytes; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): US Government (NASA) footage, uploaded by NASA and marked "Public Domain Mark 1.0" on its item page (QUOTED); NASA's general guideline says its video is "not subject to copyright in the United States" (QUOTED).
+
+RIGHTS STATEMENTS, QUOTED:
+Internet Archive item page https://archive.org/details/MercuryGeminiApolloHdResourceReel (read 2026-11-10):
+  "Mercury, Gemini, Apollo HD Resource Reel - by NASA" ... "Usage - Public Domain Mark 1.0" (linking to http://creativecommons.org/publicdomain/mark/1.0/).
+Item metadata, https://archive.org/metadata/MercuryGeminiApolloHdResourceReel (read 2026-11-10):
+  creator "NASA"; collection "jsc-pao-video-collection", "nasa"; licenseurl "http://creativecommons.org/publicdomain/mark/1.0/"; the uploader account is on a nasa.gov address.
+  description: "Item Title: MERCURY, GEMINI, APOLLO HDTV RESOURCE - Production Number: CL1527 - HDCAM Tape Number: 803028 - TRT: 01:49:00. Edited highlights of film footage transferred to HDTV by the Discovery Channel for their NASA Greatest Missions Mercury, Gemini and Apollo programs. Includes: ... 01:59:40 - Apollo 10, 11, 12 and 13 crew training, crew arrival at pad, launch, flight film, celebration in mission control after splashdown and recovery, Apollo 11 MQF arrival at Ellington, Apollo 13 crew given medals by Nixon."
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+HOW I KNOW IT IS APOLLO 11 (checked, not assumed): the APOLLO 11 emblem and "Task Accomplished..... July, 1969" are readable on the wall in the last shot; and the same shots appear in NASA's own library reel "Apollo 11 25th Anniversary "B" Roll Footage" under the slate "Cut 6 Recovery ... d) mission control reaction (silent)" (saved as the N03 alternate).
+
+CAVEATS:
+  - The reel description says the film was "transferred to HDTV by the Discovery Channel". The pictures are NASA's 1969 film; NASA publishes this transfer and marks it Public Domain. I found no rights claim by Discovery on the page. Whether a film-to-video transfer can carry any separate right is a legal question I have NOT resolved; flagged for whoever signs off rights.
+  - IDENTIFIABLE PEOPLE: many NASA and Manned Spacecraft Center staff and officials are recognisable (1969). NASA's guideline on identifiable persons is quoted above. Some may be living.
+  - NASA emblem (the Apollo 11 mission patch and "NATIONAL AERONAUTICS AND SPACE ADMINISTRATION") is visible on the wall as part of the scene; NASA insignia rules are quoted above.
+  - No endorsement by NASA may be implied. Credit: NASA.
+  - Not on a nasa.gov host: this HD version is on archive.org. The same shots from NASA's own server (images-assets.nasa.gov), standard definition, are the N03 alternate.
+
+CUT: source part 9 of 12 is 677.36 s. Kept 603.42 s to 643.06 s (stream copy from the keyframe at 603.420 s; no re-encode). Source audio in this stretch is digital silence (-91 dB) and was dropped. In the full 1h49m reel the stretch is at roughly 01:38:14 to 01:38:53 running time (parts 1-8 total 5290.6 s), i.e. about tape timecode 02:38:14 since the reel starts at 01:00:00 - this timecode is CALCULATED, not read off the picture.
+
+SAVED FILE:
+  N03_apollo11-mocr-celebration-splashdown_1969-07-24_nasa-hd-resource-reel-part09.mp4
+    67295334 bytes (67.30 MB); 1280x720 px; 39.64 s; 59.94 fps; 2376 frames decoded; video codec h264; audio: none; container mov
+    sha256 6eb7499629d3bfc0f6d4bfe2dab052419d00801eaeee5c603a16f02d962e613f

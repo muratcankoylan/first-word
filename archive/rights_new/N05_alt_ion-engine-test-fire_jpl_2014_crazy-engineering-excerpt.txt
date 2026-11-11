@@ -1,0 +1,39 @@
+ITEM N05 (alternate) - "Ion Engine Test Fire", JPL vacuum chamber - 5.5-second excerpt from a JPL video
+WHAT: One shot from JPL's 2014 video about the Dawn mission's ion propulsion: an engine igniting in the dark and running with a bright blue ring of glow and a faint plume. JPL's own caption "Ion Engine Test Fire" is burned into the lower right of the picture for the whole shot. 1280x720.
+  What kind of engine: JPL calls it an "Ion Engine". To my eye the glowing ring with a bright centre looks like a Hall-type thruster rather than Dawn's flat gridded engine, but that is MY READING OF THE PICTURE, NOT VERIFIED; the page does not say which engine it is.
+HOLDER: NASA Jet Propulsion Laboratory (JPL/Caltech)
+ITEM PAGE: https://www.jpl.nasa.gov/videos/crazy-engineering-ion-propulsion-for-the-dawn-mission/
+FILE URL DOWNLOADED: https://d2pn8kiwq2w21t.cloudfront.net/media/videosdawn2014122920141229-1280.m4v   (189,977,233 bytes; this is the target of the page's own "Download m4v" link - JPL's media server, not a jpl.nasa.gov hostname; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): video on a JPL public web site, usable "for any purpose without prior permission" under the JPL Image Use Policy, with a credit line (QUOTED). A permission with conditions, not a public-domain statement.
+
+RIGHTS STATEMENTS, QUOTED:
+JPL video page (read 2026-11-10): "Crazy Engineering: Ion Propulsion for the Dawn Mission - Jet Propulsion Laboratory - Dec. 29, 2014 - Ion propulsion isn't something found only in science fiction. Ion engines are a real deal and drive NASA's Dawn spacecraft." The page's transcript says: "We're at a vacuum chamber here at JPL where we test ion engines like this one and we have three just like it on the Dawn spacecraft." No other owner is named in the page text.
+JPL Image Use Policy, https://www.jpl.nasa.gov/jpl-image-use-policy (read 2026-11-10):
+  "Unless otherwise noted, images and video on JPL public web sites (public sites ending with a jpl.nasa.gov address) may be used for any purpose without prior permission, subject to the special cases noted below."
+  By downloading "the user agrees: 1. that Caltech makes no representations or warranties with respect to ownership of copyrights in the images ... 2. to use a credit line in connection with images. Unless otherwise noted in the caption information for an image, the credit line should be "Courtesy NASA/JPL-Caltech." 3. that the endorsement of any product or service by Caltech, JPL or NASA must not be claimed or implied."
+  "If an image includes an identifiable person, using the image for commercial purposes may infringe that person's right of privacy or publicity, and permission should be obtained from the person."
+  "Some image and video materials on JPL public web sites are owned by organizations other than JPL or NASA." NOTE: this is a permission with conditions; the page does not use the words "public domain".
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - The file came from JPL's content-delivery host (cloudfront.net), reached only through the jpl.nasa.gov page's download link.
+  - AUDIO DROPPED on purpose: the source video has music and narration (the transcript opens "(Music)"); I do not know who owns the music.
+  - Burned-in caption "Ion Engine Test Fire" lower right; the first quarter-second is dark (the ignition).
+  - Engine type not verified (see above).
+  - Credit line required by the policy: "Courtesy NASA/JPL-Caltech". No endorsement may be implied. No people in this excerpt (the rest of the video shows two named JPL staff; none of that was kept).
+
+CUT: source is 210.43 s. Kept 81.33 s to 86.87 s (stream copy from the keyframe at 81.333 s; no re-encode; video only).
+
+SAVED FILE:
+  N05_alt_ion-engine-test-fire_jpl_2014_crazy-engineering-excerpt.mp4
+    2900630 bytes (2.90 MB); 1280x720 px; 5.533 s; 30.0 fps; 166 frames decoded; video codec h264; audio: none; container mov
+    sha256 3fba7023f61609f3a45162efd959e896da24ea0ddbe4e3bc760b34926da77318

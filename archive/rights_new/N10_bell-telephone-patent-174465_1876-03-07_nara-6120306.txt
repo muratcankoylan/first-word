@@ -1,0 +1,32 @@
+ITEM N10 - Alexander Graham Bell's patent drawing, U.S. Patent No. 174,465, "Telegraphy", patented 7 March 1876 (the telephone patent) - both sheets
+WHAT: The two original drawing sheets from the Patent Office file, colour scans. Sheet 1: Figs. 1-5 (dash diagrams, undulating-current curves, two electromagnets on a line), a small printed clipping pasted at the right edge, stamps "CLASSIFICATION DIVISION" and "11357". Sheet 2: Fig. 6 (three groups of instruments on one circuit) and Fig. 7 (the speaking-telephone arrangement: cone, membrane, armature, electromagnet, line, receiver). Each sheet is headed "A. G. BELL. TELEGRAPHY. No. 174,465. Patented March 7, 1876." and signed for the inventor and by two witnesses.
+HOLDER: U.S. National Archives and Records Administration, NAID 6120306 (Record Group 241, Records of the Patent and Trademark Office; Series: Utility Patent Drawings; National Archives at College Park - Cartographic)
+ITEM PAGE: https://catalog.archives.gov/id/6120306
+FILE URLS DOWNLOADED:
+  https://catalog.archives.gov/medialz/cartographic/rg-241/305888/bellpatent-2012-001-ac2_a.jpg   (sheet 1)
+  https://catalog.archives.gov/medialz/cartographic/rg-241/305888/bellpatent-2012-002-ac2_a.jpg   (sheet 2)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): federal record of the U.S. Patent Office, 1876; the National Archives catalog marks it "Use: Unrestricted" (QUOTED).
+
+RIGHTS STATEMENTS, QUOTED:
+National Archives Catalog page https://catalog.archives.gov/id/6120306 (read 2026-11-10): "Patent Drawing of Telegraphy by Alexander Graham Bell"; "Other title: Patent Drawing of Telephone"; "NAID: 6120306"; "Architectural and Engineering Drawings"; "Produced: March 7, 1876"; "Access: Unrestricted"; "Use: Unrestricted"; "Record Group 241: Records of the Patent and Trademark Office"; "Series: Utility Patent Drawings"; Creator "Department of the Interior. Patent Office. (1849 - 1925)"; Agency-Assigned Identifier "174,465" ("Utility Patent Number").
+National Archives "Privacy and Use Policies", https://www.archives.gov/global-pages/privacy.html (read 2026-11-10):
+  "Generally, materials produced by Federal agencies are in the public domain and may be reproduced without permission."
+  "Images on our website (or a third party site where we share images, such as Flickr) which are in the public domain may be used without permission. If you use images from our collections, we ask that you credit us as the source."
+  "Please note that because we cannot guarantee the status of specific items, you use materials found in our holdings at your own risk."
+
+CAVEATS:
+  - Modest size: about 2150 x 3150 px per sheet. Enough for a full-frame hold or a gentle move, not a deep push-in. The catalog offers no larger file for this item.
+  - The telephone itself is Fig. 7 on SHEET 2; sheet 1 is mostly the telegraph diagrams.
+  - Each sheet is signed "A. Graham Bell" with "by Attys Pollok & Bailey" beneath (read off the scan). It sits in the government's patent file; the catalog marks use as unrestricted.
+  - Credit requested: National Archives (give the identifier, NAID 6120306). No people.
+  - A second catalog entry, NAID 302052 "Alexander Graham Bell's Telephone Patent Drawing and Oath", is also "Use: Unrestricted" but its files are tiny (about 150 KB); not taken.
+
+SAVED FILES:
+  N10_bell-telephone-patent-174465_1876-03-07_sheet1_nara-6120306.jpg
+    947076 bytes (0.95 MB); 2190x3150 px; JPEG RGB
+    sha256 88b8e2e3f1e3a2a479ab190b98131fa928c0a7570fd86394c27190dac1d984b2
+  N10_bell-telephone-patent-174465_1876-03-07_sheet2_nara-6120306.jpg
+    671165 bytes (0.67 MB); 2129x3150 px; JPEG RGB
+    sha256 f29674e410a95e1c83b83e9ece5fe65268ba991479efc828d308e06e744d09d6

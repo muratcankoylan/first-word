@@ -1,0 +1,32 @@
+ITEM N03 (alternate) - the same Apollo 11 mission control celebration, from NASA's own server, standard-definition video transfer
+WHAT: Several of the same shots as the main N03 clip (the big screen with the recovery TV picture; the pan to the crowd; people at consoles with flags; the room on its feet waving flags), from an older videotape transfer. Lower quality than the main clip: soft, video-era colour, windowboxed with black on all four sides.
+HOLDER: NASA Image and Video Library (center: KSC), nasa_id KSC-19690716-MH-NAS01-0001-Apollo_11_Historical_Footage_and_Broll-DVC_1560
+ITEM PAGE: https://images.nasa.gov/details/KSC-19690716-MH-NAS01-0001-Apollo_11_Historical_Footage_and_Broll-DVC_1560
+FILE URL DOWNLOADED: https://images-assets.nasa.gov/video/KSC-19690716-MH-NAS01-0001-Apollo_11_Historical_Footage_and_Broll-DVC_1560/KSC-19690716-MH-NAS01-0001-Apollo_11_Historical_Footage_and_Broll-DVC_1560~orig.mp4   (3,935,359,288 bytes; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA footage in NASA's own library; "not subject to copyright in the United States" per NASA's guidelines (QUOTED). No third-party credit on the record.
+
+RIGHTS STATEMENTS, QUOTED:
+NASA library record (https://images-api.nasa.gov/search?nasa_id=..., read 2026-11-10): title "Apollo 11 25th Anniversary "B" Roll Footage"; center "KSC"; photographer "NASA"; description "Apollo 11 25th Anniversary "B" Roll Footage: Cut 1 - Pre-launch (08:03) Cut 2 - Launch (08:02) Cut 3 - Lunar orbit and descent (05:52) Cut 4 - On the moon (05:47) Cut 5 - Voyage home (02:24) Cut 6 - Recovery (05:13) Cut 7 - Post flight activities (02:30)".
+On-screen slate in the reel before this cut (read off the picture): "Cut 6 Recovery (05:13) a) capsule in water (silent) b) crew lifted to helicopter (silent) c) crew arrives, USS Hornet (silent) d) mission control reaction (silent) e) inside quarantine facility (silent) f) President greets crew (silent) g) capsule hoisted on deck (silent)".
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - IDENTIFIABLE PEOPLE: NASA staff and officials, 1969, recognisable. NASA's identifiable-persons guideline quoted above.
+  - GEOMETRY: NASA's file is 1280x720 but declares a pixel aspect of 1551:1280 (display aspect 517:240), which looks wrong; at square pixels the picture is windowboxed and slightly too wide. Fix the aspect by eye against the main N03 clip.
+  - No endorsement by NASA may be implied. Credit: NASA.
+
+CUT: source is 2403.77 s. Kept 2046.51 s to 2068.83 s (stream copy from the scene-change keyframe at 2046.511 s; no re-encode). The source audio track here is near-silent hiss (mean -61 dB) and was dropped; NASA's slate calls the shot "(silent)".
+
+SAVED FILE:
+  N03_alt_apollo11-mocr-celebration_1969-07-24_nasa-library-sd-broll_KSC-DVC_1560.mp4
+    41863167 bytes (41.86 MB); 1280x720 px, stored pixel aspect 1551:1280 (display aspect 517:240); 22.322 s; 29.97 fps; 669 frames decoded; video codec h264; audio: none; container mov
+    sha256 1bfaa2c5fa561fe2000abe1285ced10de4ced6f7992687a929c9b15c9eb9bb92

@@ -1,0 +1,13 @@
+{
+ "about": "One fixed description per person. It is pasted word for word into every prompt that shows the person. The video model refuses any face as a reference image or video (the provider's rule), so this text, the jacket reference and keeping a person's shots inside one generation are what hold a face.",
+ "people": {
+  "mara": "a lean South Asian woman in her mid-forties with black hair tied back in a low ponytail, loose strands at both temples, heavy dark eyebrows and no make-up, a small solder burn on her right knuckle, wearing the navy work jacket of {jacket} buttoned to the collar",
+  "ray": "a heavyset white man in his early fifties, balding, with cropped grey-brown hair at the sides, clean-shaven, a ruddy face and heavy forearms, reading glasses hooked in the breast pocket of the navy work jacket of {jacket}",
+  "jun": "a slim young man of nineteen with light-brown skin and a thick mop of black curly hair, silver over-ear headphones round his neck, wearing the navy work jacket of {jacket} two sizes too big",
+  "osei": "a Black Ghanaian man in his mid-sixties with short grey hair and a short grey beard, wire-rimmed spectacles pushed up on his head, wearing the navy work jacket of {jacket}",
+  "amara": "a Black woman in her thirties, a nurse, with her hair in neat cornrow braids gathered into a bun on top of her head, the white collar of her scrubs showing under the navy work jacket of {jacket}",
+  "dev": "a weathered, sun-browned man in his fifties, a farmer, with short grey hair and grey stubble, dried soil on the cuffs and hem of the navy work jacket of {jacket}",
+  "rosa": "a Colombian woman in her late sixties with grey hair pinned up in a bun on top of her head, reading glasses on a cord round her neck, flour on the sleeves of the navy work jacket of {jacket}",
+  "pip": "a girl of nine with wavy shoulder-length brown hair, no fringe, and a gap in her front teeth, wearing a striped top and jeans under an adult's navy work jacket of {jacket} with the sleeves rolled up"
+ }
+}

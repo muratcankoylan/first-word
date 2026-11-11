@@ -1,0 +1,14 @@
+ITEM 11  shots G26
+The Sagittarius Star Cloud: A Sky Full of Glittering Jewels (Hubble Heritage, release STScI-1998-28d / PRC98-30)
+Holder: Space Telescope Science Institute (STScI), for NASA
+Page: https://www.stsci.edu/contents/news-releases/1998/news-1998-28 ; lithograph https://stsci-opo.org/STScI-01EVVFWW9HVYG8M1A61JN9WZXK.pdf
+File: https://www.astropix.org/archive/stsci/1998-28d/stsci_1998-28d_1024.jpg (AstroPix copy at native size). STScI's master TIFF, listed as https://mast.stsci.edu/api/latest/Download/file?uri=mast:OPO/product/STSCI-H-p9828d-f-1024x1009.tif , answered HTTP 400 today.
+Read on: 2026-11-10
+Rights: public domain (STScI: no claim to copyright, may be freely used as in the public domain)
+
+--- what the holder's page says ---
+STScI Content Use Policy (https://www.stsci.edu/copyright), read 2026-11-10: 'Unless otherwise stated, all material on the site was produced by NASA and STScI. Material on this site produced by STScI was created, authored, and/or prepared for NASA under Contracts NAS5-03127, NAS5-26555, and 80GSFC19C0054. Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain in accordance with NASA's contract. However, it is requested that in any subsequent use of this work, NASA and STScI be given appropriate acknowledgement.' 'The availability of STScI materials on this website does not imply the endorsement of STScI ...'
+STScI lithograph PDF (PRC98-30): 'A Sky Full of Glittering Jewels' ... 'Credit: Hubble Heritage Team (AURA/STScI/NASA)'.
+STScI news release 1998-28 (October 21, 1998): 'The four images released today are ... spiral galaxy NGC 7742, Saturn, and ... the Sagittarius Star Cloud and the Bubble Nebula.'
+NASA APOD, 13 January 1999: 'Sagittarius Star Cloud. Credit: Hubble Heritage Team (AURA / STScI / NASA)'.
+AstroPix entry stsci_1998-28d: 'Credit: Hubble Heritage Team (AURA/STScI/NASA/ESA)'; 'Image Use Policy: http://hubblesite.org/copyright/'; sizes listed up to 1280 x 1261 (an enlargement) and source TIFF 1024x1009.

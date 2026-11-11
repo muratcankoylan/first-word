@@ -1,0 +1,12 @@
+ITEM 14  shots H01 (sound)
+Sperm whale clicks (Physeter macrocephalus), file Phma-clicks-NOAA-PAGroup-01
+Holder: NOAA Fisheries, Northeast Fisheries Science Center, Passive Acoustics Branch
+Page: https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals
+File: https://www.fisheries.noaa.gov/s3/2023-04/Phma-clicks-NOAA-PAGroup-01-sperm-clip.mp3
+Read on: 2026-11-10
+Rights: US Government work: not subject to US copyright (stated by the holder for NOAA-created material)
+
+--- what the holder's page says ---
+Sounds in the Ocean: Mammals (page above): 'Scientists in the Northeast's Passive Acoustics Branch and their colleagues have compiled these sounds to provide examples of the variety and breadth of animal sounds.' Sperm Whale, Physeter macrocephalus: 'Play sperm whale audio' -> Phma-clicks-NOAA-PAGroup-01-sperm-clip.mp3.
+NOAA citation sheet (https://www.fisheries.noaa.gov/s3/2023-06/SoundsPageCitations-2023-0.pdf): 'Sperm Whale Physeter macrocephalus Recording citation: NOAA [National Oceanic and Atmospheric Administration]. NOAA Fisheries, NEFSC [Northeast Fisheries Science Center], Passive Acoustics Branch. 2023. Sperm Whale. https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals'
+NOAA Fisheries Website Policies and Disclaimers (https://www.fisheries.noaa.gov/national/about-us/website-policies-and-disclaimers), Copyright Policy: 'Information created by the U.S. government and presented on U.S. government websites is not subject to copyright in the United States. We encourage the use of such information for non-commercial, scientific, and educational purposes. If you are copying or downloading information, products, or publications created by NOAA Fisheries, we also request that NOAA Fisheries be given appropriate acknowledgement ("Courtesy: National Oceanic and Atmospheric Administration").' Top of page: 'Information presented on this website is considered public information and may be distributed or copied, unless specifically noted otherwise.'

@@ -1,0 +1,31 @@
+ITEM N02 - Orville Wright's telegram to Bishop Milton Wright, Kitty Hawk, 17 December 1903 (colour scan, high resolution)
+WHAT: The Western Union telegram form, typed: "Success four flights thursday morning all against twenty one mile wind started from Level with engine power alone average speed through air thirty one miles longest 57 seconds inform Press home [struck out] Christmas . Orevelle Wright 525P". Colour scan of the whole sheet.
+HOLDER: Library of Congress, Manuscript Division (item mcc.061, in the Library's online selection "Words and Deeds in American History"; "Source Collection: Wright Brothers Papers").
+ITEM PAGE: https://www.loc.gov/item/mcc.061/   (image viewer https://www.loc.gov/resource/mcc.061/)
+FILE URL DOWNLOADED: https://tile.loc.gov/storage-services/master/mss/mssmcc/061/0001.tif   (the Library's master TIFF; the item page lists it as "TIFF (21.0 MB)" beside "JPEG (3344x2190px)")
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): public domain - the Library states that rights in Orville Wright's unpublished writings in the Wright Papers "have been dedicated to the public" (QUOTED, but from the Wright Papers pages; APPLYING it to this scan is my INFERENCE, see caveat 1).
+
+WHAT THE ITEM PAGE ITSELF SAYS (https://www.loc.gov/item/mcc.061/, read 2026-11-10):
+  Title "Telegram, Orville Wright to Bishop Milton Wright announcing the first successful powered flight, 17 December [1903]." Created / Published "17 December 1903". Notes: "Reproduction number: A88 (color slide); LC-MSS-46706-5 (B&W negative)". "Source Collection - Wright Brothers Papers". "Repository - Manuscript Division".
+  Under "Rights & Access" the page gives ONLY the generic line "More about Copyright and other Restrictions" (a link to https://www.loc.gov/legal/). It carries no rights statement of its own.
+
+RIGHTS STATEMENTS, QUOTED:
+Library of Congress, Wilbur and Orville Wright Papers, "Rights and Access", https://www.loc.gov/collections/wilbur-and-orville-wright-papers/about-this-collection/rights-and-access/ (read 2026-11-10); the same text is printed under "Rights & Access" on the Wright Papers page for this very document, https://www.loc.gov/resource/mss46706.02039/?sp=34 :
+  "The Wilbur and Orville Wright Papers in the Library of Congress's Manuscript Division consist of personal papers and other manuscript materials. The majority of the collection was given to the Library by the executors of Orville Wright's estate in 1949; additional items were acquired through purchase and gift between 1949 and 1999. Rights to Orville and Wilbur Wrights' unpublished writings in this collection have been dedicated to the public."
+  "Works created by the Wright Brothers, their family, and other individuals may in some cases be subject to copyright."
+  "The Library of Congress provides access to these materials for educational and research purposes and makes no warranty with regard to their use for other purposes. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item."
+  Preferred citation: "Folder Title, Wilbur and Orville Wright Papers, Manuscript Division, Library of Congress, Washington, D.C."
+
+CAVEATS:
+  1. INFERRED: the mcc.061 page has no rights statement. I rely on the Library's statement for the Wright Papers, which is the collection this telegram belongs to (the item page names it as source collection, and its negative number LC-MSS-46706-5 carries the Wright Papers collection number 46706). The Library shows the same telegram inside the Wright Papers at https://www.loc.gov/resource/mss46706.02039/?sp=34 with that statement printed on the page; that lower-resolution scan is saved as the N02 alternate. If the stricter reading is wanted, use the alternate.
+  2. Supporting, INFERRED not quoted: the text is Orville Wright's (died 1948); the printed blank is a Western Union form of 1903.
+  3. The Library "makes no warranty" and leaves the legal assessment to the user (quoted above).
+  4. A separate Prints & Photographs record of a black-and-white copy negative (https://www.loc.gov/pictures/item/2003680165/) says "Rights Advisory: Rights status not evaluated." That file was NOT taken.
+  5. No people. Names on the sheet: Orville and Milton Wright; Robert C. Clowry (printed, Western Union president).
+
+SAVED FILE:
+  N02_wright-telegram-1903-12-17_loc-mcc061.tif
+    21992004 bytes (21.99 MB); 3344x2190 px; TIFF RGB
+    sha256 6a3cabd9b5fec705ade11c8a833764c336e80a07773b7414b218bbffc89effd4

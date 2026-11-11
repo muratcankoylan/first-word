@@ -1,0 +1,35 @@
+ITEM N01 - Langley Aerodrome, first launch failure, Potomac River, 7 October 1903 - Plate 100
+WHAT: Two photographs on one plate: the wreck in the water with tug-boats and rowing boats; and the wreck, wings crumpled, beside a tug.
+  Printed caption on the plate: "AERODROME IN WATER, OCTOBER 7, 1903".
+  The plate is from: S. P. Langley and Charles M. Manly, "Langley Memoir on Mechanical Flight", Smithsonian Contributions to Knowledge vol. 27 no. 3 (Washington: Smithsonian Institution, 1911). The printed running head on every plate reads "SMITHSONIAN CONTRIBUTIONS TO KNOWLEDGE  VOL. 27, NO. 3, PL. <n>".
+  The memoir text says: "Plates 98 to 100 show the aerodrome in the water from the moment after it arose and the writer, who had extricated himself while it was plunging down through the water ... until the machine was taken in tow by the tug-boat."
+HOLDER: Smithsonian Libraries (now Smithsonian Libraries and Archives) - the scan is their copy of the volume (call number 39088014210355), contributed by them to the Internet Archive and the Biodiversity Heritage Library.
+ITEM PAGE: https://archive.org/details/smithsoniancontr271911smit  (scan page image 0721; also https://www.biodiversitylibrary.org/ia/smithsoniancontr271911smit)
+FILE URL(S) DOWNLOADED:
+  https://archive.org/download/smithsoniancontr271911smit/smithsoniancontr271911smit_jp2.zip/smithsoniancontr271911smit_jp2%2Fsmithsoniancontr271911smit_0721.jp2   (processed page image, upright)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): Smithsonian 1911 publication, scanned and uploaded by the Smithsonian's own library, which marks the scan NOT_IN_COPYRIGHT (QUOTED from the uploader's metadata and from BHL; the Internet Archive "details" web page itself does not display a rights line).
+
+RIGHTS STATEMENTS, QUOTED:
+Internet Archive item metadata, https://archive.org/metadata/smithsoniancontr271911smit (read 2026-11-10):
+  title "Smithsonian contributions to knowledge"; volume "v.27 (1911)"; publisher "Washington : Smithsonian Institution";
+  contributor "Smithsonian Libraries"; sponsor "Smithsonian Libraries"; possible-copyright-status "NOT_IN_COPYRIGHT"; scanningcenter "capitolhill"; ppi "300"; camera "Canon 5D"; imagecount "780".
+Biodiversity Heritage Library page for the same scan, https://www.biodiversitylibrary.org/ia/smithsoniancontr271911smit (read 2026-11-10):
+  "Holding Institution Smithsonian Libraries and Archives" / "Sponsor Smithsonian" / "Copyright & Usage Copyright Status: NOT_IN_COPYRIGHT".
+Smithsonian Libraries and Archives, "Copyright and reuse", https://library.si.edu/copyright (read 2026-11-10):
+  "Unless otherwise noted, material in the Digital Library has generally been determined to be free from copyright or other restrictions based on a diligent search process".
+  "Most books in our digital library are in the Public Domain, and the statement will be "No Copyright - United States" and items will be marked with the Creative Commons Public Domain Dedication, CC0. These items may be used, reused, and repurposed as you wish in accordance with Smithsonian's terms of use."
+  "We ask that an attribution statement such as "Courtesy of the Smithsonian Libraries and Archives" is used, along with a link back to the original source on our site."
+
+CAVEATS:
+  - "NOT_IN_COPYRIGHT" is the uploader's own status field, not a sentence of legal text. Independent check, INFERRED not quoted: published in the United States in 1911, so out of copyright by date in 2026.
+  - This is a halftone book plate, not a print from the negative. The photograph occupies only part of the page (about 1750 px wide on the 2380 px page for Plate 95), so it will not hold a big push-in.
+  - The Smithsonian Institution Archives holds photographic prints of these events (for example image 2002-10628), but its pages mark them "Usage Conditions Apply", so they were NOT taken. See FOUND.md.
+  - People: figures are tiny or seen at a distance, taken in 1903. No recognisable private person.
+  - Credit requested by the library: "Courtesy of the Smithsonian Libraries and Archives".
+
+SAVED FILE(S):
+  N01_langley-aerodrome-1903-10-07_pl100_wreck-in-water_sck27-p0721.jp2
+    404367 bytes (0.40 MB); 2380x3432 px; JPEG2000 RGB
+    sha256 1b1c44afd442a3fc61d98c37dceaa634ee4ee52534a28a3ea30751ba903e06ec

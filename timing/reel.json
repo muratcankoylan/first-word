@@ -1,0 +1,567 @@
+{
+ "about": "FIRST WORD for Instagram Reels (tools/reel.py). shots: how each shot is framed in the 4:5 window (x, y: the window's centre as a share of the film's frame; z: closer; x may be a move [from, to] or keys [[frame, x], ...]). events: the film's type set again where it was too wide for the window, in the film's own frame (the window shows x 0.275 to 0.725 when it is centred). clips: shots made again for the window. Made 11 November 2026.",
+ "shots": {
+  "B08": {
+   "x": 0.385
+  },
+  "C01": {
+   "x": 0.645
+  },
+  "C02": {
+   "x": [
+    [
+     0,
+     0.78
+    ],
+    [
+     8,
+     0.5
+    ]
+   ]
+  },
+  "C04": {
+   "x": [
+    0.64,
+    0.58
+   ]
+  },
+  "D09": {
+   "x": 0.52
+  },
+  "D13": {
+   "x": 0.47
+  },
+  "F01": {
+   "x": 0.53
+  },
+  "F02": {
+   "x": 0.72
+  },
+  "F03": {
+   "x": 0.4
+  },
+  "F05": {
+   "x": 0.68
+  },
+  "G04": {
+   "x": [
+    0.47,
+    0.7
+   ]
+  },
+  "G24": {
+   "mode": "card",
+   "box": [
+    0.185,
+    0.1,
+    0.725,
+    0.86
+   ]
+  },
+  "G01": {
+   "x": 0.4
+  },
+  "G32": {
+   "mode": "stack",
+   "tube": true,
+   "parts": [
+    [
+     0.25,
+     0.5,
+     1.83
+    ],
+    [
+     0.75,
+     0.5,
+     1.83
+    ]
+   ]
+  },
+  "G33": {
+   "mode": "stack",
+   "parts": [
+    [
+     0.245,
+     0.42,
+     1.83
+    ],
+    [
+     0.755,
+     0.4,
+     1.83
+    ]
+   ]
+  },
+  "G36": {
+   "x": 0.72
+  },
+  "G37": {
+   "x": 0.6
+  },
+  "G38": {
+   "x": 0.45
+  },
+  "G40": {
+   "x": 0.42
+  },
+  "G29": {
+   "mode": "stack",
+   "parts": [
+    [
+     0.26,
+     0.56,
+     1.83
+    ],
+    [
+     0.74,
+     0.52,
+     1.83
+    ]
+   ]
+  },
+  "G03": {
+   "mode": "card",
+   "box": [
+    0.29,
+    0.1,
+    0.75,
+    0.9
+   ],
+   "hide": [
+    [
+     0.035,
+     0.108,
+     0.374,
+     0.221
+    ]
+   ]
+  },
+  "G17": {
+   "mode": "card",
+   "box": [
+    0.29,
+    0.1,
+    0.75,
+    0.9
+   ],
+   "hide": [
+    [
+     0.035,
+     0.108,
+     0.374,
+     0.221
+    ]
+   ]
+  },
+  "G09": {
+   "x": 0.375
+  },
+  "G19": {
+   "mode": "card",
+   "box": [
+    0.17,
+    0.3,
+    0.83,
+    0.72
+   ]
+  },
+  "G25": {
+   "mode": "card",
+   "box": [
+    0.15,
+    0.25,
+    0.85,
+    0.8
+   ]
+  }
+ },
+ "events": [
+  {
+   "match": {
+    "shot": "A01",
+    "style": "prompt"
+   },
+   "set": {
+    "x": 0.303,
+    "scale": 0.53
+   }
+  },
+  {
+   "match": {
+    "shot": "A01",
+    "style": "doubt"
+   },
+   "set": {
+    "scale": 0.53
+   }
+  },
+  {
+   "match": {
+    "shot": "B03",
+    "style": "title"
+   },
+   "set": {
+    "scale": 0.55
+   }
+  },
+  {
+   "match": {
+    "shot": "C02",
+    "style": "fine"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.7
+   }
+  },
+  {
+   "match": {
+    "shot": "C03",
+    "style": "stamp"
+   },
+   "set": {
+    "scale": 0.64
+   }
+  },
+  {
+   "match": {
+    "shot": "D02",
+    "style": "guess"
+   },
+   "set": {
+    "scale": 0.5
+   }
+  },
+  {
+   "match": {
+    "shot": "E02",
+    "style": "guess"
+   },
+   "set": {
+    "scale": 0.4
+   }
+  },
+  {
+   "match": {
+    "shot": "D08",
+    "style": "fine"
+   },
+   "set": {
+    "x": 0.31,
+    "y": 0.7
+   }
+  },
+  {
+   "match": {
+    "shot": "D12",
+    "style": "stamp"
+   },
+   "set": {
+    "x": 0.303
+   }
+  },
+  {
+   "match": {
+    "shot": "D15",
+    "style": "small"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.15
+   }
+  },
+  {
+   "match": {
+    "shot": "D15",
+    "style": "spikes"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.175,
+    "w": 0.395
+   }
+  },
+  {
+   "match": {
+    "shot": "D15",
+    "style": "fine",
+    "text": "256"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.265
+   }
+  },
+  {
+   "match": {
+    "shot": "D16",
+    "style": "small"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.345,
+    "text": "HIS FOUR-YEAR-OLD WALKS IN"
+   }
+  },
+  {
+   "copy": {
+    "shot": "D16",
+    "style": "small"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.395,
+    "text": "DRESSED AS A CHEETAH."
+   }
+  },
+  {
+   "match": {
+    "shot": "D15",
+    "style": "quote"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.49,
+    "scale": 0.75
+   }
+  },
+  {
+   "match": {
+    "shot": "D18",
+    "style": "steps"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.6,
+    "steps": [
+     [
+      714,
+      "DECODED."
+     ]
+    ]
+   }
+  },
+  {
+   "copy": {
+    "shot": "D18",
+    "style": "steps"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.66,
+    "scale": 0.62,
+    "in": 722,
+    "steps": [
+     [
+      722,
+      "THEN SPOKEN, IN HIS OWN VOICE."
+     ]
+    ]
+   }
+  },
+  {
+   "match": {
+    "shot": "D15",
+    "style": "fine",
+    "text": "UC DAVIS"
+   },
+   "set": {
+    "x": 0.303,
+    "y": 0.72
+   }
+  },
+  {
+   "match": {
+    "shot": "G10",
+    "style": "term"
+   },
+   "set": {
+    "scale": 0.72
+   }
+  },
+  {
+   "match": {
+    "shot": "G31",
+    "style": "stamp"
+   },
+   "set": {
+    "y": 0.66
+   }
+  },
+  {
+   "match": {
+    "shot": "G31",
+    "style": "small"
+   },
+   "set": {
+    "y": 0.735
+   }
+  },
+  {
+   "match": {
+    "shot": "H01",
+    "style": "small"
+   },
+   "set": {
+    "x": 0.303
+   }
+  },
+  {
+   "match": {
+    "shot": "I01",
+    "style": "bar"
+   },
+   "set": {
+    "x": 0.303,
+    "scale": 0.5
+   }
+  },
+  {
+   "match": {
+    "shot": "I01",
+    "style": "prompt"
+   },
+   "set": {
+    "x": 0.303,
+    "scale": 0.5
+   }
+  },
+  {
+   "match": {
+    "shot": "I01",
+    "style": "steps"
+   },
+   "set": {
+    "x": 0.301,
+    "y": 0.545,
+    "scale": 0.56
+   }
+  },
+  {
+   "match": {
+    "shot": "A04",
+    "style": "rect"
+   },
+   "drop": true
+  },
+  {
+   "match": {
+    "shot": "D09",
+    "style": "steps"
+   },
+   "set": {
+    "x": 0.305,
+    "y": 0.5,
+    "scale": 0.6,
+    "steps": [
+     [
+      472,
+      "SUGGESTED."
+     ]
+    ]
+   }
+  },
+  {
+   "copy": {
+    "shot": "D09",
+    "style": "steps"
+   },
+   "set": {
+    "x": 0.305,
+    "y": 0.625,
+    "scale": 0.6,
+    "in": 487,
+    "steps": [
+     [
+      487,
+      "THEN CHECKED."
+     ]
+    ]
+   }
+  },
+  {
+   "match": {
+    "shot": "D13",
+    "style": "stamp"
+   },
+   "set": {
+    "x": 0.262,
+    "y": 0.1,
+    "scale": 0.33
+   }
+  },
+  {
+   "match": {
+    "shot": "D14",
+    "style": "quote"
+   },
+   "set": {
+    "y": 0.47,
+    "scale": 0.62,
+    "text": "“you have access to my computer,"
+   }
+  },
+  {
+   "copy": {
+    "shot": "D14",
+    "style": "quote"
+   },
+   "set": {
+    "y": 0.538,
+    "scale": 0.62,
+    "in": 578,
+    "text": "is that right?”"
+   }
+  },
+  {
+   "match": {
+    "shot": "D14",
+    "style": "fine"
+   },
+   "set": {
+    "y": 0.62
+   }
+  },
+  {
+   "match": {
+    "shot": "G22",
+    "style": "quote"
+   },
+   "set": {
+    "scale": 0.58
+   }
+  },
+  {
+   "match": {
+    "shot": "G30",
+    "style": "ghost"
+   },
+   "set": {
+    "scale": 0.78
+   }
+  },
+  {
+   "match": {
+    "shot": "G30",
+    "style": "small"
+   },
+   "set": {
+    "scale": 1.0
+   }
+  },
+  {
+   "match": {
+    "shot": "G31",
+    "style": "stamp",
+    "text": "IT CRASHED"
+   },
+   "set": {
+    "scale": 0.52
+   }
+  }
+ ],
+ "clips": {
+  "B04": "reel/B04.mp4",
+  "B06": "reel/B06.mp4"
+ }
+}

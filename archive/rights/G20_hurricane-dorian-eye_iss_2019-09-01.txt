@@ -1,0 +1,31 @@
+ITEM N04 - Hurricane Dorian with a clear eye, seen moving from the International Space Station, 1 September 2019
+WHAT: Real-time view from a camera outside the station as it passes the storm: the whole cloud shield with the eye open near the centre of frame for the full 30 seconds, ocean and turquoise shallows at upper left (NASA's caption places the storm over the northern Bahamas), Earth's limb at the bottom. The motion is the station's travel; the clouds do not visibly rotate at real-time speed.
+HOLDER: NASA Image and Video Library (NASA Johnson Space Center), nasa_id jsc2019m000805_Hurricane_Dorian_190901
+ITEM PAGE: https://images.nasa.gov/details/jsc2019m000805_Hurricane_Dorian_190901
+FILE URL DOWNLOADED: https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~orig.mp4   (562,599,912 bytes; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA video in NASA's own library; "not subject to copyright in the United States" per NASA's guidelines (QUOTED). No third-party credit on the record.
+
+RIGHTS STATEMENTS, QUOTED:
+NASA library record (https://images-api.nasa.gov/search?nasa_id=jsc2019m000805_Hurricane_Dorian_190901, read 2026-11-10): title "ISS Views of Hurricane Dorian - September 1, 2019"; center "JSC"; description "Cameras outside the International Space Station captured views September 1 of Hurricane Dorian from 260 miles in altitude at 12:16 p.m. Eastern time as it churned over the Atlantic Ocean over the northern Bahamas. The storm, which is moving in a westerly direction with sustained winds of 180 miles an hour, is a dangerous Category 5 hurricane, carrying the strongest winds in recorded history for the northwestern Bahamas. ..."
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+
+CAVEATS:
+  - A little station hardware shows: a dark solar-array edge at lower left for about the first 5 seconds and a small bright fitting at the right edge from about 9 s. The eye stays inside the middle third of the frame throughout.
+  - A real disaster in progress: NASA's caption says that at this hour "Dorian is inflicting catastrophic damage to the Abacos and Grand Bahama Islands". Treat the picture accordingly.
+  - No people, no logos. No endorsement by NASA may be implied. Credit: NASA.
+
+CUT: source is 274.11 s. Kept 65.95 s to 95.98 s (stream copy from the keyframe at 65.949 s; no re-encode). The source audio track is digital silence (-91 dB) and was left in as it came.
+
+SAVED FILE:
+  N04_hurricane-dorian-eye_iss_2019-09-01_jsc2019m000805.mp4
+    57189021 bytes (57.19 MB); 1280x720 px; 30.059 s; 59.94 fps; 1800 frames decoded; video codec h264; audio: aac; container mov
+    sha256 d778fa563aad41d6d80653234c611b2d509afb1f380b76b2aa983841f5577969

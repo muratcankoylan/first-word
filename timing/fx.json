@@ -1,0 +1,286 @@
+{
+ "about": "What a shot's whole frame gets once its picture and its type are down (tools/conform.py, compose). punch: [amount, frames]: the frame lands that much too large on the cut and settles, the way a cut on the beat is punched. creep: [from, to, centre x, centre y]: a slow push over the whole shot, so that nothing in the film is a still. tear: the picture slips sideways for that many frames as it arrives. shock: an impact for that many frames, a flash and the colours pulled apart from the centre. crt_off: the tube switches off over the shot's last frames (archive only: it is part of the tube the real footage plays on). bloom: the film's own cyan lights glow a little further, on generated shots only; never on archive. Shots framed in the round lens (the four people starting something, Ray laughing) take no punch: the round frame has to stay the same size from shot to shot. The pushes on the whiteboard and the laptop are centred on their stamps, so the stamps stay inside the frame. A shot can also take punches and impacts on frames inside it: kicks [[film frame, amount, frames], ...] about kick_centre, and shocks [[film frame, frames, flash], ...]. The end card uses both: each of its last three clicks lands a word and punches the frame, and the last one flashes.",
+ "bloom": {
+  "amount": 0.2,
+  "sources": [
+   "GEN",
+   "MACRO"
+  ],
+  "skip": []
+ },
+ "shots": {
+  "A02": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A03": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A04": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A05": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A06": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A07": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A08": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A09": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A10": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "A11": {
+   "tear": 1,
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "B03": {
+   "creep": [
+    1.0,
+    1.04
+   ]
+  },
+  "B05": {
+   "punch": [
+    0.05,
+    2
+   ]
+  },
+  "D06": {
+   "punch": [
+    0.05,
+    2
+   ]
+  },
+  "E04": {
+   "punch": [
+    0.05,
+    2
+   ]
+  },
+  "B08": {
+   "creep": [
+    1.0,
+    1.06
+   ]
+  },
+  "C04": {
+   "crt_off": 2
+  },
+  "D10": {
+   "creep": [
+    1.0,
+    1.04
+   ]
+  },
+  "D12": {
+   "creep": [
+    1.0,
+    1.045,
+    0.2,
+    0.4
+   ]
+  },
+  "D13": {
+   "creep": [
+    1.0,
+    1.04,
+    0.5,
+    0.4
+   ]
+  },
+  "D14": {
+   "creep": [
+    1.0,
+    1.05
+   ]
+  },
+  "G01": {
+   "shock": 4,
+   "flash": 0.5
+  },
+  "G02": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G03": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G06": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G07": {
+   "punch": [
+    0.04,
+    3
+   ]
+  },
+  "G08": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G09": {
+   "punch": [
+    0.04,
+    3
+   ]
+  },
+  "G17": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G19": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G21": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G22": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G23": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G24": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G25": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G27": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G28": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G29": {
+   "punch": [
+    0.05,
+    3
+   ]
+  },
+  "G31": {
+   "tear": 1
+  },
+  "G33": {
+   "punch": [
+    0.03,
+    3
+   ]
+  },
+  "H02": {
+   "creep": [
+    1.0,
+    1.05
+   ]
+  },
+  "I01": {
+   "creep": [
+    1.0,
+    1.035,
+    0.42,
+    0.5
+   ],
+   "kicks": [
+    [
+     1400,
+     0.03,
+     3
+    ],
+    [
+     1405,
+     0.035,
+     3
+    ],
+    [
+     1410,
+     0.06,
+     4
+    ]
+   ],
+   "kick_centre": [
+    0.42,
+    0.58
+   ],
+   "shocks": [
+    [
+     1410,
+     4,
+     0.1
+    ]
+   ]
+  }
+ }
+}

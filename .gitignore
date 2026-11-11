@@ -1,0 +1,19 @@
+# keys: never committed
+.env
+.env.*
+!.env.example
+
+# media is not in this repository (see README: what is not here)
+clips/
+audio/
+out/
+archive/src/
+archive/src_new/
+archive/selects/
+research/
+
+# python, macOS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

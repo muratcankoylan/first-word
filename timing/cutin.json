@@ -1,0 +1,789 @@
+{
+ "about": "Which clip each shot comes from. 'in' is a fixed in-point in seconds; 'line' asks tools/cutin.py to place the clip so the mouth lands on that finished voice line; 'beat' is the stretch of the clip the shot may use; 'zoom' punches in on the centre; 'matte': 'lens' with zoom, dx and dy sets the shot inside the standard round lens of the blue world; 'fade_in' is frames up from black. 'boil' redraws an ink still every second frame; 'bar_from' marks the shot whose last frame hands its band of light to the cursor. B04, B06 and B08 are made by tools/wind.py from the plates named in timing/wind.json. Run python3 tools/cutin.py after editing. Every person's shots come from that person's own reel, so a face is always from one generation.",
+ "shots": {
+  "A02": {
+   "clip": "drafts/ray_reel.mp4",
+   "in": 0.3,
+   "beat": [
+    0.0,
+    1.2
+   ],
+   "place": {
+    "down": 0.06,
+    "centre": 0.49,
+    "plate": "drafts/rosa_pip_reel.mp4",
+    "plate_in": 2.95
+   },
+   "patch": {
+    "at": [
+     0.435,
+     0.615
+    ],
+    "w": 0.0213
+   }
+  },
+  "A03": {
+   "clip": "drafts/amara_dev_reel.mp4",
+   "in": 0.5,
+   "beat": [
+    0.0,
+    1.96
+   ],
+   "zoom": 1.3,
+   "dy": -0.098,
+   "patch": {
+    "at": [
+     0.425,
+     0.7
+    ],
+    "w": 0.0197
+   }
+  },
+  "A04": {
+   "clip": "drafts/amara_dev_reel.mp4",
+   "in": 2.6,
+   "beat": [
+    1.96,
+    3.96
+   ],
+   "place": {
+    "scale": 1.08,
+    "down": 0.136,
+    "plate": "drafts/rosa_pip_reel.mp4",
+    "plate_in": 2.95
+   },
+   "patch": {
+    "at": [
+     0.44,
+     0.665
+    ],
+    "w": 0.019
+   }
+  },
+  "A05": {
+   "clip": "drafts/jun_reel.mp4",
+   "in": 0.5,
+   "beat": [
+    0.0,
+    1.9
+   ],
+   "patch": {
+    "at": [
+     0.455,
+     0.68
+    ],
+    "w": 0.0175
+   }
+  },
+  "A06": {
+   "clip": "drafts/osei_reel.mp4",
+   "in": 0.5,
+   "beat": [
+    0.0,
+    1.4
+   ],
+   "patch": {
+    "at": [
+     0.43,
+     0.725
+    ],
+    "w": 0.021
+   }
+  },
+  "A07": {
+   "clip": "drafts/rosa_pip_reel.mp4",
+   "in": 2.95,
+   "beat": [
+    1.58,
+    3.96
+   ]
+  },
+  "A08": {
+   "clip": "drafts/rosa_pip_reel.mp4",
+   "in": 0.5,
+   "beat": [
+    0.0,
+    1.58
+   ],
+   "place": {
+    "down": 0.15,
+    "keep": [
+     0.483,
+     0.25,
+     0.075,
+     0.12
+    ],
+    "centre": 0.483,
+    "plate": "drafts/rosa_pip_reel.mp4",
+    "plate_in": 2.95
+   },
+   "patch": {
+    "at": [
+     0.388,
+     0.705
+    ],
+    "w": 0.023
+   }
+  },
+  "A09": {
+   "clip": "drafts/mara_reel.mp4",
+   "in": 0.2,
+   "patch": {
+    "at": [
+     0.435,
+     0.745
+    ],
+    "w": 0.0218
+   }
+  },
+  "A10": {
+   "clip": "drafts/mara_reel.mp4",
+   "in": 0.41,
+   "patch": {
+    "at": [
+     0.435,
+     0.745
+    ],
+    "w": 0.0218
+   }
+  },
+  "A11": {
+   "clip": "stills/A11.png",
+   "boil": 1.5
+  },
+  "A12": {
+   "clip": "drafts/mara_reel.mp4",
+   "in": 1.25,
+   "patch": {
+    "at": [
+     0.435,
+     0.75
+    ],
+    "w": 0.0218
+   }
+  },
+  "A13": {
+   "clip": "drafts/mara_reel.mp4",
+   "line": "mara1",
+   "beat": [
+    2.88,
+    10.83
+   ]
+  },
+  "B01": {
+   "clip": "drafts/hall_fan.mp4",
+   "in": 0.55,
+   "speed": 5.0,
+   "push": [
+    1.0,
+    1.28,
+    0.5,
+    0.4
+   ],
+   "note": "black, then the tube lights switch on down the hall, one after another, and show the fan at its far end"
+  },
+  "B02": {
+   "clip": "drafts/macro_hall.mp4",
+   "in": 1.4,
+   "beat": [
+    0.0,
+    2.38
+   ]
+  },
+  "B03": {
+   "clip": "drafts/hall_wide.mp4",
+   "in": 3.75,
+   "beat": [
+    2.67,
+    5.79
+   ],
+   "speed": 3.0
+  },
+  "B04": {
+   "clip": "B04.mp4"
+  },
+  "B05": {
+   "clip": "drafts/macro_relay.mp4",
+   "in": 0.709,
+   "tint": "spark",
+   "zoom": 1.12,
+   "dx": -0.026
+  },
+  "B06": {
+   "clip": "B06.mp4"
+  },
+  "B07": {
+   "clip": "drafts/mara_reel.mp4",
+   "in": 22.95,
+   "beat": [
+    21.5,
+    26.0
+   ]
+  },
+  "B08": {
+   "clip": "B08.mp4"
+  },
+  "B09": {
+   "clip": "drafts/mara_reel.mp4",
+   "in": 26.62,
+   "beat": [
+    26.0,
+    30.0
+   ],
+   "speed": 2.4
+  },
+  "B10": {
+   "clip": "drafts/paper_pickups.mp4",
+   "in": 1.04,
+   "beat": [
+    0.0,
+    4.0
+   ],
+   "whiteout": 2,
+   "speed": 4.0
+  },
+  "C01": {
+   "clip": "C01.mp4",
+   "bg": [
+    206,
+    206,
+    200
+   ]
+  },
+  "C02": {
+   "clip": "C02.mp4",
+   "bg": [
+    206,
+    206,
+    200
+   ]
+  },
+  "C04": {
+   "clip": "C04.mp4",
+   "note": "17 frames of the Flyer photograph, then 8 frames of Orville Wright's telegram; the photograph alone is kept as clips/C04_flight_only.mp4"
+  },
+  "D01": {
+   "clip": "drafts/jun_reel.mp4",
+   "line": "jun1",
+   "beat": [
+    1.9,
+    5.71
+   ],
+   "patch": {
+    "at": [
+     0.45,
+     0.665
+    ],
+    "w": 0.0175
+   }
+  },
+  "D03": {
+   "clip": "drafts/mara_reel.mp4",
+   "line": "mara3",
+   "beat": [
+    10.83,
+    14.45
+   ]
+  },
+  "D04": {
+   "clip": "drafts/ray_reel.mp4",
+   "line": "ray2",
+   "beat": [
+    0.0,
+    6.0
+   ],
+   "patch": {
+    "at": [
+     0.425,
+     0.59
+    ],
+    "w": 0.0213
+   }
+  },
+  "D05": {
+   "clip": "drafts/mara_reel.mp4",
+   "line": "mara4",
+   "beat": [
+    2.88,
+    10.83
+   ]
+  },
+  "D06": {
+   "clip": "drafts/macro_relay.mp4",
+   "in": 3.792,
+   "zoom": 1.6,
+   "dy": 0.039,
+   "tint": "spark",
+   "dx": 0.025
+  },
+  "D07": {
+   "clip": "drafts/mara_reel.mp4",
+   "line": "mara5",
+   "beat": [
+    15.08,
+    17.79
+   ],
+   "lead": {
+    "in": 16.25,
+    "frames": 4
+   }
+  },
+  "D10": {
+   "clip": "D10.mp4",
+   "note": "made by tools/printshot.py: the plate is macro_hands from 6.0 s; the print on the card is the Met's photograph with the published restoration"
+  },
+  "D11": {
+   "clip": "D11.mp4",
+   "bg": [
+    244,
+    244,
+    240
+   ]
+  },
+  "D12": {
+   "clip": "stills/D12.png",
+   "bg": [
+    244,
+    244,
+    240
+   ],
+   "wash": 0.5,
+   "boil": 1.5,
+   "pile": [
+    0.3,
+    0.6
+   ]
+  },
+  "D13": {
+   "clip": "stills/D13.png",
+   "bg": [
+    244,
+    244,
+    240
+   ],
+   "boil": 1.5
+  },
+  "D14": {
+   "clip": "stills/D14.png",
+   "bg": [
+    244,
+    244,
+    240
+   ],
+   "boil": 1.5
+  },
+  "E01": {
+   "clip": "drafts/ray_reel.mp4",
+   "line": "ray3",
+   "beat": [
+    6.0,
+    10.88
+   ],
+   "patch": {
+    "at": [
+     0.428,
+     0.595
+    ],
+    "w": 0.0213
+   }
+  },
+  "E03": {
+   "clip": "drafts/mara_reel.mp4",
+   "line": "mara8",
+   "beat": [
+    2.88,
+    10.83
+   ]
+  },
+  "E04": {
+   "clip": "drafts/macro_relay.mp4",
+   "in": 6.587,
+   "tint": "spark",
+   "zoom": 1.12,
+   "dx": -0.049
+  },
+  "E05": {
+   "clip": "drafts/osei_reel.mp4",
+   "line": "osei4",
+   "beat": [
+    3.96,
+    8.75
+   ],
+   "lift": 1.35,
+   "tail": {
+    "in": 8.675,
+    "frames": 4
+   },
+   "push": [
+    1.0,
+    1.146,
+    0.487,
+    0.583
+   ]
+  },
+  "F01": {
+   "clip": "drafts/rosa_pip_reel.mp4",
+   "in": 5.0,
+   "beat": [
+    3.96,
+    8.42
+   ],
+   "black_in": 3
+  },
+  "F02": {
+   "clip": "drafts/macro_kitchen.mp4",
+   "in": 0.2,
+   "beat": [
+    0.0,
+    2.88
+   ]
+  },
+  "F03": {
+   "clip": "F03.mp4",
+   "bg": [
+    150,
+    160,
+    165
+   ],
+   "was": "drafts/macro_kitchen.mp4 in 3.2, a blank screen with the words laid over it; from the eighth pass the words are on the screen in the video itself (tools/laptopshot.py)"
+  },
+  "F04": {
+   "clip": "drafts/rosa_pip_reel.mp4",
+   "line": "pip1",
+   "beat": [
+    8.42,
+    10.79
+   ]
+  },
+  "F05": {
+   "clip": "drafts/macro_kitchen.mp4",
+   "in": 5.6,
+   "beat": [
+    5.0,
+    8.25
+   ],
+   "ramp": [
+    7.13,
+    2.4
+   ]
+  },
+  "G01": {
+   "clip": "stills/G01.png",
+   "boil": 1.5,
+   "grow": [
+    0.295,
+    0.215,
+    0.77,
+    0.9,
+    0.75
+   ],
+   "bg": [
+    20,
+    20,
+    20
+   ],
+   "bump": [
+    0.07,
+    4
+   ]
+  },
+  "G05": {
+   "clip": "G05.mp4",
+   "lift": 1.3
+  },
+  "G06": {
+   "clip": "drafts/macro_kitchen.mp4",
+   "in": 8.63,
+   "beat": [
+    8.25,
+    10.04
+   ]
+  },
+  "G07": {
+   "clip": "stills/G07.png",
+   "bg": [
+    244,
+    244,
+    240
+   ],
+   "boil": 1.5
+  },
+  "G08": {
+   "clip": "stills/G08_lettered.png",
+   "bg": [
+    244,
+    244,
+    240
+   ],
+   "zoom": 1.5,
+   "dx": -0.05,
+   "dy": -0.02,
+   "boil": 1.5
+  },
+  "G09": {
+   "clip": "stills/G09.png",
+   "bg": [
+    255,
+    255,
+    255
+   ]
+  },
+  "G13": {
+   "clip": "drafts/amara_dev_reel.mp4",
+   "line": "amara1",
+   "beat": [
+    3.96,
+    8.75
+   ],
+   "zoom": 1.04,
+   "dx": 0.0,
+   "dy": -0.019,
+   "matte": "lens"
+  },
+  "G14": {
+   "clip": "drafts/amara_dev_reel.mp4",
+   "line": "dev1",
+   "beat": [
+    8.75,
+    14.0
+   ],
+   "zoom": 1.03,
+   "dx": 0.0,
+   "dy": -0.014,
+   "matte": "lens"
+  },
+  "G15": {
+   "clip": "drafts/jun_reel.mp4",
+   "line": "jun3",
+   "beat": [
+    5.71,
+    12.0
+   ],
+   "zoom": 1.15,
+   "dx": -0.012,
+   "dy": 0.04,
+   "matte": "lens",
+   "tint": "nored",
+   "tint_box": [
+    0.0,
+    0.5,
+    1.0,
+    1.0
+   ]
+  },
+  "G16": {
+   "clip": "drafts/ray_reel.mp4",
+   "line": "ray4",
+   "beat": [
+    10.88,
+    15.5
+   ],
+   "zoom": 1.08,
+   "dx": 0.0,
+   "dy": -0.035,
+   "matte": "lens"
+  },
+  "G19": {
+   "clip": "stills/G19.png",
+   "bg": [
+    244,
+    244,
+    240
+   ]
+  },
+  "G21": {
+   "clip": "stills/G21.png"
+  },
+  "G22": {
+   "clip": "stills/G21.png",
+   "zoom": 2.6,
+   "dx": 0.01,
+   "dy": 0.085
+  },
+  "G23": {
+   "clip": "stills/G23.png"
+  },
+  "G25": {
+   "clip": "stills/G25.png",
+   "bg": [
+    244,
+    244,
+    240
+   ]
+  },
+  "G27": {
+   "clip": "stills/G27.png"
+  },
+  "G28": {
+   "clip": "stills/G28.png",
+   "zoom": 1.5,
+   "tint": "nored"
+  },
+  "G29": {
+   "clip": "stills/G29.png",
+   "zoom": 1.35
+  },
+  "G33": {
+   "clip": "G33.mp4",
+   "note": "Rosa beside Ray (tools/diptych.py): the same moments as before, rosa_pip_reel at 11.6 s and ray_reel at 16.6 s"
+  },
+  "G36": {
+   "clip": "drafts/handoff.mp4",
+   "in": 1.2,
+   "beat": [
+    0.0,
+    1.75
+   ]
+  },
+  "G37": {
+   "clip": "drafts/handoff.mp4",
+   "in": 3.2,
+   "beat": [
+    1.75,
+    3.92
+   ]
+  },
+  "G38": {
+   "clip": "drafts/handoff.mp4",
+   "in": 5.25,
+   "beat": [
+    3.92,
+    5.92
+   ]
+  },
+  "G39": {
+   "clip": "drafts/handoff.mp4",
+   "in": 7.25,
+   "beat": [
+    5.92,
+    7.92
+   ]
+  },
+  "G40": {
+   "clip": "drafts/handoff.mp4",
+   "in": 8.45,
+   "beat": [
+    7.92,
+    10.04
+   ]
+  },
+  "G41": {
+   "clip": "whale_1080.mp4",
+   "in": 0.3,
+   "whip": {
+    "out": 3
+   }
+  },
+  "H01": {
+   "clip": "whale_1080.mp4",
+   "in": 3.4,
+   "whip": {
+    "in": 3
+   },
+   "rings": {
+    "clicks": [
+     [
+      2,
+      0.54,
+      0.105
+     ],
+     [
+      12,
+      0.565,
+      0.105
+     ],
+     [
+      22,
+      0.59,
+      0.105
+     ],
+     [
+      27,
+      0.602,
+      0.105
+     ],
+     [
+      32,
+      0.615,
+      0.105
+     ],
+     [
+      52,
+      0.665,
+      0.105
+     ]
+    ],
+    "life": 18,
+    "speed": 0.021,
+    "flat": 0.5,
+    "gain": 0.85
+   },
+   "patch": {
+    "at": [
+     0.352,
+     0.378
+    ],
+    "w": 0.0085,
+    "box": [
+     0.05,
+     0.085,
+     0.08,
+     0.12
+    ],
+    "white": [
+     168,
+     180,
+     196
+    ]
+   },
+   "tint": "nored",
+   "blink": {
+    "at": [
+     3,
+     10,
+     20,
+     25,
+     30,
+     50
+    ],
+    "box": [
+     0.44,
+     0.38,
+     0.5,
+     0.56
+    ],
+    "gain": 1.0,
+    "hold": 2
+   }
+  },
+  "H02": {
+   "clip": "H02.mp4",
+   "note": "made by tools/eyeshot.py from whale_1080 at 7.4 s: a whale's outline crosses the sky reflected in the eye"
+  },
+  "H03": {
+   "clip": "whale_1080.mp4",
+   "in": 9.7,
+   "zoom": 1.07,
+   "dx": 0.003,
+   "dy": -0.032,
+   "matte": "lens",
+   "bar_from": true,
+   "tint": "nored",
+   "tint_box": [
+    0.8,
+    0.84,
+    0.93,
+    1.0
+   ]
+  },
+  "G32": {
+   "clip": "G32.mp4",
+   "tubes": 2,
+   "note": "two real pictures in one frame, each on a tube of its own (tools/diptych.py): 24 July 1969 beside 18 February 2021"
+  }
+ },
+ "drop": [
+  "G34",
+  "G35"
+ ]
+}

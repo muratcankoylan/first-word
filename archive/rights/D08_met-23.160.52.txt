@@ -1,0 +1,13 @@
+ITEM 3  shots D08, D09
+Bronze military diploma fragment, Roman, 113/14 CE (accession 23.160.52)
+Holder: The Metropolitan Museum of Art, New York (object 251396)
+Page: https://www.metmuseum.org/art/collection/search/251396
+File: https://images.metmuseum.org/CRDImages/gr/original/DP105609.jpg ; https://images.metmuseum.org/CRDImages/gr/original/DP105610.jpg
+Read on: 2026-11-10
+Rights: CC0 (Met Open Access)
+
+--- what the holder's page says ---
+Object page (https://www.metmuseum.org/art/collection/search/251396): 'Public Domain'. 'Credit Line: Rogers Fund, 1923'. 'Open Access data and public domain images are available for unrestricted commercial and noncommercial use without permission or fee.'
+Open Access page (https://www.metmuseum.org/hubs/open-access): 'makes images of public-domain artworks and basic data on all accessioned works in its collection available for unrestricted use under Creative Commons Zero (CC0).' 'All Open Access images also have an "OA" icon, at the lower left of the image.'
+API (https://collectionapi.metmuseum.org/public/collection/v1/objects/251396): accessionNumber 23.160.52, isPublicDomain true, primaryImage .../original/DP105609.jpg, additionalImages [.../original/DP105610.jpg], metadataDate 2026-06-16.
+The OA icon itself is drawn by the page script and was not in the captured text; the 'Public Domain' label and the API flag were.

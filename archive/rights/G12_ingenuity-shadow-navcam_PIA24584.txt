@@ -1,0 +1,14 @@
+ITEM 8  shots G12
+Ingenuity's First Black-and-White Image From the Air (PIA24584): its own shadow, navigation camera
+Holder: NASA/JPL Photojournal and NASA Image and Video Library (nasa_id PIA24584)
+Page: https://images.nasa.gov/details/PIA24584
+File: https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24584/PIA24584.tif
+Read on: 2026-11-10
+Rights: not subject to US copyright per NASA guidelines; JPL grants use with conditions
+
+--- what the holder's page says ---
+NASA library record PIA24584: 'Ingenuity's First Black-and-White Image From the Air', 2021-04-19, center JPL, secondary creator NASA/JPL-Caltech. 'NASA's Ingenuity Mars Helicopter took this shot, capturing its own shadow, while hovering over the Martian surface on April 19, 2021, during the first instance of powered, controlled flight on another planet. It used its navigation camera, which autonomously tracks the ground during flight.'
+
+NASA media guidelines (https://www.nasa.gov/nasa-brand-center/images-and-media/), read 2026-11-10: "NASA content - images, audio, video ... generally are not subject to copyright in the United States." "NASA should be acknowledged as the source of the material." "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content." "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA's endorsement of commercial goods or services." "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain."
+
+JPL Image Use Policy (https://www.jpl.nasa.gov/jpl-image-use-policy), read 2026-11-10: "Unless otherwise noted, images and video on JPL public web sites ... may be used for any purpose without prior permission, subject to the special cases noted below." Conditions: credit line "Courtesy NASA/JPL-Caltech" unless the caption says otherwise; no endorsement by Caltech, JPL or NASA claimed or implied; prior written approval for the NASA insignia and the JPL logo; "If an image includes an identifiable person, using the image for commercial purposes may infringe that person's right of privacy or publicity"; "NASA and JPL generally do not permit likenesses of current employees to appear on commercial products." NOTE: this is a permission with conditions. The page does not use the words public domain.

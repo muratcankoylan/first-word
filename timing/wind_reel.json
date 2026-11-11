@@ -1,0 +1,244 @@
+{
+ "about": "The reel's version of timing/wind.json: the same shots, with the lettered strips brought into the middle 45 percent of the frame (the reel's 4:5 window) and stacked above and below her. Made by hand from the landscape keys on 11 November 2026. Only B04 and B06 differ. The lower strips sit above y 1150 of the reel so that their years stay clear of Instagram's buttons at the lower right.",
+ "shots": {
+  "B04": {
+   "plates": [
+    {
+     "clip": "drafts/hall_fan.mp4",
+     "in": 6.2,
+     "frames": 14,
+     "vanish": [
+      0.5,
+      0.37
+     ],
+     "figure": [
+      0.38,
+      0.62,
+      0.02
+     ],
+     "depth": 4.2
+    },
+    {
+     "clip": "drafts/hall_wide.mp4",
+     "in": 8.4,
+     "frames": 16,
+     "vanish": [
+      0.5,
+      0.42
+     ],
+     "figure": [
+      0.3,
+      0.72,
+      0.18
+     ],
+     "depth": 2.4
+    }
+   ],
+   "frames": 30,
+   "toward": true,
+   "strips": 200,
+   "seed": 1903,
+   "smoke": {
+    "n": 30,
+    "seed": 5,
+    "speed": 0.42,
+    "gain": 0.62
+   },
+   "heroes": [
+    {
+     "text": "“FROM ONE MILLION TO TEN MILLION YEARS.”",
+     "year": "1903",
+     "length": 1.55,
+     "yaw": 0.16,
+     "roll": -0.05,
+     "keys": [
+      [
+       -0.5,
+       -1.9,
+       -0.9,
+       7.5
+      ],
+      [
+       2.5,
+       0.0,
+       -0.46,
+       3.75
+      ],
+      [
+       26.5,
+       0.04,
+       -0.42,
+       3.6
+      ],
+      [
+       29.8,
+       -3.2,
+       -0.4,
+       1.5
+      ]
+     ]
+    },
+    {
+     "text": "“THE INTERNET? BAH!”",
+     "year": "1995",
+     "length": 1.15,
+     "yaw": -0.16,
+     "roll": 0.04,
+     "keys": [
+      [
+       5.5,
+       1.6,
+       0.8,
+       7.0
+      ],
+      [
+       8.5,
+       0.0,
+       0.31,
+       2.95
+      ],
+      [
+       28.3,
+       -0.03,
+       0.27,
+       2.8
+      ],
+      [
+       29.95,
+       2.6,
+       0.5,
+       1.3
+      ]
+     ]
+    }
+   ],
+   "was": "until v012 each strip was in reach of the eye for 8 or 9 frames, one after the other, either side of the cut inside the shot. The user: 'they are passing so fast... slow it down a bit there so we can read those writings.' Each now arrives in two or three frames and hangs, drifting slowly toward the lens, for 20 to 24 frames, and the two overlap; they ride across the cut inside the shot as the camera does."
+  },
+  "B06": {
+   "plates": [
+    {
+     "clip": "drafts/hall_fan.mp4",
+     "in": 10.3,
+     "frames": 25,
+     "vanish": [
+      0.47,
+      0.5
+     ],
+     "figure": [
+      0.3,
+      0.72,
+      0.1,
+      40
+     ],
+     "depth": 3.2
+    }
+   ],
+   "frames": 25,
+   "toward": false,
+   "strips": 200,
+   "seed": 1998,
+   "smoke": {
+    "n": 30,
+    "seed": 8,
+    "speed": 0.42,
+    "gain": 0.56
+   },
+   "heroes": [
+    {
+     "text": "“NO GREATER THAN THE FAX MACHINE’S.”",
+     "year": "1998",
+     "length": 1.55,
+     "yaw": 0.16,
+     "roll": 0.04,
+     "keys": [
+      [
+       -1.5,
+       -3.2,
+       -0.9,
+       3.9
+      ],
+      [
+       1.5,
+       0.12,
+       -0.78,
+       3.75
+      ],
+      [
+       22.5,
+       0.16,
+       -0.74,
+       3.65
+      ],
+      [
+       25.5,
+       -0.3,
+       -0.25,
+       7.0
+      ]
+     ]
+    },
+    {
+     "text": "“HITTING A WALL.”",
+     "year": "2022",
+     "length": 1.0,
+     "yaw": -0.16,
+     "roll": -0.04,
+     "keys": [
+      [
+       2.5,
+       2.7,
+       0.2,
+       2.7
+      ],
+      [
+       5.5,
+       0.1,
+       -0.02,
+       2.6
+      ],
+      [
+       24.0,
+       0.06,
+       -0.04,
+       2.5
+      ],
+      [
+       26.5,
+       0.25,
+       -0.05,
+       7.0
+      ]
+     ]
+    },
+    {
+     "text": "IT CAN’T EVEN DRAW HANDS.",
+     "year": "2023",
+     "length": 1.3,
+     "yaw": 0.14,
+     "roll": -0.03,
+     "keys": [
+      [
+       6.5,
+       -3.0,
+       0.5,
+       3.4
+      ],
+      [
+       9.5,
+       0.1,
+       0.19,
+       3.25
+      ],
+      [
+       25.5,
+       0.14,
+       0.17,
+       3.1
+      ]
+     ]
+    }
+   ],
+   "was": "until v012 the three strips came one after another, each readable for about 7 frames. They now overlap, each in its own part of the frame, and each hangs for 16 to 21 frames."
+  }
+ }
+}

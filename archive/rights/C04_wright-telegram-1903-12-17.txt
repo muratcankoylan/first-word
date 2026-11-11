@@ -1,0 +1,26 @@
+ITEM N02 (alternate) - the same telegram, black-and-white scan inside the Wright Papers, with the rights statement on its own page
+WHAT: The same Western Union telegram of 17 December 1903 ("Success four flights thursday morning ..."), greyscale scan, image 34 of the folder "Family Papers: Correspondence--Wright, Orville, 1903".
+HOLDER: Library of Congress, Manuscript Division, Wilbur and Orville Wright Papers ("Source Collection - Wilbur Wright and Orville Wright papers, 1809-1979"; Digital ID http://hdl.loc.gov/loc.mss/mwright.02039).
+ITEM PAGE: https://www.loc.gov/resource/mss46706.02039/?sp=34
+  The Library's own highlight page names it: "[Telegram, Orville Wright to Milton Wright, 17 December 1903]. Family Papers: Correspondence--Wright, Orville, 1903. Wilbur and Orville Wright Papers, Manuscript Division, Library of Congress." (https://www.loc.gov/collections/wilbur-and-orville-wright-papers/articles-and-essays/collection-highlights/first-flight/)
+FILE URL DOWNLOADED: https://tile.loc.gov/storage-services/master/mss/mss46706/mss46706-02039/0034.tif   (the page lists "JPEG (2000x1323 px)" and "TIFF ( 2.5 MB )")
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): public domain - rights in Orville Wright's unpublished writings in this collection "have been dedicated to the public" (QUOTED from this item's own page).
+
+RIGHTS STATEMENTS, QUOTED:
+Library of Congress, Wilbur and Orville Wright Papers, "Rights and Access", https://www.loc.gov/collections/wilbur-and-orville-wright-papers/about-this-collection/rights-and-access/ (read 2026-11-10); the same text is printed under "Rights & Access" on the Wright Papers page for this very document, https://www.loc.gov/resource/mss46706.02039/?sp=34 :
+  "The Wilbur and Orville Wright Papers in the Library of Congress's Manuscript Division consist of personal papers and other manuscript materials. The majority of the collection was given to the Library by the executors of Orville Wright's estate in 1949; additional items were acquired through purchase and gift between 1949 and 1999. Rights to Orville and Wilbur Wrights' unpublished writings in this collection have been dedicated to the public."
+  "Works created by the Wright Brothers, their family, and other individuals may in some cases be subject to copyright."
+  "The Library of Congress provides access to these materials for educational and research purposes and makes no warranty with regard to their use for other purposes. Responsibility for making an independent legal assessment of an item and securing any necessary permissions ultimately rests with persons desiring to use the item."
+  Preferred citation: "Folder Title, Wilbur and Orville Wright Papers, Manuscript Division, Library of Congress, Washington, D.C."
+
+CAVEATS:
+  - Only 2000x1323 px and greyscale (it looks like a scan from microfilm). Use the colour N02 file for picture quality and this one if the rights wording must sit on the item's own page.
+  - The Library "makes no warranty" and leaves the legal assessment to the user.
+  - No people.
+
+SAVED FILE:
+  N02_alt_wright-telegram-1903-12-17_loc-wright-papers-02039-0034.tif
+    2650245 bytes (2.65 MB); 2000x1323 px; TIFF L
+    sha256 61b36c67c933612a2bd1e0cc4c68392bdd4ede2055b6aed354c7cb5fcdb5fa93

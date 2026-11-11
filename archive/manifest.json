@@ -1,0 +1,618 @@
+{
+ "made": "2026-11-10",
+ "purpose": "Real public-domain sources for the ARCHIVE shots. Only files in src/ whose entry says status ok were cleared; read rights and notes before use.",
+ "rule": "Public domain or CC0 only. Proof is the holder's own statement, captured in rights/. Anything inferred is marked INFERRED or unproven.",
+ "total_bytes": 265668987,
+ "total_mb": 265.7,
+ "items": [
+  {
+   "item": 1,
+   "shots": [
+    "C01",
+    "C02"
+   ],
+   "title": "The New York Times, 9 October 1903, page 6 (editorial 'Flying Machines Which Do Not Fly')",
+   "event_date": "1903-10-09",
+   "holder": "Internet Archive (Serials in Microfilm scan, item sim_new-york-times_1903-10-09_53_16774)",
+   "page_url": "https://archive.org/details/sim_new-york-times_1903-10-09_53_16774/page/n5/mode/2up",
+   "file_url": "https://archive.org/download/sim_new-york-times_1903-10-09_53_16774/sim_new-york-times_1903-10-09_53_16774_jp2.zip/sim_new-york-times_1903-10-09_53_16774_jp2%2Fsim_new-york-times_1903-10-09_53_16774_0005.jp2",
+   "local_files": [
+    {
+     "file": "src/C01_nyt-1903-10-09_p6.jp2",
+     "bytes": 7793758,
+     "sha256": "c4e0f9fd430a8def90ec6909f371afb379656170fbfffe70b4fa9eb5827006a3",
+     "pixels": "6878x9142"
+    }
+   ],
+   "rights": "public domain by date (INFERRED: the holder gives no rights statement)",
+   "rights_statement": "No rights field in the item record. Published in the US in 1903, so out of US copyright.",
+   "credit_line": "The New York Times, 9 October 1903, p. 6. Scan: Internet Archive.",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Checked by eye: this is page 6, running head reads THE NEW YORK TIMES, FRIDAY, OCTOBER 9, 1903. Highest resolution offered (single-page JP2, 400 ppi microfilm scan). Approximate boxes in full-res pixels (x0,y0,x1,y1): running head with date 2394,518,4612,596; headline FLYING MACHINES WHICH DO NOT / FLY. 2180,4940,3015,5040 (column 3); 'from one million to ten million' 3250,3125,3905,3155 (column 4); 'years' is the first word of the NEXT line at 3070,3180,3180,3210, so the phrase breaks across two lines and a pencil underline needs two strokes. Body type is about 20 px tall: legible, soft and grainy at a 4K macro, which suits the scanline pass. Greyscale. Internet Archive terms of use say access is granted for scholarship and research; that is a site term, not a copyright in a 1903 newspaper.",
+   "rights_capture": "rights/C01_nyt-1903-10-09_p6.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 2,
+   "shots": [
+    "C04"
+   ],
+   "title": "[First flight, 120 feet in 12 seconds, 10:35 a.m.; Kitty Hawk, North Carolina]",
+   "event_date": "1903-12-17",
+   "holder": "Library of Congress, Prints and Photographs Division (Wright Brothers Negatives)",
+   "page_url": "https://www.loc.gov/pictures/item/00652085/",
+   "file_url": "https://tile.loc.gov/storage-services/master/pnp/ppprs/00600/00626u.tif",
+   "local_files": [
+    {
+     "file": "src/C04_first-flight-1903-12-17_loc-ppprs-00626.tif",
+     "bytes": 18022516,
+     "sha256": "6d6f3ecd694155fa847b74b20ad9eb11b8dfb4d21f45e6dbfeeb55aef97553c5",
+     "pixels": "5000x3604"
+    }
+   ],
+   "rights": "public domain (holder: no known restrictions on publication)",
+   "rights_statement": "Rights Advisory: No known restrictions on publication.",
+   "credit_line": "Library of Congress, Prints & Photographs Division, LC-DIG-ppprs-00626",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Checked by eye: the Flyer a few feet up just past the end of the rail, Wilbur at right mid-stride, bench and tools in the sand; the glass plate's broken lower-left corner and edge damage are in the scan. 5000x3604 greyscale. The 232 MB archival master is over the size cap and was not taken: https://tile.loc.gov/storage-services/master/pnp/ppprs/00600/00626a.tif . Catalogue names Wilbur Wright, Orville Wright and John T. Daniels as photographer; note says Orville set the camera and Daniels squeezed the bulb.",
+   "rights_capture": "rights/C04_first-flight-1903-12-17_loc-ppprs-00626.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 3,
+   "shots": [
+    "D08",
+    "D09",
+    "D10"
+   ],
+   "title": "Bronze military diploma fragment, Roman, 113/14 CE (accession 23.160.52)",
+   "event_date": "113/114 CE",
+   "holder": "The Metropolitan Museum of Art, New York (object 251396)",
+   "page_url": "https://www.metmuseum.org/art/collection/search/251396",
+   "file_url": "https://images.metmuseum.org/CRDImages/gr/original/DP105609.jpg ; https://images.metmuseum.org/CRDImages/gr/original/DP105610.jpg",
+   "local_files": [
+    {
+     "file": "src/D08_met-23.160.52_DP105609.jpg",
+     "bytes": 3260597,
+     "sha256": "35e4d403293618456e3318fdff8dd4dc67644d4b49dce1c11da25f8622d6af1b",
+     "pixels": "4000x4000"
+    },
+    {
+     "file": "src/D08_met-23.160.52_DP105610.jpg",
+     "bytes": 3359870,
+     "sha256": "a52cf7c903722d6681afb355605f0ab4a9c91c02e46d5e06f81e3469469ddb5e",
+     "pixels": "4000x4000"
+    }
+   ],
+   "rights": "CC0 (Met Open Access)",
+   "rights_statement": "Object page: 'Public Domain'. Open Access images are for unrestricted commercial and noncommercial use.",
+   "credit_line": "The Metropolitan Museum of Art, New York. Rogers Fund, 1923 (23.160.52)",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Checked by eye: both faces of the fragment, 4000x4000 each, colour, neutral grey ground, sharp enough for a macro crawl. DP105609 shows ten lines (IMP CAESAR ... NOMINA SVBSC) with the long diagonal break on the right; DP105610 is the other face with four to five lines. API record: isPublicDomain true, medium Bronze, 7.8 x 7 x 0.2 cm, department Greek and Roman Art. The Met's old search endpoint was retired on 2026-10-01; the v1.1 search and the v1 objects endpoint were used. I did not check which face the published restoration (shot D09) refers to. From the sixth pass the same photograph is also the print the hand ticks in D10 (tools/printshot.py), with the four restored lines of D09 in grey.",
+   "rights_capture": "rights/D08_met-23.160.52.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 4,
+   "shots": [
+    "G01"
+   ],
+   "title": "Charles Darwin, Notebook B, page 36: 'I think' and the branching tree (about 1837), MS.DAR.121",
+   "event_date": "c. 1837",
+   "holder": "Cambridge University Library (Cambridge Digital Library, MS-DAR-00121, image 38)",
+   "page_url": "https://cudl.lib.cam.ac.uk/view/MS-DAR-00121/38",
+   "file_url": "NOT DOWNLOADED. Least risky copy: https://upload.wikimedia.org/wikipedia/commons/1/10/Darwin_Tree_1837.png (1390x2265, 4.22 MB), page https://commons.wikimedia.org/wiki/File:Darwin_Tree_1837.png",
+   "local_files": [],
+   "rights": "unproven: the drawing is long out of copyright, but the holder does not release its scan",
+   "rights_statement": "Holder: image rights 'Cambridge University Library'; reproduction on the public web needs a reproduction request.",
+   "credit_line": "",
+   "identifiable_living_people": "no",
+   "status": "replaced",
+   "notes": "The only holder of the notebook is Cambridge University Library and it claims control of its images, so no scan passes the rule. Nothing was downloaded. Least risky file: the Wikimedia Commons copy, which Commons marks as public domain (author died 1882) and as free of known restrictions; that is Commons' statement, not the holder's. In US law a faithful photograph of a public-domain page gets no new copyright, so the practical risk is low, but it is not holder-cleared. Zero-risk route: redraw the page in ink with no scanlines, as G07 already does. I did not check where the Commons file was scanned from. DECISION 2026-11-10: the page is redrawn in ink without scanlines (shot G01 is now INK). No scan is used.",
+   "rights_capture": "rights/G01_darwin-notebook-b-i-think.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 5,
+   "shots": [
+    "G04"
+   ],
+   "title": "Notebook by Alexander Graham Bell, from 1875 to 1876: pages 40-41, entry of 10 March 1876 (image 22)",
+   "event_date": "1876-03-10",
+   "holder": "Library of Congress, Manuscript Division (Alexander Graham Bell Family Papers)",
+   "page_url": "https://www.loc.gov/resource/magbell.25300201/?sp=22",
+   "file_url": "https://tile.loc.gov/storage-services/master/mss/magbell/253/25300201/0022.tif",
+   "local_files": [
+    {
+     "file": "src/G04_bell-notebook-1876-03-10_loc-magbell-25300201-0022.tif",
+     "bytes": 10116148,
+     "sha256": "c6b138da753da5fc2fc715b783262a880bbdc3131c7ddee69047042c004e6aac",
+     "pixels": "4080x2475"
+    }
+   ],
+   "rights": "public domain (stated by the holder)",
+   "rights_statement": "All manuscripts that Alexander Graham Bell and his descendants wrote are in the public domain.",
+   "credit_line": "Library of Congress, Manuscript Division, Alexander Graham Bell Family Papers at the Library of Congress",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Checked by eye: the double-page spread, page numbers 40 and 41, headed 'March 10th 1876', with the Fig. 1 sketch of the transmitter (M, P, W, S). 4080x2475 greyscale master TIFF. The sentence starts on the last line of p. 40 and finishes on the first line of p. 41. As written by Bell: sentence: \"Mr. Watson - Come here - I want to [page turn] see you\". Details: opening double quote before Mr; the r of Mr is raised with a short stroke under it and there is no full stop on the line after it; long dashes after Watson and after here; Come is written with a tall capital C and runs almost into here; no comma, no exclamation mark; the closing quote comes straight after you and the full stop is written AFTER the closing quote. Lower on p. 41 Watson's repeat is written with a small c: 'Mr. Watson - come here - I want to see you'. Approximate boxes in full-res pixels: date 650,180,1320,290; first sentence on p. 40 150,2180,2080,2475; continuation on p. 41 2180,180,4040,420.",
+   "rights_capture": "rights/G04_bell-notebook-1876-03-10.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 6,
+   "shots": [
+    "G05"
+   ],
+   "title": "Photograph of Women Working at a Bell System Telephone Switchboard",
+   "event_date": "between 1940 and 1945 (no exact date on the record)",
+   "holder": "US National Archives (NAID 1633445, Local ID 86-WWT-28-3, Record Group 86, Women's Bureau, series Women Working In Industry)",
+   "page_url": "https://catalog.archives.gov/id/1633445",
+   "file_url": "https://www.flickr.com/photos/usnationalarchives/3660047829/sizes/o/ (the National Archives' own upload, original 2930x2400). The catalogue's own file is only 600x491: https://catalog.archives.gov/medialz/stillpix/086-wwt/11900_2005_001_a.jpg",
+   "local_files": [
+    {
+     "file": "src/G05_switchboard-operators_nara-1633445_86-WWT-28-3.jpg",
+     "bytes": 1093496,
+     "sha256": "fc1ad93109e44a7adaa0c06f7cfac7df33f618ab9cc140fe88fd9fc094975d1f",
+     "pixels": "2930x2400"
+    }
+   ],
+   "rights": "public domain (holder: use unrestricted)",
+   "rights_statement": "Access: Unrestricted. Use: Unrestricted. Flickr copy: No known copyright restrictions.",
+   "credit_line": "National Archives (86-WWT-28-3)",
+   "identifiable_living_people": "possibly (photographed in the early 1940s; faces are clear)",
+   "status": "ok",
+   "notes": "Checked by eye: a long wall of switchboard with about a dozen operators receding into depth and two supervisors standing; signs on the board read NORTH AND SOUTH AMERICA, LONDON, PARIS, BERMUDA. It is the right picture for 'a wall of operators'. Greyscale print with a white border. GAP against the brief: the record gives no exact date and no place. The catalogue only dates the parent series 1940-1945; the Archives' Flickr page says 'Taken circa 1945'. The board signs show an overseas long-distance exchange; the city is not documented and I did not infer one. Alternates with fuller records, not downloaded: (a) Library of Congress, Harris & Ewing, TELEPHONE OPERATORS, [between 1914 and 1917], LC-DIG-hec-04117, no known restrictions, six operators at a board, 18 MB TIFF https://tile.loc.gov/storage-services/master/pnp/hec/04100/04117u.tif , page https://www.loc.gov/pictures/item/2016853369/ (place not stated); (b) Library of Congress, Bain Collection, New York police headquarters switchboard with men lined up, 1909, LC-USZ62-46104, no known restrictions, small 1.7 MB TIFF, page https://www.loc.gov/pictures/item/2007678224/ (date and place both documented).",
+   "rights_capture": "rights/G05_switchboard-operators_nara-1633445.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 7,
+   "shots": [
+    "G11"
+   ],
+   "title": "First Video of NASA's Ingenuity Mars Helicopter in Flight, Including Takeoff and Landing (Mastcam-Z, Perseverance)",
+   "event_date": "2021-04-19",
+   "holder": "NASA Image and Video Library (NASA/JPL), nasa_id 'JPL-20210419-TECHf-0001-First Video of NASA's Ingenuity Mars Helicopter in Flight'",
+   "page_url": "https://images.nasa.gov/details/JPL-20210419-TECHf-0001-First%20Video%20of%20NASA%E2%80%99s%20Ingenuity%20Mars%20Helicopter%20in%20Flight",
+   "file_url": "https://images-assets.nasa.gov/video/JPL-20210419-TECHf-0001-First%20Video%20of%20NASA%E2%80%99s%20Ingenuity%20Mars%20Helicopter%20in%20Flight/JPL-20210419-TECHf-0001-First%20Video%20of%20NASA%E2%80%99s%20Ingenuity%20Mars%20Helicopter%20in%20Flight~orig.mp4 (57 s, 42.5 MB; seconds 8 to 26 were cut with stream copy)",
+   "local_files": [
+    {
+     "file": "src/G11_ingenuity-first-flight_mastcam-z_liftoff.mp4",
+     "bytes": 13900225,
+     "sha256": "7ff339cf4977f03a61241d6975d3c8e59b688ecf17af5647b66844312aff9580",
+     "duration_s": 18.08,
+     "pixels": "1280x720",
+     "fps": "30/1",
+     "audio": "48000 Hz, 2 ch, aac"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines; JPL grants use with conditions (neither page says 'public domain' for this item)",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. JPL: may be used for any purpose without prior permission, with a credit line.",
+   "credit_line": "NASA/JPL-Caltech/ASU/MSSS",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Checked by eye: 18.1 s clip, 1280x720, 30 fps. The helicopter sits on the ground from 0 to about 7 s, leaves the ground between 7 and 8 s, reaches its 3 m hover by about 10 s and holds to the end. It is very small in frame: about 45 px wide, on the ground near x 633, y 640, hovering near x 643, y 420. A punch-in for a full-frame shot is roughly 8x or more and will be soft. I found no closer camera angle of the first flight in NASA's library (the tight Mastcam-Z video listed there is of the third flight); that is from the search listing, not an exhaustive check. The caption credit names ASU and MSSS (the camera team) beside NASA/JPL-Caltech. The clip's audio track is silent (measured). Photojournal also carries the same footage as PIA24521 (50 s, 1280x720, lower bitrate): https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24521/PIA24521.mp4",
+   "rights_capture": "rights/G11_ingenuity-first-flight.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 8,
+   "shots": [
+    "G12"
+   ],
+   "title": "Ingenuity's First Black-and-White Image From the Air (PIA24584): its own shadow, navigation camera",
+   "event_date": "2021-04-19",
+   "holder": "NASA/JPL Photojournal and NASA Image and Video Library (nasa_id PIA24584)",
+   "page_url": "https://images.nasa.gov/details/PIA24584",
+   "file_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24584/PIA24584.tif",
+   "local_files": [
+    {
+     "file": "src/G12_ingenuity-shadow-navcam_PIA24584.tif",
+     "bytes": 267132,
+     "sha256": "d4df286dd4938a7020c5e81c8bb654ee0cbc76dac8cde8c74308c3d9ee539b11",
+     "pixels": "640x480"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines; JPL grants use with conditions",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. JPL: any purpose, with credit.",
+   "credit_line": "NASA/JPL-Caltech",
+   "identifiable_living_people": "no",
+   "status": "alternate",
+   "notes": "Checked by eye: the helicopter's shadow, body, legs and both rotor blades, dead centre on rippled ground, fisheye vignette at the corners. It is the real downlinked frame and it is only 640x480, greyscale: there is no larger original. Lossless TIFF taken in place of the 21 KB JPEG.",
+   "rights_capture": "rights/G12_ingenuity-shadow-navcam_PIA24584.txt",
+   "accessed": "2026-11-10",
+   "superseded_2026-11-10": "The shot now comes from five frames of the same flight (item 20). This single frame is kept as the alternate."
+  },
+  {
+   "item": 9,
+   "shots": [
+    "G18"
+   ],
+   "title": "Deep Space 1 Ion Engine (xenon ion engine prototype in a vacuum chamber, blue glow)",
+   "event_date": "image dated 2002-12-21 in the NASA record",
+   "holder": "NASA Image and Video Library (NASA/JPL)",
+   "page_url": "https://images.nasa.gov/details/PIA04238",
+   "file_url": "https://images-assets.nasa.gov/image/PIA04238/PIA04238~orig.jpg",
+   "local_files": [
+    {
+     "file": "src/G18_ion-engine-deep-space-1_PIA04238.jpg",
+     "bytes": 313307,
+     "sha256": "1aa30afec471371e668b1d728f11c0fd70b975e1d5c4b6b07f13fb2937a2cffd",
+     "pixels": "1897x1915"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines; JPL grants use with conditions",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. JPL: any purpose, with credit.",
+   "credit_line": "NASA/JPL",
+   "identifiable_living_people": "no",
+   "status": "alternate",
+   "notes": "DECISION 2026-11-10: replaces the fusion vessel, for which no public-domain image could be proven. Looked at: the engine in a dark chamber with a blue plume, usable on black. The shot now says ion engine, not fusion.",
+   "rights_capture": "rights/G18_fusion-plasma.txt",
+   "accessed": "2026-11-10",
+   "superseded_2026-11-10": "The shot now comes from film of a thruster igniting (item 17). This still is kept as the alternate."
+  },
+  {
+   "item": 10,
+   "shots": [
+    "G20"
+   ],
+   "title": "Hurricane Matthew over Haiti, 4 October 2016, MODIS on NASA's Terra satellite (primary); eye of Hurricane Hector from the space station, 7 August 2018 (alternate)",
+   "event_date": "2016-10-04 (primary); 2018-08-07 (alternate)",
+   "holder": "NASA Image and Video Library (NASA Goddard: GSFC_20171208_Archive_e000205; NASA Johnson: iss056e129868)",
+   "page_url": "https://images.nasa.gov/details/GSFC_20171208_Archive_e000205 ; https://images.nasa.gov/details/iss056e129868",
+   "file_url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000205/GSFC_20171208_Archive_e000205~orig.jpg ; https://images-assets.nasa.gov/image/iss056e129868/iss056e129868~orig.jpg",
+   "local_files": [
+    {
+     "file": "src/G20_hurricane-matthew-2016-10-04_terra-modis_GSFC_20171208_Archive_e000205.jpg",
+     "bytes": 11826273,
+     "sha256": "ea22884b73fab1b4f5066650b4fb2672b0d30d771a09b42643bc47d14256924d",
+     "pixels": "4835x3223"
+    },
+    {
+     "file": "src/G20_alt_hurricane-hector-eye-2018-08-07_iss056e129868.jpg",
+     "bytes": 912832,
+     "sha256": "f4d9d517134ac0904d7567767a78dc588584457a9700c6ed6d7babad2d20cf67",
+     "pixels": "5568x3712"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States.",
+   "credit_line": "NASA Earth Observatory image by Joshua Stevens, using MODIS data from LANCE (primary); NASA (alternate)",
+   "identifiable_living_people": "no",
+   "status": "alternate",
+   "notes": "Primary checked by eye: the whole spiral with a small eye, Cuba at left, Haiti under the cloud, deep blue sea; natural colour, 4835x3223. It reads as 'a hurricane from orbit' at a glance. It is a storm that killed several hundred people in Haiti (from memory, not read today); if that is the wrong note for a euphoric montage, use the alternate. Alternate (viewed at reduced size): Hector's eye seen straight down from the station, pale and abstract, 5568x3712; Hector passed south of Hawaii. No photographer is named on that record; station crews include non-NASA astronauts, so the Terra image has the cleaner authorship (an uncrewed NASA satellite, NASA staff credit).",
+   "rights_capture": "rights/G20_hurricane.txt",
+   "accessed": "2026-11-10",
+   "superseded_2026-11-10": "The shot now comes from film taken from the Space Station (item 18). These stills are kept as alternates."
+  },
+  {
+   "item": 11,
+   "shots": [
+    "G26"
+   ],
+   "title": "The Sagittarius Star Cloud: A Sky Full of Glittering Jewels (Hubble Heritage, release STScI-1998-28d / PRC98-30)",
+   "event_date": "released 1998-10-21",
+   "holder": "Space Telescope Science Institute (STScI), for NASA",
+   "page_url": "https://www.stsci.edu/contents/news-releases/1998/news-1998-28 ; lithograph https://stsci-opo.org/STScI-01EVVFWW9HVYG8M1A61JN9WZXK.pdf",
+   "file_url": "https://www.astropix.org/archive/stsci/1998-28d/stsci_1998-28d_1024.jpg (AstroPix copy at native size). STScI's master TIFF, listed as https://mast.stsci.edu/api/latest/Download/file?uri=mast:OPO/product/STSCI-H-p9828d-f-1024x1009.tif , answered HTTP 400 today.",
+   "local_files": [
+    {
+     "file": "src/G26_sagittarius-star-cloud_hubble-heritage_stsci-1998-28d_1024.jpg",
+     "bytes": 567263,
+     "sha256": "3b0cc0421197b3cbab8feec76e640c0dafce261422170dcdff146386bd8f6e1c",
+     "pixels": "1024x1009"
+    }
+   ],
+   "rights": "public domain (STScI: no claim to copyright, may be freely used as in the public domain)",
+   "rights_statement": "No claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain.",
+   "credit_line": "Hubble Heritage Team (AURA/STScI/NASA)",
+   "identifiable_living_people": "no",
+   "status": "alternate",
+   "notes": "Checked by eye: a dense field of thousands of stars in white, gold, blue and red on black, with the camera's stepped notch black in the top right corner. Only 1024x1009: that is the full size STScI released, fine as a specimen on black, small for full frame. CREDIT WARNING: STScI's 1998 lithograph, NASA's Astronomy Picture of the Day and the Internet Archive copy all credit 'Hubble Heritage Team (AURA/STScI/NASA)', with no ESA. The AstroPix catalogue entry today prints 'Hubble Heritage Team (AURA/STScI/NASA/ESA)'. The file here is the STScI release as mirrored by AstroPix (a NASA-funded catalogue run at Caltech/IPAC), not ESA's copy; ESA's own site copy (opo9828d) is the one under CC BY. I could not fetch the file from STScI's server directly.",
+   "rights_capture": "rights/G26_sagittarius-star-cloud.txt",
+   "accessed": "2026-11-10",
+   "superseded_2026-11-10": "The shot now comes from a sharper Hubble frame (item 19). This one is kept as the alternate."
+  },
+  {
+   "item": 12,
+   "shots": [
+    "G32"
+   ],
+   "title": "Mission Operations Control Room celebrating the conclusion of Apollo 11 (S69-40023)",
+   "event_date": "1969-07-24",
+   "holder": "NASA Image and Video Library (NASA Johnson Space Center), nasa_id S69-40023",
+   "page_url": "https://images.nasa.gov/details/S69-40023",
+   "file_url": "https://images-assets.nasa.gov/image/S69-40023/S69-40023~orig.jpg",
+   "local_files": [
+    {
+     "file": "src/G32_apollo11-mocr-celebration_S69-40023.jpg",
+     "bytes": 1699337,
+     "sha256": "13b15fdc054bfb4b32b0b3a0d138d135143bd14fbad87a89b171a17e4b645693",
+     "pixels": "2629x4012"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States.",
+   "credit_line": "NASA",
+   "identifiable_living_people": "possibly (1969; many faces are clear, some of these men may be alive)",
+   "status": "alternate",
+   "notes": "A still, not film. Checked by eye: controllers on their feet waving small flags, the wall screen reading 'Task Accomplished ..... July, 1969' beside the Apollo 11 emblem, a second screen showing the crowd. Black and white, PORTRAIT 2629x4012, so a 16:9 frame is a crop of about 2629x1479 (the top third with screens and flags works). The record's date field says 25 July; the caption says 24 July 1969. No clean NASA film of this moment was found: the library's 'Apollo 11 Mission Control Center - Film Rolls' is the launch control room at Kennedy on launch day, and the 2019 Johnson b-roll shows the room at work during the mission, with no celebration in the frames I sampled every 8 s. Other stills of the same minute: S69-40025, s69-40022, s69-40024 (the last names officials). The NASA guidelines' clause on NASA employees in promotional content applies here too.",
+   "rights_capture": "rights/G32_apollo11-mocr-celebration_S69-40023.txt",
+   "accessed": "2026-11-10",
+   "superseded_2026-11-10": "The shot now comes from film of the same room on the same day (item 21). This still is kept as the alternate."
+  },
+  {
+   "item": 13,
+   "shots": [
+    "G32"
+   ],
+   "title": "NASA's Perseverance Rover Lands Successfully on Mars: JPL mission control at touchdown",
+   "event_date": "2021-02-18",
+   "holder": "NASA Image and Video Library (NASA/JPL), nasa_id 'JPL-20210218-M2020f-0003-Perseverance Landing Wrap v2'",
+   "page_url": "https://images.nasa.gov/details/JPL-20210218-M2020f-0003-Perseverance%20Landing%20Wrap%20v2",
+   "file_url": "https://images-assets.nasa.gov/video/JPL-20210218-M2020f-0003-Perseverance%20Landing%20Wrap%20v2/JPL-20210218-M2020f-0003-Perseverance%20Landing%20Wrap%20v2~orig.mp4 (64.6 s, 78.6 MB; seconds 33 to 49 were cut with stream copy)",
+   "local_files": [
+    {
+     "file": "src/G34_perseverance-landing_jpl-control-room.mp4",
+     "bytes": 24824097,
+     "sha256": "d744ce82c49c69c1898801655320eaf6553d450b878d89e2384437f1d8c02e0e",
+     "duration_s": 16.56,
+     "pixels": "1280x720",
+     "fps": "60000/1001",
+     "audio": "48000 Hz, 2 ch, aac"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines; JPL grants use with conditions. HIGHEST people-and-logo risk of the set",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. Clearances may be necessary for NASA logos or NASA employees in promotional content.",
+   "credit_line": "NASA/JPL-Caltech",
+   "identifiable_living_people": "yes (JPL staff, masked but recognisable; named people appear at the end of the clip)",
+   "status": "ok",
+   "notes": "Checked by eye: 16.6 s clip, 1280x720, 59.94 fps. Seconds 0 to 3.9 are a computer ANIMATION of the landing: not archive, do not use. 4.0-5.9 the room seated, wide. 6.0-7.4 THE JUMP: the room leaps up, arms raised, wide from behind, a US flag on the back wall (this is the match for the 1969 room). 7.5-11.9 front view of cheering staff under large NASA and JPL logos. 12.0-14.9 two more angles. 15.0-16.6 handshakes. Audio carries the reel's commentary and music, so use picture only. Risk, in the holders' own words: NASA says clearances may be necessary for NASA employees and logos in promotional content; JPL says it generally does not permit likenesses of current employees on commercial products and that its logo and the NASA insignia need prior written approval. The 6.0-7.4 s wide shot shows the fewest faces and no large logo. NASA stills of the same moment by a NASA staff photographer (NASA/Bill Ingalls): NHQ202102180066, NHQ202102180014, NHQ202102180062. From the eighth pass this clip is the right half of G32 (tools/diptych.py); G34 is no longer a shot of its own.",
+   "rights_capture": "rights/G34_perseverance-landing_jpl-control-room.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 14,
+   "shots": [
+    "H01 (sound)"
+   ],
+   "title": "Sperm whale clicks (Physeter macrocephalus), file Phma-clicks-NOAA-PAGroup-01",
+   "event_date": "published 2023 (recording date and place not given)",
+   "holder": "NOAA Fisheries, Northeast Fisheries Science Center, Passive Acoustics Branch",
+   "page_url": "https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals",
+   "file_url": "https://www.fisheries.noaa.gov/s3/2023-04/Phma-clicks-NOAA-PAGroup-01-sperm-clip.mp3",
+   "local_files": [
+    {
+     "file": "src/H01_sperm-whale-clicks_noaa-nefsc_Phma-clicks-NOAA-PAGroup-01.mp3",
+     "bytes": 111405,
+     "sha256": "8e491ae3c2995bdaa5da223fdfaf1ad26c23e612a5c8fcf5f5fe4cd63f4ecfcf",
+     "duration_s": 6.37,
+     "audio": "48000 Hz, 1 ch, mp3"
+    }
+   ],
+   "rights": "US Government work: not subject to US copyright (stated by the holder for NOAA-created material)",
+   "rights_statement": "Information created by the U.S. government and presented on U.S. government websites is not subject to copyright in the United States.",
+   "credit_line": "NOAA. NOAA Fisheries, NEFSC, Passive Acoustics Branch. 2023. Sperm Whale. (or: Courtesy: National Oceanic and Atmospheric Administration)",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Not listened to: measured. 6.37 s, mono, 48 kHz MP3 (the only format offered). A crude peak count finds about 20 clicks in three bursts: a fast run of about 10 clicks from 0.23 to 0.87 s (gaps 0.05-0.13 s), six evenly spaced clicks from 2.13 to 2.96 s (gaps about 0.16 s), and four evenly spaced clicks from 5.33 to 5.78 s (gaps about 0.15 s). NO 1+1+3 coda: none of the bursts has two slow clicks followed by three fast ones, and NOAA's New England recordings would not be expected to carry that Caribbean pattern. Single clean clicks can be lifted from the second and third bursts. The policy 'encourages' non-commercial, scientific and educational use; that sentence is encouragement, not a restriction, since the same paragraph says the material is not subject to copyright. A second NOAA clip exists as video: 'Sperm Whale Clicks and Buzz', 0:22, 2025 survey, https://videos.fisheries.noaa.gov/detail/video/6398002997112/sperm-whale-clicks-and-buzz (not downloaded).",
+   "rights_capture": "rights/H01_sperm-whale-clicks_noaa.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 15,
+   "shots": [
+    "C02"
+   ],
+   "title": "Langley's Aerodrome in the Potomac after its first launch failed, 7 October 1903 (Langley Memoir on Mechanical Flight, plate 100)",
+   "event_date": "1903-10-07",
+   "holder": "Smithsonian Libraries and Archives (scan of Smithsonian Contributions to Knowledge vol. 27 no. 3, 1911, on the Internet Archive and the Biodiversity Heritage Library)",
+   "page_url": "https://archive.org/details/smithsoniancontr271911smit",
+   "file_url": "https://archive.org/download/smithsoniancontr271911smit/smithsoniancontr271911smit_jp2.zip/smithsoniancontr271911smit_jp2%2Fsmithsoniancontr271911smit_0721.jp2",
+   "local_files": [
+    {
+     "file": "src/C02_langley-aerodrome-1903-10-07_pl100_wreck-in-water_sck27-p0721.jp2",
+     "bytes": 404367,
+     "sha256": "1b1c44afd442a3fc61d98c37dceaa634ee4ee52534a28a3ea30751ba903e06ec",
+     "pixels": "2380x3432"
+    }
+   ],
+   "rights": "public domain (the holder marks its scan NOT_IN_COPYRIGHT; a Smithsonian publication of 1911)",
+   "rights_statement": "Internet Archive metadata from Smithsonian Libraries: possible-copyright-status NOT_IN_COPYRIGHT. BHL: Copyright Status: NOT_IN_COPYRIGHT.",
+   "credit_line": "Courtesy of the Smithsonian Libraries and Archives",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "The second half of shot C02, seven frames. The plate's own caption reads AERODROME IN WATER, OCTOBER 7, 1903. A halftone book plate, not a print from the negative. Four more plates of the same day are in src_new/, not in the cut.",
+   "rights_capture": "rights/C02_langley-aerodrome-1903-10-07_pl100.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 16,
+   "shots": [
+    "C04"
+   ],
+   "title": "Telegram, Orville Wright to Bishop Milton Wright, Kitty Hawk, 17 December 1903 (black-and-white scan in the Wright Papers)",
+   "event_date": "1903-12-17",
+   "holder": "Library of Congress, Manuscript Division, Wilbur and Orville Wright Papers",
+   "page_url": "https://www.loc.gov/resource/mss46706.02039/?sp=34",
+   "file_url": "https://tile.loc.gov/storage-services/master/mss/mss46706/mss46706-02039/0034.tif",
+   "local_files": [
+    {
+     "file": "src/C04_wright-telegram-1903-12-17_loc-wright-papers-02039-0034.tif",
+     "bytes": 2650245,
+     "sha256": "61b36c67c933612a2bd1e0cc4c68392bdd4ede2055b6aed354c7cb5fcdb5fa93",
+     "pixels": "2000x1323"
+    }
+   ],
+   "rights": "public domain (stated by the holder on this item's own page)",
+   "rights_statement": "Rights to Orville and Wilbur Wrights' unpublished writings in this collection have been dedicated to the public.",
+   "credit_line": "Wilbur and Orville Wright Papers, Manuscript Division, Library of Congress, Washington, D.C.",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "The last eight frames of shot C04, with the word Success underlined. The telegram as received misspells the sender (Orevelle) and gives 57 seconds for the longest flight; the film shows only its first lines. The Library's colour scan (mcc.061) is sharper but its own page carries no rights statement, so it stays in src_new/, not in the cut.",
+   "rights_capture": "rights/C04_wright-telegram-1903-12-17.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 17,
+   "shots": [
+    "G18"
+   ],
+   "title": "A thruster igniting in a vacuum chamber at NASA Glenn Research Center, 2022 (NASA library record 'ignition')",
+   "event_date": "2022 (record dated 2022-03-01)",
+   "holder": "NASA Image and Video Library (center JSC, album Gateway, location Cleveland, Ohio)",
+   "page_url": "https://images.nasa.gov/details/ignition",
+   "file_url": "https://images-assets.nasa.gov/video/ignition/ignition~orig.mp4",
+   "local_files": [
+    {
+     "file": "src/G18_hall-thruster-ignition_nasa-glenn-aeps_2022_ignition.mp4",
+     "bytes": 16398938,
+     "sha256": "ce61588ad03e746fb1107135be370a9080e52cb28e99898e3676579e71deba00"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines (INFERRED that NASA shot it: the record names no photographer and carries no third-party mark)",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. Third-party material on NASA's site 'will be marked'; this record has no such mark.",
+   "credit_line": "NASA",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "NASA's record calls it a thruster under test for the Gateway station's Power and Propulsion Element and tags it AEPS. NASA's papers call AEPS a 12-kW Hall-effect thruster (research/thruster/). It is NOT a gridded ion engine, and the record does not name the propellant, so the film's own words for it say thruster, not ion engine and not xenon. Five frames are used, taken at 0.90 to 1.60 s, so the light settles faster than it did. The burned-in clock at top left is cropped off. Contractors named in the keywords: Maxar, Aerojet Rocketdyne.",
+   "rights_capture": "rights/G18_hall-thruster-ignition_nasa-glenn-aeps_2022.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 18,
+   "shots": [
+    "G20"
+   ],
+   "title": "ISS Views of Hurricane Dorian, 1 September 2019",
+   "event_date": "2019-09-01",
+   "holder": "NASA Image and Video Library (NASA Johnson Space Center), nasa_id jsc2019m000805_Hurricane_Dorian_190901",
+   "page_url": "https://images.nasa.gov/details/jsc2019m000805_Hurricane_Dorian_190901",
+   "file_url": "https://images-assets.nasa.gov/video/jsc2019m000805_Hurricane_Dorian_190901/jsc2019m000805_Hurricane_Dorian_190901~orig.mp4",
+   "local_files": [
+    {
+     "file": "src/G20_hurricane-dorian-eye_iss_2019-09-01_jsc2019m000805.mp4",
+     "bytes": 57189021,
+     "sha256": "d778fa563aad41d6d80653234c611b2d509afb1f380b76b2aa983841f5577969"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States.",
+   "credit_line": "NASA",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "Thirty seconds kept from the 274 s source (65.95 to 95.98 s). The shot is taken at 12.0 s, with the eye in the middle of the frame. The storm killed people in the Bahamas that day; it is shown as the storm, nothing more.",
+   "rights_capture": "rights/G20_hurricane-dorian-eye_iss_2019-09-01.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 19,
+   "shots": [
+    "G26"
+   ],
+   "title": "Milky Way Bulge: Hubble's crowded star field at the hub of the galaxy (STScI release 2018-01)",
+   "event_date": "released 2018-01-11",
+   "holder": "NASA (science.nasa.gov Hubble asset library); produced by STScI",
+   "page_url": "https://science.nasa.gov/asset/hubble/milky-way-bulge",
+   "file_url": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2018/01/STScI-01EVT1289AJ180RWP7EEDN9HNQ.tif",
+   "local_files": [
+    {
+     "file": "src/G26_hubble-milky-way-bulge_wfc3_STScI-2018-01.tif",
+     "bytes": 22590818,
+     "sha256": "8b7298ac3e65e52da968ec1150044b0dc344a3bb8ed55a3534adf6944efa952c",
+     "pixels": "3336x2823"
+    }
+   ],
+   "rights": "public domain (STScI: no claim to copyright, may be freely used as in the public domain)",
+   "rights_statement": "Unless otherwise specifically stated, no claim to copyright is being asserted by STScI and material on this site may be freely used as in the public domain.",
+   "credit_line": "NASA, ESA, Thomas Brown (STScI)",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "3336x2823, sharp at the shot's size, where the 1998 frame was only 1024 wide. The page credits NASA, ESA and T. Brown; ESA's own copy (CC BY) was not used.",
+   "rights_capture": "rights/G26_hubble-milky-way-bulge_STScI-2018-01.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 20,
+   "shots": [
+    "G12"
+   ],
+   "title": "Ingenuity's first flight, 19 April 2021: the first five frames from its navigation camera (Sol 58)",
+   "event_date": "2021-04-19",
+   "holder": "NASA/JPL-Caltech, Mars 2020 raw-image server",
+   "page_url": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0058_0672089521_264ECM_N0010001HELI00537_0000A0J",
+   "file_url": "listing https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&sol=58",
+   "local_files": [
+    {
+     "file": "src/G12_ingenuity-flight1-navcam_f01_HNM_0058_0672089521.png",
+     "bytes": 219380,
+     "sha256": "53ae8f544c064b175b50d81dab0890ee5cfec0963ba9294d8dbb85be2a0823fa",
+     "pixels": "640x480"
+    },
+    {
+     "file": "src/G12_ingenuity-flight1-navcam_f02_HNM_0058_0672089522.png",
+     "bytes": 212900,
+     "sha256": "e4a30ec51af269994195336e5d1b09235588fbacb14c55d2a9aaa8a31fbe24e6",
+     "pixels": "640x480"
+    },
+    {
+     "file": "src/G12_ingenuity-flight1-navcam_f03_HNM_0058_0672089523.png",
+     "bytes": 215232,
+     "sha256": "60b3bc9e68389201b9707d385fa744d656637e2d858168b30a23371c87b92177",
+     "pixels": "640x480"
+    },
+    {
+     "file": "src/G12_ingenuity-flight1-navcam_f04_HNM_0058_0672089527.png",
+     "bytes": 212235,
+     "sha256": "3e5810fe70abd9e946367bbec36b097b24270db1f59f2adceb3e5ecec59b87ca",
+     "pixels": "640x480"
+    },
+    {
+     "file": "src/G12_ingenuity-flight1-navcam_f05_HNM_0058_0672089532.png",
+     "bytes": 212261,
+     "sha256": "49d614ebae6e0f2809094ab64dd9ae7e189ff20f1d5d0e76b832c4f0b902c536",
+     "pixels": "640x480"
+    }
+   ],
+   "rights": "not subject to US copyright per NASA guidelines; JPL grants use with conditions",
+   "rights_statement": "NASA content generally is not subject to copyright in the United States. Image Credit: NASA/JPL-Caltech.",
+   "credit_line": "NASA/JPL-Caltech",
+   "identifiable_living_people": "no",
+   "status": "ok",
+   "notes": "The camera took fifteen frames that flight; the shot plays the first five, one to a film frame: the shadow shrinking as the helicopter climbs. The frames were taken at 0, 1, 2, 6 and 11 seconds, so the film runs them faster than they happened. The other ten are in src_new/.",
+   "rights_capture": "rights/G12_ingenuity-flight1-navcam-frames.txt",
+   "accessed": "2026-11-10"
+  },
+  {
+   "item": 21,
+   "shots": [
+    "G32"
+   ],
+   "title": "Apollo 11: the Mission Operations Control Room after splashdown, 24 July 1969 (colour film, NASA's HD resource reel, part 9)",
+   "event_date": "1969-07-24",
+   "holder": "NASA (Johnson Space Center public affairs video collection), published by NASA on the Internet Archive",
+   "page_url": "https://archive.org/details/MercuryGeminiApolloHdResourceReel",
+   "file_url": "https://archive.org/download/MercuryGeminiApolloHdResourceReel/Mercury-Gemini-Apollo_HD-ResourceReel_09of12.mov",
+   "local_files": [
+    {
+     "file": "src/G32_apollo11-mocr-celebration-film_1969-07-24_nasa-hd-resource-reel-part09.mp4",
+     "bytes": 67295334,
+     "sha256": "6eb7499629d3bfc0f6d4bfe2dab052419d00801eaeee5c603a16f02d962e613f"
+    }
+   ],
+   "rights": "public domain (NASA's upload is marked Public Domain Mark 1.0). OPEN QUESTION for whoever signs off rights: the reel's description says the film was transferred to HDTV by the Discovery Channel",
+   "rights_statement": "Usage: Public Domain Mark 1.0. NASA content generally is not subject to copyright in the United States.",
+   "credit_line": "NASA",
+   "identifiable_living_people": "possibly (1969; many faces are clear, some of these people may be alive)",
+   "status": "ok",
+   "notes": "39.6 s kept (603.42 to 643.06 s of part 9). The shot is taken at 24.5 s: the room on its feet, flags waving. It is known to be Apollo 11 from the emblem and the words Task Accomplished, July 1969 on the wall in the last shot, and from NASA's own B-roll of the same shots. If the Discovery transfer is a worry, the same shots from NASA's own server, standard definition and much softer, are in src_new/ (N03_alt) with their record.",
+   "rights_capture": "rights/G32_apollo11-mocr-celebration-film_1969-07-24.txt",
+   "accessed": "2026-11-10"
+  }
+ ],
+ "in_hand_not_in_cut": "archive/src_new/ holds what the search of 10 November found and the cut does not use, each with its record in archive/rights_new/: four more plates of the Aerodrome, the colour scan of the telegram, the standard-definition control room film, a JPL ion engine test (with words burned in), film of switchboard operators (public domain by the holder's marking only, and it shows recognisable private people), a 1936 film of flow round aerofoils, ten more navigation-camera frames and a later flight, a second Hubble field, and Bell's telephone patent."
+}

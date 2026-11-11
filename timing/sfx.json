@@ -1,0 +1,761 @@
+{
+ "about": "Sound effects generated with ElevenLabs Sound Effects. Each prompt names one sound. n is how many variants to make, so repeated hits do not sound copied.",
+ "sfx": {
+  "relay_click": {
+   "text": "One-shot: one loud electromechanical relay click, a sharp metallic snap, extremely close microphone, dry",
+   "seconds": 1.0,
+   "n": 3
+  },
+  "relay_buzz": {
+   "text": "One-shot: a short harsh electric buzzer burst from an old relay, a censor bleep, dry, no reverb",
+   "seconds": 0.5,
+   "n": 2
+  },
+  "key_tap": {
+   "text": "One-shot: a single laptop key pressed by one finger, soft plastic click, very close, dry",
+   "seconds": 0.5,
+   "n": 3
+  },
+  "paper_snap": {
+   "text": "One-shot: a sheet of paper snapping taut in strong wind, one sharp crack, dry",
+   "seconds": 0.5,
+   "n": 2
+  },
+  "paper_slap": {
+   "text": "One-shot: a sheet of newspaper slapping flat against a window, close, one hard smack",
+   "seconds": 0.6,
+   "n": 1
+  },
+  "pencil_squeak": {
+   "text": "One-shot: a loud squeak of a wax pencil dragged hard across paper, very close microphone, dry",
+   "seconds": 1.0,
+   "n": 2
+  },
+  "pencil_write": {
+   "text": "A pencil writing three quick words on paper, close, scratchy graphite, dry",
+   "seconds": 1.2,
+   "n": 1
+  },
+  "cap_pop": {
+   "text": "One-shot: a loud hollow pop of a plastic pen cap being pulled off, very close microphone",
+   "seconds": 1.0,
+   "n": 1
+  },
+  "paper_rip": {
+   "text": "One-shot: a sheet of paper torn in half in one fast rip, close",
+   "seconds": 0.7,
+   "n": 1
+  },
+  "send_whoosh": {
+   "text": "One-shot: a small soft airy whoosh, short, like a message being sent",
+   "seconds": 0.6,
+   "n": 1
+  },
+  "inhale": {
+   "text": "One-shot: one sharp close human inhale through the mouth, anticipation, dry",
+   "seconds": 0.7,
+   "n": 1
+  },
+  "whip": {
+   "text": "One-shot: a fast airy whoosh, a camera whip pan, short",
+   "seconds": 0.5,
+   "n": 1
+  },
+  "glitch": {
+   "text": "Glitch one-shot: a harsh digital data corruption stutter burst, half a second",
+   "seconds": 0.6,
+   "n": 1
+  },
+  "modem": {
+   "text": "A dial-up modem handshake screech, lo-fi, one second",
+   "seconds": 1.0,
+   "n": 1
+  },
+  "cheer": {
+   "text": "A room of thirty engineers erupting into cheers and applause, indoor control room, joyful shouting, sudden",
+   "seconds": 2.5,
+   "n": 1
+  },
+  "enter_impact": {
+   "text": "Impact: one heavy keyboard key press that blooms into a deep cinematic sub-bass boom with a long low tail",
+   "seconds": 3.0,
+   "n": 1
+  },
+  "riser": {
+   "text": "Riser: a tense rising whoosh of air and noise building for two seconds to an abrupt stop",
+   "seconds": 2.2,
+   "n": 1
+  },
+  "sub_swell": {
+   "text": "A deep sub-bass swell that rises slowly and fades, cinematic, no melody",
+   "seconds": 4.0,
+   "n": 1
+  },
+  "fan_wind": {
+   "text": "Ambience: a giant industrial fan blowing strong wind down a long hall, deep steady whoosh with low rumble, loose paper fluttering past",
+   "seconds": 6.0,
+   "n": 1
+  },
+  "hall_tone": {
+   "text": "Room tone of a large empty industrial hall: a steady, clearly audible low ventilation hum and moving air",
+   "seconds": 8.0,
+   "n": 1,
+   "loop": true
+  },
+  "kitchen_tone": {
+   "text": "Ambience: a quiet kitchen at night, a refrigerator humming and a wall clock ticking slowly, close and intimate",
+   "seconds": 5.0,
+   "n": 1
+  },
+  "breath_bed": {
+   "text": "Two people breathing slowly and audibly, very close microphone, calm, in a silent room",
+   "seconds": 5.0,
+   "n": 1
+  },
+  "underwater": {
+   "text": "Ambience: deep underwater stillness, slow low water movement, vast and calm",
+   "seconds": 6.0,
+   "n": 1
+  },
+  "tube_on": {
+   "text": "One-shot: a large fluorescent tube light striking on, one sharp electrical clunk followed by a short bright hum, very close microphone, dry",
+   "seconds": 0.8,
+   "n": 3
+  },
+  "tube_off": {
+   "text": "One-shot: an electric light switching off with one hard click, its hum cutting to silence, close, dry",
+   "seconds": 0.7,
+   "n": 1
+  },
+  "paper_flurry": {
+   "text": "Ambience: hundreds of strips of paper whipping and fluttering past in a strong wind, a dense dry papery rustle with sharp little snaps, no voices, no music",
+   "seconds": 6.0,
+   "n": 1
+  },
+  "paper_flutter": {
+   "text": "A narrow strip of paper fluttering fast in the wind right beside the microphone, soft dry papery flapping",
+   "seconds": 1.5,
+   "n": 1
+  },
+  "bar_zip": {
+   "text": "One-shot: a short clean electronic swoop falling in pitch, like a beam of light collapsing to a point, half a second, dry",
+   "seconds": 0.6,
+   "n": 1
+  },
+  "ink_scratch": {
+   "text": "One-shot: one quick stroke of a brush pen on a plaster wall, a short wet scratch, very close microphone, dry",
+   "seconds": 0.5,
+   "n": 3
+  },
+  "telegraph": {
+   "text": "One-shot: a brass telegraph sounder tapping out six quick Morse clicks, sharp dry metallic ticks, 1900s telegraph office, very close microphone, no voices",
+   "seconds": 0.8,
+   "n": 1,
+   "note": "It came back as one click. The mix plays it three times, 70 ms apart: three dots, the letter S."
+  }
+ },
+ "score": {
+  "model": "music_v2_5",
+  "starts_at_seconds": 5.0,
+  "chunks": [
+   {
+    "text": "[Drop]",
+    "duration_ms": 5000,
+    "positive_styles": [
+     "dark minimal electronic, UK bass and techno hybrid",
+     "144 BPM",
+     "D minor",
+     "punchy dry four-on-the-floor kick",
+     "deep sub bass",
+     "a breathy vocal pad chopped rhythmically on eighth notes",
+     "tight sidechain pumping",
+     "modern cinematic sound design",
+     "instrumental only",
+     "starts instantly at full energy on the first beat"
+    ],
+    "negative_styles": [
+     "intro build-up",
+     "melodic lead",
+     "lyrics",
+     "guitar",
+     "long reverb wash"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Filtered]",
+    "duration_ms": 3333,
+    "positive_styles": [
+     "the same groove muffled, as if from a small television speaker",
+     "band-passed, thin, lo-fi",
+     "144 BPM",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "full bass",
+     "lyrics"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Under dialogue]",
+    "duration_ms": 13333,
+    "positive_styles": [
+     "very sparse",
+     "only a soft sub bass pulse and quiet ticking percussion",
+     "lots of empty space for speech",
+     "tense and patient",
+     "144 BPM",
+     "D minor",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "kick drum",
+     "melody",
+     "swelling pads",
+     "busy",
+     "lyrics"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Stillness]",
+    "duration_ms": 4583,
+    "positive_styles": [
+     "all rhythm stops",
+     "one soft warm held pad note",
+     "air and breath",
+     "intimate, suspended",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "drums",
+     "bass line",
+     "melody",
+     "lyrics"
+    ],
+    "context_adherence": "medium"
+   },
+   {
+    "text": "[Heartbeat]",
+    "duration_ms": 5417,
+    "positive_styles": [
+     "a slow soft sub pulse like a heartbeat",
+     "half-time feel",
+     "very quiet and intimate",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "drums",
+     "hi-hats",
+     "melody",
+     "lyrics"
+    ],
+    "context_adherence": "medium"
+   },
+   {
+    "text": "[Kitchen]",
+    "duration_ms": 3333,
+    "positive_styles": [
+     "near silence at first",
+     "then a rising riser of tension building to the next downbeat",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "drums",
+     "melody",
+     "lyrics"
+    ],
+    "context_adherence": "medium"
+   },
+   {
+    "text": "[Big drop]\n(aah) (aah) (ooh)",
+    "duration_ms": 12500,
+    "positive_styles": [
+     "explosive drop on the first beat",
+     "double-time breakbeat drums at 144 BPM",
+     "driving kick and deep sub bass",
+     "bright pulsing arpeggio in D minor",
+     "stacked wordless breathy female choir soaring above, sustained angelic vowels, no words",
+     "euphoric, huge, joyful",
+     "wide and loud"
+    ],
+    "negative_styles": [
+     "sung lyrics with words",
+     "male vocals",
+     "guitar",
+     "slow"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Whale]\n(aah)",
+    "duration_ms": 5000,
+    "positive_styles": [
+     "drums and bass stop abruptly",
+     "only the wordless breathy female choir as a soft pad and a deep slow sub swell",
+     "vast, underwater, full of wonder",
+     "D minor"
+    ],
+    "negative_styles": [
+     "drums",
+     "kick",
+     "arpeggio",
+     "sung lyrics with words"
+    ],
+    "context_adherence": "high"
+   }
+  ],
+  "note": "As composed, take 1 keeps strict time but brings its big drop in at 36.25 s where this plan has it at 35.0 s, runs its drums to 49.4 s, and every hit sits 20 ms after the beat. tools/score_edit.py corrects all three and writes audio/music/score_cut1.wav, which the mix plays. Take 2 drifts to about 142 beats a minute in the drop and is not used."
+ },
+ "pad": {
+  "about": "The whale's five seconds (frames 1260 to 1380). The score's own ending is three seconds of its drums dying away, so the passage the plan asks for, a choir pad and a sub swell with no drums, is generated on its own and laid in by tools/score_edit.py.",
+  "model": "music_v2_5",
+  "takes": 2,
+  "chunks": [
+   {
+    "text": "[Whale]\n(aah)",
+    "duration_ms": 9000,
+    "positive_styles": [
+     "ambient choral pad with no rhythm at all",
+     "wordless breathy female choir holding one soft sustained chord, vowels only",
+     "D minor",
+     "a deep slow sub bass swell underneath",
+     "vast, underwater, full of wonder",
+     "slow attack, long reverb, very still",
+     "cinematic, intimate, quiet",
+     "instrumental feel, no words"
+    ],
+    "negative_styles": [
+     "drums",
+     "kick",
+     "hi-hats",
+     "percussion",
+     "arpeggio",
+     "melodic lead",
+     "sung lyrics with words",
+     "male vocals"
+    ],
+    "context_adherence": "high"
+   }
+  ]
+ },
+ "score2": {
+  "about": "The score as recomposed on the eighth pass, after reading ElevenLabs' own guide to prompting music (decide genre, mood, instruments, tempo and era; speak in studio terms; narrate the arrangement; say what is banned). One continuous performance in six sections, every section a whole number of bars at 144 BPM, so that it can be cut to the picture on bar lines. The film does not play it straight through: tools/score_edit.py places each section where the cut wants it.",
+  "model": "music_v2_5",
+  "takes": 3,
+  "sections": [
+   "engine",
+   "stripped",
+   "stillness",
+   "build",
+   "drop",
+   "afterglow"
+  ],
+  "chunks": [
+   {
+    "text": "[Engine]",
+    "duration_ms": 13333,
+    "positive_styles": [
+     "cinematic melodic techno",
+     "144 BPM",
+     "D minor",
+     "starts instantly at full energy on the first beat",
+     "driving sixteenth-note analog synth arpeggio",
+     "punchy tight four-on-the-floor kick drum, bone-dry",
+     "deep clean sub bass",
+     "crisp clicking percussion like relays and typewriter keys",
+     "tight sidechain pumping",
+     "dark, tense, relentless",
+     "glassy futuristic sound design",
+     "modern film trailer production, wide and polished",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "intro",
+     "build-up",
+     "vocals",
+     "lyrics",
+     "guitar",
+     "piano",
+     "long reverb wash",
+     "lo-fi",
+     "muddy"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Stripped]",
+    "duration_ms": 13333,
+    "positive_styles": [
+     "the same arpeggio muted and filtered low, far away",
+     "only a soft sub bass pulse on each beat and a quiet ticking hi-hat",
+     "no kick drum",
+     "lots of empty space for speech",
+     "patient, suspended tension",
+     "144 BPM",
+     "D minor",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "kick drum",
+     "snare",
+     "lead melody",
+     "swelling pads",
+     "busy",
+     "vocals",
+     "lyrics"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Stillness]",
+    "duration_ms": 6667,
+    "positive_styles": [
+     "all rhythm stops",
+     "one soft warm held synth pad chord in D minor",
+     "air and breath",
+     "intimate, suspended, very quiet",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "drums",
+     "kick drum",
+     "hi-hats",
+     "bass line",
+     "arpeggio",
+     "melody",
+     "vocals",
+     "lyrics"
+    ],
+    "context_adherence": "medium"
+   },
+   {
+    "text": "[Build]",
+    "duration_ms": 3333,
+    "positive_styles": [
+     "a two-bar build",
+     "rising white-noise riser and reverse cymbal",
+     "accelerating snare roll",
+     "the arpeggio's filter opening",
+     "tension climbing to the next downbeat",
+     "144 BPM",
+     "instrumental only"
+    ],
+    "negative_styles": [
+     "kick drum",
+     "bass drop",
+     "vocals",
+     "lyrics",
+     "melody"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Drop]\n(aah) (aah) (ooh)",
+    "duration_ms": 13333,
+    "positive_styles": [
+     "explosive drop on the first beat",
+     "the arpeggio wide open and bright",
+     "huge euphoric supersaw chords in D minor",
+     "four-on-the-floor kick with offbeat open hi-hats and fast breakbeat fills",
+     "deep driving sub bass",
+     "soaring wordless female choir, sustained airy vowels, no words",
+     "triumphant, joyful, enormous",
+     "wide and loud",
+     "144 BPM"
+    ],
+    "negative_styles": [
+     "sung lyrics with words",
+     "male vocals",
+     "guitar",
+     "slow",
+     "dark",
+     "quiet"
+    ],
+    "context_adherence": "high"
+   },
+   {
+    "text": "[Afterglow]\n(aah)",
+    "duration_ms": 10000,
+    "positive_styles": [
+     "drums and bass stop dead on the first beat",
+     "only the wordless breathy female choir holding one soft chord and a deep slow sub swell",
+     "vast, underwater, full of wonder",
+     "D minor",
+     "long reverb tail fading slowly to silence"
+    ],
+    "negative_styles": [
+     "drums",
+     "kick drum",
+     "hi-hats",
+     "percussion",
+     "arpeggio",
+     "sung lyrics with words",
+     "male vocals"
+    ],
+    "context_adherence": "high"
+   }
+  ],
+  "verdict": "Measured bar by bar on arrival (out/score2_report.txt): all three takes play one unbroken sub-bass groove for 37 to 40 seconds whatever the section asks for, with almost nothing above 4 kHz, bring the drop in one to two bars late and stop the drums two bars late. Asking for 'high' context adherence told every section to sound like its neighbours. Not used. The same measurement run on the score the film had until v010 shows the same thing: 33 seconds of sub bass with the highs 28 dB down. That is what was wrong with the music."
+ },
+ "cues": {
+  "about": "The score as used from the eighth pass on: each passage of the film composed on its own from a plain prompt, written to ElevenLabs' guide (genre, mood, instruments, tempo and era all decided; studio words; what is banned said out loud). A model asked for one thing does it; asked for six sections in a row it played one groove throughout (see score2). Every cue is in D minor at 144 BPM so that they sit together, and every prompt asks for brightness, because the first score measured as sub bass and little else. tools/score_edit.py finds each cue's beat by measurement and lays it on the film's grid.",
+  "model": "music_v2_5",
+  "items": {
+   "engine": {
+    "takes": 3,
+    "music_length_ms": 16000,
+    "instrumental": true,
+    "prompt": "Driving futuristic melodic techno, 144 BPM, D minor. Starts instantly at full energy on the first beat with no intro: punchy tight four-on-the-floor kick, crisp bright sixteenth-note hi-hats and sharp claps, a glassy plucked analog synth arpeggio racing in the high register, a growling mid-range bassline, tight sidechain pumping. Tense and urgent, sleek and modern, polished wide film-trailer production with sparkling highs. Instrumental only, no vocals."
+   },
+   "under": {
+    "takes": 3,
+    "music_length_ms": 20000,
+    "instrumental": true,
+    "prompt": "Sparse futuristic underscore for dialogue, 144 BPM, D minor. No drums and no kick drum: just a soft glassy plucked synth arpeggio ticking quietly in the high register like a clock, one muted pulsing synth bass note on each beat, and a thin airy pad. Lots of empty space, patient suspended tension, clean and minimal, a sleek modern film score. It stays this sparse all the way through. Instrumental only, no vocals."
+   },
+   "still": {
+    "takes": 2,
+    "music_length_ms": 14000,
+    "instrumental": true,
+    "prompt": "One soft warm synth pad chord in D minor held almost perfectly still, with a faint high glassy shimmer and air above it. No rhythm, no drums, no bass line, no melody. Intimate, suspended, fragile and hopeful. Ambient film score, close and quiet. Instrumental only, no vocals."
+   },
+   "flood": {
+    "takes": 2,
+    "music_length_ms": 20000,
+    "instrumental": false,
+    "prompt": "Euphoric melodic techno drop for a film's climax, 144 BPM, D minor. Starts instantly at full energy on the first beat with no intro: huge four-on-the-floor kick, offbeat open hi-hats and fast breakbeat fills, deep driving sub bass, a bright wide-open sixteenth-note analog arpeggio, enormous supersaw chords, and a soaring wordless female choir holding sustained airy vowels. Sidechained, glassy, futuristic, wide and loud, triumphant and joyful. No sung words. It stays at full energy all the way through."
+   },
+   "flood_lift": {
+    "takes": 2,
+    "music_length_ms": 20000,
+    "instrumental": false,
+    "prompt": "Euphoric futuristic melodic techno drop for a film's climax, 144 BPM, D minor. Starts instantly at full energy on the first beat with no intro: huge punchy four-on-the-floor kick, bright offbeat open hi-hats, crisp claps and fast breakbeat fills, a sparkling wide-open sixteenth-note analog arpeggio, enormous supersaw chords, and a soaring wordless female choir on sustained airy vowels. After four bars everything lifts: the chords climb higher and the choir opens up, even bigger and brighter. Sidechained, glassy, wide and loud, triumphant and joyful. No sung words, never drops in energy."
+   },
+   "theme": {
+    "takes": 3,
+    "music_length_ms": 40000,
+    "instrumental": false,
+    "prompt": "Futuristic euphoric melodic techno with a cinematic choir, 144 BPM, D minor. The first eight bars (13 seconds) are just a sparkling sixteenth-note analog synth arpeggio, crisp ticking hi-hats and shakers, and an airy wordless female choir pad: no kick drum and no bass yet, restless and expectant. Then the drop hits at full energy and stays there to the end: huge punchy four-on-the-floor kick, deep driving bass, bright offbeat open hi-hats, claps and fast breakbeat fills, the arpeggio wide open, enormous supersaw chords, the choir soaring on sustained airy vowels. Glassy, sidechained, wide and loud, triumphant and joyful, polished modern film-trailer production. No sung words."
+   }
+  }
+ },
+ "sfx2": {
+  "about": "The effects made again on the eighth pass with ElevenLabs' newer effects model (eleven_text_to_sound_v3; the first set was made with v2, which the vendor has since deprecated). Prompts follow the vendor's guide: the action, the setting and the performance, one sound at a time. Each file is measured when it arrives (tools/sound.py sfx2): how long the sound itself is, where its energy sits, and whether it is only rumble. The mix takes a sound from audio/sfx2/ when it is there and from audio/sfx/ when it is not.",
+  "model": "eleven_text_to_sound_v3",
+  "items": {
+   "relay_click": {
+    "seconds": 0.6,
+    "n": 3,
+    "text": "One single sharp clack of a vintage electromechanical telephone relay switching, a heavy metal armature snapping shut, extremely close microphone, dry studio foley, no reverb"
+   },
+   "relay_buzz": {
+    "seconds": 0.5,
+    "n": 2,
+    "text": "A short harsh electric buzzer burst from an old relay, a censor bleep, close microphone, dry, no reverb"
+   },
+   "key_tap": {
+    "seconds": 0.5,
+    "n": 4,
+    "text": "One single key pressed on a laptop keyboard by one finger, a soft plastic click with a low thock, extremely close microphone, dry studio foley"
+   },
+   "teletype_key": {
+    "seconds": 0.6,
+    "n": 3,
+    "text": "One single key struck on a 1960s electromechanical teleprinter, a heavy clack as the print hammer hits the paper, motor humming underneath, close microphone, dry"
+   },
+   "stamp_hit": {
+    "seconds": 1.2,
+    "n": 3,
+    "text": "Impact: a heavy rubber stamp slammed down hard on a wooden desk, one deep thud with a sharp slap on top, close microphone, short dry room"
+   },
+   "cine_hit": {
+    "seconds": 2.5,
+    "n": 3,
+    "text": "Cinematic trailer impact: one hard punchy hit, a tight metallic slam with a deep sub boom under it and a short dark reverb tail, full range, modern sound design"
+   },
+   "riser": {
+    "seconds": 3.4,
+    "n": 2,
+    "text": "Riser: a tense cinematic synth riser sweeping upward in pitch with building white noise and a reverse cymbal, accelerating, ending in an abrupt cut to silence"
+   },
+   "whoosh": {
+    "seconds": 0.7,
+    "n": 4,
+    "text": "Whoosh: one fast clean airy whoosh passing close by, short cinematic transition, dry"
+   },
+   "glitch_crash": {
+    "seconds": 1.2,
+    "n": 3,
+    "text": "A computer crashing: a burst of harsh digital data corruption, stuttering buffer noise and bit-crushed static that collapses into a descending power-down whine and then silence"
+   },
+   "power_up": {
+    "seconds": 0.9,
+    "n": 3,
+    "text": "A short bright futuristic user-interface confirmation: a quick rising power-up sweep ending in a clean two-note chime, positive, digital, dry"
+   },
+   "data_chatter": {
+    "seconds": 2.0,
+    "n": 2,
+    "text": "A fast soft stream of tiny high-pitched computer processing blips and ticks, a decoder reading a signal, delicate, clean, futuristic, dry, no melody"
+   },
+   "neural_static": {
+    "seconds": 6.0,
+    "n": 1,
+    "loop": true,
+    "text": "Ambience: faint electrical crackle, sparse tiny static clicks and pops like electrodes picking up nerve signals, very quiet, close, dry"
+   },
+   "tube_on": {
+    "seconds": 0.9,
+    "n": 3,
+    "text": "A large fluorescent tube light striking on: one sharp electrical clunk, a flicker of buzz, then a short bright hum, very close microphone, dry"
+   },
+   "tube_off": {
+    "seconds": 0.7,
+    "n": 2,
+    "text": "An electric light switching off with one hard click, its hum cutting to silence, close, dry"
+   },
+   "crt_off": {
+    "seconds": 0.9,
+    "n": 2,
+    "text": "An old cathode-ray television switching off: a click, a quick descending electronic zap as the picture collapses to a dot, then silence, close, dry"
+   },
+   "paper_snap": {
+    "seconds": 0.5,
+    "n": 3,
+    "text": "One sheet of paper snapping taut in a strong wind, a single sharp crack, close, dry"
+   },
+   "paper_slap": {
+    "seconds": 0.6,
+    "n": 2,
+    "text": "A sheet of newspaper blown flat against a window pane, one hard papery smack, close"
+   },
+   "paper_rip": {
+    "seconds": 0.7,
+    "n": 2,
+    "text": "One sheet of paper torn in half in a single fast rip, close, dry"
+   },
+   "paper_flurry": {
+    "seconds": 6.0,
+    "n": 1,
+    "loop": true,
+    "text": "Ambience: hundreds of strips of paper whipping and fluttering past in a strong wind, a dense dry papery rustle with sharp little snaps, no voices, no music"
+   },
+   "paper_flutter": {
+    "seconds": 1.5,
+    "n": 1,
+    "text": "A narrow strip of paper fluttering fast in the wind right beside the microphone, soft dry papery flapping"
+   },
+   "fan_wind": {
+    "seconds": 8.0,
+    "n": 1,
+    "loop": true,
+    "text": "Ambience: a huge industrial fan blowing a strong steady wind down a long concrete hall, an airy roar with a mid-range whoosh and a low rumble under it, no voices"
+   },
+   "hall_tone": {
+    "seconds": 8.0,
+    "n": 1,
+    "loop": true,
+    "text": "Room tone of a large empty industrial hall at night: a steady, clearly audible ventilation hum and slow moving air, no voices, no events"
+   },
+   "kitchen_tone": {
+    "seconds": 6.0,
+    "n": 1,
+    "loop": true,
+    "text": "Ambience: a quiet kitchen at night, a refrigerator humming softly and a wall clock ticking slowly, close and intimate, no voices"
+   },
+   "underwater": {
+    "seconds": 8.0,
+    "n": 1,
+    "loop": true,
+    "text": "Ambience: deep underwater stillness, slow low water movement and a soft distant pressure hum, vast and calm, no bubbles close by"
+   },
+   "pencil_squeak": {
+    "seconds": 0.9,
+    "n": 3,
+    "text": "One loud squeak of a red wax pencil dragged hard across newsprint, very close microphone, dry"
+   },
+   "pencil_write": {
+    "seconds": 1.2,
+    "n": 2,
+    "text": "A pencil writing three quick words on paper, close, scratchy graphite, dry"
+   },
+   "cap_pop": {
+    "seconds": 0.8,
+    "n": 2,
+    "text": "One loud hollow pop of a plastic marker cap being pulled off, very close microphone, dry"
+   },
+   "send_whoosh": {
+    "seconds": 0.7,
+    "n": 2,
+    "text": "A small soft airy whoosh with a faint rising tone, an email being sent, short, clean"
+   },
+   "telegraph": {
+    "seconds": 0.9,
+    "n": 2,
+    "text": "A brass telegraph sounder tapping out six quick Morse clicks, sharp dry metallic ticks, a 1900s telegraph office, very close microphone, no voices"
+   },
+   "ink_scratch": {
+    "seconds": 0.5,
+    "n": 3,
+    "text": "One quick stroke of a brush pen on a plaster wall, a short wet scratch, very close microphone, dry"
+   },
+   "modem": {
+    "seconds": 1.0,
+    "n": 2,
+    "text": "A dial-up modem handshake screech, harsh warbling tones and static, lo-fi, one second"
+   },
+   "heartbeat": {
+    "seconds": 1.2,
+    "n": 2,
+    "text": "One single slow human heartbeat, lub-dub, deep and close as through a stethoscope, dry, no ambience"
+   },
+   "bar_zip": {
+    "seconds": 0.7,
+    "n": 2,
+    "text": "A short clean futuristic synth swoop falling quickly in pitch, a beam of light collapsing into a point, bright, dry"
+   },
+   "projector": {
+    "seconds": 0.5,
+    "n": 3,
+    "text": "A slide projector advancing one slide: one crisp mechanical ka-chunk, close microphone, dry"
+   },
+   "sub_drop": {
+    "seconds": 2.0,
+    "n": 2,
+    "text": "A deep cinematic sub drop: one low boom that falls in pitch and fades away, clean, with an audible soft thump at its start"
+   },
+   "light_hum": {
+    "seconds": 3.0,
+    "n": 1,
+    "text": "A soft warm futuristic energy hum, a glowing tube of light being held in a hand, a gentle harmonic shimmer, steady, close, dry"
+   },
+   "crt_switch_off": {
+    "seconds": 1.0,
+    "n": 3,
+    "text": "An old cathode-ray television set is switched off: a sharp plastic click, then the high whine of the picture tube falling in pitch and fading over half a second, close microphone, dry room"
+   },
+   "heart": {
+    "seconds": 1.3,
+    "n": 4,
+    "text": "One slow heavy human heartbeat heard through a stethoscope, two dull thuds, lub-dub, each with a soft audible knock in the mid range like a fingertip tapping a wooden box, close, dry, no ambience"
+   },
+   "power_down": {
+    "seconds": 1.5,
+    "n": 3,
+    "text": "A large machine powering down: an electric motor's whirr falling quickly in pitch to a stop, one and a half seconds, close, dry"
+   },
+   "ring_ping": {
+    "seconds": 1.2,
+    "n": 4,
+    "text": "One single soft high glass chime note with a short shimmering tail, a sonar ping made of glass, clean and bright, dry, one note only"
+   },
+   "bronze_tone": {
+    "seconds": 3.0,
+    "n": 2,
+    "text": "Ambience: the faint metallic resonance of a large bronze plate ringing softly in a quiet museum room, a low shimmering hum that beats slowly, no voices, no footsteps"
+   }
+  }
+ }
+}

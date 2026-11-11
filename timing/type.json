@@ -1,0 +1,749 @@
+{
+ "about": "On-screen type that is part of the picture, with absolute frames (24 fps). Captions of spoken lines are not here: they come from lines.json. x and y are fractions of the frame; y is the baseline. Styles: prompt (serif, the opening sentence), doubt (serif italic), stamp (condensed capitals, four times caption size), stamp2 (twice), small (caption size), fine (source lines), quote (serif italic, typed when type is set: characters per frame), guess (grey italic prediction on a black card), tele and term (typewriter and terminal faces), hand (handwriting; color pencil makes it graphite), caption (a silent caption in the caption position), docked (THE FUTURE IS plus a completion, in the caption position), rect and sweep (the cyan block), steps (text that changes on given frames).",
+ "events": [
+  {
+   "id": "open",
+   "shot": "A01",
+   "in": 0,
+   "out": 40,
+   "style": "prompt",
+   "text": "The future is",
+   "x": 0.15,
+   "y": 0.4,
+   "cursor": "block",
+   "rings": [
+    0,
+    10,
+    20,
+    25,
+    30
+   ]
+  },
+  {
+   "shot": "A01",
+   "in": 10,
+   "out": 40,
+   "style": "doubt",
+   "text": "“not for people like me.”",
+   "after": "open",
+   "row": 0,
+   "type": 7.0
+  },
+  {
+   "shot": "A01",
+   "in": 20,
+   "out": 40,
+   "style": "doubt",
+   "text": "“coming for my job.”",
+   "after": "open",
+   "row": 1,
+   "type": 7.0
+  },
+  {
+   "shot": "A01",
+   "in": 25,
+   "out": 40,
+   "style": "doubt",
+   "text": "“all hype.”",
+   "after": "open",
+   "row": 2,
+   "type": 7.0
+  },
+  {
+   "shot": "A01",
+   "in": 30,
+   "out": 40,
+   "style": "doubt",
+   "text": "“already decided.”",
+   "after": "open",
+   "row": 3,
+   "type": 7.0
+  },
+  {
+   "shot": "A02",
+   "in": 40,
+   "out": 42,
+   "style": "docked",
+   "text": "“already decided.”"
+  },
+  {
+   "shot": "A04",
+   "in": 50,
+   "out": 90,
+   "style": "rect",
+   "x": 0.7,
+   "y": 0.26,
+   "w": 0.085,
+   "h": 0.07,
+   "note": "the censor block lands on a drawn mouth on the wall"
+  },
+  {
+   "shot": "A11",
+   "in": 90,
+   "out": 95,
+   "style": "rect",
+   "x": 0.3,
+   "y": 0.34,
+   "w": 0.4,
+   "h": 0.3
+  },
+  {
+   "shot": "A12",
+   "in": 95,
+   "out": 100,
+   "style": "sweep"
+  },
+  {
+   "shot": "B03",
+   "in": 135,
+   "out": 145,
+   "style": "title",
+   "text": "FIRST WORD",
+   "x": 0.5,
+   "y": 0.56,
+   "align": "center"
+  },
+  {
+   "shot": "C02",
+   "in": 283,
+   "out": 290,
+   "style": "fine",
+   "text": "LANGLEY'S AERODROME IN THE POTOMAC. 7 OCTOBER 1903.",
+   "x": 0.05,
+   "y": 0.8,
+   "note": "the plate's own caption reads AERODROME IN WATER, OCTOBER 7, 1903",
+   "color": "white"
+  },
+  {
+   "shot": "C03",
+   "in": 290,
+   "out": 295,
+   "style": "stamp",
+   "text": "69 DAYS LATER.",
+   "x": 0.5,
+   "y": 0.58,
+   "align": "center"
+  },
+  {
+   "shot": "C04",
+   "in": 312,
+   "out": 320,
+   "style": "fine",
+   "text": "ORVILLE WRIGHT'S TELEGRAM HOME. 17 DECEMBER 1903.",
+   "x": 0.06,
+   "y": 0.1,
+   "color": "ink",
+   "note": "Library of Congress, Wilbur and Orville Wright Papers. Its first word is Success."
+  },
+  {
+   "shot": "D02",
+   "in": 345,
+   "out": 360,
+   "style": "guess",
+   "text": "IT CHANGES EVERYTHING.",
+   "x": 0.5,
+   "y": 0.55,
+   "align": "center",
+   "backspace": 355
+  },
+  {
+   "shot": "D08",
+   "in": 446,
+   "out": 485,
+   "style": "fine",
+   "text": "ROMAN MILITARY DIPLOMA, 113/114 CE.",
+   "x": 0.05,
+   "y": 0.8,
+   "out_note": "stays through the restoration"
+  },
+  {
+   "shot": "D09",
+   "in": 472,
+   "out": 500,
+   "style": "steps",
+   "face": "stamp",
+   "x": 0.07,
+   "y": 0.58,
+   "steps": [
+    [
+     472,
+     "SUGGESTED."
+    ],
+    [
+     487,
+     "SUGGESTED. THEN CHECKED."
+    ]
+   ]
+  },
+  {
+   "shot": "D12",
+   "in": 520,
+   "out": 540,
+   "style": "stamp",
+   "text": "10 YEARS.",
+   "x": 0.045,
+   "y": 0.245,
+   "color": "ink",
+   "note": "top left, where the next shot's stamp will be: 10 YEARS. becomes 2 DAYS. in the same place"
+  },
+  {
+   "shot": "D13",
+   "in": 545,
+   "out": 560,
+   "style": "stamp",
+   "text": "2 DAYS.",
+   "x": 0.045,
+   "y": 0.245,
+   "color": "ink",
+   "scale": 1.0
+  },
+  {
+   "shot": "D14",
+   "in": 562,
+   "out": 620,
+   "style": "quote",
+   "text": "“you have access to my computer, is that right?”",
+   "x": 0.5,
+   "y": 0.5,
+   "align": "center",
+   "type": 2.0,
+   "color": "ink",
+   "scale": 0.85
+  },
+  {
+   "shot": "D14",
+   "in": 590,
+   "out": 620,
+   "style": "fine",
+   "text": "JOSÉ PENADÉS, IMPERIAL COLLEGE LONDON, TO THE BBC, 2025.",
+   "x": 0.5,
+   "y": 0.6,
+   "align": "center",
+   "color": "ink"
+  },
+  {
+   "shot": "E02",
+   "in": 795,
+   "out": 800,
+   "style": "guess",
+   "text": "IT'S SO MUCH MORE THAN THAT.",
+   "x": 0.5,
+   "y": 0.55,
+   "align": "center",
+   "backspace": 795
+  },
+  {
+   "shot": "G07",
+   "in": 1000,
+   "out": 1010,
+   "style": "hand",
+   "text": "Vague but exciting ...",
+   "x": 0.335,
+   "y": 0.118,
+   "type": 2.6,
+   "color": "pencil",
+   "note": "Mike Sendall's pencilled note on the March 1989 proposal: no comma, a space before the dots"
+  },
+  {
+   "shot": "G10",
+   "in": 1020,
+   "out": 1030,
+   "style": "term",
+   "text": "just a hobby, won't be big and professional",
+   "x": 0.5,
+   "y": 0.52,
+   "align": "center",
+   "type": 5.0,
+   "cursor": "block"
+  },
+  {
+   "shot": "G19",
+   "in": 1130,
+   "out": 1135,
+   "style": "quote",
+   "text": "“that which is in itself desirable”",
+   "x": 0.5,
+   "y": 0.5,
+   "align": "center",
+   "color": "ink"
+  },
+  {
+   "shot": "G19",
+   "in": 1130,
+   "out": 1135,
+   "style": "fine",
+   "text": "READ ON 2 NOVEMBER 2026 FROM A SCROLL BURNT IN 79 CE.",
+   "x": 0.5,
+   "y": 0.6,
+   "align": "center",
+   "color": "ink"
+  },
+  {
+   "shot": "G22",
+   "in": 1145,
+   "out": 1155,
+   "style": "quote",
+   "text": "“I didn’t know what the problem was.”",
+   "x": 0.5,
+   "y": 0.455,
+   "align": "center",
+   "why_y": "1080p review: at 0.5 the board's own chalk stroke ran through the lower half of the words like a strike-through; here it lies under them as an underline"
+  },
+  {
+   "shot": "G22",
+   "in": 1145,
+   "out": 1155,
+   "style": "fine",
+   "text": "LIAM PRICE, 23. ERDŐS PROBLEM 1196.",
+   "x": 0.5,
+   "y": 0.6,
+   "align": "center"
+  },
+  {
+   "shot": "G25",
+   "in": 1165,
+   "out": 1170,
+   "style": "tele",
+   "text": "Shock! Shock!",
+   "x": 0.5,
+   "y": 0.54,
+   "align": "center",
+   "color": "ink",
+   "scale": 0.6
+  },
+  {
+   "shot": "G25",
+   "in": 1165,
+   "out": 1170,
+   "style": "fine",
+   "text": "DONALD KNUTH, 2026.",
+   "x": 0.5,
+   "y": 0.7,
+   "align": "center",
+   "color": "ink"
+  },
+  {
+   "shot": "H01",
+   "in": 1262,
+   "out": 1320,
+   "style": "steps",
+   "face": "quote",
+   "x": 0.5,
+   "y": 0.215,
+   "align": "center",
+   "steps": [
+    [
+     1262,
+     "."
+    ],
+    [
+     1272,
+     ".   ."
+    ],
+    [
+     1282,
+     ".   .   ."
+    ],
+    [
+     1287,
+     ".   .   . ."
+    ],
+    [
+     1292,
+     ".   .   . . ."
+    ],
+    [
+     1300,
+     ".   .   . . .   ?"
+    ]
+   ],
+   "note": "the captions try to transcribe the whale: one dot for each click, spaced as the clicks are (one, one, then three quick ones), and then a question mark",
+   "scale": 1.9
+  },
+  {
+   "shot": "I01",
+   "in": 1380,
+   "out": 1386,
+   "style": "bar",
+   "text": "The future is",
+   "x": 0.15,
+   "y": 0.4,
+   "note": "the baton's band of light, as shot H03 left it, draws itself in to the cursor's place with the last frame fading under it; the first click sends a ring out from where it is going",
+   "rings": [
+    1380
+   ]
+  },
+  {
+   "id": "close",
+   "shot": "I01",
+   "in": 1386,
+   "out": 1440,
+   "style": "prompt",
+   "text": "The future is yours to start.",
+   "x": 0.15,
+   "y": 0.4,
+   "cursor": "block",
+   "ignite": 1386,
+   "rings": [
+    1380,
+    1390,
+    1400,
+    1405
+   ],
+   "type": 2.0,
+   "type_from": 1390,
+   "type_head": 13,
+   "note": "the film's own answer types itself after the prompt from the second click, in the face and at the size of the opening prompt. The sentence holds to the last frame. On the last click the cursor leaves it for the end of the question below.",
+   "cursor_until": 1410,
+   "solid_from": 1400
+  },
+  {
+   "shot": "D13",
+   "in": 541,
+   "out": 560,
+   "style": "screen",
+   "quad": [
+    [
+     0.387,
+     0.145
+    ],
+    [
+     0.723,
+     0.188
+    ],
+    [
+     0.672,
+     0.584
+    ],
+    [
+     0.336,
+     0.499
+    ]
+   ],
+   "canvas": [
+    880,
+    536
+   ],
+   "type_from": 541,
+   "rate": 5.2,
+   "lines": [
+    {
+     "text": "top-ranked hypothesis:",
+     "face": "mono",
+     "px": 34,
+     "x": 58,
+     "y": 84,
+     "weight": 0.62
+    },
+    {
+     "text": "cf-PICIs hijack",
+     "face": "tele",
+     "px": 58,
+     "x": 58,
+     "y": 176
+    },
+    {
+     "text": "diverse phage tails",
+     "face": "tele",
+     "px": 58,
+     "x": 58,
+     "y": 252
+    },
+    {
+     "text": "to expand their",
+     "face": "tele",
+     "px": 58,
+     "x": 58,
+     "y": 328
+    },
+    {
+     "text": "host range.",
+     "face": "tele",
+     "px": 58,
+     "x": 58,
+     "y": 404
+    }
+   ],
+   "note": "the hypothesis in the words of the paper that reported it (Penadés and others, Cell 188 (23), 2025: 'the AI co-scientist's top-ranked hypothesis matched our experimentally confirmed mechanism: cf-PICIs hijack diverse phage tails to expand their host range'), set into the drawn screen's own four corners"
+  },
+  {
+   "shot": "H01",
+   "in": 1264,
+   "out": 1320,
+   "style": "small",
+   "text": "A SPERM WHALE IS SPEAKING.",
+   "x": 0.05,
+   "y": 0.615,
+   "type": 3.0,
+   "color": "white",
+   "note": "the 1+1+3 coda is five clicks lasting about a second, used mainly by one clan off Dominica and recorded since 2005; its meaning is unknown (see the True table). Reworded on 11 November 2026: the user asked what the scene meant, and the old line never said the whale was saying something.",
+   "backing": 0.55
+  },
+  {
+   "shot": "H01",
+   "in": 1280,
+   "out": 1320,
+   "style": "small",
+   "text": "NOBODY KNOWS WHAT IT SAYS. YET.",
+   "x": 0.05,
+   "y": 0.678,
+   "type": 3.0,
+   "color": "white",
+   "backing": 0.55
+  },
+  {
+   "shot": "I01",
+   "in": 1410,
+   "out": 1440,
+   "style": "mark",
+   "x": 0.84,
+   "y": 0.555,
+   "w": 0.11,
+   "h": 0.12,
+   "note": "the maker's mark lands here on the fifth click when clips/mark.png exists"
+  },
+  {
+   "shot": "G30",
+   "in": 1190,
+   "out": 1220,
+   "style": "small",
+   "text": "1969. THE INTERNET'S FIRST WORD.",
+   "x": 0.5,
+   "y": 0.215,
+   "align": "center",
+   "scale": 1.15,
+   "note": "29 October 1969. Leonard Kleinrock's own account: 'the first message on the Internet was lo'. It went over the ARPANET, the network the internet grew from (see the True table). The day and month are left off the card so that it can be read in the time it has."
+  },
+  {
+   "shot": "G30",
+   "in": 1190,
+   "out": 1220,
+   "style": "ghost",
+   "face": "tele",
+   "word": "LOGIN",
+   "x": 0.5,
+   "y": 0.5,
+   "steps": [
+    [
+     1190,
+     1
+    ],
+    [
+     1193,
+     2
+    ],
+    [
+     1210,
+     3
+    ],
+    [
+     1212,
+     4
+    ],
+    [
+     1214,
+     5
+    ]
+   ],
+   "cursor": true,
+   "cursor_off": [
+    [
+     1196,
+     1210
+    ]
+   ],
+   "glitch_from": 1196,
+   "glitch_to": 1200,
+   "note": "L and O arrived, and the far computer crashed on the G. White is what arrived; grey is what was still to come. About an hour later the whole word went through (Kleinrock; Duvall, BBC Future, 28 October 2024)."
+  },
+  {
+   "shot": "G31",
+   "in": 1201,
+   "out": 1210,
+   "style": "stamp",
+   "text": "IT CRASHED.",
+   "x": 0.5,
+   "y": 0.745,
+   "align": "center",
+   "scale": 0.8
+  },
+  {
+   "shot": "G31",
+   "in": 1210,
+   "out": 1220,
+   "style": "stamp",
+   "text": "FIXED.",
+   "x": 0.5,
+   "y": 0.745,
+   "align": "center",
+   "scale": 0.8,
+   "note": "'They were able to do the full login about an hour later' (Kleinrock). The stamp lands on the beat, two frames before the chorus says We'll fix it. The hour is in the small line under it: the stamp alone has to be readable in ten frames."
+  },
+  {
+   "shot": "D15",
+   "in": 624,
+   "out": 750,
+   "style": "small",
+   "text": "CASEY HARRELL HAS ALS.",
+   "x": 0.15,
+   "y": 0.235,
+   "type": 3.0,
+   "scale": 1.3
+  },
+  {
+   "shot": "D15",
+   "in": 640,
+   "out": 750,
+   "style": "spikes",
+   "x": 0.15,
+   "y": 0.285,
+   "w": 0.7,
+   "h": 0.052,
+   "n": 256,
+   "seed": 4,
+   "levels": [
+    [
+     640,
+     0.0
+    ],
+    [
+     650,
+     0.1
+    ],
+    [
+     692,
+     0.12
+    ],
+    [
+     698,
+     0.62
+    ],
+    [
+     711,
+     0.66
+    ],
+    [
+     716,
+     0.16
+    ],
+    [
+     750,
+     0.08
+    ]
+   ],
+   "note": "a drawing of the signal, not data: 256 slits for the 256 electrodes in his speech motor cortex (NEJM, 14 August 2024). They are busiest while the sentence is being written from them."
+  },
+  {
+   "shot": "D15",
+   "in": 646,
+   "out": 750,
+   "style": "fine",
+   "text": "256 ELECTRODES IN HIS BRAIN",
+   "x": 0.15,
+   "y": 0.39,
+   "scale": 1.2
+  },
+  {
+   "shot": "D16",
+   "in": 666,
+   "out": 750,
+   "style": "small",
+   "text": "HIS FOUR-YEAR-OLD WALKS IN DRESSED AS A CHEETAH.",
+   "x": 0.15,
+   "y": 0.475,
+   "type": 3.6,
+   "scale": 1.15
+  },
+  {
+   "shot": "D15",
+   "in": 620,
+   "out": 750,
+   "style": "quote",
+   "text": "“I’m looking for a cheetah.”",
+   "x": 0.15,
+   "y": 0.6,
+   "type": 1.9,
+   "type_from": 696,
+   "cursor": "block",
+   "decode": 3,
+   "note": "his sentence, as reported by Leigh Hochberg in the NEJM podcast of 14 August 2024; typed with its next letters still noise, because it is being decoded"
+  },
+  {
+   "shot": "D18",
+   "in": 714,
+   "out": 750,
+   "style": "steps",
+   "face": "stamp2",
+   "x": 0.15,
+   "y": 0.745,
+   "steps": [
+    [
+     714,
+     "DECODED."
+    ],
+    [
+     722,
+     "DECODED. THEN SPOKEN, IN HIS OWN VOICE."
+    ]
+   ],
+   "scale": 0.95,
+   "note": "the approved plan's stamp. The voice is a synthetic one built to sound like his own before ALS (NEJM, 14 August 2024)."
+  },
+  {
+   "shot": "D15",
+   "in": 660,
+   "out": 750,
+   "style": "fine",
+   "text": "UC DAVIS. NEW ENGLAND JOURNAL OF MEDICINE, 14 AUGUST 2024.",
+   "x": 0.15,
+   "y": 0.835,
+   "color": "grey"
+  },
+  {
+   "shot": "G31",
+   "in": 1211,
+   "out": 1220,
+   "style": "small",
+   "text": "ABOUT AN HOUR LATER.",
+   "x": 0.5,
+   "y": 0.845,
+   "align": "center"
+  },
+  {
+   "shot": "I01",
+   "in": 1400,
+   "out": 1440,
+   "style": "steps",
+   "face": "ask",
+   "x": 0.147,
+   "y": 0.645,
+   "steps": [
+    [
+     1400,
+     "What"
+    ],
+    [
+     1405,
+     "What will you"
+    ],
+    [
+     1410,
+     "What will you start?"
+    ]
+   ],
+   "punch_parts": true,
+   "hot": true,
+   "slam": 0.5,
+   "cursor": "block",
+   "cursor_from": 1414,
+   "ignite": 1414,
+   "rings": [
+    1410,
+    1412,
+    1414
+   ],
+   "note": "the question to whoever is watching, one part on each of the last three clicks. Since v014 it is set in the film's serif italic, the face the film keeps for questions, larger than the sentence above it, so the last screen speaks in one voice (the user asked for better type here; until v013 it was heavy condensed capitals). On the last click the cursor comes to rest after the question mark and blinks there: it is the viewer's turn.",
+   "cursor_gap": 0.2
+  }
+ ]
+}

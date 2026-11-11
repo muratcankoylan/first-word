@@ -1,0 +1,89 @@
+ITEM N08 - Ingenuity's first flight, 19 April 2021: the navigation-camera frames with the helicopter's own shadow
+READ THIS FIRST: I could not find any NASA-published VIDEO of the first flight from the navigation camera. What NASA holds and publishes for that flight is 15 still frames from the downward-looking black-and-white navigation camera (Sol 58). I saved all 15 as NASA serves them, and I also joined them into one clip MYSELF so they can be dropped on a timeline. That clip is my assembly, not a NASA release. (A real NASA navcam shadow video exists for Flight 14; it is saved as the N08 alternate.)
+WHAT: 15 frames, 640x480, black and white. f01-f03: the shadow on the ground shrinking as the helicopter climbs; f04-f09: hover, small shadow near centre over banded, pebbly ground; f10-f12: descent, shadow growing; f13-f15: on the ground, the shadow of body and legs filling the frame.
+HOLDER: NASA/JPL-Caltech - Mars 2020 mission raw-image server (mars.nasa.gov)
+ITEM PAGES: https://mars.nasa.gov/mars2020/multimedia/raw-images/<imageid>   e.g. https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0058_0672089521_264ECM_N0010001HELI00537_0000A0J
+  Listing used: https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&sol=58  (returned exactly 15 images for Sol 58, all instrument "HELI_NAV")
+FILE URLS DOWNLOADED: the 15 "full_res" PNG files listed below (each saved byte-for-byte).
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): NASA/JPL-Caltech images on a NASA site; "not subject to copyright in the United States" per NASA's guidelines (QUOTED); credit line "NASA/JPL-Caltech" given on each image page (QUOTED).
+
+RIGHTS STATEMENTS, QUOTED:
+Raw-image page for the first frame (read 2026-11-10): "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. This image was acquired on April 19, 2021 (Sol 58 of the Perseverance rover mission) at the local mean solar time of 12:33:14. This was the date of Ingenuity's first flight." "Image Credit: NASA/JPL-Caltech". Each frame's record in the listing carries title "Mars Helicopter Sol 58: Navigation Camera" and credit "NASA/JPL-Caltech".
+NASA "Images and Media" usage guidelines, https://www.nasa.gov/nasa-brand-center/images-and-media/ (read 2026-11-10):
+  "NASA content – images, audio, video, and media files used in the rendition of 3-dimensional models, such as texture maps and polygon data in any format – generally are not subject to copyright in the United States."
+  "NASA content used in a factual manner that does not imply endorsement may be used without needing explicit permission. NASA should be acknowledged as the source of the material."
+  "NASA occasionally uses copyright-protected material of third parties with permission on its website. Those images will be marked identified as copyright protected with the name of the copyright holder."
+  "For use of NASA images clearances may be necessary for images that include any NASA logos or NASA employees to be used as cover art or in promotional content. Otherwise, NASA imagery can be generally used editorially within published works that are not promotional in nature."
+  "If the NASA material is to be used for commercial purposes, including advertisements, it must not explicitly or implicitly convey NASA’s endorsement of commercial goods or services."
+  "If a NASA image, audio, video or media includes an identifiable person, using the media for commercial purposes may infringe that person’s right of privacy or publicity, and permission should be obtained from the person."
+  The same page opens with: "The NASA Insignia, Logotype, identifiers, and imagery are not in the public domain." NOTE: NASA's wording is "not subject to copyright in the United States"; the page does not call the footage "public domain".
+JPL Image Use Policy, https://www.jpl.nasa.gov/jpl-image-use-policy (read 2026-11-10):
+  "Unless otherwise noted, images and video on JPL public web sites (public sites ending with a jpl.nasa.gov address) may be used for any purpose without prior permission, subject to the special cases noted below."
+  By downloading "the user agrees: 1. that Caltech makes no representations or warranties with respect to ownership of copyrights in the images ... 2. to use a credit line in connection with images. Unless otherwise noted in the caption information for an image, the credit line should be "Courtesy NASA/JPL-Caltech." 3. that the endorsement of any product or service by Caltech, JPL or NASA must not be claimed or implied."
+  "If an image includes an identifiable person, using the image for commercial purposes may infringe that person's right of privacy or publicity, and permission should be obtained from the person."
+  "Some image and video materials on JPL public web sites are owned by organizations other than JPL or NASA." NOTE: this is a permission with conditions; the page does not use the words "public domain".
+  (The JPL policy speaks of sites "ending with a jpl.nasa.gov address"; these files are on mars.nasa.gov, so the NASA guideline is the one that applies on its face. JPL's is quoted because the credit is NASA/JPL-Caltech.)
+
+WHAT I CHECKED TO BE SURE THERE IS NO OFFICIAL FIRST-FLIGHT NAVCAM VIDEO:
+  - NASA Image and Video Library searches ("ingenuity navigation camera", "ingenuity first flight", video): nothing for flight one from this camera.
+  - JPL Photojournal entries PIA24584 to PIA24593: 24584 is the single still (already in the archive as G12); 24586 is the rover's Navcam; 24588 is a data animation; 24589 and 24590 are Mastcam-Z; 24592 is flight two. None is a flight-one navigation-camera video.
+  - JPL's 2021 and 2023 Ingenuity media reels in the NASA library: in the 2021 reel (49 minutes; I sampled one frame every 10 seconds, so a very short insert could be missed) the navigation-camera picture appears only on control-room screens; the 2023 reel's navigation-camera sequences are slated as flights 14 and 25.
+  This is a negative result from searching, not a statement from NASA that no such video exists.
+
+THE 15 FRAMES (order and spacing): "+n s" is the difference in the spacecraft-clock seconds embedded in NASA's image IDs, counted from the first frame; LMST is the local mean solar time NASA gives for each frame. Spacing is uneven: 1 s apart at take-off and landing, 4-5 s apart in the hover. NOTE: the listing's "date_taken_utc" field disagrees with these for the last four frames (it spreads them over 81 s); I used the image-ID clock and LMST, which agree with each other.
+  f01  + 0 s  LMST 12:33:14  640x480  219380 bytes  N08_ingenuity-flight1-navcam_f01_HNM_0058_0672089521.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089521_264ECM_N0010001HELI00537_0000A0J02.png
+        sha256 53ae8f544c064b175b50d81dab0890ee5cfec0963ba9294d8dbb85be2a0823fa
+  f02  + 1 s  LMST 12:33:15  640x480  212900 bytes  N08_ingenuity-flight1-navcam_f02_HNM_0058_0672089522.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089522_259ECM_N0010001HELI00567_0000LUJ02.png
+        sha256 e4a30ec51af269994195336e5d1b09235588fbacb14c55d2a9aaa8a31fbe24e6
+  f03  + 2 s  LMST 12:33:16  640x480  215232 bytes  N08_ingenuity-flight1-navcam_f03_HNM_0058_0672089523.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089523_256ECM_N0010001HELI00597_0000A0J03.png
+        sha256 60b3bc9e68389201b9707d385fa744d656637e2d858168b30a23371c87b92177
+  f04  + 6 s  LMST 12:33:20  640x480  212235 bytes  N08_ingenuity-flight1-navcam_f04_HNM_0058_0672089527.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089527_267ECM_N0010001HELI00718_0000LUJ02.png
+        sha256 3e5810fe70abd9e946367bbec36b097b24270db1f59f2adceb3e5ecec59b87ca
+  f05  +11 s  LMST 12:33:25  640x480  212261 bytes  N08_ingenuity-flight1-navcam_f05_HNM_0058_0672089532.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089532_278ECM_N0010001HELI00869_0000LUJ02.png
+        sha256 49d614ebae6e0f2809094ab64dd9ae7e189ff20f1d5d0e76b832c4f0b902c536
+  f06  +16 s  LMST 12:33:29  640x480  210947 bytes  N08_ingenuity-flight1-navcam_f06_HNM_0058_0672089537.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089537_285ECM_N0010001HELI01020_0000LUJ02.png
+        sha256 8df85da30f7eb20003476949fc65f8c062968eef5cc33a78e9c2f65108425e44
+  f07  +21 s  LMST 12:33:34  640x480  211183 bytes  N08_ingenuity-flight1-navcam_f07_HNM_0058_0672089542.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089542_296ECM_N0010001HELI01171_0000LUJ02.png
+        sha256 c9e6025e9b4df1b4bbea4a76b41f8af99ca5f5e014ba09a9a52eca3d25e2b695
+  f08  +26 s  LMST 12:33:39  640x480  211794 bytes  N08_ingenuity-flight1-navcam_f08_HNM_0058_0672089547.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089547_303ECM_N0010001HELI01322_0000LUJ02.png
+        sha256 555e22bc767e36c33866cef02ec938e6219dc91ec6979eabd97ed993a1635936
+  f09  +31 s  LMST 12:33:44  640x480  210311 bytes  N08_ingenuity-flight1-navcam_f09_HNM_0058_0672089552.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089552_314ECM_N0010001HELI01473_0000LUJ02.png
+        sha256 b33a1c3546abae846eb56b7b51cce81f06552dff0bef1dd1df4ec2a6820e6d84
+  f10  +35 s  LMST 12:33:48  640x480  212723 bytes  N08_ingenuity-flight1-navcam_f10_HNM_0058_0672089556.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089556_260ECM_N0010001HELI01592_0000A0J03.png
+        sha256 0740b48596b093bc246c21a377785dd2f19a0e61abe4e4dadd55bd5a2973436d
+  f11  +36 s  LMST 12:33:49  640x480  216192 bytes  N08_ingenuity-flight1-navcam_f11_HNM_0058_0672089557.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089557_321ECM_N0010001HELI01624_0000LUJ02.png
+        sha256 cfff192c73ab23aec7145d003286cb02fde238dea792c56e43e497e5f7b9449d
+  f12  +37 s  LMST 12:33:50  640x480  249033 bytes  N08_ingenuity-flight1-navcam_f12_HNM_0058_0672089558.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089558_256ECM_N0010001HELI01652_0000A0J03.png
+        sha256 9c19073f240eef77f0a94f6a8e8014e3e2519efffb343e0202e236d17da411fc
+  f13  +41 s  LMST 12:33:54  640x480  275499 bytes  N08_ingenuity-flight1-navcam_f13_HNM_0058_0672089562.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089562_332ECM_N0010001HELI01775_0000LUJ02.png
+        sha256 5a206970e864071e3c97577aaa59460bd4035096c86735d7d3fee22989f4d5c0
+  f14  +46 s  LMST 12:33:59  640x480  279853 bytes  N08_ingenuity-flight1-navcam_f14_HNM_0058_0672089567.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089567_340ECM_N0010001HELI01926_0000LUJ02.png
+        sha256 54824f3c80e0d956b6aa49b71d367e30dbbda4d4987df09820b000932ad117a7
+  f15  +51 s  LMST 12:34:04  640x480  294554 bytes  N08_ingenuity-flight1-navcam_f15_HNM_0058_0672089572.png
+        https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00058/ids/edr/browse/heli/HNM_0058_0672089572_350ECM_N0010001HELI02077_0000LUJ02.png
+        sha256 de44156b497d9444cf1be4f8b2ff4dc5b117bfa87634dcc359e0fcf5acf347e5
+
+THE ASSEMBLED CLIP (made by me, 2026-11-10): ffmpeg, the 15 PNGs in the order above, each held for exactly 1 second (so the clip does NOT show true timing), 30 fps, H.264 (libx264, crf 10, yuv420p), no audio, no resizing, no grading. Re-time it from the table above if true pace matters.
+  N08_ingenuity-flight1-navcam_15-raw-frames_assembled-1s-each.mp4
+    2061277 bytes (2.06 MB); 640x480 px; 15.0 s; 30.0 fps; 450 frames decoded; video codec h264; audio: none; container mov
+    sha256 f2b4591914e014d915b5b5bcc1bc09907dc20ec0350fec77627c0c39c67a97b7
+
+CAVEATS:
+  - No people, no logos. No endorsement by NASA or JPL may be implied. Credit: NASA/JPL-Caltech.
+  - The frames are small (640x480) and fisheye-distorted; that is how the camera is.

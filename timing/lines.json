@@ -1,0 +1,591 @@
+{
+ "about": "Every spoken line with its start frame (24 fps). slot_end is the frame the line must be finished by. cap is the caption text (null = no caption). style: caps = small white condensed capitals, serif = serif italic in quotation marks (doubts, questions, real quotes). guess is the grey prediction when it differs from what is said. voice is the macOS scratch voice used only for the animatic. tts and rate only steer the scratch voice. cap_from and cap_until pin when a caption may appear and must be gone. gain sets a line lower or higher in the temp mix.",
+ "guess_lead": 5,
+ "lines": [
+  {
+   "id": "d1",
+   "who": "DOUBT 1",
+   "voice": [
+    "Tessa",
+    "en_ZA"
+   ],
+   "text": "not for people like me.",
+   "start": 6,
+   "slot_end": 52,
+   "cap": null,
+   "pan": -0.8,
+   "gain": 0.5
+  },
+  {
+   "id": "d2",
+   "who": "DOUBT 2",
+   "voice": [
+    "Grandpa",
+    "en_US"
+   ],
+   "text": "coming for my job.",
+   "start": 14,
+   "slot_end": 50,
+   "cap": null,
+   "pan": 0.8,
+   "gain": 0.5
+  },
+  {
+   "id": "d3",
+   "who": "DOUBT 3",
+   "voice": [
+    "Flo",
+    "en_US"
+   ],
+   "text": "all hype.",
+   "start": 22,
+   "slot_end": 52,
+   "cap": null,
+   "pan": -0.5,
+   "gain": 0.5
+  },
+  {
+   "id": "d4",
+   "who": "DOUBT 4",
+   "voice": [
+    "Eddy",
+    "en_GB"
+   ],
+   "text": "already decided.",
+   "start": 28,
+   "slot_end": 62,
+   "cap": null,
+   "pan": 0.5,
+   "gain": 0.5
+  },
+  {
+   "id": "ray1",
+   "who": "RAY",
+   "voice": [
+    "Ralph",
+    "en_US"
+   ],
+   "text": "Just [bleep] autocomplete.",
+   "start": 38,
+   "slot_end": 95,
+   "parts": [
+    {
+     "say": "Just",
+     "at": 38,
+     "cap": "just"
+    },
+    {
+     "bleep": true,
+     "at": 50,
+     "cap": "[BLOCK]",
+     "dur": 9
+    },
+    {
+     "say": "autocomplete.",
+     "at": 59,
+     "cap": "autocomplete."
+    }
+   ],
+   "cap": "“just [BLOCK] autocomplete.”",
+   "style": "docked",
+   "guess_at": 42,
+   "wipe_at": 95,
+   "note": "Voice only: the fifth and loudest way to finish The future is. Backspaced with the ink at frame 95.",
+   "bleep_at": 50
+  },
+  {
+   "id": "mara1",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "Everybody's got a prediction.",
+   "start": 79,
+   "slot_end": 121,
+   "cap": "EVERYBODY'S GOT A PREDICTION.",
+   "style": "caps",
+   "cap_from": 100,
+   "note": "Pre-lap over the bowed heads. The cut to her eyes lands on the word prediction.",
+   "cap_until": 120
+  },
+  {
+   "id": "osei1",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "From one million to ten million years.",
+   "start": 228,
+   "slot_end": 296,
+   "cap": "“From one million to ten million years.”",
+   "style": "serif",
+   "cap_from": 240
+  },
+  {
+   "id": "mara2",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "Close.",
+   "start": 300,
+   "slot_end": 320,
+   "cap": "CLOSE.",
+   "style": "caps",
+   "cap_until": 318,
+   "was": "Sixty-nine days. (until v009: it only said the card over again)"
+  },
+  {
+   "id": "jun1",
+   "who": "JUN",
+   "voice": [
+    "Rishi",
+    "en_IN"
+   ],
+   "text": "So what does it actually do?",
+   "start": 323,
+   "slot_end": 362,
+   "cap": "“So what does it actually do?”",
+   "style": "serif",
+   "rate": 200
+  },
+  {
+   "id": "mara3",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "It finishes things.",
+   "start": 362,
+   "slot_end": 386,
+   "cap": "IT FINISHES THINGS.",
+   "style": "caps",
+   "guess": "IT CHANGES EVERYTHING.",
+   "guess_at": 345,
+   "backspace_at": 355,
+   "guess_mode": "card"
+  },
+  {
+   "id": "ray2",
+   "who": "RAY",
+   "voice": [
+    "Ralph",
+    "en_US"
+   ],
+   "text": "It makes things up.",
+   "start": 386,
+   "slot_end": 410,
+   "cap": "IT MAKES THINGS UP.",
+   "style": "caps",
+   "rate": 205
+  },
+  {
+   "id": "mara4",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "Constantly.",
+   "start": 410,
+   "slot_end": 426,
+   "cap": "CONSTANTLY.",
+   "style": "caps",
+   "guess": "NO, IT DOESN'T.",
+   "guess_at": 401,
+   "backspace_at": 410,
+   "guess_mode": "caption"
+  },
+  {
+   "id": "mara5",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "So we check.",
+   "start": 426,
+   "slot_end": 450,
+   "cap": "SO WE CHECK.",
+   "style": "caps"
+  },
+  {
+   "id": "osei2",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "A Roman sentence, broken in bronze.",
+   "start": 443,
+   "slot_end": 508,
+   "cap": "A ROMAN SENTENCE, BROKEN IN BRONZE.",
+   "style": "caps",
+   "tts": "A Roman sentence broken in bronze."
+  },
+  {
+   "id": "mara6",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "One lab, ten years, unpublished.",
+   "start": 506,
+   "slot_end": 548,
+   "cap": "ONE LAB. TEN YEARS. UNPUBLISHED.",
+   "style": "caps",
+   "was": "One lab's unpublished result. (until v009)"
+  },
+  {
+   "id": "jun2",
+   "who": "JUN",
+   "voice": [
+    "Rishi",
+    "en_IN"
+   ],
+   "text": "Same idea. Two days.",
+   "start": 544,
+   "slot_end": 580,
+   "cap": "SAME IDEA. TWO DAYS.",
+   "style": "caps",
+   "tts": "Same idea, two days.",
+   "rate": 200
+  },
+  {
+   "id": "osei3",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "He asked if they'd been in his computer.",
+   "start": 576,
+   "slot_end": 630,
+   "cap": "HE ASKED IF THEY'D BEEN IN HIS COMPUTER.",
+   "style": "caps"
+  },
+  {
+   "id": "mara7",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "And a sentence a man could no longer say.",
+   "start": 628,
+   "slot_end": 692,
+   "cap": "AND A SENTENCE A MAN COULD NO LONGER SAY.",
+   "style": "caps",
+   "soft": true
+  },
+  {
+   "id": "mara7b",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "Read straight from his brain.",
+   "start": 694,
+   "slot_end": 730,
+   "cap": "READ STRAIGHT FROM HIS BRAIN.",
+   "style": "caps",
+   "soft": true,
+   "note": "added on the eighth pass: it carries on her sentence over the decoding, so the passage says how the sentence was got"
+  },
+  {
+   "id": "ray3",
+   "who": "RAY",
+   "voice": [
+    "Ralph",
+    "en_US"
+   ],
+   "text": "So it is just autocomplete.",
+   "start": 753,
+   "slot_end": 803,
+   "cap": "SO IT IS JUST AUTOCOMPLETE.",
+   "style": "caps",
+   "soft": true,
+   "rate": 205
+  },
+  {
+   "id": "mara8",
+   "who": "MARA",
+   "voice": [
+    "Samantha",
+    "en_US"
+   ],
+   "text": "Yeah. It is.",
+   "start": 799,
+   "slot_end": 850,
+   "cap": "YEAH. IT IS.",
+   "style": "caps",
+   "guess": "IT'S SO MUCH MORE THAN THAT.",
+   "guess_at": 780,
+   "backspace_at": 795,
+   "guess_mode": "caption+card"
+  },
+  {
+   "id": "osei4",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "It only finishes what somebody starts.",
+   "start": 846,
+   "slot_end": 910,
+   "cap": "IT ONLY FINISHES WHAT SOMEBODY STARTS.",
+   "style": "caps",
+   "note": "The thesis. His voice starts over the relay, four frames before he is seen.",
+   "cap_until": 908
+  },
+  {
+   "id": "pip1",
+   "who": "PIP",
+   "voice": [
+    "Karen",
+    "en_AU"
+   ],
+   "text": "So start.",
+   "start": 931,
+   "slot_end": 954,
+   "cap": "SO START.",
+   "style": "caps",
+   "soft": true
+  },
+  {
+   "id": "v1",
+   "who": "VOICE 1",
+   "voice": [
+    "Tessa",
+    "en_ZA"
+   ],
+   "text": "I think...",
+   "start": 962,
+   "slot_end": 988,
+   "cap": "“I think…”",
+   "style": "serif",
+   "pan": -0.32
+  },
+  {
+   "id": "v2",
+   "who": "VOICE 2",
+   "voice": [
+    "Grandpa",
+    "en_US"
+   ],
+   "text": "Mister Watson, come here...",
+   "start": 980,
+   "slot_end": 1003,
+   "cap": "“Mr. Watson — come here…”",
+   "style": "serif",
+   "tts": "Mister Watson come here",
+   "rate": 200,
+   "cap_until": 1002,
+   "pan": 0.32
+  },
+  {
+   "id": "v3",
+   "who": "VOICE 3",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "Vague but exciting.",
+   "start": 1003,
+   "slot_end": 1024,
+   "cap": "“Vague but exciting …”",
+   "style": "serif",
+   "pan": -0.32
+  },
+  {
+   "id": "v4",
+   "who": "VOICE 4",
+   "voice": [
+    "Eddy",
+    "en_GB"
+   ],
+   "text": "Just a hobby.",
+   "start": 1023,
+   "slot_end": 1048,
+   "cap": "“Just a hobby.”",
+   "style": "serif",
+   "pan": 0.32
+  },
+  {
+   "id": "amara1",
+   "who": "AMARA",
+   "voice": [
+    "Kathy",
+    "en_US"
+   ],
+   "text": "Dumb question...",
+   "start": 1040,
+   "slot_end": 1070,
+   "cap": "“Dumb question…”",
+   "style": "serif",
+   "rate": 200
+  },
+  {
+   "id": "dev1",
+   "who": "DEV",
+   "voice": [
+    "Reed",
+    "en_US"
+   ],
+   "text": "What if...",
+   "start": 1062,
+   "slot_end": 1090,
+   "cap": "“What if…”",
+   "style": "serif"
+  },
+  {
+   "id": "jun3",
+   "who": "JUN",
+   "voice": [
+    "Rishi",
+    "en_IN"
+   ],
+   "text": "Could I...",
+   "start": 1082,
+   "slot_end": 1110,
+   "cap": "“Could I…”",
+   "style": "serif"
+  },
+  {
+   "id": "ray4",
+   "who": "RAY",
+   "voice": [
+    "Ralph",
+    "en_US"
+   ],
+   "text": "Okay, so...",
+   "start": 1102,
+   "slot_end": 1134,
+   "cap": "“Okay, so…”",
+   "style": "serif",
+   "rate": 205
+  },
+  {
+   "id": "amara2",
+   "who": "AMARA",
+   "voice": [
+    "Kathy",
+    "en_US"
+   ],
+   "text": "Start the cure.",
+   "start": 1122,
+   "slot_end": 1150,
+   "cap": "START THE CURE.",
+   "style": "caps",
+   "rate": 200
+  },
+  {
+   "id": "osei5",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "Start the proof.",
+   "start": 1142,
+   "slot_end": 1175,
+   "cap": "START THE PROOF.",
+   "style": "caps"
+  },
+  {
+   "id": "jun4",
+   "who": "JUN",
+   "voice": [
+    "Rishi",
+    "en_IN"
+   ],
+   "text": "Start the band.",
+   "start": 1172,
+   "slot_end": 1196,
+   "cap": "START THE BAND.",
+   "style": "caps"
+  },
+  {
+   "id": "rosa1",
+   "who": "ROSA",
+   "voice": [
+    "Moira",
+    "en_IE"
+   ],
+   "text": "Start it wrong.",
+   "start": 1190,
+   "slot_end": 1228,
+   "cap": "START IT WRONG.",
+   "style": "caps",
+   "gain": 1.2
+  },
+  {
+   "id": "all1",
+   "who": "ALL",
+   "voices": [
+    [
+     "Samantha",
+     "en_US"
+    ],
+    [
+     "Daniel",
+     "en_GB"
+    ],
+    [
+     "Moira",
+     "en_IE"
+    ],
+    [
+     "Aman",
+     "en_IN"
+    ],
+    [
+     "Rishi",
+     "en_IN"
+    ]
+   ],
+   "text": "We'll fix it.",
+   "start": 1212,
+   "slot_end": 1250,
+   "cap": "WE'LL FIX IT.",
+   "style": "caps",
+   "cap_until": 1245,
+   "gain": 1.15
+  },
+  {
+   "id": "osei6",
+   "who": "OSEI",
+   "voice": [
+    "Daniel",
+    "en_GB"
+   ],
+   "text": "Nobody predicts the future.",
+   "start": 1276,
+   "slot_end": 1320,
+   "cap": "NOBODY PREDICTS THE FUTURE.",
+   "style": "caps",
+   "cap_until": 1322
+  },
+  {
+   "id": "pip2",
+   "who": "PIP",
+   "voice": [
+    "Karen",
+    "en_AU"
+   ],
+   "text": "Somebody starts it.",
+   "start": 1350,
+   "slot_end": 1380,
+   "cap": "SOMEBODY STARTS IT.",
+   "style": "caps",
+   "cap_until": 1380
+  }
+ ]
+}

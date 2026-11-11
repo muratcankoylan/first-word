@@ -1,0 +1,8 @@
+ITEM 9  shot G18 (substitute for the fusion vessel)
+Deep Space 1 Ion Engine
+Holder: NASA Image and Video Library (NASA/JPL), NASA ID PIA04238
+Page: https://images.nasa.gov/details/PIA04238
+File: https://images-assets.nasa.gov/image/PIA04238/PIA04238~orig.jpg
+Read on: 2026-11-10
+Record (images-api.nasa.gov): center JPL; secondary creator and XMP credit "NASA/JPL"; no copyright field in the metadata.
+Rights: the same NASA and JPL policies captured in G11_ingenuity-first-flight.txt apply: NASA content is generally not subject to copyright in the United States; JPL images may be used for any purpose without prior permission, with the credit line and without implying endorsement.

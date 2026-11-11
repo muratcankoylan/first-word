@@ -1,0 +1,54 @@
+{
+ "about": "What tools/score_build.py cuts the film's score from, and at what level each passage sits before the mix (dB, RMS; the mix then rides these under the voices). The theme's bar lines are measured: the file opens with 26 ms of nothing, runs at 144.016 beats a minute, and its drop lands 13.358 s in (the steepest rise in level, in 1 ms steps; the hits after it fall on whole beats). To try another theme, such as one made with Google's Lyria from audio/music/LYRIA_PROMPT.md: save it in audio/music/, run python3 tools/score_build.py --map FILE, put its file name, tempo and the time of its drop here, and run the tool and the mix again.",
+ "theme": {
+  "file": "audio/music/cue_theme_take1.mp3",
+  "bpm": 144.016,
+  "drop_s": 13.358,
+  "intro_bars": 8
+ },
+ "talk_bars": [
+  6,
+  7,
+  8,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "still": {
+  "file": "audio/music/cue_still_take2.mp3",
+  "from_s": 1.3
+ },
+ "pads": [
+  {
+   "file": "audio/music/whale_pad_take2.mp3",
+   "after_s": 0.0
+  },
+  {
+   "file": "audio/music/whale_pad_take1.mp3",
+   "after_s": 1.75
+  }
+ ],
+ "tilt": {
+  "low_db": -4.0,
+  "high_db": 2.5
+ },
+ "talk_high_db": -5.0,
+ "tv_makeup_db": 6.0,
+ "ring_db": -10.0,
+ "end_fade": [
+  1396,
+  1434
+ ],
+ "levels_db": {
+  "hall": -20.0,
+  "tv": -25.5,
+  "talk": -28.5,
+  "still": -31.0,
+  "flood": -14.5,
+  "pad_peak": -18.0
+ },
+ "headroom_db": -5.0,
+ "ease_db": 12.0
+}

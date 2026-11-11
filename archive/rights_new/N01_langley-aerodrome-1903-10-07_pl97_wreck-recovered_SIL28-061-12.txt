@@ -1,0 +1,33 @@
+ITEM N01 - Langley Aerodrome, first launch failure, Potomac River, 7 October 1903 - Plate 97
+WHAT: Two photographs on one plate: workmen hauling the wrecked Aerodrome out of the water at the houseboat; and the wreck lying on the raft beside the houseboat.
+  Printed caption on the plate: "AERODROME BEING RECOVERED, OCTOBER 7, 1903".
+  The plate is from: S. P. Langley and Charles M. Manly, "Langley Memoir on Mechanical Flight", Smithsonian Contributions to Knowledge vol. 27 no. 3 (Washington: Smithsonian Institution, 1911). The printed running head on every plate reads "SMITHSONIAN CONTRIBUTIONS TO KNOWLEDGE  VOL. 27, NO. 3, PL. <n>".
+  The memoir text says: "Plate 97, Fig. 1, which shows the aerodrome being hoisted from the water, and in Plate 97, Fig. 2, which shows it just afterwards resting on the raft, the wings, tail and rudder having been completely demolished by towing it through the water".
+HOLDER: Smithsonian Libraries and Archives (Image Gallery), image ID SIL-SIL28-061-12
+ITEM PAGE: https://library.si.edu/image-gallery/99420
+FILE URL DOWNLOADED: https://ids.si.edu/ids/download?id=SIL-SIL28-061-12.jpg   (the Smithsonian's own image delivery service; this is the full-size file, the same pixel size its IIIF service reports at https://ids.si.edu/ids/iiif/SIL-SIL28-061-12/info.json)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): the holder's own image page labels it "No Copyright - United States" (QUOTED).
+
+RIGHTS STATEMENTS, QUOTED:
+Image page https://library.si.edu/image-gallery/99420 (read 2026-11-10):
+  "Image ID: SIL-SIL28-061-12"
+  "Cite this: Langley, S. P. (Samuel Pierpont). 1911. Langley memoir on mechanical flight. pt. 1-2., Washington : Smithsonian Institution."
+  "Original Caption: Aerodrome being recovered October 7, 1903"
+  "No Copyright - United States"   (this label links to https://library.si.edu/copyright)
+Smithsonian Libraries and Archives, "Copyright and reuse", https://library.si.edu/copyright (read 2026-11-10):
+  "You may also find copyright information on image pages in our Image Gallery. The Smithsonian Libraries uses copyright statements that align with those used by RightsStatements.org."
+  Under the heading "No Copyright - United States" or CC0: "Most books in our digital library are in the Public Domain, and the statement will be "No Copyright - United States" and items will be marked with the Creative Commons Public Domain Dedication, CC0. These items may be used, reused, and repurposed as you wish in accordance with Smithsonian's terms of use."
+  "We ask that an attribution statement such as "Courtesy of the Smithsonian Libraries and Archives" is used, along with a link back to the original source on our site."
+
+CAVEATS:
+  - Use is "in accordance with Smithsonian's terms of use" (https://www.si.edu/termsofuse), which I did not read in full. Credit requested: "Courtesy of the Smithsonian Libraries and Archives" with a link back.
+  - This is a photograph of the printed book page (halftone plate with page margins, colour bar edge visible), not a print from the negative.
+  - Not to be confused with the Smithsonian Institution Archives photographic prints of the same events, which are marked "Usage Conditions Apply" and were NOT taken.
+  - People: workmen recovering the wreck, 1903, small in frame; no recognisable private person in any modern sense.
+
+SAVED FILE:
+  N01_langley-aerodrome-1903-10-07_pl97_wreck-recovered_SIL28-061-12.jpg
+    2572734 bytes (2.57 MB); 3682x4800 px; JPEG RGB
+    sha256 8de0af8e9f7285091ce9e9548fb5b2b1912aa8838359ff77d577a3cb305a4d4f

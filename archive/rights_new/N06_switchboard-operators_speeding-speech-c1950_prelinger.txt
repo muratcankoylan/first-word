@@ -1,0 +1,27 @@
+ITEM N06 - telephone switchboard operators at work, about 1950 - black-and-white film excerpt
+WHAT: Six shots from the Bell System film "Speeding Speech": women operators seated at a long-distance cord switchboard, seen from behind and from the side, reaching up and plugging cords into the jack field; a hand pressing keys on a key set; a row of operators with headsets working cords; an operator from behind plugging and keying. About 35 seconds, silent as saved.
+HOLDER: Prelinger Archives (collection "prelinger" on the Internet Archive) - the uploader and the holder of the film print.
+ITEM PAGE: https://archive.org/details/Speeding1950
+FILE URL DOWNLOADED: https://archive.org/download/Speeding1950/Speeding1950.mpeg   (241,304,469 bytes; the item's highest-quality file, MPEG-2; deleted after cutting)
+DATE READ: 2026-11-10
+
+RIGHTS BASIS (one line): the uploader/holder, Prelinger Archives, marks the item "Public Domain" (QUOTED from the item page and its metadata). This is the holder's assertion; it is NOT a US-government film.
+
+RIGHTS STATEMENTS, QUOTED:
+Internet Archive item page https://archive.org/details/Speeding1950 (read 2026-11-10): "Speeding Speech - by Sound Masters - Publication date ca. 1950s - Usage Public Domain" (the Usage line links to http://creativecommons.org/licenses/publicdomain/) - "Automation in the telephone industry dispenses with operator long distance dialing to complete calls faster."
+Item metadata https://archive.org/metadata/Speeding1950 (read 2026-11-10): title "Speeding Speech"; creator "Sound Masters"; sponsor "American Telephone and Telegraph Co. (AT&T)"; date "ca. 1950s"; collection "prelinger"; licenseurl "http://creativecommons.org/licenses/publicdomain/"; shotlist includes "switchboard operators; introduction of operator toll dialing".
+I tried to read the Prelinger collection's own "about" text (https://archive.org/details/prelinger?tab=about) for its general statement and could not retrieve it, so nothing is quoted from it.
+
+CAVEATS:
+  - Sponsored industrial film made for AT&T / the Bell System. Title card: "SPEEDING Speech - A BELL SYSTEM FILM - Western Electric RECORDING"; end card: "THE END - American Telephone & Telegraph and Associated Companies - A Sound Masters Production". I looked at one frame of each card and saw no copyright notice on either; that fits Prelinger's marking but does not prove it (I did not step through every title frame). Its public-domain status rests on Prelinger Archives' marking. I did NOT check copyright registration or renewal records. If the film needs a belt-and-braces clearance, this is the item to look at twice.
+  - I looked for a US-government film of mid-century operators (National Archives catalog search; Internet Archive FedFlix / usgovfilms; Universal Newsreels) and found none with usable switchboard footage. The National Archives photograph already in the archive (NAID 1633445) remains the government-source still.
+  - IDENTIFIABLE PRIVATE PEOPLE: the operators are private individuals filmed about 1950. Most are seen from behind; two or three are in recognisable side view (roughly 18-26 s into the clip).
+  - LOW RESOLUTION: 352x480 stored pixels, shown 4:3 (pixel aspect 20:11), interlaced video from a film transfer. Soft. Suits a small or treated use, not a full-frame hero shot.
+  - AUDIO DROPPED: the source has narration and music; not needed and not cleared.
+
+CUT: source is 606.54 s. Kept 87.21 s to 121.88 s (stream copy from the keyframe at 87.209 s; MPEG-2 not re-encoded; video only). A second good run of the same subject sits at about 519-543 s in the source (fast montage; includes two full-face shots of an operator) and was not taken.
+
+SAVED FILE:
+  N06_switchboard-operators_speeding-speech-c1950_prelinger.mpg
+    13039616 bytes (13.04 MB); 352x480 px, stored pixel aspect 20:11 (display aspect 4:3); 34.668 s; 29.97 fps; 1039 frames decoded; video codec mpeg2video; audio: none; container mpeg
+    sha256 b132e3d2c48cd260abc39313a04c825c728a9ee46743d7ff654dd57380c8383d

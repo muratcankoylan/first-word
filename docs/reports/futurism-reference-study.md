@@ -1,4 +1,4 @@
-> Text of a report published as a private page during the project. Frames from the films are omitted.
+> Text of a report written during the project. Frames from the films are omitted.
 
 Reference study · for the AI and futurism film
 

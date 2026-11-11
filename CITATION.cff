@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "FIRST WORD: An Agent-Directed Production Pipeline for a One-Minute Film"
+abstract: "The complete record, except the media, of a 60-second, 98-shot film produced by a single AI agent under human direction: the pipeline, the edit as data, the persona prompt, the plan, the reference studies, the rights records, the cost ledger and a production log with a failure analysis."
+authors:
+  - name: "The First Word authors"
+date-released: "2026-11-11"
+url: "https://github.com/muratcankoylan/first-word"
+repository-code: "https://github.com/muratcankoylan/first-word"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - AI agents
+  - generative video
+  - film production
+  - human-in-the-loop
+  - verification

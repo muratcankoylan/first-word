@@ -1,82 +1,110 @@
-# FIRST WORD: how one conversation made a one-minute film
+# FIRST WORD
 
-FIRST WORD is a 60-second film about AI and the future: 98 shots, 24 frames a second, cut to a 144 BPM grid.
-Nothing in it was filmed. One AI agent (Claude Fable 5.2, running in Claude Code) planned it, wrote it, generated
-or found every picture, cast and directed the voices, built the sound, and cut it in Python. One person stayed in
-the loop: 40 messages over two days.
-
-This repository is everything behind the film except the media itself: the conversation, the persona prompt, the
-plan, the research reports, the code, the timing data, the rights records, the agent's notes to itself, and the
-spending ledger.
+**An agent-directed production pipeline for a one-minute film: code, data, prompts and the production record**
 
 ![Every shot of the film, in order](docs/figures/all_98_shots.jpg)
 
-## Start here
+## Abstract
 
-| If you want | Read |
-| --- | --- |
-| The whole method on one page | [docs/workflow.md](docs/workflow.md) |
-| What was actually said, by whom, in order | [conversation/](conversation/) |
-| The persona prompt and how to tune it | [persona/](persona/) |
-| The plan the film was built from | [docs/plan/](docs/plan/) (treatment, shot list, prompts) |
-| The two studies the plan stands on | [docs/reports/](docs/reports/) |
-| The code that makes the film | [tools/](tools/), described in [docs/pipeline.md](docs/pipeline.md) |
-| The cut as data | [shotlist.py](shotlist.py), [timing/](timing/) |
-| What went wrong and how it was fixed, pass by pass | [docs/production-log.md](docs/production-log.md) |
-| What each tool or skill did, and where to get it | [skills/README.md](skills/README.md) |
-| What the agent wrote down to remember | [agent-memory/](agent-memory/) |
-| What it cost | [ledger.csv](ledger.csv), [budget.json](budget.json) |
+FIRST WORD is a 60-second film about AI and the future: 98 shots, 24 frames a second, cut to a 144 BPM grid.
+Nothing in it was filmed. A single AI agent (Claude Fable 5.2, running in Claude Code) carried out every production
+role over two days: reference analysis, a persona for the film's maker, the treatment and shot list, fact-checking,
+video generation, archive research and rights records, voice casting and direction, sound design, the edit, colour,
+and mastering. A human director set the brief, supplied references and credentials, approved the plan and the budget,
+and reviewed each version by watching and listening.
 
-## The film in numbers
+This repository is the complete record of that production except the media: the pipeline (about 8,200 lines of
+Python), the edit as data, the persona prompt, the plan, the reference studies, the rights records, the cost
+ledger, and a production log that includes what failed. It is published so the method can be read, checked and
+borrowed from.
+
+## Contributions
+
+1. **The edit as a program.** The cut is code and data ([shotlist.py](shotlist.py), [timing/](timing/)). A conform
+   builds the film from it and draws a placeholder card for any shot that does not exist yet, so a complete,
+   watchable film exists from the first hour and every change is a full re-render.
+2. **Verification without perception.** The agent cannot hear and cannot watch video play. Picture is judged on
+   contact sheets of rendered frames; sound by measurement (loudness, true peak, energy by frequency band, where a
+   hit's sharpest moment falls against its frame); lip sync by transcribing the audio; legibility by a
+   reading-load report on every line of on-screen text. What these checks caught, and what only a person caught,
+   is tabulated in [docs/method.md](docs/method.md#failure-analysis).
+3. **A tunable persona.** A 3,800-word system prompt that sets taste and judgment, not a character to act, with six
+   numbered dials and each belief paired with what it does to the film ([persona/](persona/)).
+4. **Character consistency without face references.** The video model refuses a face as a reference. Each person is
+   generated in one job from a fixed written description, and that person's shots are cut from that one take.
+5. **Provenance by construction.** Every real picture is public domain, has a rights record quoting its holder,
+   and carries one visual treatment that nothing generated carries. Eighteen factual claims were checked against
+   sources that were opened and read.
+6. **State that survives context resets.** The agent's context was replaced by a summary six times. The plan, the
+   production log, the ledger and a short list of learned rules carried the work across
+   ([docs/method.md](docs/method.md#state-across-context-resets), [docs/learned-rules.md](docs/learned-rules.md)).
+7. **An audit against plan drift.** The agent's own notes drifted toward what had been built. Auditing the approved
+   plan against rendered frames and the measured mix found four reworded rows and about ten missing sounds.
+
+## The result
 
 | | |
 | --- | --- |
-| Length | 60 seconds, 1,440 frames, 98 shots (46 of them last five frames) |
-| Where the pictures come from | 41 shots generated video, 16 generated close-ups, 13 real public-domain archive, 20 drawn in code, 8 ink over picture (by each shot's main source) |
+| Length | 60 seconds, 1,440 frames, 98 shots |
+| Cut lengths | Median 10 frames (0.42 s). 46 shots last five frames (0.21 s). The longest lasts 60 frames (2.5 s) |
+| Picture, by shots | 41 generated video, 16 generated close-ups, 13 public-domain archive, 20 drawn in code, 8 ink over picture |
+| Picture, by running time | 46% generated video, 9% generated close-ups, 11% archive, 23% code, 10% ink |
+| Voices | 38 spoken lines; 8 generated characters |
 | Video model | Seedance 2.5 on Runway: 480p drafts, then the chosen takes finished at 1080p |
-| Voices, effects, music | ElevenLabs: real people's licensed voices from the Voice Library, each scene performed as one conversation; generated effects; one generated theme cut to the picture |
-| Code | About 8,200 lines of Python in `tools/` and `shotlist.py` |
-| Versions | 15, each one rendered, looked at as frames, measured, and corrected |
-| Spent | 199.85 USD on Runway against a 600 USD cap; voices and sound on an existing ElevenLabs plan |
-| The person's part | 40 messages: a brief, a persona, the keys, the money, and notes after watching and listening |
+| Sound | ElevenLabs: licensed voices from its Voice Library, each scene performed as one conversation; generated effects; one generated theme cut to the picture |
+| Mix | -14.1 LUFS integrated, 6.8 LU range, true peak -2.1 dBFS |
+| Masters | 1080p H.264 and ProRes 422 HQ (BT.709), HLG HDR (peak 784 nits, only the film's own lights above white), and a vertical version |
+| Iterations | 15 versions, each rendered, sheeted, measured and corrected |
+| Cost | 199.85 USD of video and image generation against a 600 USD cap (75 ledger entries, 3 of them failed calls); voices and sound on an existing plan |
+| Time | Two days, about 1,900 tool calls |
 
-## How it was made, briefly
+## Pipeline
 
 ![Figure 1](docs/figures/figure_1.png)
 
-1. **Take a film apart.** The agent reverse-engineered a 60-second film the team had made before (88 shots), then
-   four reference films, shot by shot, with a video-analysis skill and its own eyes on the frames.
-2. **Write a persona.** The person asked for a persona prompt for the film's maker. The agent researched the canon
-   behind it and wrote a 3,800-word prompt with six dials. The person handed it back with a brief: you are this,
-   and more.
-3. **Plan before generating anything.** A treatment, a 100-row shot list and the prompts, in one shared document.
-   The person approved it, set a spending cap, and said: you decide everything after that.
-4. **Build an animatic first.** The cut exists as code (`shotlist.py`). The conform builds the film from it with a
-   placeholder card for any shot that has no picture yet, so there is a watchable film from the first hour.
-5. **Fill it in.** Generated shots (one job per person, so a face holds without using a face as a reference),
-   real archive with a rights record for each source, shots drawn in code, voices, effects, score.
-6. **Look, measure, fix.** Every version was rendered, cut into contact sheets, and read as still frames. The
-   agent cannot hear, so sound was checked by measurement and the person listened. Fifteen rounds.
-7. **Finish.** A 1080p pass, an HDR master, a vertical version for phones, and figures of the process.
+Seven stages, each ending in a file the next one reads:
 
-[docs/workflow.md](docs/workflow.md) has each stage with the files it left behind, and the loops in detail.
+1. **Reference study.** Five films taken apart shot by shot: cut lengths, how each picture was made, tempo, sound
+   ([docs/reports/](docs/reports/)).
+2. **Persona.** Research on a canon of books and records, then the prompt ([persona/](persona/)).
+3. **Plan.** Treatment, shot list, prompts and a fact-check, in one living document ([docs/plan/](docs/plan/)).
+4. **Animatic.** The cut as code, with a card for every shot not yet made.
+5. **Picture.** Generated reels, public-domain archive, and shots drawn in code.
+6. **Sound.** Cast voices performed as scenes, generated effects and score, a measured mix.
+7. **Review.** Render, contact sheet, measure, fix. Fifteen times.
+
+![Figure 2](docs/figures/figure_2.png)
 
 ![Figure 3](docs/figures/figure_3.png)
 
-## What is not here
+## Verification
 
-- **The film files, clips, audio and generated footage.** They are large, and generated media is not something
-  another run would reproduce: the video and voice models do not return the same take twice.
-- **The archive source files.** Every one is public domain and is listed in
-  [archive/manifest.json](archive/manifest.json) with where it came from and the holder's own rights statement.
-  Fetch them from the holders.
-- **API keys.** Copy [.env.example](.env.example) to `.env` and add your own.
-- **Third-party skills and documentation.** They are linked in [skills/README.md](skills/README.md), not copied.
-- **The agent's private reasoning and raw tool output.** The conversation record keeps what each side wrote for
-  the other, and one plain line for each thing the agent did. [conversation/export.py](conversation/export.py)
-  says exactly what is kept, left out and changed, and is the script that made the record.
+![Figure 4](docs/figures/figure_4.png)
 
-## Running the code
+Most of the two days went into the review loop. [docs/method.md](docs/method.md) describes it and lists sixteen
+failures with how each was caught. Human review caught the perceptual ones: voices that sounded synthetic,
+graphics that looked like placeholders, text that passed too fast. The agent's own checks caught the measurable
+ones: effects landing two thirds of a frame late, a wrong colour matrix, plan drift.
+
+## Repository map
+
+| Path | What it is |
+| --- | --- |
+| [docs/method.md](docs/method.md) | The method: stages, verification loops, state across context resets, guard rails, failure analysis, the human role |
+| [docs/learned-rules.md](docs/learned-rules.md) | The operating rules the agent accumulated from review |
+| [docs/production-log.md](docs/production-log.md) | The agent's running record, pass by pass: what was done, decided, and left open |
+| [docs/pipeline.md](docs/pipeline.md) | Every tool and data file, and the rebuild order |
+| [docs/plan/](docs/plan/) | The living plan: treatment, shot list, prompts |
+| [docs/reports/](docs/reports/) | The two reference studies |
+| [docs/figures/](docs/figures/) | The four figures and the contact sheet of the finished film |
+| [persona/](persona/) | The persona prompt, its tuning notes, and how it was made |
+| [shotlist.py](shotlist.py), [timing/](timing/) | The edit as data: shots, lines, type, sound, prompts, lip sync |
+| [tools/](tools/) | The pipeline: conform, generation, archive, code-drawn shots, voices, sound, mix, HDR, the vertical version, figures |
+| [archive/](archive/) | The index of real sources and a rights record for each |
+| [skills/](skills/README.md) | The skills, tools and services the agent used, linked |
+| [ledger.csv](ledger.csv), [budget.json](budget.json) | Every paid call, and the cap the tools enforce |
+
+## Reproducing
 
 The tools need Python 3 with Pillow, numpy, scipy and OpenCV, and ffmpeg. They were written and run on macOS.
 
@@ -86,31 +114,54 @@ mkdir -p out
 python3 tools/conform.py --out out/animatic.mp4
 ```
 
-With no clips at all, that builds the animatic: the whole 60-second cut at 1280 by 720, silent, with a card for
+With no media at all, that builds the animatic: the whole 60-second cut at 1280 by 720, silent, with a card for
 each of the 98 shots and the captions and on-screen type drawn over it. This was checked from a clean copy of this
 repository (about three minutes). The cards and the strip of shot names along the top are set in a macOS system
 font; on another system, point `F_UI` at the top of `tools/conform.py` to a font you have. `tools/process_figures.py`
 also uses macOS fonts. Nothing else was tested off macOS.
 
-Everything past the animatic needs media you generate or fetch yourself, and paid calls need your own keys.
-[docs/pipeline.md](docs/pipeline.md) lists every tool and the full rebuild order.
+Everything past the animatic needs media you generate or fetch yourself, and paid calls need your own keys (copy
+[.env.example](.env.example) to `.env`). [docs/pipeline.md](docs/pipeline.md) gives the full rebuild order.
 
-This is the record of one production, not a framework. The code was written for this film and is published so the
-method can be read, checked and borrowed from.
+**What is not in the repository:** the film's masters, clips and audio; the archive source files (each is listed
+in [archive/manifest.json](archive/manifest.json) with its holder, address and checksum); API keys; and
+third-party skills and documentation, which are linked.
+
+## Limitations
+
+- **One production.** This is a case study, not a benchmark. There is no control condition and no second film.
+- **Not reproducible to the frame.** The video, voice and music models do not return the same take twice. The
+  prompts that ran are in [timing/generations.json](timing/generations.json); the faces will differ.
+- **Perception was human.** Every claim about how the film sounds rests on measurement and on a person listening.
+  The HDR master was checked by its levels only; the agent cannot see an HDR screen.
+- **Faults remain inside generated takes.** Correcting one shot of a person means regenerating that person's whole
+  take, which changes the face, so such faults were listed and left. The production log names them.
+- **The code is specific to this film.** It was written for these 98 shots and is not a framework.
+- **Rights records are the production's own reading** of each holder's terms on the day they were captured, not
+  legal advice.
 
 ## Rules the production kept
 
-- Nothing filmed, nothing licensed: picture is generated, drawn in code, or real public-domain archive.
+- Nothing filmed and nothing licensed: picture is generated, drawn in code, or public-domain archive.
 - Everything real takes one visual treatment (scanlines) and nothing else does. Real events are never re-staged
-  with generated people. Real people only say what they are on record as saying.
+  with generated people. Real people say only what they are on record as saying, with a source.
 - No paid call may take the ledger past the cap. Every paid call is logged when it is submitted.
 - No face goes into the video model as a reference. The provider refuses it and the refusal is not worked around.
-- The agent says what it could not check. It cannot hear and cannot see an HDR screen: sound and HDR were verified
-  by measurement only, and a person had to listen and watch.
+- The agent states what it could not check.
+
+## Citation
+
+```bibtex
+@misc{firstword2026,
+  title  = {FIRST WORD: An Agent-Directed Production Pipeline for a One-Minute Film},
+  author = {{The First Word authors}},
+  year   = {2026},
+  url    = {https://github.com/muratcankoylan/first-word}
+}
+```
 
 ## Licence
 
-- Code (`tools/`, `shotlist.py`, `conversation/export.py`): MIT, see [LICENSE](LICENSE).
-- Everything written or drawn for the project (documents, persona, plan, conversation, timing data, figures):
-  CC BY 4.0, see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
-- Fonts, archive records and anything else from other people: see [NOTICE.md](NOTICE.md).
+- Code (`tools/`, `shotlist.py`): MIT, see [LICENSE](LICENSE).
+- Documents, persona, plan, reports, timing data and figures: CC BY 4.0, see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+- Fonts, archive records and other people's work: see [NOTICE.md](NOTICE.md).

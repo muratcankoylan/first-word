@@ -1,4 +1,4 @@
-> Text of a report published as a private page during the project. Frames from the films are omitted.
+> Text of a report written during the project. Frames from the film and one section written for internal use are omitted.
 
 Reverse-engineering breakdown · Toronto Maple Leafs season film
 
@@ -253,47 +253,6 @@ Signal analysis suggests a driving track near 160 BPM (or 80 half-time). Whooshe
 ### Open captions
 
 White condensed all-caps sans, bottom centre, about 4% of frame height, soft drop shadow, up to two lines. They cut on and off with the phrase, no animation. About 26 caption lines across the film. The report folder has a raw SRT read from the picture, which still needs a clean-up pass.
-
-## Competition brief (draft)
-
-A suggested format for the internal competition: each videographer picks one challenge, gets one shoot day and three edit days, and delivers 10 to 15 seconds. Judge blind.
-
-### A. The swap
-
-Six people, one locked frame, one match-cut sequence under 3 seconds, with an animated layer that reacts to them.
-
-Tests: framing discipline, registration between takes, animation timing.
-
-### B. Blackout
-
-One athlete, backlight and haze only. A wide silhouette, a wide-lens lean-in and two macros that cut together.
-
-Tests: lighting with no front key, exposure for silhouette, lens choice.
-
-### C. The obsessed
-
-Five fan portraits at arm's length or closer, including one macro and one speed-ramped push. No dialogue.
-
-Tests: directing non-actors, handheld proximity, casting and wardrobe.
-
-### D. One treatment
-
-Take ten mismatched archive clips and make them feel like one source. Then cut them against five seconds of new footage.
-
-Tests: look design, restraint, cutting archive at speed.
-
-### E. The joke
-
-Land one visual punchline in under 4 seconds using mixed media (drawing, paper, 3D, type).
-
-Tests: idea, transitions between media, comic timing.
-
-### Scoring
-
-- Idea and tone match: 30%
-- Craft (light, lens, movement): 30%
-- Edit and sound: 25%
-- Finish (grade, type, effects): 15%
 
 ## Confidence and open points
 

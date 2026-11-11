@@ -1,8 +1,9 @@
 # Production state
 
-> This is the project's `STATE.md` as it stood when v015 was delivered, unchanged: the agent's running record of
+> This is the project's `STATE.md` as it stood when v015 was delivered: the agent's running record of
 > what was done, decided and left open, newest first. It names files under `clips/`, `audio/`, `out/` and
-> `research/`, which are not in this repository.
+> `research/`, which are not in this repository. Edited for publication in one respect only: the director's review
+> notes are summarised, not quoted.
 
 Last updated 11 November 2026, 15:30 UTC, after the reel (the film for Instagram) and the process figures. Before that, the 1080p production pass (v015): every draft finished at 1080p, every made shot rebuilt at that size, the whole film reviewed at full size, and masters written.
 
@@ -15,12 +16,12 @@ Last updated 11 November 2026, 15:30 UTC, after the reel (the film for Instagram
   - `out/animatic_v015.mp4`: a 720p copy with shot names and frame numbers burnt in, for notes.
   - Sound alone: `audio/mix_v015.wav` (24-bit, 48 kHz, -14.1 LUFS, true peak -2.1 dBFS) and the four stems in `audio/stems/` (dialogue, effects, score, whale; 24-bit).
 - The cut is 98 shots, not the plan's 100 (see the eighth pass). Every shot has its picture; nothing in the film is a draft any more.
-- Standing instructions from the user: follow the plan and do not game it, use real archive. The cast the reels produced is accepted. On 11 November 2026 the user topped up Runway and asked for the film to be made production-ready, which released the 1080p pass.
+- Standing instructions from the director: build the plan as approved, and use real archive. The cast the reels produced is accepted. On 11 November 2026 the director topped up Runway and asked for the film to be made production-ready, which released the 1080p pass.
 - Runway: 199.85 USD spent of its 500, 15 credits left. ElevenLabs: 21,001 of 131,000 plan credits used (nothing new on this pass). `GEMINI_API_KEY=` in `.env` is still empty.
 
 ## The reel: the film for Instagram (v015), 11 November 2026
 
-The user: "Let's create the social media version of this as well, so I can share on Instagram Reels."
+Brief for this pass: a vertical version of the film for Instagram Reels.
 
 - **Files** (all 60.000 s, the v015 mix, -14.1 LUFS, true peak -2.1 dBFS):
   - `out/first_word_v015_reel.mp4`: 1080 by 1920, H.264, 24 fps, BT.709 tagged. The film's own frame rate.
@@ -35,7 +36,7 @@ The user: "Let's create the social media version of this as well, so I can share
 
 ## The 1080p production pass (v015), 11 November 2026
 
-The user: "I have topped up the runway credits, so you can make the entire movie production-ready. Also, review the entire scene, everything, and improve, optimize, and make it ready for production."
+Brief for this pass: with the generation budget topped up, finish the whole film at production quality, and review and improve every scene on the way.
 
 **What was made**
 
@@ -77,17 +78,15 @@ The user: "I have topped up the runway credits, so you can make the entire movie
 Seedance refuses any reference image or clip that contains a realistic face, including a face it generated itself
 (`research/faces/`). It is not worked around. One job per person (that person's reel), one fixed description per person
 (`timing/characters.json`), references only for places and things. Changing one shot of a person means regenerating
-that person's whole reel, which changes their face, so faults inside a reel are left unless the user asks.
+that person's whole reel, which changes their face, so faults inside a reel are left unless the director asks.
 
 ## The eighth pass: six scenes that did not read, and the sound
 
-The user, after watching v010, with six screenshots: "The dumb question needs to be written on the screen, so it needs
-to come from the video. Also, the last view doesn't make sense. The writing needs to be a better message. With the
-whale scene, I don't understand the messaging as well. We need to improve that. With the two-day scene, the writings
-need to be done better. I think we can do a better job explaining this decoded casey harrell section. It crashed. The
-third letter needs to be done better as well. It's hard to understand. And also, you can do a better sound design at
-the sound level with better effects, but also with the background music." They offered a Google key, ElevenLabs, or to
-make the music themselves in Runway from a prompt.
+Review notes on v010, with six screenshots. The typed question should be on the laptop's screen, inside the shot. The last
+screen does not make sense and needs a better message. The whale scene's message is unclear. The writing in the
+two-day scene needs work, the decoded-speech section (Casey Harrell) could be explained better, and the "It crashed"
+card and its third letter are hard to understand. The sound design and the music should both be better; a different
+music model, or music made by hand in Runway from a written prompt, were offered as routes.
 
 What was done, scene by scene. Every picture below was looked at as rendered frames through the film's own compositor.
 
@@ -120,9 +119,9 @@ What was done, scene by scene. Every picture below was looked at as rendered fra
   100, though nothing the plan shows is gone. The real pictures are only cropped; each half is put through the
   scanline pass at its own size.
 - **The whale (H01, 0:52.5 to 0:55).** Two lines type at the left: A SPERM WHALE IS SPEAKING. Then: NOBODY KNOWS
-  WHAT IT SAYS. YET. (v011 had A SPERM WHALE'S CALL: FIVE CLICKS. NOBODY KNOWS WHAT IT MEANS. YET. The user watched
+  WHAT IT SAYS. YET. (v011 had A SPERM WHALE'S CALL: FIVE CLICKS. NOBODY KNOWS WHAT IT MEANS. YET. The director watched
   it and asked what the scene meant: the line never said the whale was saying something, which is the link to the
-  film's title. Reworded in v012 with the user's yes.) The dots by the whale's head are larger and spaced as the clicks are (one, one, three).
+  film's title. Reworded in v012 with the director's yes.) The dots by the whale's head are larger and spaced as the clicks are (one, one, three).
   The tag they replace (NOT YET. LISTENING SINCE 2005.) explained nothing to someone who did not know the story.
 - **The end card (I01, 0:57.5 to 1:00).** The film now answers its own opening prompt: "The future is" becomes
   "The future is yours to start.", typed on the second click. FIRST WORD lands under it on the third. The disclosure
@@ -132,9 +131,8 @@ What was done, scene by scene. Every picture below was looked at as rendered fra
 
 ### After v012: the paper strips, and the end card (v013)
 
-The user, on the hall of wind at 0:07: "These writings are great, but they are passing so fast. I think we need to
-slow it down a bit there so we can read those writings." And on the end card: "I believe we can remove the first word
-here. It's not adding anything. Make the end a bit more dynamic and create buzz."
+Review notes on v012. The lettered strips in the hall of wind (0:07) pass too fast to read and should slow down. The
+title on the end card adds nothing and can go, and the ending should have more energy.
 
 - **The lettered strips (B04, B06).** Each of the five was in reach of the eye for 7 to 9 frames, one after another.
   Each now arrives in two or three frames and then hangs near the lens, drifting slowly, so it is sharp: about 24 and
@@ -149,12 +147,11 @@ here. It's not adding anything. Make the end a bit more dynamic and create buzz.
   sentence and the question hold to the last frame, with the disclosure at the foot. The title still appears once, on
   the glass at 0:05.6 (B03). Sound: a stamp for each part, a short swell into the last, weight under it and the room's
   ring after it; the last second is near silence. Mix v013 measures the same as v011 (-14.1 LUFS, peak -2.1 dBFS).
-  My reading of "create buzz": end on a question the viewer can answer. That is mine, not the user's words.
+  My reading of "more energy": end on a question the viewer can answer. That reading is mine, not the note's.
 
 ### After v013: the last screen's type, and the disclosure line (v014)
 
-The user, with a crop of the end card: "Make these fonts better on the last screen and also remove the
-'AI-generated line.'"
+Review note on v013, with a crop of the end card: better type on the last screen, and the disclosure line removed.
 
 - **Type.** The card had two voices: the sentence in the film's serif and the question in heavy condensed capitals.
   It now has one. The sentence is as it was (the serif, the size and place of the opening prompt). The question is
@@ -163,7 +160,7 @@ The user, with a crop of the end card: "Make these fonts better on the last scre
   the sentence and comes to rest after the question mark, with a flare and three rings, and blinks there to the last
   frame: it is the viewer's turn. Six treatments were drawn with the faces already in `fonts/` and this one chosen by
   looking; the sheet is `out/end_card_type_options.jpg`. No new typeface was brought in: that needs a download, which
-  the user has not been asked about.
+  the director has not been asked about.
 - **The disclosure line is gone**, as asked. The film itself now says nowhere that its people are generated. The
   plan's own table (What the tools require, Disclosure) records, from Runway's commercial-use guide, that New York
   has required a conspicuous disclosure in advertisements featuring AI-generated human likenesses since 9 June 2026.
@@ -173,8 +170,8 @@ The user, with a crop of the end card: "Make these fonts better on the last scre
 
 ### An HDR test (after v013)
 
-The user: "What do you think if we push HDR on this so it highlights? It gets really bright on social media
-screens." I recommended it as a second master, restrained, and they said to build a test.
+A question raised in review: would an HDR version make the highlights stand out on phone screens? I recommended it as a
+second master, restrained, and was asked to build a test.
 
 `tools/hdr.py` builds every frame as the conform does and writes `out/first_word_v013_hdr_test.mp4` (made again for v014 as `out/first_word_v014_hdr_test.mp4`): 10-bit HEVC in
 HLG (BT.2020), 1280 by 720, the whole minute. The picture sits where a standard picture sits inside HDR (white at
@@ -225,7 +222,7 @@ What was done:
 - **Effects.** 95 files made with the newer model (`audio/sfx2/`), each measured on arrival; six are skipped (rumble,
   or the weaker of two). No sound in the film is drawn in arithmetic any more. I drew three on this pass (a heartbeat,
   a television switching off, the engine stopping) and took them out again, with the four older ones (the thump under
-  the Enter key and the stamps, the pings under the clicks, the bronze's room): the user rejected synthetic sound on
+  the Enter key and the stamps, the pings under the clicks, the bronze's room): the director rejected synthetic sound on
   10 November. Each was asked of the model again, and what came back is shaped, not replaced: a generated heartbeat
   with its middle brought up so a laptop plays it, a generated motor running down played twice as fast for the
   television's tube, two generated glass chimes tuned by a few cents to an A and a D for the pings. New sounds for the new picture: a
@@ -245,16 +242,15 @@ fall, and by nothing else; a take that measures well can still be the wrong musi
 the three takes of the theme, the alternates, every effect and the old score for comparison.
 
 **Lyria.** Runway's API has no Lyria model (checked again on this pass), so the Google version cannot be made from
-here through Runway. `audio/music/LYRIA_PROMPT.md` is the same brief written to Google's prompt guide, for the user
+here through Runway. `audio/music/LYRIA_PROMPT.md` is the same brief written to Google's prompt guide, for the director
 to paste into Runway's app, with the three commands that cut a returned file into the film. `tools/lyria.py` sends
 the same prompt through the Gemini API when `GEMINI_API_KEY` is in `.env`; it has never been run.
 
 ## The seventh pass: light, motion, and two lines
 
-The user, after watching v009: "I really don't like the blue square or the blue continued graphic. I think we need to
-improve that and make it more futuristic and more dynamic. Also, I want you to review the entire movie again and
-improve some of the scripts, some of the transcripts, and some of the transitions, and increase the dynamism and
-futuristicism." They did not say which graphic. My reading: every flat cyan rectangle the film drew itself. All of
+Review notes on v009: the flat blue square and bar graphics should be replaced with something more futuristic and more
+dynamic, and the whole film should be gone over again for script, on-screen text and transitions, with more energy
+throughout. The note did not say which graphic. My reading: every flat cyan rectangle the film drew itself. All of
 them are replaced, and the same care went over the whole film.
 
 | Was | Now |
@@ -288,7 +284,7 @@ Looked at and left: every other voice-over line. The script was already tight, a
 
 ## The sixth pass: the plan, audited again, picture and sound
 
-The shot list the user approved was recovered from this session's own record (the file as it stood nine minutes after
+The shot list the director approved was recovered from this session's own record (the file as it stood nine minutes after
 approval) and compared with the cut, shot by shot, on rendered frames. The sound column and the transition column
 were checked the same way against the mix and the cut. Four things had been quietly changed since approval and were
 put back; the rest of the list below was missing or thin and is now built.
@@ -344,7 +340,7 @@ Built differently from the plan's wording, and why:
 
 Not built, and why:
 
-- D09's "two alternatives, each with a percentage". The paper's figure gives none for this bronze, and nothing is invented on a real document. The only honest source is the published model itself, run on this inscription, which means sending text through a public web form. That needs the user's say-so and has not been done.
+- D09's "two alternatives, each with a percentage". The paper's figure gives none for this bronze, and nothing is invented on a real document. The only honest source is the published model itself, run on this inscription, which means sending text through a public web form. That needs the director's say-so and has not been done.
 - Mara's age (she reads about thirty, the plan says forties), her solder burn, Rosa's apron at the wall. These are inside the reels. Changing them means new reels and new faces.
 - B07 and B09 show a card, not a strip. The macro was changed to match the reel, not the reel to match the plan.
 
@@ -361,7 +357,7 @@ In the cut, with its rights record in `archive/rights/` and its row in `archive/
 
 Rights notes that need a person's eye (the records quote every statement):
 
-- G32's film is NASA's and NASA's upload is marked Public Domain, but the reel's description says the high-definition transfer was made by the Discovery Channel. It is kept in the cut on my recommendation; the user has not ruled on it. The same shots from NASA's own server are in `archive/src_new/` (softer by a long way), and the black-and-white still is in `clips/replaced/`.
+- G32's film is NASA's and NASA's upload is marked Public Domain, but the reel's description says the high-definition transfer was made by the Discovery Channel. It is kept in the cut on my recommendation; the director has not ruled on it. The same shots from NASA's own server are in `archive/src_new/` (softer by a long way), and the black-and-white still is in `clips/replaced/`.
 - G18's record names no photographer. It is in NASA's library with no third-party mark; that NASA shot it is inferred. NASA calls the thruster a Hall-effect thruster for the Gateway station; it is not a gridded ion engine, so the film's words say "thruster".
 - G12, G18, G20, G32, G34 and G11 are NASA or JPL: "not subject to copyright in the United States", no endorsement implied, credit asked. G32 and G34 show real, recognisable people at work.
 - The telegram in the cut is the Library's black-and-white scan, whose own page carries the public-domain statement. The sharper colour scan's page does not, so it stays out.
@@ -416,11 +412,11 @@ New on the eighth pass and never heard, so the first things to listen for: the w
 ## Still open
 
 - Nobody has heard the mix or watched the lip sync (measured within 1.2 frames), and nobody has seen the HDR master on an HDR screen.
-- The music: whether the theme is right is a judgement for ears. A Lyria version needs the user to make it in Runway from `audio/music/LYRIA_PROMPT.md`, or a Gemini key in `.env`.
-- The cut is 98 shots where the approved plan has 100 (the two pairs). If the user wants the four cuts back, the 1969 card goes back to 20 frames.
-- D09's alternatives need the user's say-so to query the published model.
+- The music: whether the theme is right is a judgement for ears. A Lyria version needs the director to make it in Runway from `audio/music/LYRIA_PROMPT.md`, or a Gemini key in `.env`.
+- The cut is 98 shots where the approved plan has 100 (the two pairs). If the director wants the four cuts back, the 1969 card goes back to 20 frames.
+- D09's alternatives need the director's say-so to query the published model.
 - How the film discloses its AI-generated people now that the line is off the end card (see the v014 section).
-- The maker's mark for the end card: the user has not said whose it is. Its place is empty until `clips/mark.png` exists.
+- The maker's mark for the end card: the director has not said whose it is. Its place is empty until `clips/mark.png` exists.
 - The two rights notes (G32's transfer, G18's maker) want a person's decision.
 - Faults inside reels, left alone: Mara reads younger than her forties; Pip reads about six in the kitchen.
 - G12 plays its five frames faster than they were taken (they were taken at 0, 1, 2, 6 and 11 seconds).
@@ -428,6 +424,6 @@ New on the eighth pass and never heard, so the first things to listen for: the w
 
 ## Next, in order
 
-1. The user watches `out/first_word_v015_1080.mp4` with sound, and the HDR master on an HDR phone.
+1. The director watches `out/first_word_v015_1080.mp4` with sound, and the HDR master on an HDR phone.
 2. A decision on how the film discloses its AI-generated people where it runs as an advertisement, on the maker's mark, and on the two rights notes.
-3. The user looks at the reel on a phone, inside Instagram, before posting.
+3. The director looks at the reel on a phone, inside Instagram, before posting.

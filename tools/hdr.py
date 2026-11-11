@@ -4,7 +4,7 @@
     python3 tools/hdr.py --out out/first_word_v013_hdr_test.mp4 --audio audio/mix_v013.wav
     python3 tools/hdr.py --sheet out/hdr_key.jpg --frames 5,150,190,960,1300,1410     what it would brighten, as pictures
 
-The user asked for HDR so that the film's highlights stand out on a phone. This builds every frame exactly as the
+The director asked for HDR so that the film's highlights stand out on a phone. This builds every frame exactly as the
 conform does (the same code, no second encode in between) and then writes it as 10-bit HEVC in HLG (BT.2020, ARIB
 STD-B67), the form phones and the social platforms play as HDR.
 

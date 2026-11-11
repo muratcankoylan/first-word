@@ -10,7 +10,7 @@ exact shape could not be tried, the tool keeps the whole response beside the aud
 finds the audio by walking it, wherever it is.
 
 The prompt is the first fenced block of audio/music/LYRIA_PROMPT.md, so the file a person pastes into Runway and
-the text this tool sends are the same text. Nothing about the user or the project is sent: only the prompt.
+the text this tool sends are the same text. Nothing about the director or the project is sent: only the prompt.
 """
 import base64
 import json

@@ -778,7 +778,7 @@
   },
   "macro_screen": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro, draft: the laptop's screen with the words on it. The user asked for 'dumb question:' to be written on the screen in the video itself, not laid over it. One try at having the model write it; if the letters are wrong, the words are set into the screen's own plane in code.",
+   "what": "macro, draft: the laptop's screen with the words on it. The director asked for 'dumb question:' to be written on the screen in the video itself, not laid over it. One try at having the model write it; if the letters are wrong, the words are set into the screen's own plane in code.",
    "out": "clips/drafts/macro_screen.mp4",
    "files": {
     "references": [
@@ -797,7 +797,7 @@
   },
   "amara_dev_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "amara_dev_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "amara_dev_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/amara_dev_reel.mp4",
    "credits": 952,
    "body": {
@@ -807,7 +807,7 @@
   },
   "hall_fan_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "hall_fan enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "hall_fan enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/hall_fan.mp4",
    "credits": 1020,
    "body": {
@@ -817,7 +817,7 @@
   },
   "hall_wide_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "hall_wide enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "hall_wide enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/hall_wide.mp4",
    "credits": 680,
    "body": {
@@ -827,7 +827,7 @@
   },
   "handoff_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "handoff enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "handoff enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/handoff.mp4",
    "credits": 680,
    "body": {
@@ -837,7 +837,7 @@
   },
   "jun_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "jun_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "jun_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/jun_reel.mp4",
    "credits": 816,
    "body": {
@@ -847,7 +847,7 @@
   },
   "macro_card2_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_card2 enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_card2 enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_card2.mp4",
    "credits": 340,
    "body": {
@@ -857,7 +857,7 @@
   },
   "macro_hall_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_hall enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_hall enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_hall.mp4",
    "credits": 816,
    "body": {
@@ -867,7 +867,7 @@
   },
   "macro_hands_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_hands enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_hands enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_hands.mp4",
    "credits": 544,
    "body": {
@@ -877,7 +877,7 @@
   },
   "macro_kitchen_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_kitchen enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_kitchen enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_kitchen.mp4",
    "credits": 680,
    "body": {
@@ -887,7 +887,7 @@
   },
   "macro_relay_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_relay enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_relay enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_relay.mp4",
    "credits": 612,
    "body": {
@@ -897,7 +897,7 @@
   },
   "macro_screen_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "macro_screen enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "macro_screen enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/macro_screen.mp4",
    "credits": 340,
    "body": {
@@ -907,7 +907,7 @@
   },
   "mara_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "mara_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "mara_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/mara_reel.mp4",
    "credits": 2040,
    "body": {
@@ -917,7 +917,7 @@
   },
   "osei_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "osei_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "osei_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/osei_reel.mp4",
    "credits": 680,
    "body": {
@@ -927,7 +927,7 @@
   },
   "paper_pickups_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "paper_pickups enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "paper_pickups enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/paper_pickups.mp4",
    "credits": 544,
    "body": {
@@ -937,7 +937,7 @@
   },
   "ray_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "ray_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "ray_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/ray_reel.mp4",
    "credits": 1224,
    "body": {
@@ -947,7 +947,7 @@
   },
   "rosa_pip_reel_1080": {
    "endpoint": "/v1/text_to_video",
-   "what": "rosa_pip_reel enhanced to 1080p: the production pass the user asked for on 11 November 2026 (the same take, finished by the model at full size)",
+   "what": "rosa_pip_reel enhanced to 1080p: the production pass the director asked for on 11 November 2026 (the same take, finished by the model at full size)",
    "out": "clips/final/rosa_pip_reel.mp4",
    "credits": 952,
    "body": {

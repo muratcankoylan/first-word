@@ -1,6 +1,6 @@
 # FIRST WORD
 
-> This is the project's own README as it stood when v015 was delivered, unchanged. It was written for the working
+> This is the project's own README as it stood when v015 was delivered. It was written for the working
 > folder, so it names paths that are not in this repository: `.env`, `clips/`, `audio/`, `out/`, `archive/src/`,
 > `research/`. See the top-level README for what is and is not here. In this repository `STATE.md` is
 > `docs/production-log.md`.
@@ -58,7 +58,7 @@ This folder is where the film is made. STATE.md says where production stands.
 | `tools/process_figures.py` | Four figures of how the film was made, set as a research paper sets its figures (`out/process/figure_1.png` to `figure_4.png`): the brief, the persona and the plan; generation; the edit as code; the checking loop. Built only from the project's own material. |
 | `timing/reel.json`, `tools/reel.py` | The film for Instagram Reels: 1080 by 1920, the picture in the middle 4:5 (what the feed shows of a reel), every shot re-framed by hand (a window on the subject, type set again where it was too wide, archive on a tube of the new shape, two-picture frames stacked), and the captions set again on the vertical frame, clear of the app's buttons. `base` renders each shot without captions to `clips/reel/base/`; `sheet` shows every shot with the safe zone drawn; `render` writes the reel (`--hdr` for the HDR one). |
 | `timing/wind_reel.json` | The paper-strip shots for the reel: the lettered strips brought into the middle of the frame and stacked above and below her. `tools/wind.py --spec timing/wind_reel.json --outdir clips/reel B04 B06` makes them. |
-| `persona/` | The persona prompt the film was written from (3,801 words) and its tuning notes, written on 10 November 2026 from the user's description of the filmmaker. Copied here from the conversation record on 11 November because the folder it was written in is a temporary one. |
+| `persona/` | The persona prompt the film was written from (3,801 words) and its tuning notes, written on 10 November 2026 from the director's brief for the filmmaker. |
 | `out/social/` | Clips for posts. `teaser_v1.mp4` is the opening line-up and the whale ending; `teaser_v1_src/` is its recipe, with its own copies of the clips it plays. |
 | `refs/` | Reference images for places and props, with no words and no faces, and padded voice references. |
 | `clips/` | Picture. `clips/<ID>.mp4` is a finished shot; `clips/drafts/` holds generations (480p) and `clips/final/` the same takes finished at 1080p; `clips/stills/` holds generated stills; `clips/replaced/` keeps the archive shots that a better source took over, and in `clips/replaced/720p/` the made shots as they were before the 1080p pass; `clips/manifest.json` is written by `tools/cutin.py`. |

@@ -48,8 +48,3 @@ belong to their makers.
 ## Skills and services
 
 Linked, not copied. See `skills/README.md`.
-
-## The conversation
-
-`conversation/` is a record of what one person and one AI agent wrote to each other. Text from other people that
-was pasted into it has been left out, with a note in its place (`conversation/omissions.json`).

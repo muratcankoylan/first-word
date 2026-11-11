@@ -3,7 +3,7 @@
 
     python3 tools/laptopshot.py [--size 1920x1080]     the laptop draft, at its best -> clips/F03.mp4
 
-The user asked for "dumb question:" to be written on the screen in the video itself, not laid over it. The draft
+The director asked for "dumb question:" to be written on the screen in the video itself, not laid over it. The draft
 macro_screen was generated with the words on the laptop's screen, and they came back spelled right, in the screen's
 own perspective, with the screen's own block cursor blinking after the colon. This tool takes fifteen frames of it,
 punches in until the words can be read, and does one thing to the picture: the cursor's dark block is given the

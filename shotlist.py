@@ -322,7 +322,7 @@ shot("I01", "I", 1380, 60, "CODE",
      "The last three clicks each land one part of a question under the sentence, in the film's serif italic and larger than the sentence, cyan-hot and cooling to white, "
      "the frame punching in on each: What, will you, start? The last one flashes. Then the cursor leaves the sentence, comes to rest after the question mark with a flare "
      "and three rings, and blinks there to the last frame. The maker's mark lands with the last word (when there is one). "
-     "(No title and no disclosure line on the card: the user asked for both to go, the title in v013 and the line in v014.)",
+     "(No title and no disclosure line on the card: the director asked for both to go, the title in v013 and the line in v014.)",
      "", "Five clicks, 1+1+3, each with its ring. Keys under the typing. A stamp for each part of the question, a short swell into the last, and weight under it. The whale's pad holds under it all and is gone before the film loops.", "bar-to-cursor match")
 
 def tc(frame):

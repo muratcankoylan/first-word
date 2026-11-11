@@ -9,7 +9,7 @@ A skill is a set of instructions (and sometimes a small program) that the agent 
 
 | Skill | What it did here | Where it is |
 | --- | --- | --- |
-| **rea-video** | Took five films apart shot by shot: the team's earlier 60-second film and four references. It measures frame rate, cuts, text, tempo and sound, guesses how each shot was made, and asks the agent to review every shot by eye and merge its answers. The agent overrode its first guess on the team's film after looking at the frames. | https://github.com/JuneYaooo/rea-video (third-party; the person asked for it by link in the first message, and the agent read its code before installing it) |
+| **rea-video** | Took five films apart shot by shot: the team's earlier 60-second film and four references. It measures frame rate, cuts, text, tempo and sound, guesses how each shot was made, and asks the agent to review every shot by eye and merge its answers. The agent overrode its first guess on the team's film after looking at the frames. | https://github.com/JuneYaooo/rea-video (third-party; the agent read its code before installing it) |
 | **Deep research** (Parallel) | One research run on the canon behind the persona: the books, the techno-optimist essays, the music. Its report came back with sources and per-section confidence; the persona notes say which parts it did not cover. | https://parallel.ai (its CLI and Claude Code plugin) |
 | **Web search and page extraction** (Parallel) | Reading the vendors' own documentation (the video model's prompt guide and its rule on faces, the voice vendor's model guidance), and checking the film's factual claims against sources. | same |
 | **Docs** (Claude's document connector) | The plan: one shared document with three tabs (treatment, shot list, prompts), kept in step with the cut for two days. Exported here as [docs/plan/](../docs/plan/). | part of Claude |
@@ -21,11 +21,11 @@ A skill is a set of instructions (and sometimes a small program) that the agent 
 | Thing | What it did here |
 | --- | --- |
 | **Subagents** | Side work with its own written brief: reading a vendor's documentation, verifying historical facts, finding public-domain archive, exporting documents. The main agent checked what each one saved, not just its summary (one early report said "could not verify" about pages it had in fact captured). |
-| **Memory notes** | Corrections from the person, written down once and loaded into every later context window. See [agent-memory/](../agent-memory/). |
-| **The project's own files** | `STATE.md`, the pipeline README and the timing data did more to keep the work coherent than any skill. See "How the work survived six context resets" in [docs/workflow.md](../docs/workflow.md). |
-| **The persona prompt** | Written in this conversation, then handed back by the person as who the agent was to be for the film. See [persona/](../persona/). |
+| **Learned rules** | Corrections from review, written down once and loaded into every later context window. See [docs/learned-rules.md](../docs/learned-rules.md). |
+| **The project's own files** | `STATE.md`, the pipeline README and the timing data did more to keep the work coherent than any skill. See "State across context resets" in [docs/method.md](../docs/method.md#state-across-context-resets). |
+| **The persona prompt** | Written by the agent from the director's brief, then adopted as its working role for the film. See [persona/](../persona/). |
 
-## Services (paid, with the person's keys)
+## Services (paid, with the director's keys)
 
 | Service | Used for | Called from |
 | --- | --- | --- |
@@ -39,6 +39,6 @@ the production for this film.
 
 ## What the agent could not do
 
-- Hear. Every statement about sound in this repository rests on measurement, and on the person listening.
+- Hear. Every statement about sound in this repository rests on measurement, and on a person listening.
 - See an HDR screen, or the film inside a phone app. The HDR master was checked by its levels only.
 - Use a face as a reference for the video model. The provider refuses it, and that was not worked around.

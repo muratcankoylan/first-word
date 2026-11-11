@@ -5,14 +5,14 @@
     python3 tools/process_figures.py 3          only the third
 
 White page, panels lettered a, b, c, tables with three rules and no boxes, charts with one axis, a caption
-under each figure. Everything shown is the project's own material: the user's messages (verbatim), the persona
-prompt (persona/persona-prompt.md), the shot list, a real prompt, frames of the reels and of the finished film,
+under each figure. Everything shown is the project's own material: the persona prompt
+(persona/persona-prompt.md), the shot list, a real prompt, frames of the reels and of the finished film,
 the stems, code from tools/, lines the checking tools printed, measurements of every mix, and the same moments
 in eight of the fifteen versions in out/. Two "before" pictures in the fourth figure are kept in
 out/process/src/ because the shots they show have since been fixed.
 
-The first version of these (11 November 2026) was a dark board with large headlines; the user called it AI slop
-and asked for something like a research paper. Charts follow the dataviz rules: bars no thicker than 24 px with
+The first version of these (11 November 2026) was a dark board with large headlines; it was redone in the style
+of a research paper. Charts follow the dataviz rules: bars no thicker than 24 px with
 a rounded data end, one colour for one series, 2 px gaps between touching marks, text never in a data colour,
 and the five-colour categorical set was run through the palette validator (it passes; three of the five are
 light on white, so every use carries a text label).
@@ -228,12 +228,16 @@ def hbar(d, x0, y, length, thick=22, color=BLUE):
 # ------------------------------------------------------------------ figure 1
 def figure1():
     img, d = page()
-    # a: what the user wrote
-    y = panel(d, M, 70, "a", "What the user wrote (10 November 2026)")
-    rows = [("17:05", "“The end goal is to create a video about AI and futurism, create a buzz, and create some excitement in the user, in the viewer.”", "Analysed the five reference films attached to it"),
-            ("17:21", "“I want you to write a persona prompt that will be creating this video. This is basically a creator who reads futuristic books like Ender’s Game, Asimov, or maybe books like The Beginning of Infinity, believes in futurism, is a techno-optimist, and listens to things like Grimes.”", "Ran deep research on those books and records, then wrote the persona prompt (b, c)"),
-            ("20:20", "“approved […] you decide everything after that”", "Made the film from the plan (d)")]
-    table(d, M, y, [104, 560, 250], ["UTC", "Message, verbatim", "What the agent did next"], rows, size=24, lead=31, faces=["r", "i", "r"])
+    # a: the pipeline, stage by stage
+    y = panel(d, M, 70, "a", "The pipeline: seven stages and the file each one leaves")
+    rows = [("1  Reference study", "Five films taken apart, shot by shot", "two reports"),
+            ("2  Persona", "Research on a canon of books and records, then a prompt that sets taste and judgment (b, c)", "persona-prompt.md"),
+            ("3  Plan", "Treatment, shot list, prompts, fact-check (d)", "shotlist.py"),
+            ("4  Animatic", "The cut as code, a card for each unmade shot", "conform.py"),
+            ("5  Picture", "Generated reels, public-domain archive, shots drawn in code", "generations.json"),
+            ("6  Sound", "Cast voices performed as scenes, generated effects and score, a measured mix", "mix.py"),
+            ("7  Review", "Render, sheet, measure, fix: fifteen versions", "production log")]
+    table(d, M, y, [220, 480, 214], ["Stage", "What the agent does", "Leaves"], rows, size=23, lead=29, faces=["r", "r", "mono"], pad=9)
     # b: the persona's settings
     bx = 1090
     y = panel(d, bx, 70, "b", "The six settings of the persona prompt the agent wrote for itself")
@@ -274,8 +278,8 @@ def figure1():
         pic = clip_text(d, s["picture"], font("r", 23), 600)
         rows.append((sid, "%.2f" % (s["start"] / 24.0), str(s["dur"]), (kname[kind(s["source"])], KCOL[kind(s["source"])]), pic))
     table(d, dx, y, [84, 104, 104, 300, 622], ["Shot", "In (s)", "Frames", "Made by", "Picture"], rows, size=23, lead=30, pad=8, right=(1, 2))
-    caption(d, 1180, 1, "From one message to a shot plan.",
-            "**a,** The user’s messages that set the film up, with what the agent did after each (one dictation error corrected: “Anders Game”). "
+    caption(d, 1180, 1, "From a persona to a shot plan.",
+            "**a,** The production in seven stages. Each stage ends in a file the next one reads, so the work survives a reset of the agent’s context. "
             "**b,** The persona is a way of judging work: six dials with both ends described. **c,** Its sections, in the order they are written. "
             "**d,** The plan that persona wrote: 98 shots, 1,440 frames at 24 frames a second, cut on a 144 BPM grid.")
     return img
@@ -483,12 +487,12 @@ def figure4():
             ("Colour", "frame 372: mean shift R -0.01 G -0.00 B -0.00; mean error 0.82 of 255"),
             ("Stray frames", "C04  frame 319 is black (shot median 97)")]
     ye = table(d, M, yb, [230, 920], ["Check", "Line printed"], rows, size=24, lead=30, faces=["r", "mono"], pad=7)
-    # e: the user's notes
-    yn = panel(d, M, ye + 30, "e", "Three of the user’s notes, and what changed")
-    rows = [("10 Nov, 22:03", "“These are real AI voices. You need to write better prompts and use the latest ElevenLabs model.”", "Recast with real people’s voices, performed as scenes"),
-            ("11 Nov, 04:23", "“The dumb question needs to be written on the screen, so it needs to come from the video.”", "The laptop’s words are in the generated shot itself"),
-            ("11 Nov, 06:06", "“These writings are great, but they are passing so fast.”", "Each paper strip now hangs for about a second")]
-    table(d, M, yn, [190, 560, 400], ["UTC", "Note, verbatim", "Change"], rows, size=23, lead=29, faces=["r", "i", "r"], pad=7)
+    # e: what human review found
+    yn = panel(d, M, ye + 30, "e", "Three findings from human review, and what changed")
+    rows = [("Voices", "Voices designed from a written description sounded synthetic", "Recast with real people’s voices, performed as scenes"),
+            ("Laptop shot, v10", "The typed question should be on the laptop’s screen, inside the shot", "The laptop’s words are in the generated shot itself"),
+            ("Paper strips, v12", "The years on the strips passed too fast to read", "Each paper strip now hangs for about a second")]
+    table(d, M, yn, [220, 530, 400], ["Where", "Finding", "Change"], rows, size=23, lead=29, pad=7)
     # c: the mix, measured
     cx = 1330
     yc = panel(d, cx, y2, "c", "Every mix, measured")
@@ -515,7 +519,7 @@ def figure4():
     caption(d, 1212, 4, "The checking loop.",
             "The agent cannot hear and cannot watch video play, so it judges sound by measurement and picture by still frames. "
             "**a,** Grey cards are shots not yet made. **b,** Lines are verbatim. **c,** The mix converges on −14 LUFS with headroom. "
-            "**d,** The years on the paper strips were striped; the laptop’s cursor sat in a pale box. **e,** The user’s notes are the other half of the loop.")
+            "**d,** The years on the paper strips were striped; the laptop’s cursor sat in a pale box. **e,** Human review is the other half of the loop: what a person saw or heard that no check measured.")
     return img
 
 

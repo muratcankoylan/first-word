@@ -2,6 +2,9 @@
 
 Nov 10, 2026 · exported 11 Nov 2026 at revision 233
 
+> The production's living plan, written by the agent and addressed to the director ("you"). It was kept in step with
+> the cut for two days, so it records what changed as well as what was planned.
+
 ## The film in one line
 
 **FIRST WORD** (working title) takes the commonest dismissal of AI, "it's just autocomplete", agrees with it, and turns it into an invitation: it only finishes what somebody starts. Sixty seconds, 24 frames a second, 1,440 frames.
@@ -163,7 +166,7 @@ Still true: the sound was measured, not heard. The helicopter's five frames were
 
 ### What the sixth pass did: the plan, checked against the screen and the speakers
 
-The brief was: proceed with everything, do not game the plan. So the shot list as it was approved was recovered from the session's own record and compared with the cut one shot at a time, on rendered frames, and then the sound column and the transition column were checked the same way against the mix. Four rows had been quietly reworded since approval to match what was built. They are put back. About ten planned sounds were not in the mix at all. They are in now. Animatic v9 is the result.
+The brief was: proceed with everything, and build the plan as approved. So the shot list as it was approved was recovered from the session's own record and compared with the cut one shot at a time, on rendered frames, and then the sound column and the transition column were checked the same way against the mix. Four rows had been quietly reworded since approval to match what was built. They are put back. About ten planned sounds were not in the mix at all. They are in now. Animatic v9 is the result.
 
 Put back as approved:
 
@@ -339,9 +342,9 @@ Built differently from the approved plan, and why:
 
 Not heard, so the first things to listen for: whether the theme suits the film at all; whether its opening is too busy under the talk (0:13 to 0:27); the crackle and blips under Casey Harrell's sentence and Mara's new line (0:27 to 0:31); the heartbeat (0:31 to 0:37); the riser and the Enter key (0:38 to 0:40); the teleprinter keys, the crash and the power coming back (0:49.6 to 0:50.6); the title landing (0:58.3). `out/voices_audition.html` plays all three takes of the theme, the alternates, every effect, and the old score for comparison.
 
-After v12 you said of the paper strips in the hall of wind (0:06 to 0:08.5): "These writings are great, but they are passing so fast." Each of the five was in reach of the eye for about a third of a second, one after another. Each now arrives in two or three frames and then hangs near the lens, drifting slowly and sharp, for two thirds of a second to a second; they overlap, each in its own part of the frame. The limit, plainly: the five lines hold 126 letters and digits and the two shots last 2.3 seconds, so one viewing reads one or two lines a shot, not all five. Reading all five at a comfortable speed would need the hall to be about two seconds longer, taken from somewhere else in the minute. I did not do that; say if you want it.
+After v12 the note on the paper strips in the hall of wind (0:06 to 0:08.5) was that they pass too fast to read. Each of the five was in reach of the eye for about a third of a second, one after another. Each now arrives in two or three frames and then hangs near the lens, drifting slowly and sharp, for two thirds of a second to a second; they overlap, each in its own part of the frame. The limit, plainly: the five lines hold 126 letters and digits and the two shots last 2.3 seconds, so one viewing reads one or two lines a shot, not all five. Reading all five at a comfortable speed would need the hall to be about two seconds longer, taken from somewhere else in the minute. I did not do that; say if you want it.
 
-"Create buzz" on the end card I read as: end on a question the viewer can answer. That reading is mine. If you meant something else (a hashtag, a link, a date), tell me what it should say.
+The note asking for more life on the end card I read as: end on a question the viewer can answer. That reading is mine. If you meant something else (a hashtag, a link, a date), tell me what it should say.
 
 **An HDR test.** You asked whether pushing HDR would make the film's highlights stand out on a phone. There is now a test of the whole minute, made again for v14 as out/first\_word\_v014\_hdr\_test.mp4; the first was `out/first_word_v013_hdr_test.mp4` (10-bit HEVC in HLG, the form phones and Instagram play as HDR). Only the film's own lights are brighter than white: the cursor, its rings, the tube lights, the baton, a word landing hot. Faces, paper, white type and all archive footage stay at normal levels. Measured in the finished file: white type about 207 nits, the cursor 627, the tubes up to 686, the brightest pixel in the film 784. The one place that might glare is the baton held to the lens at 0:56, where an eighth of the frame is above 250 nits. I cannot see an HDR screen, so how it looks is for you to judge on an HDR phone. That was a test on the drafts. The real one now exists, made with the 1080p pass: out/first\_word\_v015\_1080\_hdr.mp4, beside the standard file and not in place of it. Its levels are the same (white at 203 nits, brightest pixel 784 nits), and the laptop's cursor now glows with the film's other lights.
 

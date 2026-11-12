@@ -92,6 +92,19 @@ carried the film across:
 - **Truth.** Real people say only what they are on record as saying, with a source line. Real events are never
   re-staged with generated people. Nothing is invented on a real document.
 
+## Reproducibility
+
+The repository holds the takes the film is cut from, not only the code. From a clean copy of it:
+
+- `tools/score_build.py` rebuilt the score, and `tools/mix.py` rebuilt the mix and its four stems. Each file was
+  identical to the original, byte for byte.
+- `tools/conform.py` rebuilt the 1080p master. It was identical to the original, byte for byte, on the machine the
+  film was made on. On another ffmpeg or x264 build the frames should match and the file may not.
+- With `clips/` removed, the same conform builds the animatic: the whole cut, with a card for each shot.
+
+What does not reproduce is generation. The video, voice and music models do not return the same take twice, so
+the prompts in `timing/generations.json` are a record of what ran, not a recipe for the same faces.
+
 ## Failure analysis
 
 Sixteen failures, in rough order of occurrence, with what caught each one. "Human review" means the director

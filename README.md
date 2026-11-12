@@ -4,6 +4,11 @@
 
 **[Project page](https://muratcankoylan.github.io/first-word/)** · [Watch the film](film/first_word_1080.mp4) · [Method](docs/method.md)
 
+[![FIRST WORD: watch the film on the project page](docs/media/poster.jpg)](https://muratcankoylan.github.io/first-word/)
+
+*The film plays on the [project page](https://muratcankoylan.github.io/first-word/), with every shot, the four stems
+and four of its fifteen versions. The files are in [film/](film/). Below: all 98 shots, in order.*
+
 ![Every shot of the film, in order](docs/figures/all_98_shots.jpg)
 
 ## Abstract
@@ -95,7 +100,7 @@ ones: effects landing two thirds of a frame late, a wrong colour matrix, plan dr
 
 | Path | What it is |
 | --- | --- |
-| [docs/method.md](docs/method.md) | The method: stages, verification loops, state across context resets, guard rails, failure analysis, the human role |
+| [docs/method.md](docs/method.md) | The method: stages, verification loops, state across context resets, guard rails, reproducibility, failure analysis, the human role |
 | [docs/learned-rules.md](docs/learned-rules.md) | The operating rules the agent accumulated from review |
 | [docs/production-log.md](docs/production-log.md) | The agent's running record, pass by pass: what was done, decided, and left open |
 | [docs/pipeline.md](docs/pipeline.md) | Every tool and data file, and the rebuild order |

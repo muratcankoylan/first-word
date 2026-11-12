@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIRST WORD: a one-minute film, and how one AI agent made it</title>
+<meta name="description" content="A 60-second, 98-shot film in which nothing was filmed. One AI agent planned, generated, cut and mixed it under human direction. The film, every shot, the stems, and the full research record.">
+<meta property="og:title" content="FIRST WORD">
+<meta property="og:description" content="A one-minute film in which nothing was filmed, and the research record of how one AI agent made it.">
+<meta property="og:type" content="video.other">
+<meta property="og:image" content="https://muratcankoylan.github.io/first-word/media/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+
+<header class="hero" id="film">
+  <nav class="top" aria-label="Sections">
+    <a class="brand" href="#film">FIRST WORD</a>
+    <div class="navlinks">
+      <a href="#shots">Shots</a><a href="#pipeline">Pipeline</a><a href="#picture">Picture</a><a href="#sound">Sound</a><a href="#checks">Checks</a><a href="#persona">Persona</a><a href="#sources">Sources</a><a href="#rebuild">Rebuild</a><a href="#cite">Cite</a>
+    </div>
+    <a class="gh" href="https://github.com/muratcankoylan/first-word">GitHub</a>
+  </nav>
+
+  <div class="hero-inner">
+    <p class="kicker">A one-minute film · November 2026</p>
+    <h1>FIRST WORD<span class="cursor" aria-hidden="true"></span></h1>
+    <p class="tagline">Nobody predicts the future. Somebody starts it.</p>
+
+    <div class="player">
+      <video id="filmvideo" controls playsinline preload="none" poster="media/poster.jpg">
+        <source src="media/film.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="under">
+      <p class="lede">Nothing in this film was filmed. One AI agent planned it, generated its people, found its archive, directed its voices, and cut and mixed it in two days. A human director set the brief and reviewed each version by watching and listening. This page is the film and the record of how it was made.</p>
+      <p class="links">
+        <a class="btn primary" href="https://github.com/muratcankoylan/first-word">Code and data</a>
+        <a class="btn" href="https://github.com/muratcankoylan/first-word/blob/main/docs/method.md">Method</a>
+        <a class="btn" href="https://github.com/muratcankoylan/first-word/raw/main/film/first_word_1080.mp4">Download 1080p</a>
+        <a class="btn" href="#cite">Cite</a>
+      </p>
+    </div>
+
+    <ul class="strips" aria-label="The film in numbers">
+      <li><b>98 shots in 60 seconds</b><span>24 fps</span></li>
+      <li><b>Nothing filmed</b><span>0 cameras</span></li>
+      <li><b>Fifteen versions</b><span>2 days</span></li>
+      <li><b>Generation cost</b><span>$199.85</span></li>
+    </ul>
+
+    <p class="credits">Agent: Claude Fable 5.2 in Claude Code <i>·</i> Video: Seedance 2.5 on Runway <i>·</i> Voices, effects and music: ElevenLabs <i>·</i> The people are generated. The archive is real.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="abstract" class="text">
+  <p class="num">01</p>
+  <h2>Abstract</h2>
+  <p>FIRST WORD is a 60-second film about AI and the future: 98 shots, 24 frames a second, cut to a 144 BPM grid. A single AI agent carried out every production role: reference analysis, a persona for the film's maker, the treatment and shot list, fact-checking, video generation, archive research and rights records, voice casting and direction, sound design, the edit, colour, and mastering.</p>
+  <p>The agent cannot hear and cannot watch video play. It judged picture on contact sheets of rendered frames and sound by measurement, and a person watched and listened to each version. The repository holds the pipeline, the edit as data, the persona prompt, the plan, the rights records, the cost ledger, the film and its source media, and a production log that includes what failed.</p>
+</section>
+
+<section id="shots">
+  <div class="text">
+    <p class="num">02</p>
+    <h2>The edit is a program</h2>
+    <p>Every shot is a row of data: where it starts, how many frames it lasts, how its picture is made, what is said and heard, and how it cuts. A conform builds the film from those rows and draws a card for any shot that does not exist yet, so a complete film existed from the first hour. Pick a shot to loop it.</p>
+  </div>
+  <div class="explorer" id="explorer">
+    <div class="stripwrap">
+      <div class="passages" id="passages" aria-hidden="true"></div>
+      <div class="strip" id="strip" role="listbox" aria-label="The 98 shots, to scale"></div>
+      <div class="axis" id="axis" aria-hidden="true"></div>
+    </div>
+    <ul class="legend" id="legend"></ul>
+    <div class="shot">
+      <div class="shotvideo">
+        <video id="exvideo" muted playsinline preload="metadata" src="media/explorer.mp4"></video>
+      </div>
+      <div class="shotinfo">
+        <div class="shothead">
+          <span class="shotid" id="s-id">A01</span>
+          <span class="chip" id="s-kind"></span>
+        </div>
+        <p class="shotmeta" id="s-meta"></p>
+        <dl>
+          <dt>Picture</dt><dd id="s-picture"></dd>
+          <dt>Line</dt><dd id="s-line"></dd>
+          <dt>Sound</dt><dd id="s-sound"></dd>
+          <dt>Cut</dt><dd id="s-cut"></dd>
+        </dl>
+        <div class="shotctl">
+          <button type="button" id="s-prev" aria-label="Previous shot">&#8249; Prev</button>
+          <button type="button" id="s-next" aria-label="Next shot">Next &#8250;</button>
+          <button type="button" id="s-mode" aria-pressed="true">Looping this shot</button>
+          <button type="button" id="s-slow" aria-pressed="false">Half speed</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pipeline">
+  <div class="text">
+    <p class="num">03</p>
+    <h2>Pipeline</h2>
+    <p>Seven stages. Each ends in a file the next one reads, which is also how the work survived six resets of the agent's context.</p>
+  </div>
+  <ol class="stages">
+    <li><b>Reference study</b><span>Five films taken apart shot by shot: cut lengths, how each picture was made, tempo, sound.</span></li>
+    <li><b>Persona</b><span>Research on a canon of books and records, then a 3,800-word prompt that sets taste and judgment.</span></li>
+    <li><b>Plan</b><span>Treatment, shot list, prompts, and a fact-check of every claim the film makes.</span></li>
+    <li><b>Animatic</b><span>The cut as code, with a card for every shot not yet made.</span></li>
+    <li><b>Picture</b><span>Generated takes, public-domain archive, and shots drawn in code.</span></li>
+    <li><b>Sound</b><span>Cast voices performed as scenes, generated effects and score, a measured mix.</span></li>
+    <li><b>Review</b><span>Render, contact sheet, measure, fix. Fifteen times.</span></li>
+  </ol>
+  <figure class="wide">
+    <a href="figures/figure_1.png"><img src="figures/figure_1.png" alt="Figure 1: the seven stages, the persona's six settings, the length of each section of the persona prompt, and nine rows of the shot list." loading="lazy"></a>
+    <figcaption>Figure 1. From a persona to a shot plan. More figures are in the <a href="https://github.com/muratcankoylan/first-word#pipeline">repository</a>.</figcaption>
+  </figure>
+</section>
+
+<section id="picture">
+  <div class="text">
+    <p class="num">04</p>
+    <h2>Where the picture comes from</h2>
+    <p>Five sources, each with a job. Everything real carries one visual treatment, scanlines, and nothing generated carries it.</p>
+  </div>
+  <div class="bars" id="bars"></div>
+
+  <div class="two">
+    <div>
+      <h3>One generation per character</h3>
+      <p>The video model refuses a face as a reference, and that refusal was not worked around. Each person is generated in one job from a fixed written description, and all of that person's shots are cut from that one take. This is the whole take for Mara, 30 seconds, as the model returned it.</p>
+      <blockquote id="mara"></blockquote>
+      <p class="small">The jacket is a reference still with no face in it. The description is pasted word for word into every prompt that shows her.</p>
+    </div>
+    <figure>
+      <video controls muted playsinline preload="none" poster="media/reel_mara_poster.jpg" id="reelvideo" src="media/reel_mara.mp4"></video>
+      <figcaption>The raw take, finished at 1080p (shown here at 540p). All sixteen takes in the film are in <a href="https://github.com/muratcankoylan/first-word/tree/main/clips/final">clips/final</a>.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="sound">
+  <div class="text">
+    <p class="num">05</p>
+    <h2>Sound, built by measurement</h2>
+    <p>The agent cannot hear. It measured loudness, true peak, the energy of the music in each frequency band, and where each hit's sharpest moment falls against its frame. Then a person listened. The mix sits at -14.1 LUFS with a range of 6.8 LU and a true peak of -2.1 dBFS. Switch the four stems on and off to hear what each one carries.</p>
+  </div>
+  <div class="mixer" id="mixer">
+    <div class="mixvideo">
+      <video id="mixvideo" muted playsinline preload="metadata" src="media/explorer.mp4"></video>
+      <button type="button" id="mixplay" class="bigplay">Play with stems</button>
+      <p class="small" id="mixnote">Loads four short audio files when you press play.</p>
+    </div>
+    <div class="stems" id="stems"></div>
+  </div>
+</section>
+
+<section id="checks">
+  <div class="text">
+    <p class="num">06</p>
+    <h2>Fifteen versions, and what the checks missed</h2>
+    <p>Most of the two days went into one loop: render the whole film, cut it into contact sheets, read the frames, measure the sound, fix, and render again. Below are four of the fifteen versions playing together. Grey cards are shots that did not exist yet.</p>
+  </div>
+  <figure class="wide versions">
+    <div class="quad">
+      <video controls muted loop playsinline preload="none" src="media/versions.mp4" poster="media/versions_poster.jpg"></video>
+      <span class="q q1">v3</span><span class="q q2">v7</span><span class="q q3">v11</span><span class="q q4">v15</span>
+    </div>
+    <figcaption>The same minute in versions 3, 7, 11 and 15, with shot names and frame numbers burnt in.</figcaption>
+  </figure>
+
+  <div class="text">
+    <h3>Failure analysis</h3>
+    <p>Sixteen failures, in rough order, with what caught each one. Seven needed a person, and five of those seven are perceptual: how a voice sounds, how music feels, whether a graphic looks finished, whether a stranger can read a line. The agent's own checks were reliable on anything that could be turned into a number or a still frame.</p>
+  </div>
+  <div class="tablewrap">
+  <table class="failures">
+    <thead><tr><th>#</th><th>Failure</th><th>Caught by</th><th>Correction</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>The analysis tool classed a filmed reference as mostly AI video</td><td><span class="by agent">Agent</span></td><td>The tool's label overridden, with the evidence stated</td></tr>
+      <tr><td>2</td><td>A research subagent reported "could not verify" for pages it had in fact captured</td><td><span class="by human">Human</span></td><td>Raw captures are read whenever a summary is hedged</td></tr>
+      <tr><td>3</td><td>Voices designed from text and chosen by measurement sounded synthetic</td><td><span class="by human">Human</span></td><td>Licensed recordings of real voices; scenes performed as conversations</td></tr>
+      <tr><td>4</td><td>Sound effects synthesised in code as stand-ins</td><td><span class="by human">Human</span></td><td>Every effect generated; nothing synthesised, even as a stopgap</td></tr>
+      <tr><td>5</td><td>The first score was almost all sub bass</td><td><span class="by human">Human</span>, then measurement</td><td>A new theme; a bar-by-bar band map before any music enters the mix</td></tr>
+      <tr><td>6</td><td>Most effects landed two thirds of a frame late</td><td><span class="by agent">Agent</span></td><td>Hits placed by their sharpest moment; within a twentieth of a frame</td></tr>
+      <tr><td>7</td><td>Voices in the loudest passage reached full scale and were soft-clipped</td><td><span class="by agent">Agent</span></td><td>Voices evened out before mixing; a look-ahead limiter</td></tr>
+      <tr><td>8</td><td>Flat rectangles drawn in code looked like placeholders beside generated footage</td><td><span class="by human">Human</span></td><td>One light system: a core, a glow and motion for everything drawn</td></tr>
+      <tr><td>9</td><td>On-screen text passed too fast to read, or needed explaining</td><td><span class="by human">Human</span></td><td>A reading-load report on every render</td></tr>
+      <tr><td>10</td><td>Four plan rows reworded to match the build; about ten planned sounds missing</td><td><span class="by agent">Agent</span></td><td>Rows restored; sounds built; "not built" recorded where true</td></tr>
+      <tr><td>11</td><td>Every file before the last pass had the wrong colour matrix and no colour tags</td><td><span class="by agent">Agent</span></td><td>BT.709 conversion and tags, verified by direct arithmetic</td></tr>
+      <tr><td>12</td><td>At 1080p the paper strips were striped and their years unreadable</td><td><span class="by agent">Agent</span></td><td>Half shutter and more sub-frames</td></tr>
+      <tr><td>13</td><td>The laptop's cursor sat in a pale box</td><td><span class="by agent">Agent</span></td><td>The cover thresholded to its largest component</td></tr>
+      <tr><td>14</td><td>The shade under captions flickered across cuts</td><td><span class="by agent">Agent</span></td><td>A shade whose depth varies continuously from zero</td></tr>
+      <tr><td>15</td><td>In the vertical version, type was cut off or fell under the app's interface</td><td><span class="by agent">Agent</span></td><td>Per-shot re-framing; captions redrawn natively at the new size</td></tr>
+      <tr><td>16</td><td>The agent reported that an earlier artifact did not exist, having searched one of two session records</td><td><span class="by human">Human</span></td><td>The whole record is searched before any statement about what was made</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="more text"><a href="https://github.com/muratcankoylan/first-word/blob/main/docs/method.md">The method in full</a> <i>·</i> <a href="https://github.com/muratcankoylan/first-word/blob/main/docs/learned-rules.md">Rules learned from review</a> <i>·</i> <a href="https://github.com/muratcankoylan/first-word/blob/main/docs/production-log.md">Production log</a></p>
+</section>
+
+<section id="persona">
+  <div class="text">
+    <p class="num">07</p>
+    <h2>A persona with dials</h2>
+    <p>The agent worked from a 3,800-word system prompt that describes a film-maker's taste and judgment. It is a way of judging work, not a character to perform. Six dials set how strongly each trait shows; these are the settings the film was made with.</p>
+  </div>
+  <div class="dials" id="dials"></div>
+  <p class="more text"><a href="https://github.com/muratcankoylan/first-word/blob/main/persona/persona-prompt.md">The prompt</a> <i>·</i> <a href="https://github.com/muratcankoylan/first-word/tree/main/persona">How it was made, and how to tune it</a></p>
+</section>
+
+<section id="sources">
+  <div class="text">
+    <p class="num">08</p>
+    <h2>Real sources</h2>
+    <p>Thirteen shots and one sound are real: photographs, documents, film and a recording that are in the public domain or, for NASA and NOAA material, not subject to copyright. Each has a rights record that quotes its holder, and none was re-staged. Where the status was inferred and not stated by the holder, the record says so.</p>
+  </div>
+  <div class="tablewrap">
+  <table class="archive" id="archive">
+    <thead><tr><th>Shots</th><th>Source</th><th>Date</th><th>Held by</th><th>Rights</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</section>
+
+<section id="vertical" class="two vert">
+  <div>
+    <p class="num">09</p>
+    <h2>The vertical version</h2>
+    <p>For phones the film was re-framed shot by shot: a 4:5 picture window inside a 9:16 canvas, with captions redrawn natively at the new size and kept inside the platform's published safe zone. Archive shots sit in a tube-shaped frame; cards and code shots are re-laid.</p>
+    <p class="small">The re-framing is data too: <a href="https://github.com/muratcankoylan/first-word/blob/main/timing/reel.json">timing/reel.json</a>, read by <a href="https://github.com/muratcankoylan/first-word/blob/main/tools/reel.py">tools/reel.py</a>.</p>
+  </div>
+  <figure>
+    <video controls playsinline preload="none" poster="media/vertical_poster.jpg" src="media/vertical.mp4"></video>
+  </figure>
+</section>
+
+<section id="rebuild">
+  <div class="text">
+    <p class="num">10</p>
+    <h2>Rebuild it</h2>
+    <p id="rebuildclaim">The repository holds the finished takes, the made shots, the stills, the voices, the effects and the music. From a clean copy of it, the score, the mix, the four stems and the 1080p master all rebuild, and each came out identical to the original, byte for byte, on the machine the film was made on.</p>
+  </div>
+  <pre class="code"><code># the animatic: the whole cut, a card for every shot
+python3 shotlist.py
+python3 tools/conform.py --out out/animatic.mp4
+
+# the sound: the score, then the mix and its four stems
+python3 tools/score_build.py
+python3 tools/mix.py --out audio/mix_v015.wav
+
+# the film at 1080p, from the takes in clips/
+python3 tools/conform.py --out out/first_word_1080.mp4 --size 1920x1080 \
+    --audio audio/mix_v015.wav --clean --crf 14 --preset slow</code></pre>
+  <div class="text">
+    <p class="small">Needs Python 3 with Pillow, numpy, scipy and OpenCV, and ffmpeg. Written and run on macOS. New generations need your own keys and will not return the same takes.</p>
+    <table class="cost" id="cost">
+      <thead><tr><th>Generation spending</th><th>Calls</th><th>USD</th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="small">Every paid call is in <a href="https://github.com/muratcankoylan/first-word/blob/main/ledger.csv">ledger.csv</a>. Voices, effects and music ran on an existing plan.</p>
+  </div>
+</section>
+
+<section id="limits" class="text">
+  <p class="num">11</p>
+  <h2>Limitations</h2>
+  <ul class="plain">
+    <li><b>One production.</b> A case study, not a benchmark. There is no control condition and no second film.</li>
+    <li><b>Not reproducible past the takes.</b> The video, voice and music models do not return the same take twice. The film rebuilds from the takes kept here; a fresh generation would differ.</li>
+    <li><b>Perception was human.</b> Every claim about how the film sounds rests on measurement and on a person listening.</li>
+    <li><b>Faults remain inside generated takes.</b> Correcting one shot of a person means regenerating that person's take, which changes the face, so such faults were listed and left.</li>
+    <li><b>The code is specific to this film.</b> It was written for these 98 shots and is not a framework.</li>
+  </ul>
+</section>
+
+<section id="cite" class="text">
+  <p class="num">12</p>
+  <h2>Cite</h2>
+  <pre class="code"><code>@misc{firstword2026,
+  title  = {FIRST WORD: An Agent-Directed Production Pipeline for a One-Minute Film},
+  author = {{The First Word authors}},
+  year   = {2026},
+  url    = {https://github.com/muratcankoylan/first-word}
+}</code></pre>
+  <p class="small">Code: MIT. Documents, data and figures: CC BY 4.0. The film and its media are here to be watched, studied and rebuilt, and are not under those licences. Fonts and archive sources belong to their holders. See <a href="https://github.com/muratcankoylan/first-word/blob/main/NOTICE.md">NOTICE</a>.</p>
+</section>
+
+</main>
+
+<footer>
+  <p><span class="endline">The future is yours to start.</span> <span class="endq">What will you start?</span><span class="cursor" aria-hidden="true"></span></p>
+  <p class="small"><a href="https://github.com/muratcankoylan/first-word">github.com/muratcankoylan/first-word</a></p>
+</footer>
+
+<script src="site/app.js"></script>
+</body>
+</html>

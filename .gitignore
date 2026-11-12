@@ -3,11 +3,10 @@
 .env.*
 !.env.example
 
-# media is not in this repository (see README: what is not here)
-clips/
-audio/
+# renders, and the archive's source files (each is listed in archive/manifest.json; the one sound the mix reads is kept)
 out/
-archive/src/
+archive/src/*
+!archive/src/H01_*.mp3
 archive/src_new/
 archive/selects/
 research/
@@ -17,3 +16,6 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+
+# local preview settings
+.claude/

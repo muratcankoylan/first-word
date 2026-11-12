@@ -1,0 +1,12 @@
+{
+ "job": "handoff_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 82,
+ "credits_charged": 680,
+ "files": [
+  "clips/final/handoff.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:53:13.169224Z"
+}

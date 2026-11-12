@@ -1,0 +1,12 @@
+{
+ "job": "osei_reel_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 83,
+ "credits_charged": 680,
+ "files": [
+  "clips/final/osei_reel.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:47:11.758971Z"
+}

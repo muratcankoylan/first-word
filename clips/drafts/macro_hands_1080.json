@@ -1,0 +1,12 @@
+{
+ "job": "macro_hands_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 91,
+ "credits_charged": 544,
+ "files": [
+  "clips/final/macro_hands.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:55:50.042505Z"
+}

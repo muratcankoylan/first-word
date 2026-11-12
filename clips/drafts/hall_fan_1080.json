@@ -1,0 +1,12 @@
+{
+ "job": "hall_fan_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 107,
+ "credits_charged": 1020,
+ "files": [
+  "clips/final/hall_fan.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:52:30.766020Z"
+}

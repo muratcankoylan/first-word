@@ -1,0 +1,12 @@
+{
+ "job": "jun_reel_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 99,
+ "credits_charged": 816,
+ "files": [
+  "clips/final/jun_reel.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:51:49.889324Z"
+}

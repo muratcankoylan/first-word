@@ -1,8 +1,8 @@
 # Production state
 
 > This is the project's `STATE.md` as it stood when v015 was delivered: the agent's running record of
-> what was done, decided and left open, newest first. It names files under `clips/`, `audio/`, `out/` and
-> `research/`, which are not in this repository. Edited for publication in one respect only: the director's review
+> what was done, decided and left open, newest first. It names files under `out/` and `research/`, and drafts and
+> earlier takes under `clips/` and `audio/`, which are not in this repository. Edited for publication in one respect only: the director's review
 > notes are summarised, not quoted.
 
 Last updated 11 November 2026, 15:30 UTC, after the reel (the film for Instagram) and the process figures. Before that, the 1080p production pass (v015): every draft finished at 1080p, every made shot rebuilt at that size, the whole film reviewed at full size, and masters written.

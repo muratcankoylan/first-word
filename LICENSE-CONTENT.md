@@ -16,8 +16,13 @@ Credit line: "FIRST WORD, by the First Word authors", with a link to this reposi
 
 ## What this licence does not cover
 
-- **Code.** `tools/` and `shotlist.py` are under the MIT licence in `LICENSE`.
+- **Code.** `tools/`, `shotlist.py` and the project page's code (`docs/index.html`, `docs/site/`) are under the MIT
+  licence in `LICENSE`.
 - **Fonts, archive material and other people's work.** See `NOTICE.md`.
-- **The film.** Its masters, clips and audio are not in this repository and are not licensed by it.
+- **The film and its media.** `film/`, `clips/`, `audio/` and `docs/media/` hold the film, the generated takes
+  and stills, the voices, the effects and the music. They are included so the film can be watched, studied and
+  rebuilt, and they are not covered by this licence or by the MIT licence. Copyright in them stays with the First
+  Word authors, subject to the terms of the services they were generated with. Public-domain material inside them
+  stays in the public domain.
 - **People.** The figures show frames of the film, including generated people and voices cast from a licensed
   voice library. Nothing here grants a right to anyone's likeness or voice.

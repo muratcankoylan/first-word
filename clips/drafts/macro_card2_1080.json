@@ -1,0 +1,12 @@
+{
+ "job": "macro_card2_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 74,
+ "credits_charged": 340,
+ "files": [
+  "clips/final/macro_card2.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:57:05.095529Z"
+}

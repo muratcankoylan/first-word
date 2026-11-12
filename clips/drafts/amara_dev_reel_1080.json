@@ -1,0 +1,12 @@
+{
+ "job": "amara_dev_reel_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 108,
+ "credits_charged": 952,
+ "files": [
+  "clips/final/amara_dev_reel.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:50:02.773297Z"
+}

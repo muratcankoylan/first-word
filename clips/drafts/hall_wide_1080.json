@@ -1,0 +1,12 @@
+{
+ "job": "hall_wide_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 99,
+ "credits_charged": 680,
+ "files": [
+  "clips/final/hall_wide.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:53:21.436295Z"
+}

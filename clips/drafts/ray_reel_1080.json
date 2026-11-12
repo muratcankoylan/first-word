@@ -1,0 +1,12 @@
+{
+ "job": "ray_reel_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 116,
+ "credits_charged": 1224,
+ "files": [
+  "clips/final/ray_reel.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:50:10.220857Z"
+}

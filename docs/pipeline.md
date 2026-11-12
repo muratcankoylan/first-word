@@ -1,8 +1,8 @@
 # FIRST WORD
 
 > This is the project's own README as it stood when v015 was delivered. It was written for the working
-> folder, so it names paths that are not in this repository: `.env`, `clips/`, `audio/`, `out/`, `archive/src/`,
-> `research/`. See the top-level README for what is and is not here. In this repository `STATE.md` is
+> folder, so it names paths that are not in this repository: `.env`, `out/`, `archive/src/`, `research/`, and the
+> drafts and earlier takes under `clips/` and `audio/` (those two folders hold what the finished film is built from). See the top-level README for what is and is not here. In this repository `STATE.md` is
 > `docs/production-log.md`.
 
 A 60-second film: 24 fps, 1,440 frames, 144 BPM (one beat is 10 frames), 100 shots.

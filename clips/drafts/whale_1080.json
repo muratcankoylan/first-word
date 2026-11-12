@@ -1,0 +1,12 @@
+{
+ "job": "whale_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 100,
+ "credits_charged": 816,
+ "files": [
+  "clips/whale_1080.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-10T22:57:41.263855Z"
+}

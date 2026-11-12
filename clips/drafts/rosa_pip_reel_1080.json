@@ -1,0 +1,12 @@
+{
+ "job": "rosa_pip_reel_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 99,
+ "credits_charged": 952,
+ "files": [
+  "clips/final/rosa_pip_reel.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:51:42.111091Z"
+}

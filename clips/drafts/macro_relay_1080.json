@@ -1,0 +1,12 @@
+{
+ "job": "macro_relay_1080",
+ "status": "SUCCEEDED",
+ "seconds_waited": 74,
+ "credits_charged": 612,
+ "files": [
+  "clips/final/macro_relay.mp4"
+ ],
+ "failure": null,
+ "failure_code": null,
+ "made": "2026-11-11T07:54:36.583857Z"
+}

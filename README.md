@@ -1,6 +1,8 @@
 # FIRST WORD
 
-**An agent-directed production pipeline for a one-minute film: code, data, prompts and the production record**
+**An agent-directed production pipeline for a one-minute film: the film, its media, code, data, prompts and the production record**
+
+**[Project page](https://muratcankoylan.github.io/first-word/)** · [Watch the film](film/first_word_1080.mp4) · [Method](docs/method.md)
 
 ![Every shot of the film, in order](docs/figures/all_98_shots.jpg)
 
@@ -13,10 +15,10 @@ video generation, archive research and rights records, voice casting and directi
 and mastering. A human director set the brief, supplied references and credentials, approved the plan and the budget,
 and reviewed each version by watching and listening.
 
-This repository is the complete record of that production except the media: the pipeline (about 8,200 lines of
-Python), the edit as data, the persona prompt, the plan, the reference studies, the rights records, the cost
-ledger, and a production log that includes what failed. It is published so the method can be read, checked and
-borrowed from.
+This repository is the complete record of that production: the film and the media it is built from, the pipeline
+(about 8,400 lines of Python), the edit as data, the persona prompt, the plan, the reference studies, the rights
+records, the cost ledger, and a production log that includes what failed. The film rebuilds from it. It is
+published so the method can be read, checked and borrowed from.
 
 ## Contributions
 
@@ -40,6 +42,9 @@ borrowed from.
    ([docs/method.md](docs/method.md#state-across-context-resets), [docs/learned-rules.md](docs/learned-rules.md)).
 7. **An audit against plan drift.** The agent's own notes drifted toward what had been built. Auditing the approved
    plan against rendered frames and the measured mix found four reworded rows and about ten missing sounds.
+8. **A film that rebuilds from its repository.** From a clean copy of this repository, the score, the mix, the
+   four stems and the 1080p master were rebuilt, and each matched the original byte for byte
+   ([Reproducing](#reproducing)).
 
 ## The result
 
@@ -97,6 +102,10 @@ ones: effects landing two thirds of a frame late, a wrong colour matrix, plan dr
 | [docs/plan/](docs/plan/) | The living plan: treatment, shot list, prompts |
 | [docs/reports/](docs/reports/) | The two reference studies |
 | [docs/figures/](docs/figures/) | The four figures and the contact sheet of the finished film |
+| [film/](film/) | The film: the 1080p master, the HDR master, the vertical version and its HDR copy |
+| [clips/](clips/) | The picture the film is built from: the sixteen generated takes at 1080p, the stills, and the shots made by the tools |
+| [audio/](audio/) | The sound: the mix, its four stems, every spoken line, every effect, the score and what it is cut from |
+| [docs/index.html](docs/index.html), [tools/site.py](tools/site.py) | The project page and the tool that writes its data from this repository |
 | [persona/](persona/) | The persona prompt, its tuning notes, and how it was made |
 | [shotlist.py](shotlist.py), [timing/](timing/) | The edit as data: shots, lines, type, sound, prompts, lip sync |
 | [tools/](tools/) | The pipeline: conform, generation, archive, code-drawn shots, voices, sound, mix, HDR, the vertical version, figures |
@@ -109,29 +118,46 @@ ones: effects landing two thirds of a frame late, a wrong colour matrix, plan dr
 The tools need Python 3 with Pillow, numpy, scipy and OpenCV, and ffmpeg. They were written and run on macOS.
 
 ```bash
+# the animatic: the whole cut, with a card for every shot
 python3 shotlist.py
 mkdir -p out
 python3 tools/conform.py --out out/animatic.mp4
+
+# the sound: the score, then the mix and its four stems
+python3 tools/score_build.py
+python3 tools/mix.py --out audio/mix_v015.wav
+
+# the film at 1080p, from the takes in clips/
+python3 tools/conform.py --out out/first_word_1080.mp4 --size 1920x1080 --audio audio/mix_v015.wav --clean --crf 14 --preset slow
 ```
 
-With no media at all, that builds the animatic: the whole 60-second cut at 1280 by 720, silent, with a card for
-each of the 98 shots and the captions and on-screen type drawn over it. This was checked from a clean copy of this
-repository (about three minutes). The cards and the strip of shot names along the top are set in a macOS system
-font; on another system, point `F_UI` at the top of `tools/conform.py` to a font you have. `tools/process_figures.py`
-also uses macOS fonts. Nothing else was tested off macOS.
+What was checked, each time from a clean copy of this repository:
 
-Everything past the animatic needs media you generate or fetch yourself, and paid calls need your own keys (copy
-[.env.example](.env.example) to `.env`). [docs/pipeline.md](docs/pipeline.md) gives the full rebuild order.
+- **The sound.** `audio/music/score_cut2.wav`, `audio/mix_v015.wav` and the four stems came out identical to the
+  files here, byte for byte.
+- **The picture.** The 1080p film came out identical to `film/first_word_1080.mp4`, byte for byte (about ten
+  minutes on a laptop). That was on the machine the film was made on, with the same ffmpeg and x264. On another
+  build the frames should match and the file may not.
+- **The animatic.** If `clips/` is removed, the first block still builds the whole cut with a card for each shot.
 
-**What is not in the repository:** the film's masters, clips and audio; the archive source files (each is listed
-in [archive/manifest.json](archive/manifest.json) with its holder, address and checksum); API keys; and
-third-party skills and documentation, which are linked.
+The cards and the strip of shot names on the animatic are set in a macOS system font; on another system, point
+`F_UI` at the top of `tools/conform.py` to a font you have. `tools/process_figures.py` also uses macOS fonts.
+Nothing was tested off macOS.
+
+A new generation needs your own keys (copy [.env.example](.env.example) to `.env`) and will not return the same
+take. [docs/pipeline.md](docs/pipeline.md) lists every tool and the full rebuild order.
+
+**What is not in the repository:** the ProRes master (1.1 GB); the fourteen earlier versions and the drafts that
+were not used; the archive's source files, which are listed in [archive/manifest.json](archive/manifest.json) with
+holder, address and checksum (the processed archive shots are in `clips/`); API keys; and third-party skills and
+documentation, which are linked.
 
 ## Limitations
 
 - **One production.** This is a case study, not a benchmark. There is no control condition and no second film.
-- **Not reproducible to the frame.** The video, voice and music models do not return the same take twice. The
-  prompts that ran are in [timing/generations.json](timing/generations.json); the faces will differ.
+- **Not reproducible past the takes.** The film rebuilds exactly from the takes kept here. The video, voice and
+  music models do not return the same take twice, so a fresh generation from the prompts in
+  [timing/generations.json](timing/generations.json) would give different faces and voices.
 - **Perception was human.** Every claim about how the film sounds rests on measurement and on a person listening.
   The HDR master was checked by its levels only; the agent cannot see an HDR screen.
 - **Faults remain inside generated takes.** Correcting one shot of a person means regenerating that person's whole
@@ -162,6 +188,8 @@ third-party skills and documentation, which are linked.
 
 ## Licence
 
-- Code (`tools/`, `shotlist.py`): MIT, see [LICENSE](LICENSE).
+- Code (`tools/`, `shotlist.py`, the project page's code): MIT, see [LICENSE](LICENSE).
 - Documents, persona, plan, reports, timing data and figures: CC BY 4.0, see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+- The film and its media (`film/`, `clips/`, `audio/`, `docs/media/`) are here to be watched, studied and rebuilt.
+  They are not under either licence; see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 - Fonts, archive records and other people's work: see [NOTICE.md](NOTICE.md).

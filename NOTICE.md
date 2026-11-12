@@ -20,7 +20,7 @@ licence requires. The copyright in each stays with its authors, who are named in
 ## Real archive (`archive/`)
 
 The film uses real photographs, documents and film that are in the public domain or released under CC0. The
-source files are not in this repository. `archive/manifest.json` lists each one with its holder, its page, its
+source files are not in this repository, except one sound the mix reads. `archive/manifest.json` lists each one with its holder, its page, its
 file address, a checksum, and the rights statement the production relied on; `archive/rights/` and
 `archive/rights_new/` hold the holder's statement as it was captured. Where the public-domain status was inferred
 from a date and not stated by the holder, the record says INFERRED.
@@ -33,11 +33,19 @@ not legal advice; check the holder's page before you use a source.
 
 Frames of these sources appear, small and processed, inside the figures in `docs/figures/`.
 
-## Generated media
+## Generated media (`film/`, `clips/`, `audio/`, `docs/media/`)
 
-The film's generated video was made with Seedance 2.5 through Runway, and its voices, effects and music with
-ElevenLabs, under those services' terms. None of those files are in this repository. Frames of generated shots
-appear in the figures, and six generated reference stills are in `refs/`.
+The film's generated video and stills were made with Seedance 2.5 and Seedream 5 Pro through Runway. Its voices,
+effects and music were made with ElevenLabs; the voices are licensed voices from its Voice Library, performed
+from the film's script. These files are published under those services' terms as they stood in November 2026.
+The people on screen are generated and are not real people. Six generated reference stills are in `refs/`.
+
+Three kinds of real material are inside those folders: the processed archive shots in `clips/` (public domain,
+see above), the cheer of a NASA/JPL control room (`audio/sfx_real_jpl_cheer.wav`), and sperm whale clicks
+recorded by NOAA Fisheries (`archive/src/H01_*.mp3`). Each has a rights record in `archive/`.
+
+The project page (`docs/`) carries its own copies of three of the film's typefaces with their licences
+(`docs/site/fonts/`).
 
 ## Films that were studied
 
